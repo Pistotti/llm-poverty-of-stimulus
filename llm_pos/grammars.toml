@@ -49,11 +49,11 @@ GRAMMARS = [
 PREAMBLE -> "I know"
 F -> "who" NAME1 VP1 ADV1
 XF -> "that" NAME1 VP1 NAME3 ADV1
-G -> CONN VP2 X ADV2 X
-XG -> CONN VP2 X OBJ X ADV2
+G -> LINK VP2 X ADV2 X
+XG -> LINK VP2 X OBJ X ADV2
 ADV1 -> "recently"  | "lately"
 ADV2 -> "soon" | "today" | "now"
-CONN -> "and is going to"
+LINK -> "and is going to"
 VP1 -> VP1_SIMPLE | VP1_COMPLEX
 VP1_SIMPLE -> "met" | "saw"
 VP1_COMPLEX -> VP1_ABOUT | VP1_TO | VP1_ADJ | VP1_EMBEDDED
@@ -122,12 +122,12 @@ GRAMMARS = ['''
 PREAMBLE -> "I know"
 F -> "who" NAME1 GEN NP
 XF -> "that" NAME1 GEN NP NAME2
-G -> CONN V X ADV2 X
-XG -> CONN V X OBJ X ADV2
+G -> LINK V X ADV2 X
+XG -> LINK V X OBJ X ADV2
 NP -> NP_SIMPLE | NP_COMPLEX
 NP_SIMPLE -> GERUND
 NP_COMPLEX -> N_EMBEDDED "to" V_EMBEDDED
-CONN -> "is about to" | "is likely to" | "is going to" | "is expected to"
+LINK -> "is about to" | "is likely to" | "is going to" | "is expected to"
 V -> "bother" | "annoy" | "disturb"
 GERUND -> "talking to" | "dancing with" | "playing with"
 N_EMBEDDED -> "decision" | "intent" | "effort" | "attempt" | "failure"
