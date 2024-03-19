@@ -142,7 +142,7 @@ def plot_surprisals(
         )
 
     if save_to:
-        plt.savefig(save_to, format=save_to[-3:], dpi=dpi, bbox_inches="tight")
+        plt.savefig(save_to, format=save_to.split(".", max)[-1], dpi=dpi, bbox_inches="tight")
 
     fig.show()
 
