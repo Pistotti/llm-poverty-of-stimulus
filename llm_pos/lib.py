@@ -412,30 +412,58 @@ def _start_container(model: str) -> str:
         checkpoint_path = _GRNN_MOUNT_INSIDE_DOCKER / "checkpoints" / f"{checkpoint}.pt"
         post_command = f"cp {checkpoint_path} /opt/colorlessgreenRNNs/hidden650_batch128_dropout0.2_lr20.0.pt"
 
-    full_container_id = (
-        subprocess.check_output(
-            [
-                "docker",
-                "run",
-                "-i",
-                "-d",
-                "--rm",
-                "-v",
-                f"{RETRAINING_DATA_PATH}:{_GRNN_MOUNT_INSIDE_DOCKER}",
-                "-v",
-                f"{os.getcwd()}:/tmp/pos-mount/",
-                "--label",
-                f"checkpoint={checkpoint}",
-                f"{_DOCKER_BASE_IMAGE}:{model_base}",
-                f"/bin/bash",
-            ],
+    # Resolve RETRAINING_DATA_PATH to an absolute path.
+    # This relies on the global RETRAINING_DATA_PATH (../data/retraining)
+    # and assumes the script's current working directory allows this relative
+    # path to correctly point to your project's data/retraining directory.
+    # For example, if running scripts from within the <project_root>/llm_pos/ directory.
+    abs_retraining_data_path = RETRAINING_DATA_PATH.resolve()
+
+    # The second mount uses os.getcwd(). If your scripts are run from the
+    # <project_root>/llm_pos/ directory, os.getcwd() will be that absolute path,
+    # which is likely what's intended for accessing files under /tmp/pos-mount/ in the container.
+    current_working_dir = os.getcwd()
+
+    docker_command_args = [
+        "docker",
+        "run",
+        "-i",
+        "-d",
+        "--rm",
+        "-v",
+        f"{abs_retraining_data_path}:{_GRNN_MOUNT_INSIDE_DOCKER}",  # Fixed path
+        "-v",
+        f"{current_working_dir}:/tmp/pos-mount/", # Path for llm_pos code
+        "--label",
+        f"checkpoint={checkpoint}",
+        f"{_DOCKER_BASE_IMAGE}:{model_base}",
+        "/bin/bash", # Keep container alive with bash
+    ]
+
+    logger.debug(f"Executing Docker command: {' '.join(str(arg) for arg in docker_command_args)}")
+
+    try:
+        full_container_id = (
+            subprocess.check_output(
+                docker_command_args,
+                stderr=subprocess.STDOUT,  # Capture stderr for more detailed error messages
+            )
+            .decode("utf-8")
+            .strip() # Use strip() to remove potential trailing newline
         )
-        .decode("utf-8")
-        .split("\n")[0]
-    )
+    except subprocess.CalledProcessError as e:
+        logger.error(f"Docker run command failed. Output:\n{e.output.decode('utf-8')}")
+        raise RuntimeError(f"Failed to start Docker container for {model}. Docker output: {e.output.decode('utf-8')}") from e
+
+    if not full_container_id:
+        raise RuntimeError(f"Failed to get container ID for model {model}. Docker command might have failed silently or produced no ID.")
+
     short_id = full_container_id[:12]
 
     if post_command:
+        # Wait briefly for the container to be fully up and running its main process
+        # This might not always be necessary but can prevent "container not running" errors for exec
+        time.sleep(2)
         process = subprocess.run(
             [
                 "docker",
@@ -448,16 +476,17 @@ def _start_container(model: str) -> str:
             capture_output=True,
         )
         if process.returncode != 0:
-            _kill_container(short_id)
+            _kill_container(short_id) # Ensure cleanup on error
+            error_message = process.stderr.decode('utf-8') if process.stderr else process.stdout.decode('utf-8')
+            logger.error(f"Error running Docker exec command on {short_id}: {error_message}")
             raise RuntimeError(
-                f"Error running Docker command on {short_id}: {process.stderr.decode('utf-8')}"
+                f"Error running Docker exec command on {short_id}: {error_message}"
             )
 
     logger.debug(
         f"Started container for model {model_base} checkpoint {checkpoint}: container id {short_id}"
     )
     return short_id
-
 
 def _start_or_get_container(model: str) -> str:
     container_id = _get_running_container_id(model)

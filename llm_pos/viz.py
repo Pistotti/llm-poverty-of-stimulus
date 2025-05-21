@@ -57,7 +57,7 @@ def _draw_surprisal_figure(
         ax.plot(x_idxs, s, label=f"S{i + 1}" if not labels else labels[i], alpha=0.8)
 
     ax.set_xticks(x_idxs)
-    ax.set_xticklabels(x_labels, rotation="45", fontsize="large")
+    ax.set_xticklabels(x_labels, rotation=45, fontsize="large")
     ax.set_ylabel("Surprisal")
     if draw_legend:
         ax.legend(loc="upper left")
@@ -101,7 +101,7 @@ def plot_surprisals(
     )
 
     plot_rows = math.ceil(len(models) / 2)
-    plt.rcParams.update({"text.usetex": True})
+    #plt.rcParams.update({"text.usetex": True})
 
     sns.set_palette(sns.color_palette())
     sns.set_style("darkgrid")
