@@ -1,3 +1,28 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data - uncomment and specify if you have large data files to ignore
+# data/large_file.dat
+# data/generated_data/
+
+# Results - ignore all files in the results directory
+results/
+
+# IDE and OS specific
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
 *.csv
 *.pickle
 dump.rdb
