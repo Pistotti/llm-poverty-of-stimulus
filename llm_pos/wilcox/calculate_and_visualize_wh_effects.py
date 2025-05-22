@@ -1,197 +1,143 @@
+# llm-poverty-of-stimulus/llm_pos/wilcox/analyze_and_visualize_wh_effects.py
 import pandas as pd
-import matplotlib.pyplot as plt
 import os
+import matplotlib.pyplot as plt
+import seaborn as sns
 import numpy as np
 
 # --- Configuration ---
-# Assumes this script is in 'phase2/scripts/'
-# CURRENT_SCRIPT_DIR will be '.../phase2/scripts'
-# BASE_DIR will be '.../phase2'
-# RESULTS_DIR will be '.../phase2/results'
+# Assume this script is in llm_pos/wilcox/
+CURRENT_SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 
-try:
-    CURRENT_SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-    BASE_DIR = os.path.dirname(CURRENT_SCRIPT_DIR)
-except NameError: # Fallback for environments like notebooks
-    print("Warning: __file__ not defined. Assuming current working directory is 'phase2/scripts' or 'phase2'.")
-    CURRENT_SCRIPT_DIR = os.getcwd()
-    if os.path.basename(CURRENT_SCRIPT_DIR) == "scripts":
-        BASE_DIR = os.path.dirname(CURRENT_SCRIPT_DIR)
-    elif os.path.basename(CURRENT_SCRIPT_DIR) == "phase2":
-        BASE_DIR = CURRENT_SCRIPT_DIR
-    else:
-        # If structure is unknown, assume results dir is in CWD's parent's results
-        # This might need manual adjustment by the user if it's not right
-        print(f"Warning: Unknown directory structure. Current CWD: {CURRENT_SCRIPT_DIR}")
-        print("RESULTS_DIR will be set relative to CWD. Please verify.")
-        # Defaulting to a common case: script is in a 'scripts' dir, results in parallel 'results' dir
-        BASE_DIR = os.path.dirname(CURRENT_SCRIPT_DIR) # Assuming CWD is 'scripts', BASE_DIR is its parent
+# Input directory for aggregated surprisals
+RESULTS_INPUT_DIR = os.path.join(CURRENT_SCRIPT_DIR, "tims_results")
+# Output directory for plots and the new CSV with wh-effects
+ANALYSIS_OUTPUT_DIR = os.path.join(CURRENT_SCRIPT_DIR, "tims_results", "analysis") # Subdirectory for clarity
 
+# Basename of the sentence components file, used to construct the input aggregated file name
+# This should match SENTENCE_COMPONENTS_INPUT_CSV_BASENAME from aggregate_surprisals.py
+SENTENCE_COMPONENTS_BASENAME = "test_set.csv"
+MODEL_NAME = "gpt2" # Should match the model used
 
-RESULTS_DIR = os.path.join(BASE_DIR, "results")
-INPUT_CSV_PATH = os.path.join(RESULTS_DIR, "gpt2-large_critical_region_surprisals.csv")
-OUTPUT_WH_EFFECTS_CSV_PATH = os.path.join(RESULTS_DIR, "gpt2-large_wh_effects.csv")
-OUTPUT_VISUALIZATION_PATH = os.path.join(RESULTS_DIR, "gpt2-large_average_wh_effects_visualization.png")
+# Input aggregated surprisal CSV
+AGGREGATED_SURPRISALS_CSV_BASENAME = f"{SENTENCE_COMPONENTS_BASENAME.split('.')[0]}_{MODEL_NAME}_critical_region_surprisals_aggregated.csv"
+AGGREGATED_SURPRISALS_CSV = os.path.join(RESULTS_INPUT_DIR, AGGREGATED_SURPRISALS_CSV_BASENAME)
+
+# Output CSV for wh-effects
+WH_EFFECTS_CSV = os.path.join(ANALYSIS_OUTPUT_DIR, f"{SENTENCE_COMPONENTS_BASENAME.split('.')[0]}_{MODEL_NAME}_wh_effects.csv")
+
+# Output plot file
+WH_EFFECTS_PLOT_PNG = os.path.join(ANALYSIS_OUTPUT_DIR, f"{SENTENCE_COMPONENTS_BASENAME.split('.')[0]}_{MODEL_NAME}_wh_effects_plot.png")
+# --- End Configuration ---
 
 def calculate_wh_effects(df):
     """
     Calculates wh-effects from the aggregated surprisal data.
+    Expects a DataFrame with columns: 'item', 'condition', 'aggregated_surprisal_bits'.
     """
-    wh_effects_data = []
-    df['item'] = df['item'].astype(str) # Ensure item is string for consistent grouping
-    grouped = df.groupby(['source_doc_name', 'item'])
+    effects = []
+    
+    # Ensure 'item' is treated consistently (e.g., as string if it can be numeric)
+    df['item'] = df['item'].astype(str)
 
-    for name, group in grouped:
-        source_doc, item_id = name
-        
-        conditions_data = {}
-        critical_region_texts = {} 
+    for item, group in df.groupby('item'):
+        try:
+            surprisal_what_gap = group.loc[group['condition'] == 'what_gap', 'aggregated_surprisal_bits'].iloc[0]
+            surprisal_that_gap = group.loc[group['condition'] == 'that_gap', 'aggregated_surprisal_bits'].iloc[0]
+            surprisal_what_nogap = group.loc[group['condition'] == 'what_nogap', 'aggregated_surprisal_bits'].iloc[0]
+            surprisal_that_nogap = group.loc[group['condition'] == 'that_nogap', 'aggregated_surprisal_bits'].iloc[0]
 
-        for _, row in group.iterrows():
-            conditions_data[row['condition']] = row['aggregated_surprisal_bits']
-            critical_region_texts[row['condition']] = row['critical_region_text']
-
-        required_nogap_conditions = ['that_nogap', 'what_nogap']
-        required_gap_conditions = ['that_gap', 'what_gap']
-
-        wh_effect_nogap = np.nan
-        wh_effect_gap = np.nan
-        
-        critical_region_nogap = critical_region_texts.get('that_nogap', "") 
-        if not critical_region_nogap and 'what_nogap' in critical_region_texts:
-             critical_region_nogap = critical_region_texts.get('what_nogap', "")
-
-        critical_region_gap = critical_region_texts.get('that_gap', "")
-        if not critical_region_gap and 'what_gap' in critical_region_texts:
-            critical_region_gap = critical_region_texts.get('what_gap', "")
-
-        if all(c in conditions_data for c in required_nogap_conditions):
-            s_what_nogap = conditions_data['what_nogap']
-            s_that_nogap = conditions_data['that_nogap']
-            if pd.notna(s_what_nogap) and pd.notna(s_that_nogap):
-                wh_effect_nogap = s_what_nogap - s_that_nogap
-
-        if all(c in conditions_data for c in required_gap_conditions):
-            s_what_gap = conditions_data['what_gap']
-            s_that_gap = conditions_data['that_gap']
-            if pd.notna(s_what_gap) and pd.notna(s_that_gap):
-                wh_effect_gap = s_what_gap - s_that_gap
-        
-        if pd.notna(wh_effect_nogap) or pd.notna(wh_effect_gap):
-            wh_effects_data.append({
-                'source_doc_name': source_doc,
-                'item': item_id,
-                'wh_effect_nogap_bits': wh_effect_nogap,
-                'critical_region_nogap': critical_region_nogap,
-                'wh_effect_gap_bits': wh_effect_gap,
-                'critical_region_gap': critical_region_gap
+            # Check for NaN before calculation (can happen if a critical region word alignment failed)
+            if pd.isna(surprisal_what_gap) or pd.isna(surprisal_that_gap) or \
+               pd.isna(surprisal_what_nogap) or pd.isna(surprisal_that_nogap):
+                print(f"Warning: Item {item} has NaN surprisal values for one or more conditions. Wh-effects will be NaN.")
+                wh_effect_plus_gap = np.nan
+                wh_effect_minus_gap = np.nan
+            else:
+                wh_effect_plus_gap = surprisal_what_gap - surprisal_that_gap
+                wh_effect_minus_gap = surprisal_what_nogap - surprisal_that_nogap
+            
+            effects.append({
+                'item': item,
+                'wh_effect_plus_gap': wh_effect_plus_gap,
+                'wh_effect_minus_gap': wh_effect_minus_gap
             })
-        else:
-            print(f"Info: Could not calculate wh-effects for item {item_id} in {source_doc} (missing conditions or NaN surprisals).")
-            # print(f"  Available conditions data for this item: {conditions_data}") # Uncomment for debugging
+        except IndexError:
+            print(f"Warning: Item {item} is missing one or more required conditions (what_gap, that_gap, what_nogap, that_nogap). Skipping this item for wh-effect calculation.")
+            effects.append({
+                'item': item,
+                'wh_effect_plus_gap': np.nan, # Use np.nan for missing data
+                'wh_effect_minus_gap': np.nan
+            })
+        except Exception as e:
+            print(f"Error processing item {item}: {e}")
+            effects.append({
+                'item': item,
+                'wh_effect_plus_gap': np.nan,
+                'wh_effect_minus_gap': np.nan
+            })
+            
+    return pd.DataFrame(effects)
 
-    return pd.DataFrame(wh_effects_data)
-
-def visualize_average_wh_effects(wh_effects_df, output_path):
+def plot_wh_effects(effects_df, output_path):
     """
-    Creates and saves a bar chart of average wh-effects.
+    Generates and saves a grouped bar plot of wh-effects.
     """
-    if wh_effects_df.empty:
-        print("Wh-effects DataFrame is empty. Cannot generate visualization.")
+    if effects_df.empty or effects_df[['wh_effect_plus_gap', 'wh_effect_minus_gap']].isnull().all().all():
+        print("No valid data to plot. Skipping plot generation.")
         return
 
-    avg_wh_effect_nogap = wh_effects_df['wh_effect_nogap_bits'].mean(skipna=True)
-    avg_wh_effect_gap = wh_effects_df['wh_effect_gap_bits'].mean(skipna=True)
+    # Melt the DataFrame for easy plotting with seaborn
+    plot_df = effects_df.melt(id_vars=['item'], 
+                              value_vars=['wh_effect_plus_gap', 'wh_effect_minus_gap'],
+                              var_name='effect_type', 
+                              value_name='wh_effect_value')
+    
+    # Clean up effect type names for legend
+    plot_df['effect_type'] = plot_df['effect_type'].replace({
+        'wh_effect_plus_gap': 'Wh-Effect (+gap)',
+        'wh_effect_minus_gap': 'Wh-Effect (-gap)'
+    })
 
-    labels = ['-gap (No Gap Context)', '+gap (Gap Context)']
-    averages = [avg_wh_effect_nogap, avg_wh_effect_gap]
-
-    valid_labels = []
-    valid_averages = []
-    if pd.notna(avg_wh_effect_nogap):
-        valid_labels.append(labels[0])
-        valid_averages.append(avg_wh_effect_nogap)
-    if pd.notna(avg_wh_effect_gap):
-        valid_labels.append(labels[1])
-        valid_averages.append(avg_wh_effect_gap)
-
-    if not valid_averages: 
-        print("All average wh-effects are NaN. Cannot generate visualization.")
-        return
-
-    x = np.arange(len(valid_labels))
-    width = 0.35
-
-    plt.switch_backend('Agg') # Use a non-interactive backend for headless server
-    fig, ax = plt.subplots(figsize=(10, 7))
-    rects = ax.bar(x, valid_averages, width, label='Average WH-Effect', color=['skyblue', 'salmon'])
-
-    ax.set_ylabel('Average WH-Effect (bits)')
-    ax.set_title('Average WH-Effects by Condition Type (GPT-2 Large)')
-    ax.set_xticks(x)
-    ax.set_xticklabels(valid_labels, rotation=0, ha="center")
-    ax.legend()
-    ax.axhline(0, color='grey', lw=0.8)
-
-    for i, rect in enumerate(rects):
-        height = valid_averages[i]
-        ax.annotate(f'{height:.3f}',
-                    xy=(rect.get_x() + rect.get_width() / 2, height),
-                    xytext=(0, 3 if height >= 0 else -15),
-                    textcoords="offset points",
-                    ha='center', va='bottom' if height >= 0 else 'top')
-
-    fig.tight_layout()
+    plt.figure(figsize=(12, 7)) # Adjusted figure size
+    sns.barplot(x='item', y='wh_effect_value', hue='effect_type', data=plot_df, palette="viridis")
+    
+    plt.title(f'Wh-Effects by Item ({MODEL_NAME} - {SENTENCE_COMPONENTS_BASENAME.split(".")[0]})', fontsize=16)
+    plt.xlabel('Item ID', fontsize=14)
+    plt.ylabel('Wh-Effect (Surprisal Difference in Bits)', fontsize=14)
+    plt.axhline(0, color='grey', lw=1, linestyle='--') # Add a zero line for reference
+    plt.legend(title='Effect Type', fontsize=12, title_fontsize=13)
+    plt.xticks(rotation=45, ha='right') # Rotate x-axis labels if many items
+    plt.tight_layout() # Adjust layout to prevent labels from overlapping
+    
     try:
-        # Ensure the RESULTS_DIR exists before saving
-        if not os.path.exists(os.path.dirname(output_path)):
-            try:
-                os.makedirs(os.path.dirname(output_path))
-                print(f"Created directory for visualization: {os.path.dirname(output_path)}")
-            except OSError as e_dir:
-                print(f"Error: Could not create directory {os.path.dirname(output_path)} for visualization: {e_dir}")
-                print("Please check permissions or manually create the directory.")
-                plt.close(fig)
-                return
-
         plt.savefig(output_path)
-        print(f"Visualization saved to {output_path}")
+        print(f"Plot saved to {output_path}")
     except Exception as e:
-        print(f"Error saving visualization: {e}")
-    plt.close(fig)
+        print(f"Error saving plot to {output_path}: {e}")
+    plt.close()
 
 def main():
-    # Ensure results directory exists or can be created (for output files)
-    # This is mainly for the CSV output; visualization has its own check.
-    if not os.path.exists(RESULTS_DIR):
-        try:
-            os.makedirs(RESULTS_DIR)
-            print(f"Created results directory: {RESULTS_DIR}")
-        except OSError as e:
-            print(f"Critical Error: Could not create results directory {RESULTS_DIR}: {e}")
-            print(f"Please ensure you have write permissions for the path or manually create the directory: {os.path.abspath(RESULTS_DIR)}")
-            return
+    # Create output directory if it doesn't exist
+    if not os.path.exists(ANALYSIS_OUTPUT_DIR):
+        os.makedirs(ANALYSIS_OUTPUT_DIR)
+        print(f"Created output directory: {ANALYSIS_OUTPUT_DIR}")
 
-    if not os.path.exists(INPUT_CSV_PATH):
-        print(f"Error: Input CSV file not found at {INPUT_CSV_PATH}")
-        print(f"Please ensure '{os.path.basename(INPUT_CSV_PATH)}' exists in '{os.path.abspath(RESULTS_DIR)}'.")
+    # Check if input file exists
+    if not os.path.exists(AGGREGATED_SURPRISALS_CSV):
+        print(f"Critical Error: Aggregated surprisals file not found at '{AGGREGATED_SURPRISALS_CSV}'")
+        print("Please ensure 'aggregate_surprisals.py' has been run successfully and the paths are correct.")
         return
 
-    print(f"Loading aggregated surprisals from {INPUT_CSV_PATH}...")
+    print(f"Loading aggregated surprisals from {AGGREGATED_SURPRISALS_CSV}...")
     try:
-        aggregated_df = pd.read_csv(INPUT_CSV_PATH)
+        aggregated_df = pd.read_csv(AGGREGATED_SURPRISALS_CSV)
     except Exception as e:
-        print(f"Error reading input CSV '{INPUT_CSV_PATH}': {e}")
+        print(f"Error loading {AGGREGATED_SURPRISALS_CSV}: {e}")
         return
-
+        
     if aggregated_df.empty:
-        print("Input CSV is empty. No wh-effects to calculate.")
-        return
-    
-    required_cols = ['source_doc_name', 'item', 'condition', 'aggregated_surprisal_bits', 'critical_region_text']
-    if not all(col in aggregated_df.columns for col in required_cols):
-        print(f"Error: Input CSV is missing one or more required columns. Needed: {required_cols}")
-        print(f"Available columns: {aggregated_df.columns.tolist()}")
+        print("Aggregated surprisals file is empty. Cannot calculate wh-effects.")
         return
 
     print("Calculating wh-effects...")
@@ -199,17 +145,16 @@ def main():
 
     if not wh_effects_df.empty:
         try:
-            wh_effects_df.to_csv(OUTPUT_WH_EFFECTS_CSV_PATH, index=False, float_format='%.8f') 
-            print(f"WH-effect calculations saved to {OUTPUT_WH_EFFECTS_CSV_PATH}")
+            wh_effects_df.to_csv(WH_EFFECTS_CSV, index=False, float_format='%.8f')
+            print(f"Calculated wh-effects saved to {WH_EFFECTS_CSV}")
         except Exception as e:
-            print(f"Error saving wh-effects CSV: {e}")
+            print(f"Error saving wh-effects CSV to {WH_EFFECTS_CSV}: {e}")
         
-        print("Generating visualization...")
-        visualize_average_wh_effects(wh_effects_df, OUTPUT_VISUALIZATION_PATH)
+        print("Generating plot...")
+        plot_wh_effects(wh_effects_df, WH_EFFECTS_PLOT_PNG)
     else:
-        print("No wh-effects were calculated (e.g. due to missing conditions for all items or all surprisals being NaN).")
-        print("Output CSV and visualization will not be generated.")
-
+        print("No wh-effects were calculated. Skipping CSV saving and plot generation.")
+        
     print("Script finished.")
 
 if __name__ == "__main__":
