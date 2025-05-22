@@ -1,0 +1,121 @@
+model_name,condition_label,original_sentence_text,token_sequence_idx,token_text,token_original_word_idx,surprisal_value
+gpt2,"+what,+obj",My neighbor told me what with skill the dog caught the mouse for his neighbors yesterday,0,My,0,8.8711
+gpt2,"+what,+obj",My neighbor told me what with skill the dog caught the mouse for his neighbors yesterday,1,neighbor,1,10.9830
+gpt2,"+what,+obj",My neighbor told me what with skill the dog caught the mouse for his neighbors yesterday,2,told,2,5.5323
+gpt2,"+what,+obj",My neighbor told me what with skill the dog caught the mouse for his neighbors yesterday,3,me,3,0.0726
+gpt2,"+what,+obj",My neighbor told me what with skill the dog caught the mouse for his neighbors yesterday,4,what,4,7.8959
+gpt2,"+what,+obj",My neighbor told me what with skill the dog caught the mouse for his neighbors yesterday,5,with,5,12.3989
+gpt2,"+what,+obj",My neighbor told me what with skill the dog caught the mouse for his neighbors yesterday,6,skill,6,18.3174
+gpt2,"+what,+obj",My neighbor told me what with skill the dog caught the mouse for his neighbors yesterday,7,the,7,9.0000
+gpt2,"+what,+obj",My neighbor told me what with skill the dog caught the mouse for his neighbors yesterday,8,dog,8,7.0689
+gpt2,"+what,+obj",My neighbor told me what with skill the dog caught the mouse for his neighbors yesterday,9,caught,9,9.6624
+gpt2,"+what,+obj",My neighbor told me what with skill the dog caught the mouse for his neighbors yesterday,10,the,10,5.9074
+gpt2,"+what,+obj",My neighbor told me what with skill the dog caught the mouse for his neighbors yesterday,11,mouse,11,9.6614
+gpt2,"+what,+obj",My neighbor told me what with skill the dog caught the mouse for his neighbors yesterday,12,for,12,7.9392
+gpt2,"+what,+obj",My neighbor told me what with skill the dog caught the mouse for his neighbors yesterday,13,his,13,5.5202
+gpt2,"+what,+obj",My neighbor told me what with skill the dog caught the mouse for his neighbors yesterday,14,neighbors,14,11.4568
+gpt2,"+what,+obj",My neighbor told me what with skill the dog caught the mouse for his neighbors yesterday,15,yesterday,15,12.6554
+gpt2,"+that,+obj",My neighbor told me that with skill the dog caught the mouse for his neighbors yesterday,0,My,0,8.8711
+gpt2,"+that,+obj",My neighbor told me that with skill the dog caught the mouse for his neighbors yesterday,1,neighbor,1,10.9830
+gpt2,"+that,+obj",My neighbor told me that with skill the dog caught the mouse for his neighbors yesterday,2,told,2,5.5323
+gpt2,"+that,+obj",My neighbor told me that with skill the dog caught the mouse for his neighbors yesterday,3,me,3,0.0726
+gpt2,"+that,+obj",My neighbor told me that with skill the dog caught the mouse for his neighbors yesterday,4,that,4,2.1626
+gpt2,"+that,+obj",My neighbor told me that with skill the dog caught the mouse for his neighbors yesterday,5,with,5,9.8379
+gpt2,"+that,+obj",My neighbor told me that with skill the dog caught the mouse for his neighbors yesterday,6,skill,6,15.7273
+gpt2,"+that,+obj",My neighbor told me that with skill the dog caught the mouse for his neighbors yesterday,7,the,7,6.3989
+gpt2,"+that,+obj",My neighbor told me that with skill the dog caught the mouse for his neighbors yesterday,8,dog,8,7.0425
+gpt2,"+that,+obj",My neighbor told me that with skill the dog caught the mouse for his neighbors yesterday,9,caught,9,9.9367
+gpt2,"+that,+obj",My neighbor told me that with skill the dog caught the mouse for his neighbors yesterday,10,the,10,3.2758
+gpt2,"+that,+obj",My neighbor told me that with skill the dog caught the mouse for his neighbors yesterday,11,mouse,11,9.4875
+gpt2,"+that,+obj",My neighbor told me that with skill the dog caught the mouse for his neighbors yesterday,12,for,12,7.8377
+gpt2,"+that,+obj",My neighbor told me that with skill the dog caught the mouse for his neighbors yesterday,13,his,13,5.6823
+gpt2,"+that,+obj",My neighbor told me that with skill the dog caught the mouse for his neighbors yesterday,14,neighbors,14,11.7610
+gpt2,"+that,+obj",My neighbor told me that with skill the dog caught the mouse for his neighbors yesterday,15,yesterday,15,14.6677
+gpt2,"+what,-obj",My neighbor told me what with skill the dog caught for his neighbors yesterday,0,My,0,8.8711
+gpt2,"+what,-obj",My neighbor told me what with skill the dog caught for his neighbors yesterday,1,neighbor,1,10.9830
+gpt2,"+what,-obj",My neighbor told me what with skill the dog caught for his neighbors yesterday,2,told,2,5.5323
+gpt2,"+what,-obj",My neighbor told me what with skill the dog caught for his neighbors yesterday,3,me,3,0.0726
+gpt2,"+what,-obj",My neighbor told me what with skill the dog caught for his neighbors yesterday,4,what,4,7.8959
+gpt2,"+what,-obj",My neighbor told me what with skill the dog caught for his neighbors yesterday,5,with,5,12.3989
+gpt2,"+what,-obj",My neighbor told me what with skill the dog caught for his neighbors yesterday,6,skill,6,18.3174
+gpt2,"+what,-obj",My neighbor told me what with skill the dog caught for his neighbors yesterday,7,the,7,9.0000
+gpt2,"+what,-obj",My neighbor told me what with skill the dog caught for his neighbors yesterday,8,dog,8,7.0689
+gpt2,"+what,-obj",My neighbor told me what with skill the dog caught for his neighbors yesterday,9,caught,9,9.6624
+gpt2,"+what,-obj",My neighbor told me what with skill the dog caught for his neighbors yesterday,10,for,10,8.6874
+gpt2,"+what,-obj",My neighbor told me what with skill the dog caught for his neighbors yesterday,11,his,11,5.2708
+gpt2,"+what,-obj",My neighbor told me what with skill the dog caught for his neighbors yesterday,12,neighbors,12,9.8087
+gpt2,"+what,-obj",My neighbor told me what with skill the dog caught for his neighbors yesterday,13,yesterday,13,11.5773
+gpt2,"+that,-obj",My neighbor told me that with skill the dog caught for his neighbors yesterday,0,My,0,8.8711
+gpt2,"+that,-obj",My neighbor told me that with skill the dog caught for his neighbors yesterday,1,neighbor,1,10.9830
+gpt2,"+that,-obj",My neighbor told me that with skill the dog caught for his neighbors yesterday,2,told,2,5.5323
+gpt2,"+that,-obj",My neighbor told me that with skill the dog caught for his neighbors yesterday,3,me,3,0.0726
+gpt2,"+that,-obj",My neighbor told me that with skill the dog caught for his neighbors yesterday,4,that,4,2.1626
+gpt2,"+that,-obj",My neighbor told me that with skill the dog caught for his neighbors yesterday,5,with,5,9.8379
+gpt2,"+that,-obj",My neighbor told me that with skill the dog caught for his neighbors yesterday,6,skill,6,15.7273
+gpt2,"+that,-obj",My neighbor told me that with skill the dog caught for his neighbors yesterday,7,the,7,6.3989
+gpt2,"+that,-obj",My neighbor told me that with skill the dog caught for his neighbors yesterday,8,dog,8,7.0425
+gpt2,"+that,-obj",My neighbor told me that with skill the dog caught for his neighbors yesterday,9,caught,9,9.9367
+gpt2,"+that,-obj",My neighbor told me that with skill the dog caught for his neighbors yesterday,10,for,10,10.5776
+gpt2,"+that,-obj",My neighbor told me that with skill the dog caught for his neighbors yesterday,11,his,11,6.4622
+gpt2,"+that,-obj",My neighbor told me that with skill the dog caught for his neighbors yesterday,12,neighbors,12,11.6667
+gpt2,"+that,-obj",My neighbor told me that with skill the dog caught for his neighbors yesterday,13,yesterday,13,14.3680
+grnn,"+what,+obj",My neighbor told me what with skill the dog caught the mouse for his neighbors yesterday,0,My,0,0.0000
+grnn,"+what,+obj",My neighbor told me what with skill the dog caught the mouse for his neighbors yesterday,1,neighbor,1,13.1689
+grnn,"+what,+obj",My neighbor told me what with skill the dog caught the mouse for his neighbors yesterday,2,told,2,10.3514
+grnn,"+what,+obj",My neighbor told me what with skill the dog caught the mouse for his neighbors yesterday,3,me,3,1.9338
+grnn,"+what,+obj",My neighbor told me what with skill the dog caught the mouse for his neighbors yesterday,4,what,4,6.2296
+grnn,"+what,+obj",My neighbor told me what with skill the dog caught the mouse for his neighbors yesterday,5,with,5,11.4107
+grnn,"+what,+obj",My neighbor told me what with skill the dog caught the mouse for his neighbors yesterday,6,skill,6,15.7133
+grnn,"+what,+obj",My neighbor told me what with skill the dog caught the mouse for his neighbors yesterday,7,the,7,6.3070
+grnn,"+what,+obj",My neighbor told me what with skill the dog caught the mouse for his neighbors yesterday,8,dog,8,9.7947
+grnn,"+what,+obj",My neighbor told me what with skill the dog caught the mouse for his neighbors yesterday,9,caught,9,11.0596
+grnn,"+what,+obj",My neighbor told me what with skill the dog caught the mouse for his neighbors yesterday,10,the,10,4.7821
+grnn,"+what,+obj",My neighbor told me what with skill the dog caught the mouse for his neighbors yesterday,11,mouse,11,7.5918
+grnn,"+what,+obj",My neighbor told me what with skill the dog caught the mouse for his neighbors yesterday,12,for,12,6.1056
+grnn,"+what,+obj",My neighbor told me what with skill the dog caught the mouse for his neighbors yesterday,13,his,13,4.5116
+grnn,"+what,+obj",My neighbor told me what with skill the dog caught the mouse for his neighbors yesterday,14,neighbors,14,13.2072
+grnn,"+what,+obj",My neighbor told me what with skill the dog caught the mouse for his neighbors yesterday,15,yesterday,15,14.7905
+grnn,"+that,+obj",My neighbor told me that with skill the dog caught the mouse for his neighbors yesterday,0,My,0,0.0000
+grnn,"+that,+obj",My neighbor told me that with skill the dog caught the mouse for his neighbors yesterday,1,neighbor,1,13.1689
+grnn,"+that,+obj",My neighbor told me that with skill the dog caught the mouse for his neighbors yesterday,2,told,2,10.3514
+grnn,"+that,+obj",My neighbor told me that with skill the dog caught the mouse for his neighbors yesterday,3,me,3,1.9338
+grnn,"+that,+obj",My neighbor told me that with skill the dog caught the mouse for his neighbors yesterday,4,that,4,1.5131
+grnn,"+that,+obj",My neighbor told me that with skill the dog caught the mouse for his neighbors yesterday,5,with,5,9.1521
+grnn,"+that,+obj",My neighbor told me that with skill the dog caught the mouse for his neighbors yesterday,6,skill,6,15.9325
+grnn,"+that,+obj",My neighbor told me that with skill the dog caught the mouse for his neighbors yesterday,7,the,7,6.0836
+grnn,"+that,+obj",My neighbor told me that with skill the dog caught the mouse for his neighbors yesterday,8,dog,8,10.4231
+grnn,"+that,+obj",My neighbor told me that with skill the dog caught the mouse for his neighbors yesterday,9,caught,9,10.5945
+grnn,"+that,+obj",My neighbor told me that with skill the dog caught the mouse for his neighbors yesterday,10,the,10,3.1329
+grnn,"+that,+obj",My neighbor told me that with skill the dog caught the mouse for his neighbors yesterday,11,mouse,11,8.4627
+grnn,"+that,+obj",My neighbor told me that with skill the dog caught the mouse for his neighbors yesterday,12,for,12,6.4310
+grnn,"+that,+obj",My neighbor told me that with skill the dog caught the mouse for his neighbors yesterday,13,his,13,4.8574
+grnn,"+that,+obj",My neighbor told me that with skill the dog caught the mouse for his neighbors yesterday,14,neighbors,14,14.5438
+grnn,"+that,+obj",My neighbor told me that with skill the dog caught the mouse for his neighbors yesterday,15,yesterday,15,15.0091
+grnn,"+what,-obj",My neighbor told me what with skill the dog caught for his neighbors yesterday,0,My,0,0.0000
+grnn,"+what,-obj",My neighbor told me what with skill the dog caught for his neighbors yesterday,1,neighbor,1,13.1689
+grnn,"+what,-obj",My neighbor told me what with skill the dog caught for his neighbors yesterday,2,told,2,10.3514
+grnn,"+what,-obj",My neighbor told me what with skill the dog caught for his neighbors yesterday,3,me,3,1.9338
+grnn,"+what,-obj",My neighbor told me what with skill the dog caught for his neighbors yesterday,4,what,4,6.2296
+grnn,"+what,-obj",My neighbor told me what with skill the dog caught for his neighbors yesterday,5,with,5,11.4107
+grnn,"+what,-obj",My neighbor told me what with skill the dog caught for his neighbors yesterday,6,skill,6,15.7133
+grnn,"+what,-obj",My neighbor told me what with skill the dog caught for his neighbors yesterday,7,the,7,6.3070
+grnn,"+what,-obj",My neighbor told me what with skill the dog caught for his neighbors yesterday,8,dog,8,9.7947
+grnn,"+what,-obj",My neighbor told me what with skill the dog caught for his neighbors yesterday,9,caught,9,11.0596
+grnn,"+what,-obj",My neighbor told me what with skill the dog caught for his neighbors yesterday,10,for,10,6.8777
+grnn,"+what,-obj",My neighbor told me what with skill the dog caught for his neighbors yesterday,11,his,11,5.7347
+grnn,"+what,-obj",My neighbor told me what with skill the dog caught for his neighbors yesterday,12,neighbors,12,12.3851
+grnn,"+what,-obj",My neighbor told me what with skill the dog caught for his neighbors yesterday,13,yesterday,13,13.6533
+grnn,"+that,-obj",My neighbor told me that with skill the dog caught for his neighbors yesterday,0,My,0,0.0000
+grnn,"+that,-obj",My neighbor told me that with skill the dog caught for his neighbors yesterday,1,neighbor,1,13.1689
+grnn,"+that,-obj",My neighbor told me that with skill the dog caught for his neighbors yesterday,2,told,2,10.3514
+grnn,"+that,-obj",My neighbor told me that with skill the dog caught for his neighbors yesterday,3,me,3,1.9338
+grnn,"+that,-obj",My neighbor told me that with skill the dog caught for his neighbors yesterday,4,that,4,1.5131
+grnn,"+that,-obj",My neighbor told me that with skill the dog caught for his neighbors yesterday,5,with,5,9.1521
+grnn,"+that,-obj",My neighbor told me that with skill the dog caught for his neighbors yesterday,6,skill,6,15.9325
+grnn,"+that,-obj",My neighbor told me that with skill the dog caught for his neighbors yesterday,7,the,7,6.0836
+grnn,"+that,-obj",My neighbor told me that with skill the dog caught for his neighbors yesterday,8,dog,8,10.4231
+grnn,"+that,-obj",My neighbor told me that with skill the dog caught for his neighbors yesterday,9,caught,9,10.5945
+grnn,"+that,-obj",My neighbor told me that with skill the dog caught for his neighbors yesterday,10,for,10,8.0190
+grnn,"+that,-obj",My neighbor told me that with skill the dog caught for his neighbors yesterday,11,his,11,5.6932
+grnn,"+that,-obj",My neighbor told me that with skill the dog caught for his neighbors yesterday,12,neighbors,12,12.1320
+grnn,"+that,-obj",My neighbor told me that with skill the dog caught for his neighbors yesterday,13,yesterday,13,13.3528

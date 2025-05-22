@@ -1,0 +1,149 @@
+model_name,condition_label,original_sentence_text,token_sequence_idx,token_text,token_original_word_idx,surprisal_value
+gpt2,"+what,+obj",I know what with gusto our uncle grabbed the food in front of the guests at the holiday party,0,I,0,5.7704
+gpt2,"+what,+obj",I know what with gusto our uncle grabbed the food in front of the guests at the holiday party,1,know,1,5.5457
+gpt2,"+what,+obj",I know what with gusto our uncle grabbed the food in front of the guests at the holiday party,2,what,2,4.5105
+gpt2,"+what,+obj",I know what with gusto our uncle grabbed the food in front of the guests at the holiday party,3,with,3,13.4880
+gpt2,"+what,+obj",I know what with gusto our uncle grabbed the food in front of the guests at the holiday party,4,gust,4,19.2782
+gpt2,"+what,+obj",I know what with gusto our uncle grabbed the food in front of the guests at the holiday party,5,o,4,0.1108
+gpt2,"+what,+obj",I know what with gusto our uncle grabbed the food in front of the guests at the holiday party,6,our,5,11.9136
+gpt2,"+what,+obj",I know what with gusto our uncle grabbed the food in front of the guests at the holiday party,7,uncle,6,14.2465
+gpt2,"+what,+obj",I know what with gusto our uncle grabbed the food in front of the guests at the holiday party,8,grabbed,7,13.4772
+gpt2,"+what,+obj",I know what with gusto our uncle grabbed the food in front of the guests at the holiday party,9,the,8,3.1511
+gpt2,"+what,+obj",I know what with gusto our uncle grabbed the food in front of the guests at the holiday party,10,food,9,10.5883
+gpt2,"+what,+obj",I know what with gusto our uncle grabbed the food in front of the guests at the holiday party,11,in,10,4.9828
+gpt2,"+what,+obj",I know what with gusto our uncle grabbed the food in front of the guests at the holiday party,12,front,11,2.5442
+gpt2,"+what,+obj",I know what with gusto our uncle grabbed the food in front of the guests at the holiday party,13,of,12,0.0239
+gpt2,"+what,+obj",I know what with gusto our uncle grabbed the food in front of the guests at the holiday party,14,the,13,4.9407
+gpt2,"+what,+obj",I know what with gusto our uncle grabbed the food in front of the guests at the holiday party,15,guests,14,10.0663
+gpt2,"+what,+obj",I know what with gusto our uncle grabbed the food in front of the guests at the holiday party,16,at,15,4.6315
+gpt2,"+what,+obj",I know what with gusto our uncle grabbed the food in front of the guests at the holiday party,17,the,16,1.4391
+gpt2,"+what,+obj",I know what with gusto our uncle grabbed the food in front of the guests at the holiday party,18,holiday,17,11.2008
+gpt2,"+what,+obj",I know what with gusto our uncle grabbed the food in front of the guests at the holiday party,19,party,18,1.1870
+gpt2,"+that,+obj",I know that with gusto our uncle grabbed the food in front of the guests at the holiday party,0,I,0,5.7704
+gpt2,"+that,+obj",I know that with gusto our uncle grabbed the food in front of the guests at the holiday party,1,know,1,5.5457
+gpt2,"+that,+obj",I know that with gusto our uncle grabbed the food in front of the guests at the holiday party,2,that,2,2.7497
+gpt2,"+that,+obj",I know that with gusto our uncle grabbed the food in front of the guests at the holiday party,3,with,3,8.5595
+gpt2,"+that,+obj",I know that with gusto our uncle grabbed the food in front of the guests at the holiday party,4,gust,4,15.2661
+gpt2,"+that,+obj",I know that with gusto our uncle grabbed the food in front of the guests at the holiday party,5,o,4,0.0394
+gpt2,"+that,+obj",I know that with gusto our uncle grabbed the food in front of the guests at the holiday party,6,our,5,10.9361
+gpt2,"+that,+obj",I know that with gusto our uncle grabbed the food in front of the guests at the holiday party,7,uncle,6,14.2262
+gpt2,"+that,+obj",I know that with gusto our uncle grabbed the food in front of the guests at the holiday party,8,grabbed,7,13.3739
+gpt2,"+that,+obj",I know that with gusto our uncle grabbed the food in front of the guests at the holiday party,9,the,8,3.0922
+gpt2,"+that,+obj",I know that with gusto our uncle grabbed the food in front of the guests at the holiday party,10,food,9,10.5866
+gpt2,"+that,+obj",I know that with gusto our uncle grabbed the food in front of the guests at the holiday party,11,in,10,5.0360
+gpt2,"+that,+obj",I know that with gusto our uncle grabbed the food in front of the guests at the holiday party,12,front,11,2.4540
+gpt2,"+that,+obj",I know that with gusto our uncle grabbed the food in front of the guests at the holiday party,13,of,12,0.0250
+gpt2,"+that,+obj",I know that with gusto our uncle grabbed the food in front of the guests at the holiday party,14,the,13,5.0369
+gpt2,"+that,+obj",I know that with gusto our uncle grabbed the food in front of the guests at the holiday party,15,guests,14,9.9002
+gpt2,"+that,+obj",I know that with gusto our uncle grabbed the food in front of the guests at the holiday party,16,at,15,4.7188
+gpt2,"+that,+obj",I know that with gusto our uncle grabbed the food in front of the guests at the holiday party,17,the,16,1.3020
+gpt2,"+that,+obj",I know that with gusto our uncle grabbed the food in front of the guests at the holiday party,18,holiday,17,11.6307
+gpt2,"+that,+obj",I know that with gusto our uncle grabbed the food in front of the guests at the holiday party,19,party,18,1.3574
+gpt2,"+what,-obj",I know what with gusto our uncle grabbed in front of the guests at the holiday party,0,I,0,5.7704
+gpt2,"+what,-obj",I know what with gusto our uncle grabbed in front of the guests at the holiday party,1,know,1,5.5457
+gpt2,"+what,-obj",I know what with gusto our uncle grabbed in front of the guests at the holiday party,2,what,2,4.5105
+gpt2,"+what,-obj",I know what with gusto our uncle grabbed in front of the guests at the holiday party,3,with,3,13.4880
+gpt2,"+what,-obj",I know what with gusto our uncle grabbed in front of the guests at the holiday party,4,gust,4,19.2782
+gpt2,"+what,-obj",I know what with gusto our uncle grabbed in front of the guests at the holiday party,5,o,4,0.1108
+gpt2,"+what,-obj",I know what with gusto our uncle grabbed in front of the guests at the holiday party,6,our,5,11.9136
+gpt2,"+what,-obj",I know what with gusto our uncle grabbed in front of the guests at the holiday party,7,uncle,6,14.2465
+gpt2,"+what,-obj",I know what with gusto our uncle grabbed in front of the guests at the holiday party,8,grabbed,7,13.4772
+gpt2,"+what,-obj",I know what with gusto our uncle grabbed in front of the guests at the holiday party,9,in,8,8.0290
+gpt2,"+what,-obj",I know what with gusto our uncle grabbed in front of the guests at the holiday party,10,front,9,4.3241
+gpt2,"+what,-obj",I know what with gusto our uncle grabbed in front of the guests at the holiday party,11,of,10,0.0122
+gpt2,"+what,-obj",I know what with gusto our uncle grabbed in front of the guests at the holiday party,12,the,11,3.1936
+gpt2,"+what,-obj",I know what with gusto our uncle grabbed in front of the guests at the holiday party,13,guests,12,13.0624
+gpt2,"+what,-obj",I know what with gusto our uncle grabbed in front of the guests at the holiday party,14,at,13,3.7506
+gpt2,"+what,-obj",I know what with gusto our uncle grabbed in front of the guests at the holiday party,15,the,14,1.6375
+gpt2,"+what,-obj",I know what with gusto our uncle grabbed in front of the guests at the holiday party,16,holiday,15,10.8489
+gpt2,"+what,-obj",I know what with gusto our uncle grabbed in front of the guests at the holiday party,17,party,16,1.0735
+gpt2,"+that,-obj",I know that with gusto our uncle grabbed in front of the guests at the holiday party,0,I,0,5.7704
+gpt2,"+that,-obj",I know that with gusto our uncle grabbed in front of the guests at the holiday party,1,know,1,5.5457
+gpt2,"+that,-obj",I know that with gusto our uncle grabbed in front of the guests at the holiday party,2,that,2,2.7497
+gpt2,"+that,-obj",I know that with gusto our uncle grabbed in front of the guests at the holiday party,3,with,3,8.5595
+gpt2,"+that,-obj",I know that with gusto our uncle grabbed in front of the guests at the holiday party,4,gust,4,15.2661
+gpt2,"+that,-obj",I know that with gusto our uncle grabbed in front of the guests at the holiday party,5,o,4,0.0394
+gpt2,"+that,-obj",I know that with gusto our uncle grabbed in front of the guests at the holiday party,6,our,5,10.9361
+gpt2,"+that,-obj",I know that with gusto our uncle grabbed in front of the guests at the holiday party,7,uncle,6,14.2262
+gpt2,"+that,-obj",I know that with gusto our uncle grabbed in front of the guests at the holiday party,8,grabbed,7,13.3739
+gpt2,"+that,-obj",I know that with gusto our uncle grabbed in front of the guests at the holiday party,9,in,8,9.5188
+gpt2,"+that,-obj",I know that with gusto our uncle grabbed in front of the guests at the holiday party,10,front,9,3.4089
+gpt2,"+that,-obj",I know that with gusto our uncle grabbed in front of the guests at the holiday party,11,of,10,0.0681
+gpt2,"+that,-obj",I know that with gusto our uncle grabbed in front of the guests at the holiday party,12,the,11,2.9117
+gpt2,"+that,-obj",I know that with gusto our uncle grabbed in front of the guests at the holiday party,13,guests,12,13.4982
+gpt2,"+that,-obj",I know that with gusto our uncle grabbed in front of the guests at the holiday party,14,at,13,4.1733
+gpt2,"+that,-obj",I know that with gusto our uncle grabbed in front of the guests at the holiday party,15,the,14,1.5389
+gpt2,"+that,-obj",I know that with gusto our uncle grabbed in front of the guests at the holiday party,16,holiday,15,11.5693
+gpt2,"+that,-obj",I know that with gusto our uncle grabbed in front of the guests at the holiday party,17,party,16,1.3258
+grnn,"+what,+obj",I know what with gusto our uncle grabbed the food in front of the guests at the holiday party,0,I,0,0.0000
+grnn,"+what,+obj",I know what with gusto our uncle grabbed the food in front of the guests at the holiday party,1,know,1,6.2783
+grnn,"+what,+obj",I know what with gusto our uncle grabbed the food in front of the guests at the holiday party,2,what,2,4.5614
+grnn,"+what,+obj",I know what with gusto our uncle grabbed the food in front of the guests at the holiday party,3,with,3,12.2132
+grnn,"+what,+obj",I know what with gusto our uncle grabbed the food in front of the guests at the holiday party,4,<unk>,4,4.6290
+grnn,"+what,+obj",I know what with gusto our uncle grabbed the food in front of the guests at the holiday party,5,our,5,10.6437
+grnn,"+what,+obj",I know what with gusto our uncle grabbed the food in front of the guests at the holiday party,6,uncle,6,12.7142
+grnn,"+what,+obj",I know what with gusto our uncle grabbed the food in front of the guests at the holiday party,7,grabbed,7,18.0101
+grnn,"+what,+obj",I know what with gusto our uncle grabbed the food in front of the guests at the holiday party,8,the,8,4.8897
+grnn,"+what,+obj",I know what with gusto our uncle grabbed the food in front of the guests at the holiday party,9,food,9,12.1366
+grnn,"+what,+obj",I know what with gusto our uncle grabbed the food in front of the guests at the holiday party,10,in,10,5.1775
+grnn,"+what,+obj",I know what with gusto our uncle grabbed the food in front of the guests at the holiday party,11,front,11,6.0066
+grnn,"+what,+obj",I know what with gusto our uncle grabbed the food in front of the guests at the holiday party,12,of,12,0.1035
+grnn,"+what,+obj",I know what with gusto our uncle grabbed the food in front of the guests at the holiday party,13,the,13,2.4806
+grnn,"+what,+obj",I know what with gusto our uncle grabbed the food in front of the guests at the holiday party,14,guests,14,12.1275
+grnn,"+what,+obj",I know what with gusto our uncle grabbed the food in front of the guests at the holiday party,15,at,15,6.2600
+grnn,"+what,+obj",I know what with gusto our uncle grabbed the food in front of the guests at the holiday party,16,the,16,1.3228
+grnn,"+what,+obj",I know what with gusto our uncle grabbed the food in front of the guests at the holiday party,17,holiday,17,12.0063
+grnn,"+what,+obj",I know what with gusto our uncle grabbed the food in front of the guests at the holiday party,18,party,18,6.8920
+grnn,"+that,+obj",I know that with gusto our uncle grabbed the food in front of the guests at the holiday party,0,I,0,0.0000
+grnn,"+that,+obj",I know that with gusto our uncle grabbed the food in front of the guests at the holiday party,1,know,1,6.2783
+grnn,"+that,+obj",I know that with gusto our uncle grabbed the food in front of the guests at the holiday party,2,that,2,2.3524
+grnn,"+that,+obj",I know that with gusto our uncle grabbed the food in front of the guests at the holiday party,3,with,3,9.4104
+grnn,"+that,+obj",I know that with gusto our uncle grabbed the food in front of the guests at the holiday party,4,<unk>,4,4.7156
+grnn,"+that,+obj",I know that with gusto our uncle grabbed the food in front of the guests at the holiday party,5,our,5,9.6865
+grnn,"+that,+obj",I know that with gusto our uncle grabbed the food in front of the guests at the holiday party,6,uncle,6,12.7868
+grnn,"+that,+obj",I know that with gusto our uncle grabbed the food in front of the guests at the holiday party,7,grabbed,7,16.7278
+grnn,"+that,+obj",I know that with gusto our uncle grabbed the food in front of the guests at the holiday party,8,the,8,2.1990
+grnn,"+that,+obj",I know that with gusto our uncle grabbed the food in front of the guests at the holiday party,9,food,9,11.4699
+grnn,"+that,+obj",I know that with gusto our uncle grabbed the food in front of the guests at the holiday party,10,in,10,4.6902
+grnn,"+that,+obj",I know that with gusto our uncle grabbed the food in front of the guests at the holiday party,11,front,11,5.4136
+grnn,"+that,+obj",I know that with gusto our uncle grabbed the food in front of the guests at the holiday party,12,of,12,0.0455
+grnn,"+that,+obj",I know that with gusto our uncle grabbed the food in front of the guests at the holiday party,13,the,13,2.5885
+grnn,"+that,+obj",I know that with gusto our uncle grabbed the food in front of the guests at the holiday party,14,guests,14,11.6970
+grnn,"+that,+obj",I know that with gusto our uncle grabbed the food in front of the guests at the holiday party,15,at,15,5.9027
+grnn,"+that,+obj",I know that with gusto our uncle grabbed the food in front of the guests at the holiday party,16,the,16,1.4014
+grnn,"+that,+obj",I know that with gusto our uncle grabbed the food in front of the guests at the holiday party,17,holiday,17,12.7186
+grnn,"+that,+obj",I know that with gusto our uncle grabbed the food in front of the guests at the holiday party,18,party,18,7.0481
+grnn,"+what,-obj",I know what with gusto our uncle grabbed in front of the guests at the holiday party,0,I,0,0.0000
+grnn,"+what,-obj",I know what with gusto our uncle grabbed in front of the guests at the holiday party,1,know,1,6.2783
+grnn,"+what,-obj",I know what with gusto our uncle grabbed in front of the guests at the holiday party,2,what,2,4.5614
+grnn,"+what,-obj",I know what with gusto our uncle grabbed in front of the guests at the holiday party,3,with,3,12.2132
+grnn,"+what,-obj",I know what with gusto our uncle grabbed in front of the guests at the holiday party,4,<unk>,4,4.6290
+grnn,"+what,-obj",I know what with gusto our uncle grabbed in front of the guests at the holiday party,5,our,5,10.6437
+grnn,"+what,-obj",I know what with gusto our uncle grabbed in front of the guests at the holiday party,6,uncle,6,12.7142
+grnn,"+what,-obj",I know what with gusto our uncle grabbed in front of the guests at the holiday party,7,grabbed,7,18.0101
+grnn,"+what,-obj",I know what with gusto our uncle grabbed in front of the guests at the holiday party,8,in,8,4.0304
+grnn,"+what,-obj",I know what with gusto our uncle grabbed in front of the guests at the holiday party,9,front,9,5.3895
+grnn,"+what,-obj",I know what with gusto our uncle grabbed in front of the guests at the holiday party,10,of,10,0.0374
+grnn,"+what,-obj",I know what with gusto our uncle grabbed in front of the guests at the holiday party,11,the,11,2.7228
+grnn,"+what,-obj",I know what with gusto our uncle grabbed in front of the guests at the holiday party,12,guests,12,13.4394
+grnn,"+what,-obj",I know what with gusto our uncle grabbed in front of the guests at the holiday party,13,at,13,6.0907
+grnn,"+what,-obj",I know what with gusto our uncle grabbed in front of the guests at the holiday party,14,the,14,1.2204
+grnn,"+what,-obj",I know what with gusto our uncle grabbed in front of the guests at the holiday party,15,holiday,15,13.2783
+grnn,"+what,-obj",I know what with gusto our uncle grabbed in front of the guests at the holiday party,16,party,16,6.3707
+grnn,"+that,-obj",I know that with gusto our uncle grabbed in front of the guests at the holiday party,0,I,0,0.0000
+grnn,"+that,-obj",I know that with gusto our uncle grabbed in front of the guests at the holiday party,1,know,1,6.2783
+grnn,"+that,-obj",I know that with gusto our uncle grabbed in front of the guests at the holiday party,2,that,2,2.3524
+grnn,"+that,-obj",I know that with gusto our uncle grabbed in front of the guests at the holiday party,3,with,3,9.4104
+grnn,"+that,-obj",I know that with gusto our uncle grabbed in front of the guests at the holiday party,4,<unk>,4,4.7156
+grnn,"+that,-obj",I know that with gusto our uncle grabbed in front of the guests at the holiday party,5,our,5,9.6865
+grnn,"+that,-obj",I know that with gusto our uncle grabbed in front of the guests at the holiday party,6,uncle,6,12.7868
+grnn,"+that,-obj",I know that with gusto our uncle grabbed in front of the guests at the holiday party,7,grabbed,7,16.7278
+grnn,"+that,-obj",I know that with gusto our uncle grabbed in front of the guests at the holiday party,8,in,8,6.5688
+grnn,"+that,-obj",I know that with gusto our uncle grabbed in front of the guests at the holiday party,9,front,9,5.4067
+grnn,"+that,-obj",I know that with gusto our uncle grabbed in front of the guests at the holiday party,10,of,10,0.0666
+grnn,"+that,-obj",I know that with gusto our uncle grabbed in front of the guests at the holiday party,11,the,11,2.2218
+grnn,"+that,-obj",I know that with gusto our uncle grabbed in front of the guests at the holiday party,12,guests,12,13.9304
+grnn,"+that,-obj",I know that with gusto our uncle grabbed in front of the guests at the holiday party,13,at,13,5.9683
+grnn,"+that,-obj",I know that with gusto our uncle grabbed in front of the guests at the holiday party,14,the,14,1.4159
+grnn,"+that,-obj",I know that with gusto our uncle grabbed in front of the guests at the holiday party,15,holiday,15,13.8768
+grnn,"+that,-obj",I know that with gusto our uncle grabbed in front of the guests at the holiday party,16,party,16,6.4664
