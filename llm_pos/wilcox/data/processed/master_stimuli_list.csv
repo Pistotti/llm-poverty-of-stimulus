@@ -1,0 +1,4 @@
+sentence_type,item_id,condition,full_sentence
+hierarchy,1,what_nogap_subj,The fact that my brother said who his friend surprised our uncle at the party surprised my daughter yesterday afternoon .
+hierarchy,1,that_nogap_subj,The fact that my brother said that his friend surprised our uncle at the party surprised my daughter yesterday afternoon .
+hierarchy,1,what_gap_subj,The fact that my brother said who his friend surprised at the party surprised my daughter yesterday afternoon .

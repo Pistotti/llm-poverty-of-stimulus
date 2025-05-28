@@ -1,0 +1,62 @@
+source_doc_name,item,condition,full_sentence_text,bpe_token_index,bpe_token_id,bpe_token_str,log_prob_gpt2,surprisal_bits_gpt2
+hierarchy,1,what_nogap_subj,The fact that my brother said who his friend surprised our uncle at the party surprised my daughter yesterday afternoon .,0,N/A,The,-4.72930100,6.82293910
+hierarchy,1,what_nogap_subj,The fact that my brother said who his friend surprised our uncle at the party surprised my daughter yesterday afternoon .,1,N/A,fact,-10.27576500,14.82479521
+hierarchy,1,what_nogap_subj,The fact that my brother said who his friend surprised our uncle at the party surprised my daughter yesterday afternoon .,2,N/A,that,-0.31386600,0.45281292
+hierarchy,1,what_nogap_subj,The fact that my brother said who his friend surprised our uncle at the party surprised my daughter yesterday afternoon .,3,N/A,my,-8.42567500,12.15567954
+hierarchy,1,what_nogap_subj,The fact that my brother said who his friend surprised our uncle at the party surprised my daughter yesterday afternoon .,4,N/A,brother,-6.80695200,9.82035589
+hierarchy,1,what_nogap_subj,The fact that my brother said who his friend surprised our uncle at the party surprised my daughter yesterday afternoon .,5,N/A,said,-8.29126700,11.96176978
+hierarchy,1,what_nogap_subj,The fact that my brother said who his friend surprised our uncle at the party surprised my daughter yesterday afternoon .,6,N/A,who,-12.21832700,17.62731977
+hierarchy,1,what_nogap_subj,The fact that my brother said who his friend surprised our uncle at the party surprised my daughter yesterday afternoon .,7,N/A,his,-7.55356900,10.89749654
+hierarchy,1,what_nogap_subj,The fact that my brother said who his friend surprised our uncle at the party surprised my daughter yesterday afternoon .,8,N/A,friend,-6.28264600,9.06394223
+hierarchy,1,what_nogap_subj,The fact that my brother said who his friend surprised our uncle at the party surprised my daughter yesterday afternoon .,9,N/A,surprised,-18.26641900,26.35287211
+hierarchy,1,what_nogap_subj,The fact that my brother said who his friend surprised our uncle at the party surprised my daughter yesterday afternoon .,10,N/A,our,-12.50816600,18.04546906
+hierarchy,1,what_nogap_subj,The fact that my brother said who his friend surprised our uncle at the party surprised my daughter yesterday afternoon .,11,N/A,uncle,-9.85876300,14.22318849
+hierarchy,1,what_nogap_subj,The fact that my brother said who his friend surprised our uncle at the party surprised my daughter yesterday afternoon .,12,N/A,at,-6.15585000,8.88101427
+hierarchy,1,what_nogap_subj,The fact that my brother said who his friend surprised our uncle at the party surprised my daughter yesterday afternoon .,13,N/A,the,-1.75078500,2.52584884
+hierarchy,1,what_nogap_subj,The fact that my brother said who his friend surprised our uncle at the party surprised my daughter yesterday afternoon .,14,N/A,party,-5.66019400,8.16593381
+hierarchy,1,what_nogap_subj,The fact that my brother said who his friend surprised our uncle at the party surprised my daughter yesterday afternoon .,15,N/A,surprised,-12.08436000,17.43404624
+hierarchy,1,what_nogap_subj,The fact that my brother said who his friend surprised our uncle at the party surprised my daughter yesterday afternoon .,16,N/A,my,-6.42793000,9.27354273
+hierarchy,1,what_nogap_subj,The fact that my brother said who his friend surprised our uncle at the party surprised my daughter yesterday afternoon .,17,N/A,daughter,-11.65391500,16.81304538
+hierarchy,1,what_nogap_subj,The fact that my brother said who his friend surprised our uncle at the party surprised my daughter yesterday afternoon .,18,N/A,yesterday,-14.10556800,20.35003300
+hierarchy,1,what_nogap_subj,The fact that my brother said who his friend surprised our uncle at the party surprised my daughter yesterday afternoon .,19,N/A,afternoon,-6.35634100,9.17026164
+hierarchy,1,what_nogap_subj,The fact that my brother said who his friend surprised our uncle at the party surprised my daughter yesterday afternoon .,20,N/A,.,-8.43338800,12.16680705
+hierarchy,1,that_nogap_subj,The fact that my brother said that his friend surprised our uncle at the party surprised my daughter yesterday afternoon .,0,N/A,The,-4.72930100,6.82293910
+hierarchy,1,that_nogap_subj,The fact that my brother said that his friend surprised our uncle at the party surprised my daughter yesterday afternoon .,1,N/A,fact,-10.27576500,14.82479521
+hierarchy,1,that_nogap_subj,The fact that my brother said that his friend surprised our uncle at the party surprised my daughter yesterday afternoon .,2,N/A,that,-0.31386600,0.45281292
+hierarchy,1,that_nogap_subj,The fact that my brother said that his friend surprised our uncle at the party surprised my daughter yesterday afternoon .,3,N/A,my,-8.42567500,12.15567954
+hierarchy,1,that_nogap_subj,The fact that my brother said that his friend surprised our uncle at the party surprised my daughter yesterday afternoon .,4,N/A,brother,-6.80695200,9.82035589
+hierarchy,1,that_nogap_subj,The fact that my brother said that his friend surprised our uncle at the party surprised my daughter yesterday afternoon .,5,N/A,said,-8.29126700,11.96176978
+hierarchy,1,that_nogap_subj,The fact that my brother said that his friend surprised our uncle at the party surprised my daughter yesterday afternoon .,6,N/A,that,-2.45173700,3.53710881
+hierarchy,1,that_nogap_subj,The fact that my brother said that his friend surprised our uncle at the party surprised my daughter yesterday afternoon .,7,N/A,his,-5.41834200,7.81701513
+hierarchy,1,that_nogap_subj,The fact that my brother said that his friend surprised our uncle at the party surprised my daughter yesterday afternoon .,8,N/A,friend,-6.74618900,9.73269342
+hierarchy,1,that_nogap_subj,The fact that my brother said that his friend surprised our uncle at the party surprised my daughter yesterday afternoon .,9,N/A,surprised,-15.35815300,22.15713117
+hierarchy,1,that_nogap_subj,The fact that my brother said that his friend surprised our uncle at the party surprised my daughter yesterday afternoon .,10,N/A,our,-11.26306700,16.24917091
+hierarchy,1,that_nogap_subj,The fact that my brother said that his friend surprised our uncle at the party surprised my daughter yesterday afternoon .,11,N/A,uncle,-10.45934400,15.08964372
+hierarchy,1,that_nogap_subj,The fact that my brother said that his friend surprised our uncle at the party surprised my daughter yesterday afternoon .,12,N/A,at,-6.08832700,8.78359917
+hierarchy,1,that_nogap_subj,The fact that my brother said that his friend surprised our uncle at the party surprised my daughter yesterday afternoon .,13,N/A,the,-1.75457800,2.53132098
+hierarchy,1,that_nogap_subj,The fact that my brother said that his friend surprised our uncle at the party surprised my daughter yesterday afternoon .,14,N/A,party,-6.60240800,9.52526128
+hierarchy,1,that_nogap_subj,The fact that my brother said that his friend surprised our uncle at the party surprised my daughter yesterday afternoon .,15,N/A,surprised,-11.25141700,16.23236351
+hierarchy,1,that_nogap_subj,The fact that my brother said that his friend surprised our uncle at the party surprised my daughter yesterday afternoon .,16,N/A,my,-5.90382700,8.51742194
+hierarchy,1,that_nogap_subj,The fact that my brother said that his friend surprised our uncle at the party surprised my daughter yesterday afternoon .,17,N/A,daughter,-11.29989900,16.30230825
+hierarchy,1,that_nogap_subj,The fact that my brother said that his friend surprised our uncle at the party surprised my daughter yesterday afternoon .,18,N/A,yesterday,-13.97724100,20.16489628
+hierarchy,1,that_nogap_subj,The fact that my brother said that his friend surprised our uncle at the party surprised my daughter yesterday afternoon .,19,N/A,afternoon,-6.39433400,9.22507395
+hierarchy,1,that_nogap_subj,The fact that my brother said that his friend surprised our uncle at the party surprised my daughter yesterday afternoon .,20,N/A,.,-8.43171500,12.16439342
+hierarchy,1,what_gap_subj,The fact that my brother said who his friend surprised at the party surprised my daughter yesterday afternoon .,0,N/A,The,-4.72930100,6.82293910
+hierarchy,1,what_gap_subj,The fact that my brother said who his friend surprised at the party surprised my daughter yesterday afternoon .,1,N/A,fact,-10.27576500,14.82479521
+hierarchy,1,what_gap_subj,The fact that my brother said who his friend surprised at the party surprised my daughter yesterday afternoon .,2,N/A,that,-0.31386600,0.45281292
+hierarchy,1,what_gap_subj,The fact that my brother said who his friend surprised at the party surprised my daughter yesterday afternoon .,3,N/A,my,-8.42567500,12.15567954
+hierarchy,1,what_gap_subj,The fact that my brother said who his friend surprised at the party surprised my daughter yesterday afternoon .,4,N/A,brother,-6.80695200,9.82035589
+hierarchy,1,what_gap_subj,The fact that my brother said who his friend surprised at the party surprised my daughter yesterday afternoon .,5,N/A,said,-8.29126700,11.96176978
+hierarchy,1,what_gap_subj,The fact that my brother said who his friend surprised at the party surprised my daughter yesterday afternoon .,6,N/A,who,-12.21832700,17.62731977
+hierarchy,1,what_gap_subj,The fact that my brother said who his friend surprised at the party surprised my daughter yesterday afternoon .,7,N/A,his,-7.55356900,10.89749654
+hierarchy,1,what_gap_subj,The fact that my brother said who his friend surprised at the party surprised my daughter yesterday afternoon .,8,N/A,friend,-6.28264600,9.06394223
+hierarchy,1,what_gap_subj,The fact that my brother said who his friend surprised at the party surprised my daughter yesterday afternoon .,9,N/A,surprised,-18.26641900,26.35287211
+hierarchy,1,what_gap_subj,The fact that my brother said who his friend surprised at the party surprised my daughter yesterday afternoon .,10,N/A,at,-7.95799500,11.48095992
+hierarchy,1,what_gap_subj,The fact that my brother said who his friend surprised at the party surprised my daughter yesterday afternoon .,11,N/A,the,-1.86221100,2.68660257
+hierarchy,1,what_gap_subj,The fact that my brother said who his friend surprised at the party surprised my daughter yesterday afternoon .,12,N/A,party,-8.25193300,11.90502282
+hierarchy,1,what_gap_subj,The fact that my brother said who his friend surprised at the party surprised my daughter yesterday afternoon .,13,N/A,surprised,-13.92277000,20.08631123
+hierarchy,1,what_gap_subj,The fact that my brother said who his friend surprised at the party surprised my daughter yesterday afternoon .,14,N/A,my,-7.46564000,10.77064181
+hierarchy,1,what_gap_subj,The fact that my brother said who his friend surprised at the party surprised my daughter yesterday afternoon .,15,N/A,daughter,-10.39473500,14.99643264
+hierarchy,1,what_gap_subj,The fact that my brother said who his friend surprised at the party surprised my daughter yesterday afternoon .,16,N/A,yesterday,-13.60436700,19.62695281
+hierarchy,1,what_gap_subj,The fact that my brother said who his friend surprised at the party surprised my daughter yesterday afternoon .,17,N/A,afternoon,-6.56784100,9.47539164
+hierarchy,1,what_gap_subj,The fact that my brother said who his friend surprised at the party surprised my daughter yesterday afternoon .,18,N/A,.,-8.38595700,12.09837858

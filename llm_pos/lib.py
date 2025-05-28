@@ -430,6 +430,7 @@ def _start_container(model: str) -> str:
         "-i",
         "-d",
         "--rm",
+        "--gpus", "all",
         "-v",
         f"{abs_retraining_data_path}:{_GRNN_MOUNT_INSIDE_DOCKER}",  # Fixed path
         "-v",
