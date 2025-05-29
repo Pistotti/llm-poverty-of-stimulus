@@ -5,7 +5,7 @@ import re
 import csv
 import time
 import math # For log base conversion
-from collections import defaultdict
+# from collections import defaultdict # Not needed for sentence-by-sentence
 
 # Get the directory of the current script (wilcox/)
 script_dir = os.path.dirname(os.path.abspath(__file__))
@@ -91,11 +91,6 @@ def main():
     
     print(f"Loaded {len(all_stimuli_list)} total sentences for processing.")
 
-    # Group stimuli by source_doc_name (which is sentence_type)
-    grouped_stimuli = defaultdict(list)
-    for stim_info in all_stimuli_list:
-        grouped_stimuli[stim_info['source_doc_name']].append(stim_info)
-
     # --- Prepare Output File ---
     output_dir_abs_path = OUTPUT_DIRECTORY
     if not os.path.isabs(output_dir_abs_path):
@@ -131,87 +126,91 @@ def main():
         print(f"Error initializing output file '{csv_filepath}': {e}")
         return
 
-    # Process each group (sentence_type)
-    for sentence_type, stimuli_in_group in grouped_stimuli.items():
-        print(f"\nProcessing batch for sentence_type: '{sentence_type}' ({len(stimuli_in_group)} sentences)...")
+    # Process each sentence individually
+    for idx, stimulus_info in enumerate(all_stimuli_list):
+        print(f"\nProcessing sentence {idx + 1}/{len(all_stimuli_list)}: "
+              f"Type='{stimulus_info['source_doc_name']}', Item='{stimulus_info['item']}', Cond='{stimulus_info['condition']}'")
+        print(f"  Sentence: '{stimulus_info['sentence_text'][:100]}...'") # Print first 100 chars
+        
+        sentence_text_to_process = (stimulus_info['sentence_text'],) # Comma makes it a tuple of one
+
         batch_start_time = time.time()
-
-        sentence_texts_to_process_batch = tuple(item['sentence_text'] for item in stimuli_in_group)
-
-        if not sentence_texts_to_process_batch:
-            print(f"No sentences to process for batch '{sentence_type}'. Skipping.")
-            continue
-            
-        print(f"Fetching surprisal data for {len(sentence_texts_to_process_batch)} sentences in this batch...")
+        surprisal_data_for_sentence = None
         try:
-            surprisal_data_per_model_batch = lib.get_surprisals_per_model(
-                sentences=sentence_texts_to_process_batch,
+            surprisal_data_for_sentence = lib.get_surprisals_per_model(
+                sentences=sentence_text_to_process,
                 models=(MODEL_TO_USE,)
             )
         except Exception as e:
-            print(f"  ERROR during lib.get_surprisals_per_model for batch '{sentence_type}': {e}")
-            print(f"  Skipping batch '{sentence_type}' due to error.")
+            print(f"  CRITICAL ERROR during lib.get_surprisals_per_model for sentence:")
+            print(f"    Type: {stimulus_info['source_doc_name']}, Item: {stimulus_info['item']}, Condition: {stimulus_info['condition']}")
+            print(f"    Full Sentence: {stimulus_info['original_full_sentence_text_for_csv']}")
+            print(f"    Error: {e}")
             import traceback
             traceback.print_exc()
-            continue # Move to the next batch
+            print("\nStopping script due to error.")
+            return # Stop script
 
-        print(f"Surprisal data fetched for batch '{sentence_type}'.")
+        if not surprisal_data_for_sentence or MODEL_TO_USE not in surprisal_data_for_sentence or not surprisal_data_for_sentence[MODEL_TO_USE]:
+            print(f"  CRITICAL ERROR: No surprisal data returned from lib.get_surprisals_per_model for sentence:")
+            print(f"    Type: {stimulus_info['source_doc_name']}, Item: {stimulus_info['item']}, Condition: {stimulus_info['condition']}")
+            print(f"    Full Sentence: {stimulus_info['original_full_sentence_text_for_csv']}")
+            print("\nStopping script due to missing data for this sentence.")
+            return # Stop script
+
+        sentence_surprisal_obj = surprisal_data_for_sentence[MODEL_TO_USE][0] # Should be only one result
+
+        # Check for mismatch (should ideally be 1 input, 1 output)
+        if len(surprisal_data_for_sentence[MODEL_TO_USE]) != 1:
+             print(f"  CRITICAL WARNING for sentence: Type='{stimulus_info['source_doc_name']}', Item='{stimulus_info['item']}', Cond='{stimulus_info['condition']}'")
+             print(f"  Expected 1 surprisal object, got {len(surprisal_data_for_sentence[MODEL_TO_USE])}. This should not happen.")
+             print("\nStopping script due to unexpected result structure.")
+             return
+
 
         try:
-            with open(csv_filepath, 'a', newline='', encoding='utf-8') as csvfile_append: # Open in append mode
+            with open(csv_filepath, 'a', newline='', encoding='utf-8') as csvfile_append:
                 csv_writer_append = csv.writer(csvfile_append)
+                
+                for token_seq_idx, token_obj in enumerate(sentence_surprisal_obj.tokens):
+                    bpe_id_to_write = "N/A" 
+                    if token_obj.surprisal is not None:
+                        natural_log_surprisal = token_obj.surprisal
+                        log_prob_val = -natural_log_surprisal
+                        surprisal_bits_val = natural_log_surprisal / math.log(2)
+                    else:
+                        log_prob_val = "N/A"
+                        surprisal_bits_val = "N/A"
 
-                if MODEL_TO_USE in surprisal_data_per_model_batch:
-                    sentence_surprisals_tuple_batch = surprisal_data_per_model_batch[MODEL_TO_USE]
-                    
-                    if len(sentence_surprisals_tuple_batch) != len(stimuli_in_group):
-                        print(f"  CRITICAL WARNING for batch '{sentence_type}': Mismatch between input stimuli ({len(stimuli_in_group)}) "
-                              f"and processed sentences ({len(sentence_surprisals_tuple_batch)}). Output for this batch might be misaligned or incomplete.")
-                    
-                    for i, sentence_surprisal_obj in enumerate(sentence_surprisals_tuple_batch):
-                        if i >= len(stimuli_in_group): # Safety check
-                            print(f"  Warning: More surprisal objects than stimuli in batch '{sentence_type}' at index {i}. Stopping this batch.")
-                            break 
-                        
-                        stimulus_info = stimuli_in_group[i] # Get corresponding original stimulus info for this batch
-                        
-                        for token_seq_idx, token_obj in enumerate(sentence_surprisal_obj.tokens):
-                            bpe_id_to_write = "N/A" 
-
-                            if token_obj.surprisal is not None:
-                                natural_log_surprisal = token_obj.surprisal
-                                log_prob_val = -natural_log_surprisal
-                                surprisal_bits_val = natural_log_surprisal / math.log(2)
-                            else:
-                                log_prob_val = "N/A"
-                                surprisal_bits_val = "N/A"
-
-                            csv_writer_append.writerow([
-                                stimulus_info['source_doc_name'], # This is the sentence_type
-                                stimulus_info['item'],
-                                stimulus_info['condition'],
-                                stimulus_info['original_full_sentence_text_for_csv'],
-                                token_seq_idx,
-                                bpe_id_to_write,
-                                token_obj.text,
-                                f"{log_prob_val:.8f}" if isinstance(log_prob_val, float) else log_prob_val,
-                                f"{surprisal_bits_val:.8f}" if isinstance(surprisal_bits_val, float) else surprisal_bits_val
-                            ])
-                else:
-                    print(f"  Warning: No surprisal data found for model {MODEL_TO_USE} in results for batch '{sentence_type}'.")
-               
+                    csv_writer_append.writerow([
+                        stimulus_info['source_doc_name'],
+                        stimulus_info['item'],
+                        stimulus_info['condition'],
+                        stimulus_info['original_full_sentence_text_for_csv'],
+                        token_seq_idx,
+                        bpe_id_to_write,
+                        token_obj.text,
+                        f"{log_prob_val:.8f}" if isinstance(log_prob_val, float) else log_prob_val,
+                        f"{surprisal_bits_val:.8f}" if isinstance(surprisal_bits_val, float) else surprisal_bits_val
+                    ])
         except IOError as e:
-            print(f"  Error writing to output file for batch '{sentence_type}': {e}")
+            print(f"  CRITICAL ERROR writing to output file for sentence: {stimulus_info}")
+            print(f"  Error: {e}")
+            print("\nStopping script due to IO error.")
+            return
         except Exception as e:
-            print(f"  An unexpected error occurred during processing/writing for batch '{sentence_type}': {e}")
+            print(f"  CRITICAL UNEXPECTED ERROR during output writing for sentence: {stimulus_info}")
+            print(f"  Error: {e}")
             import traceback
             traceback.print_exc()
+            print("\nStopping script due to unexpected error.")
+            return
 
         batch_end_time = time.time()
-        print(f"Finished processing and appending batch '{sentence_type}' in {batch_end_time - batch_start_time:.2f} seconds.")
+        print(f"  Successfully processed and saved sentence {idx + 1} in {batch_end_time - batch_start_time:.2f} seconds.")
 
     total_time_end = time.time()
-    print(f"\nAll batches processed. Total script finished in {total_time_end - start_time_total:.2f} seconds.")
+    print(f"\nAll sentences processed. Total script finished in {total_time_end - start_time_total:.2f} seconds.")
     print(f"Full output saved to: {os.path.abspath(csv_filepath)}")
 
 if __name__ == "__main__":

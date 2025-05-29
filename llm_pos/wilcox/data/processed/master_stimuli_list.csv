@@ -2,3 +2,761 @@ sentence_type,item_id,condition,full_sentence
 hierarchy,1,what_nogap_subj,The fact that my brother said who his friend surprised our uncle at the party surprised my daughter yesterday afternoon .
 hierarchy,1,that_nogap_subj,The fact that my brother said that his friend surprised our uncle at the party surprised my daughter yesterday afternoon .
 hierarchy,1,what_gap_subj,The fact that my brother said who his friend surprised at the party surprised my daughter yesterday afternoon .
+hierarchy,1,that_gap_subj,The fact that my brother said that his friend surprised at the party surprised my daughter yesterday afternoon .
+hierarchy,1,what_nogap_matrix,The fact that my brother said who his friend surprised our uncle at the party surprised my daughter yesterday afternoon .
+hierarchy,1,that_nogap_matrix,The fact that my brother said that his friend surprised our uncle at the party surprised my daughter yesterday afternoon .
+hierarchy,1,what_gap_matrix,The fact that my brother said who his friend surprised our uncle at the party surprised yesterday afternoon .
+hierarchy,1,that_gap_matrix,The fact that my brother said that his friend surprised our uncle at the party surprised yesterday afternoon .
+hierarchy,2,what_nogap_subj,The fact that the manager knows who the comedian pleased the old woman with a joke pleased my friend last year .
+hierarchy,2,that_nogap_subj,The fact that the manager knows that the comedian pleased the old woman with a joke pleased my friend last year .
+hierarchy,2,what_gap_subj,The fact that the manager knows who the comedian pleased with a joke pleased my friend last year .
+hierarchy,2,that_gap_subj,The fact that the manager knows that the comedian pleased with a joke pleased my friend last year .
+hierarchy,2,what_nogap_matrix,The fact that the manager knows who the comedian pleased the old woman with a joke pleased my friend last year .
+hierarchy,2,that_nogap_matrix,The fact that the manager knows that the comedian pleased the old woman with a joke pleased my friend last year .
+hierarchy,2,what_gap_matrix,The fact that the manager knows who the comedian pleased the old woman with a joke pleased last year .
+hierarchy,2,that_gap_matrix,The fact that the manager knows that the comedian pleased the old woman with a joke pleased last year .
+hierarchy,3,what_nogap_subj,The fact that our grandmother said who my uncle delighted my daughter with a gift delighted the whole family over the holidays .
+hierarchy,3,that_nogap_subj,The fact that our grandmother said that my uncle delighted my daughter with a gift delighted the whole family over the holidays .
+hierarchy,3,what_gap_subj,The fact that our grandmother said who my uncle delighted with a gift delighted the whole family over the holidays .
+hierarchy,3,that_gap_subj,The fact that our grandmother said that my uncle delighted with a gift delighted the whole family over the holidays .
+hierarchy,3,what_nogap_matrix,The fact that our grandmother said who my uncle delighted my daughter with a gift delighted the whole family over the holidays .
+hierarchy,3,that_nogap_matrix,The fact that our grandmother said that my uncle delighted my daughter with a gift delighted the whole family over the holidays .
+hierarchy,3,what_gap_matrix,The fact that our grandmother said who my uncle delighted my daughter with a gift delighted over the holidays .
+hierarchy,3,that_gap_matrix,The fact that our grandmother said that my uncle delighted my daughter with a gift delighted over the holidays .
+hierarchy,4,what_nogap_subj,The fact that the reporter knows who the witness shocked the jurry with new testimony shocked the lawyer during the trial .
+hierarchy,4,that_nogap_subj,The fact that the reporter knows that the witness shocked the jurry with new testimony shocked the lawyer during the trial .
+hierarchy,4,what_gap_subj,The fact that the reporter knows who the witness shocked with new testimony shocked the lawyer during the trial .
+hierarchy,4,that_gap_subj,The fact that the reporter knows that the witness shocked with new testimony shocked the lawyer during the trial .
+hierarchy,4,what_nogap_matrix,The fact that the reporter knows who the witness shocked the jurry with new testimony shocked the lawyer during the trial .
+hierarchy,4,that_nogap_matrix,The fact that the reporter knows that the witness shocked the jurry with new testimony shocked the lawyer during the trial .
+hierarchy,4,what_gap_matrix,The fact that the reporter knows who the witness shocked the jurry with new testimony shocked during the trial .
+hierarchy,4,that_gap_matrix,The fact that the reporter knows that the witness shocked the jurry with new testimony shocked during the trial .
+hierarchy,5,what_nogap_subj,The fact that everybody knows who the teenager worried his mother with his sullen behavior worried the therapist during the session .
+hierarchy,5,that_nogap_subj,The fact that everybody knows that the teenager worried his mother with his sullen behavior worried the therapist during the session .
+hierarchy,5,what_gap_subj,The fact that everybody knows who the teenager worried with his sullen behavior worried the therapist during the session .
+hierarchy,5,that_gap_subj,The fact that everybody knows that the teenager worried with his sullen behavior worried the therapist during the session .
+hierarchy,5,what_nogap_matrix,The fact that everybody knows who the teenager worried his mother with his sullen behavior worried the therapist during the session .
+hierarchy,5,that_nogap_matrix,The fact that everybody knows that the teenager worried his mother with his sullen behavior worried the therapist during the session .
+hierarchy,5,what_gap_matrix,The fact that everybody knows who the teenager worried his mother with his sullen behavior worried during the session .
+hierarchy,5,that_gap_matrix,The fact that everybody knows that the teenager worried his mother with his sullen behavior worried during the session .
+hierarchy,6,what_nogap_subj,The fact that the administrated said who the professor confused the students with a bad explination confused the committee during the review .
+hierarchy,6,that_nogap_subj,The fact that the administrated said that the professor confused the students with a bad explination confused the committee during the review .
+hierarchy,6,what_gap_subj,The fact that the administrated said who the professor confused with a bad explination confused the committee during the review .
+hierarchy,6,that_gap_subj,The fact that the administrated said that the professor confused with a bad explination confused the committee during the review .
+hierarchy,6,what_nogap_matrix,The fact that the administrated said who the professor confused the students with a bad explination confused the committee during the review .
+hierarchy,6,that_nogap_matrix,The fact that the administrated said that the professor confused the students with a bad explination confused the committee during the review .
+hierarchy,6,what_gap_matrix,The fact that the administrated said who the professor confused the students with a bad explination confused during the review .
+hierarchy,6,that_gap_matrix,The fact that the administrated said that the professor confused the students with a bad explination confused during the review .
+hierarchy,7,what_nogap_subj,The fact that the father saw who the baby annoyed the nanny with her yelling annoyed the committee last night .
+hierarchy,7,that_nogap_subj,The fact that the father saw that the baby annoyed the nanny with her yelling annoyed the committee last night .
+hierarchy,7,what_gap_subj,The fact that the father saw who the baby annoyed with her yelling annoyed the committee last night .
+hierarchy,7,that_gap_subj,The fact that the father saw that the baby annoyed with her yelling annoyed the committee last night .
+hierarchy,7,what_nogap_matrix,The fact that the father saw who the baby annoyed the nanny with her yelling annoyed the committee last night .
+hierarchy,7,that_nogap_matrix,The fact that the father saw that the baby annoyed the nanny with her yelling annoyed the committee last night .
+hierarchy,7,what_gap_matrix,The fact that the father saw who the baby annoyed the nanny with her yelling annoyed last night .
+hierarchy,7,that_gap_matrix,The fact that the father saw that the baby annoyed the nanny with her yelling annoyed last night .
+hierarchy,8,what_nogap_subj,The fact that the police know who the burglar frightened the children with his gun frightened the parents last night .
+hierarchy,8,that_nogap_subj,The fact that the police know that the burglar frightened the children with his gun frightened the parents last night .
+hierarchy,8,what_gap_subj,The fact that the police know who the burglar frightened with his gun frightened the parents last night .
+hierarchy,8,that_gap_subj,The fact that the police know that the burglar frightened with his gun frightened the parents last night .
+hierarchy,8,what_nogap_matrix,The fact that the police know who the burglar frightened the children with his gun frightened the parents last night .
+hierarchy,8,that_nogap_matrix,The fact that the police know that the burglar frightened the children with his gun frightened the parents last night .
+hierarchy,8,what_gap_matrix,The fact that the police know who the burglar frightened the children with his gun frightened last night .
+hierarchy,8,that_gap_matrix,The fact that the police know that the burglar frightened the children with his gun frightened last night .
+hierarchy,9,what_nogap_subj,The fact that we know who the news enraged the lobbyist during the hearing enraged the politician yesterday .
+hierarchy,9,that_nogap_subj,The fact that we know that the news enraged the lobbyist during the hearing enraged the politician yesterday .
+hierarchy,9,what_gap_subj,The fact that we know who the news enraged during the hearing enraged the politician yesterday .
+hierarchy,9,that_gap_subj,The fact that we know that the news enraged during the hearing enraged the politician yesterday .
+hierarchy,9,what_nogap_matrix,The fact that we know who the news enraged the lobbyist during the hearing enraged the politician yesterday .
+hierarchy,9,that_nogap_matrix,The fact that we know that the news enraged the lobbyist during the hearing enraged the politician yesterday .
+hierarchy,9,what_gap_matrix,The fact that we know who the news enraged the lobbyist during the hearing enraged yesterday .
+hierarchy,9,that_gap_matrix,The fact that we know that the news enraged the lobbyist during the hearing enraged yesterday .
+hierarchy,10,what_nogap_subj,The fact that he knows who the bully offended the students after class offended the teacher last week .
+hierarchy,10,that_nogap_subj,The fact that he knows that the bully offended the students after class offended the teacher last week .
+hierarchy,10,what_gap_subj,The fact that he knows who the bully offended after class offended the teacher last week .
+hierarchy,10,that_gap_subj,The fact that he knows that the bully offended after class offended the teacher last week .
+hierarchy,10,what_nogap_matrix,The fact that he knows who the bully offended the students after class offended the teacher last week .
+hierarchy,10,that_nogap_matrix,The fact that he knows that the bully offended the students after class offended the teacher last week .
+hierarchy,10,what_gap_matrix,The fact that he knows who the bully offended the students after class offended last week .
+hierarchy,10,that_gap_matrix,The fact that he knows that the bully offended the students after class offended last week .
+hierarchy,11,what_nogap_subj,The fact that the assistant knew who the news saddened the mother from the foreign country saddened the social worker over the weekend .
+hierarchy,11,that_nogap_subj,The fact that the assistant knew that the news saddened the mother from the foreign country saddened the social worker over the weekend .
+hierarchy,11,what_gap_subj,The fact that the assistant knew who the news saddened from the foreign country saddened the social worker over the weekend .
+hierarchy,11,that_gap_subj,The fact that the assistant knew that the news saddened from the foreign country saddened the social worker over the weekend .
+hierarchy,11,what_nogap_matrix,The fact that the assistant knew who the news saddened the mother from the foreign country saddened the social worker over the weekend .
+hierarchy,11,that_nogap_matrix,The fact that the assistant knew that the news saddened the mother from the foreign country saddened the social worker over the weekend .
+hierarchy,11,what_gap_matrix,The fact that the assistant knew who the news saddened the mother from the foreign country saddened over the weekend .
+hierarchy,11,that_gap_matrix,The fact that the assistant knew that the news saddened the mother from the foreign country saddened over the weekend .
+hierarchy,12,what_nogap_subj,The fact that the bartender saw who the magician perplexed the audience with his tricks perplexed the waiters over the weekend .
+hierarchy,12,that_nogap_subj,The fact that the bartender saw that the magician perplexed the audience with his tricks perplexed the waiters over the weekend .
+hierarchy,12,what_gap_subj,The fact that the bartender saw who the magician perplexed with his tricks perplexed the waiters over the weekend .
+hierarchy,12,that_gap_subj,The fact that the bartender saw that the magician perplexed with his tricks perplexed the waiters over the weekend .
+hierarchy,12,what_nogap_matrix,The fact that the bartender saw who the magician perplexed the audience with his tricks perplexed the waiters over the weekend .
+hierarchy,12,that_nogap_matrix,The fact that the bartender saw that the magician perplexed the audience with his tricks perplexed the waiters over the weekend .
+hierarchy,12,what_gap_matrix,The fact that the bartender saw who the magician perplexed the audience with his tricks perplexed over the weekend .
+hierarchy,12,that_gap_matrix,The fact that the bartender saw that the magician perplexed the audience with his tricks perplexed over the weekend .
+hierarchy,13,what_nogap_subj,The fact that the neighbors reported who the policeman upset the children with his loud voice upset their mothers last night .
+hierarchy,13,that_nogap_subj,The fact that the neighbors reported that the policeman upset the children with his loud voice upset their mothers last night .
+hierarchy,13,what_gap_subj,The fact that the neighbors reported who the policeman upset with his loud voice upset their mothers last night .
+hierarchy,13,that_gap_subj,The fact that the neighbors reported that the policeman upset with his loud voice upset their mothers last night .
+hierarchy,13,what_nogap_matrix,The fact that the neighbors reported who the policeman upset the children with his loud voice upset their mothers last night .
+hierarchy,13,that_nogap_matrix,The fact that the neighbors reported that the policeman upset the children with his loud voice upset their mothers last night .
+hierarchy,13,what_gap_matrix,The fact that the neighbors reported who the policeman upset the children with his loud voice upset last night .
+hierarchy,13,that_gap_matrix,The fact that the neighbors reported that the policeman upset the children with his loud voice upset last night .
+hierarchy,14,what_nogap_subj,The fact that the old lady knows who the novel cheered the young girl from the big city cheered her mother when she heard the news .
+hierarchy,14,that_nogap_subj,The fact that the old lady knows that the novel cheered the young girl from the big city cheered her mother when she heard the news .
+hierarchy,14,what_gap_subj,The fact that the old lady knows who the novel cheered from the big city cheered her mother when she heard the news .
+hierarchy,14,that_gap_subj,The fact that the old lady knows that the novel cheered from the big city cheered her mother when she heard the news .
+hierarchy,14,what_nogap_matrix,The fact that the old lady knows who the novel cheered the young girl from the big city cheered her mother when she heard the news .
+hierarchy,14,that_nogap_matrix,The fact that the old lady knows that the novel cheered the young girl from the big city cheered her mother when she heard the news .
+hierarchy,14,what_gap_matrix,The fact that the old lady knows who the novel cheered the young girl from the big city cheered when she heard the news .
+hierarchy,14,that_gap_matrix,The fact that the old lady knows that the novel cheered the young girl from the big city cheered when she heard the news .
+hierarchy,15,what_nogap_subj,The fact that the officer knew who the kind words encouraged the soldiers in the blue uniforms encouraged the general early in the morning .
+hierarchy,15,that_nogap_subj,The fact that the officer knew that the kind words encouraged the soldiers in the blue uniforms encouraged the general early in the morning .
+hierarchy,15,what_gap_subj,The fact that the officer knew who the kind words encouraged in the blue uniforms encouraged the general early in the morning .
+hierarchy,15,that_gap_subj,The fact that the officer knew that the kind words encouraged in the blue uniforms encouraged the general early in the morning .
+hierarchy,15,what_nogap_matrix,The fact that the officer knew who the kind words encouraged the soldiers in the blue uniforms encouraged the general early in the morning .
+hierarchy,15,that_nogap_matrix,The fact that the officer knew that the kind words encouraged the soldiers in the blue uniforms encouraged the general early in the morning .
+hierarchy,15,what_gap_matrix,The fact that the officer knew who the kind words encouraged the soldiers in the blue uniforms encouraged early in the morning .
+hierarchy,15,that_gap_matrix,The fact that the officer knew that the kind words encouraged the soldiers in the blue uniforms encouraged early in the morning .
+hierarchy,16,what_nogap_subj,The fact that the reporter knew who the news surprised the politician with high approval ratings surprised the lobbyists over the weekend .
+hierarchy,16,that_nogap_subj,The fact that the reporter knew that the news surprised the politician with high approval ratings surprised the lobbyists over the weekend .
+hierarchy,16,what_gap_subj,The fact that the reporter knew who the news surprised with high approval ratings surprised the lobbyists over the weekend .
+hierarchy,16,that_gap_subj,The fact that the reporter knew that the news surprised with high approval ratings surprised the lobbyists over the weekend .
+hierarchy,16,what_nogap_matrix,The fact that the reporter knew who the news surprised the politician with high approval ratings surprised the lobbyists over the weekend .
+hierarchy,16,that_nogap_matrix,The fact that the reporter knew that the news surprised the politician with high approval ratings surprised the lobbyists over the weekend .
+hierarchy,16,what_gap_matrix,The fact that the reporter knew who the news surprised the politician with high approval ratings surprised over the weekend .
+hierarchy,16,that_gap_matrix,The fact that the reporter knew that the news surprised the politician with high approval ratings surprised over the weekend .
+hierarchy,17,what_nogap_subj,The fact that everybody knows who the young man pleased his girlfriend with a compliment pleased the chaperones last night .
+hierarchy,17,that_nogap_subj,The fact that everybody knows that the young man pleased his girlfriend with a compliment pleased the chaperones last night .
+hierarchy,17,what_gap_subj,The fact that everybody knows who the young man pleased with a compliment pleased the chaperones last night .
+hierarchy,17,that_gap_subj,The fact that everybody knows that the young man pleased with a compliment pleased the chaperones last night .
+hierarchy,17,what_nogap_matrix,The fact that everybody knows who the young man pleased his girlfriend with a compliment pleased the chaperones last night .
+hierarchy,17,that_nogap_matrix,The fact that everybody knows that the young man pleased his girlfriend with a compliment pleased the chaperones last night .
+hierarchy,17,what_gap_matrix,The fact that everybody knows who the young man pleased his girlfriend with a compliment pleased last night .
+hierarchy,17,that_gap_matrix,The fact that everybody knows that the young man pleased his girlfriend with a compliment pleased last night .
+hierarchy,18,what_nogap_subj,The fact that the principal knows who the teacher delighted her students with an early recess delighted the parents last week .
+hierarchy,18,that_nogap_subj,The fact that the principal knows that the teacher delighted her students with an early recess delighted the parents last week .
+hierarchy,18,what_gap_subj,The fact that the principal knows who the teacher delighted with an early recess delighted the parents last week .
+hierarchy,18,that_gap_subj,The fact that the principal knows that the teacher delighted with an early recess delighted the parents last week .
+hierarchy,18,what_nogap_matrix,The fact that the principal knows who the teacher delighted her students with an early recess delighted the parents last week .
+hierarchy,18,that_nogap_matrix,The fact that the principal knows that the teacher delighted her students with an early recess delighted the parents last week .
+hierarchy,18,what_gap_matrix,The fact that the principal knows who the teacher delighted her students with an early recess delighted last week .
+hierarchy,18,that_gap_matrix,The fact that the principal knows that the teacher delighted her students with an early recess delighted last week .
+hierarchy,19,what_nogap_subj,The fact that the nurse knows who the doctor shocked the family with the bad news shocked the onlookers last evening .
+hierarchy,19,that_nogap_subj,The fact that the nurse knows that the doctor shocked the family with the bad news shocked the onlookers last evening .
+hierarchy,19,what_gap_subj,The fact that the nurse knows who the doctor shocked with the bad news shocked the onlookers last evening .
+hierarchy,19,that_gap_subj,The fact that the nurse knows that the doctor shocked with the bad news shocked the onlookers last evening .
+hierarchy,19,what_nogap_matrix,The fact that the nurse knows who the doctor shocked the family with the bad news shocked the onlookers last evening .
+hierarchy,19,that_nogap_matrix,The fact that the nurse knows that the doctor shocked the family with the bad news shocked the onlookers last evening .
+hierarchy,19,what_gap_matrix,The fact that the nurse knows who the doctor shocked the family with the bad news shocked last evening .
+hierarchy,19,that_gap_matrix,The fact that the nurse knows that the doctor shocked the family with the bad news shocked last evening .
+hierarchy,20,what_nogap_subj,The fact that the onlookers know who the nurse worried the patient with inconclusive tests worried the doctor last week .
+hierarchy,20,that_nogap_subj,The fact that the onlookers know that the nurse worried the patient with inconclusive tests worried the doctor last week .
+hierarchy,20,what_gap_subj,The fact that the onlookers know who the nurse worried with inconclusive tests worried the doctor last week .
+hierarchy,20,that_gap_subj,The fact that the onlookers know that the nurse worried with inconclusive tests worried the doctor last week .
+hierarchy,20,what_nogap_matrix,The fact that the onlookers know who the nurse worried the patient with inconclusive tests worried the doctor last week .
+hierarchy,20,that_nogap_matrix,The fact that the onlookers know that the nurse worried the patient with inconclusive tests worried the doctor last week .
+hierarchy,20,what_gap_matrix,The fact that the onlookers know who the nurse worried the patient with inconclusive tests worried last week .
+hierarchy,20,that_gap_matrix,The fact that the onlookers know that the nurse worried the patient with inconclusive tests worried last week .
+hierarchy,21,what_nogap_subj,The fact that the councilor knows who the teenager confused her parents with her erratic behavior confused the therapist last summer .
+hierarchy,21,that_nogap_subj,The fact that the councilor knows that the teenager confused her parents with her erratic behavior confused the therapist last summer .
+hierarchy,21,what_gap_subj,The fact that the councilor knows who the teenager confused with her erratic behavior confused the therapist last summer .
+hierarchy,21,that_gap_subj,The fact that the councilor knows that the teenager confused with her erratic behavior confused the therapist last summer .
+hierarchy,21,what_nogap_matrix,The fact that the councilor knows who the teenager confused her parents with her erratic behavior confused the therapist last summer .
+hierarchy,21,that_nogap_matrix,The fact that the councilor knows that the teenager confused her parents with her erratic behavior confused the therapist last summer .
+hierarchy,21,what_gap_matrix,The fact that the councilor knows who the teenager confused her parents with her erratic behavior confused last summer .
+hierarchy,21,that_gap_matrix,The fact that the councilor knows that the teenager confused her parents with her erratic behavior confused last summer .
+hierarchy,22,what_nogap_subj,The fact that the reporter knows who the bureaucrat annoyed the business owner with regulations annoyed the city council last fall .
+hierarchy,22,that_nogap_subj,The fact that the reporter knows that the bureaucrat annoyed the business owner with regulations annoyed the city council last fall .
+hierarchy,22,what_gap_subj,The fact that the reporter knows who the bureaucrat annoyed with regulations annoyed the city council last fall .
+hierarchy,22,that_gap_subj,The fact that the reporter knows that the bureaucrat annoyed with regulations annoyed the city council last fall .
+hierarchy,22,what_nogap_matrix,The fact that the reporter knows who the bureaucrat annoyed the business owner with regulations annoyed the city council last fall .
+hierarchy,22,that_nogap_matrix,The fact that the reporter knows that the bureaucrat annoyed the business owner with regulations annoyed the city council last fall .
+hierarchy,22,what_gap_matrix,The fact that the reporter knows who the bureaucrat annoyed the business owner with regulations annoyed last fall .
+hierarchy,22,that_gap_matrix,The fact that the reporter knows that the bureaucrat annoyed the business owner with regulations annoyed last fall .
+hierarchy,23,what_nogap_subj,The fact that the mafia boss knows who the criminal frightened the victim with a gun frightened the onlookers last night .
+hierarchy,23,that_nogap_subj,The fact that the mafia boss knows that the criminal frightened the victim with a gun frightened the onlookers last night .
+hierarchy,23,what_gap_subj,The fact that the mafia boss knows who the criminal frightened with a gun frightened the onlookers last night .
+hierarchy,23,that_gap_subj,The fact that the mafia boss knows that the criminal frightened with a gun frightened the onlookers last night .
+hierarchy,23,what_nogap_matrix,The fact that the mafia boss knows who the criminal frightened the victim with a gun frightened the onlookers last night .
+hierarchy,23,that_nogap_matrix,The fact that the mafia boss knows that the criminal frightened the victim with a gun frightened the onlookers last night .
+hierarchy,23,what_gap_matrix,The fact that the mafia boss knows who the criminal frightened the victim with a gun frightened last night .
+hierarchy,23,that_gap_matrix,The fact that the mafia boss knows that the criminal frightened the victim with a gun frightened last night .
+hierarchy,24,what_nogap_subj,The fact that the agent knows who the comedian offended the audience with a bad joke offended the bartender yesterday night .
+hierarchy,24,that_nogap_subj,The fact that the agent knows that the comedian offended the audience with a bad joke offended the bartender yesterday night .
+hierarchy,24,what_gap_subj,The fact that the agent knows who the comedian offended with a bad joke offended the bartender yesterday night .
+hierarchy,24,that_gap_subj,The fact that the agent knows that the comedian offended with a bad joke offended the bartender yesterday night .
+hierarchy,24,what_nogap_matrix,The fact that the agent knows who the comedian offended the audience with a bad joke offended the bartender yesterday night .
+hierarchy,24,that_nogap_matrix,The fact that the agent knows that the comedian offended the audience with a bad joke offended the bartender yesterday night .
+hierarchy,24,what_gap_matrix,The fact that the agent knows who the comedian offended the audience with a bad joke offended yesterday night .
+hierarchy,24,that_gap_matrix,The fact that the agent knows that the comedian offended the audience with a bad joke offended yesterday night .
+hierarchy,25,what_nogap_subj,The fact that he knows who we surprised our friends with a visit surprised everyone last week .
+hierarchy,25,that_nogap_subj,The fact that he knows that we surprised our friends with a visit surprised everyone last week .
+hierarchy,25,what_gap_subj,The fact that he knows who we surprised with a visit surprised everyone last week .
+hierarchy,25,that_gap_subj,The fact that he knows that we surprised with a visit surprised everyone last week .
+hierarchy,25,what_nogap_matrix,The fact that he knows who we surprised our friends with a visit surprised everyone last week .
+hierarchy,25,that_nogap_matrix,The fact that he knows that we surprised our friends with a visit surprised everyone last week .
+hierarchy,25,what_gap_matrix,The fact that he knows who we surprised our friends with a visit surprised last week .
+hierarchy,25,that_gap_matrix,The fact that he knows that we surprised our friends with a visit surprised last week .
+hierarchy,26,what_nogap_subj,The fact that we know who he worried his friends with erratic behavior worried the teachers last year .
+hierarchy,26,that_nogap_subj,The fact that we know that he worried his friends with erratic behavior worried the teachers last year .
+hierarchy,26,what_gap_subj,The fact that we know who he worried with erratic behavior worried the teachers last year .
+hierarchy,26,that_gap_subj,The fact that we know that he worried with erratic behavior worried the teachers last year .
+hierarchy,26,what_nogap_matrix,The fact that we know who he worried his friends with erratic behavior worried the teachers last year .
+hierarchy,26,that_nogap_matrix,The fact that we know that he worried his friends with erratic behavior worried the teachers last year .
+hierarchy,26,what_gap_matrix,The fact that we know who he worried his friends with erratic behavior worried last year .
+hierarchy,26,that_gap_matrix,The fact that we know that he worried his friends with erratic behavior worried last year .
+hierarchy,27,what_nogap_subj,The fact that he knows who the teacher confused the students with a bad example confused the administrators at the school .
+hierarchy,27,that_nogap_subj,The fact that he knows that the teacher confused the students with a bad example confused the administrators at the school .
+hierarchy,27,what_gap_subj,The fact that he knows who the teacher confused with a bad example confused the administrators at the school .
+hierarchy,27,that_gap_subj,The fact that he knows that the teacher confused with a bad example confused the administrators at the school .
+hierarchy,27,what_nogap_matrix,The fact that he knows who the teacher confused the students with a bad example confused the administrators at the school .
+hierarchy,27,that_nogap_matrix,The fact that he knows that the teacher confused the students with a bad example confused the administrators at the school .
+hierarchy,27,what_gap_matrix,The fact that he knows who the teacher confused the students with a bad example confused at the school .
+hierarchy,27,that_gap_matrix,The fact that he knows that the teacher confused the students with a bad example confused at the school .
+hierarchy,28,what_nogap_subj,The fact that she knows who they frightened their friends with masks frightened the others at the party .
+hierarchy,28,that_nogap_subj,The fact that she knows that they frightened their friends with masks frightened the others at the party .
+hierarchy,28,what_gap_subj,The fact that she knows who they frightened with masks frightened the others at the party .
+hierarchy,28,that_gap_subj,The fact that she knows that they frightened with masks frightened the others at the party .
+hierarchy,28,what_nogap_matrix,The fact that she knows who they frightened their friends with masks frightened the others at the party .
+hierarchy,28,that_nogap_matrix,The fact that she knows that they frightened their friends with masks frightened the others at the party .
+hierarchy,28,what_gap_matrix,The fact that she knows who they frightened their friends with masks frightened at the party .
+hierarchy,28,that_gap_matrix,The fact that she knows that they frightened their friends with masks frightened at the party .
+hierarchy,29,what_nogap_subj,The fact that they know who he delighted his parents with good grades delighted the teacher at the school .
+hierarchy,29,that_nogap_subj,The fact that they know that he delighted his parents with good grades delighted the teacher at the school .
+hierarchy,29,what_gap_subj,The fact that they know who he delighted with good grades delighted the teacher at the school .
+hierarchy,29,that_gap_subj,The fact that they know that he delighted with good grades delighted the teacher at the school .
+hierarchy,29,what_nogap_matrix,The fact that they know who he delighted his parents with good grades delighted the teacher at the school .
+hierarchy,29,that_nogap_matrix,The fact that they know that he delighted his parents with good grades delighted the teacher at the school .
+hierarchy,29,what_gap_matrix,The fact that they know who he delighted his parents with good grades delighted at the school .
+hierarchy,29,that_gap_matrix,The fact that they know that he delighted his parents with good grades delighted at the school .
+hierarchy,30,what_nogap_subj,The fact that we know who she shocked her mother with a bad haircut shocked her friends last week .
+hierarchy,30,that_nogap_subj,The fact that we know that she shocked her mother with a bad haircut shocked her friends last week .
+hierarchy,30,what_gap_subj,The fact that we know who she shocked with a bad haircut shocked her friends last week .
+hierarchy,30,that_gap_subj,The fact that we know that she shocked with a bad haircut shocked her friends last week .
+hierarchy,30,what_nogap_matrix,The fact that we know who she shocked her mother with a bad haircut shocked her friends last week .
+hierarchy,30,that_nogap_matrix,The fact that we know that she shocked her mother with a bad haircut shocked her friends last week .
+hierarchy,30,what_gap_matrix,The fact that we know who she shocked her mother with a bad haircut shocked last week .
+hierarchy,30,that_gap_matrix,The fact that we know that she shocked her mother with a bad haircut shocked last week .
+hierarchy,31,what_nogap_subj,The fact that he knows who you annoyed your mother recently annoyed the family over the holidays .
+hierarchy,31,that_nogap_subj,The fact that he knows that you annoyed your mother recently annoyed the family over the holidays .
+hierarchy,31,what_gap_subj,The fact that he knows who you annoyed recently annoyed the family over the holidays .
+hierarchy,31,that_gap_subj,The fact that he knows that you annoyed recently annoyed the family over the holidays .
+hierarchy,31,what_nogap_matrix,The fact that he knows who you annoyed your mother recently annoyed the family over the holidays .
+hierarchy,31,that_nogap_matrix,The fact that he knows that you annoyed your mother recently annoyed the family over the holidays .
+hierarchy,31,what_gap_matrix,The fact that he knows who you annoyed your mother recently annoyed over the holidays .
+hierarchy,31,that_gap_matrix,The fact that he knows that you annoyed your mother recently annoyed over the holidays .
+hierarchy,32,what_nogap_subj,The fact that I know who she surprised her husband with a gift surprised the therapist last year .
+hierarchy,32,that_nogap_subj,The fact that I know that she surprised her husband with a gift surprised the therapist last year .
+hierarchy,32,what_gap_subj,The fact that I know who she surprised with a gift surprised the therapist last year .
+hierarchy,32,that_gap_subj,The fact that I know that she surprised with a gift surprised the therapist last year .
+hierarchy,32,what_nogap_matrix,The fact that I know who she surprised her husband with a gift surprised the therapist last year .
+hierarchy,32,that_nogap_matrix,The fact that I know that she surprised her husband with a gift surprised the therapist last year .
+hierarchy,32,what_gap_matrix,The fact that I know who she surprised her husband with a gift surprised last year .
+hierarchy,32,that_gap_matrix,The fact that I know that she surprised her husband with a gift surprised last year .
+hierarchy,33,what_nogap_subj,The fact that we know who they worried the children with bad news worried their parents yesterday night .
+hierarchy,33,that_nogap_subj,The fact that we know that they worried the children with bad news worried their parents yesterday night .
+hierarchy,33,what_gap_subj,The fact that we know who they worried with bad news worried their parents yesterday night .
+hierarchy,33,that_gap_subj,The fact that we know that they worried with bad news worried their parents yesterday night .
+hierarchy,33,what_nogap_matrix,The fact that we know who they worried the children with bad news worried their parents yesterday night .
+hierarchy,33,that_nogap_matrix,The fact that we know that they worried the children with bad news worried their parents yesterday night .
+hierarchy,33,what_gap_matrix,The fact that we know who they worried the children with bad news worried yesterday night .
+hierarchy,33,that_gap_matrix,The fact that we know that they worried the children with bad news worried yesterday night .
+hierarchy,34,what_nogap_subj,The fact that you know who the man confused the tourists with bad directions confused his partner last week .
+hierarchy,34,that_nogap_subj,The fact that you know that the man confused the tourists with bad directions confused his partner last week .
+hierarchy,34,what_gap_subj,The fact that you know who the man confused with bad directions confused his partner last week .
+hierarchy,34,that_gap_subj,The fact that you know that the man confused with bad directions confused his partner last week .
+hierarchy,34,what_nogap_matrix,The fact that you know who the man confused the tourists with bad directions confused his partner last week .
+hierarchy,34,that_nogap_matrix,The fact that you know that the man confused the tourists with bad directions confused his partner last week .
+hierarchy,34,what_gap_matrix,The fact that you know who the man confused the tourists with bad directions confused last week .
+hierarchy,34,that_gap_matrix,The fact that you know that the man confused the tourists with bad directions confused last week .
+hierarchy,35,what_nogap_subj,The fact that he knows who the executive frightened the board with pay cuts frightened the stock holders last quarter .
+hierarchy,35,that_nogap_subj,The fact that he knows that the executive frightened the board with pay cuts frightened the stock holders last quarter .
+hierarchy,35,what_gap_subj,The fact that he knows who the executive frightened with pay cuts frightened the stock holders last quarter .
+hierarchy,35,that_gap_subj,The fact that he knows that the executive frightened with pay cuts frightened the stock holders last quarter .
+hierarchy,35,what_nogap_matrix,The fact that he knows who the executive frightened the board with pay cuts frightened the stock holders last quarter .
+hierarchy,35,that_nogap_matrix,The fact that he knows that the executive frightened the board with pay cuts frightened the stock holders last quarter .
+hierarchy,35,what_gap_matrix,The fact that he knows who the executive frightened the board with pay cuts frightened last quarter .
+hierarchy,35,that_gap_matrix,The fact that he knows that the executive frightened the board with pay cuts frightened last quarter .
+hierarchy,36,what_nogap_subj,The fact that she knows who the actor delighted the audience with a good joke delighted the critics last night .
+hierarchy,36,that_nogap_subj,The fact that she knows that the actor delighted the audience with a good joke delighted the critics last night .
+hierarchy,36,what_gap_subj,The fact that she knows who the actor delighted with a good joke delighted the critics last night .
+hierarchy,36,that_gap_subj,The fact that she knows that the actor delighted with a good joke delighted the critics last night .
+hierarchy,36,what_nogap_matrix,The fact that she knows who the actor delighted the audience with a good joke delighted the critics last night .
+hierarchy,36,that_nogap_matrix,The fact that she knows that the actor delighted the audience with a good joke delighted the critics last night .
+hierarchy,36,what_gap_matrix,The fact that she knows who the actor delighted the audience with a good joke delighted last night .
+hierarchy,36,that_gap_matrix,The fact that she knows that the actor delighted the audience with a good joke delighted last night .
+hierarchy,37,what_nogap_subj,The fact that you know who the accountant shocked his colleagues with his skill shocked the managers last quarter .
+hierarchy,37,that_nogap_subj,The fact that you know that the accountant shocked his colleagues with his skill shocked the managers last quarter .
+hierarchy,37,what_gap_subj,The fact that you know who the accountant shocked with his skill shocked the managers last quarter .
+hierarchy,37,that_gap_subj,The fact that you know that the accountant shocked with his skill shocked the managers last quarter .
+hierarchy,37,what_nogap_matrix,The fact that you know who the accountant shocked his colleagues with his skill shocked the managers last quarter .
+hierarchy,37,that_nogap_matrix,The fact that you know that the accountant shocked his colleagues with his skill shocked last quarter .
+hierarchy,37,what_gap_matrix,The fact that you know who the accountant shocked his colleagues with his skill shocked last quarter .
+hierarchy,37,that_gap_matrix,The fact that you know that the accountant shocked his colleagues with his skill shocked the managers last quarter .
+hierarchy,38,what_nogap_subj,The fact that he knows who the secretary annoyed the clerk with smalltalk annoyed the janitor late at night .
+hierarchy,38,that_nogap_subj,The fact that he knows that the secretary annoyed the clerk with smalltalk annoyed the janitor late at night .
+hierarchy,38,what_gap_subj,The fact that he knows who the secretary annoyed with smalltalk annoyed the janitor late at night .
+hierarchy,38,that_gap_subj,The fact that he knows that the secretary annoyed with smalltalk annoyed the janitor late at night .
+hierarchy,38,what_nogap_matrix,The fact that he knows who the secretary annoyed the clerk with smalltalk annoyed the janitor late at night .
+hierarchy,38,that_nogap_matrix,The fact that he knows that the secretary annoyed the clerk with smalltalk annoyed the janitor late at night .
+hierarchy,38,what_gap_matrix,The fact that he knows who the secretary annoyed the clerk with smalltalk annoyed late at night .
+hierarchy,38,that_gap_matrix,The fact that he knows that the secretary annoyed the clerk with smalltalk annoyed late at night .
+hierarchy,39,what_nogap_subj,The fact that she knows who the mayor surprised the reporter at the press conference surprised the city council last week .
+hierarchy,39,that_nogap_subj,The fact that she knows that the mayor surprised the reporter at the press conference surprised the city council last week .
+hierarchy,39,what_gap_subj,The fact that she knows who the mayor surprised at the press conference surprised the city council last week .
+hierarchy,39,that_gap_subj,The fact that she knows that the mayor surprised at the press conference surprised the city council last week .
+hierarchy,39,what_nogap_matrix,The fact that she knows who the mayor surprised the reporter at the press conference surprised the city council last week .
+hierarchy,39,that_nogap_matrix,The fact that she knows that the mayor surprised the reporter at the press conference surprised the city council last week .
+hierarchy,39,what_gap_matrix,The fact that she knows who the mayor surprised the reporter at the press conference surprised last week .
+hierarchy,39,that_gap_matrix,The fact that she knows that the mayor surprised the reporter at the press conference surprised last week .
+hierarchy,40,what_nogap_subj,The fact that they know who we worried our mother with our bad habits worried her friends constantly .
+hierarchy,40,that_nogap_subj,The fact that they know that we worried our mother with our bad habits worried her friends constantly .
+hierarchy,40,what_gap_subj,The fact that they know who we worried with our bad habits worried her friends constantly .
+hierarchy,40,that_gap_subj,The fact that they know that we worried with our bad habits worried her friends constantly .
+hierarchy,40,what_nogap_matrix,The fact that they know who we worried our mother with our bad habits worried her friends constantly .
+hierarchy,40,that_nogap_matrix,The fact that they know that we worried our mother with our bad habits worried her friends constantly .
+hierarchy,40,what_gap_matrix,The fact that they know who we worried our mother with our bad habits worried constantly .
+hierarchy,40,that_gap_matrix,The fact that they know that we worried our mother with our bad habits worried constantly .
+hierarchy,41,what_nogap_subj,The fact that you know who he confused me with the directions confused my spouse on our holiday .
+hierarchy,41,that_nogap_subj,The fact that you know that he confused me with the directions confused my spouse on our holiday .
+hierarchy,41,what_gap_subj,The fact that you know who he confused with the directions confused my spouse on our holiday .
+hierarchy,41,that_gap_subj,The fact that you know that he confused with the directions confused my spouse on our holiday .
+hierarchy,41,what_nogap_matrix,The fact that you know who he confused me with the directions confused my spouse on our holiday .
+hierarchy,41,that_nogap_matrix,The fact that you know that he confused me with the directions confused my spouse on our holiday .
+hierarchy,41,what_gap_matrix,The fact that you know who he confused me with the directions confused on our holiday .
+hierarchy,41,that_gap_matrix,The fact that you know that he confused me with the directions confused on our holiday .
+hierarchy,42,what_nogap_subj,The fact that I know who the clown frightened the kids with its laugh frightened the adults at the birthday party .
+hierarchy,42,that_nogap_subj,The fact that I know that the clown frightened the kids with its laugh frightened the adults at the birthday party .
+hierarchy,42,what_gap_subj,The fact that I know who the clown frightened with its laugh frightened the adults at the birthday party .
+hierarchy,42,that_gap_subj,The fact that I know that the clown frightened with its laugh frightened the adults at the birthday party .
+hierarchy,42,what_nogap_matrix,The fact that I know who the clown frightened the kids with its laugh frightened the adults at the birthday party .
+hierarchy,42,that_nogap_matrix,The fact that I know that the clown frightened the kids with its laugh frightened the adults at the birthday party .
+hierarchy,42,what_gap_matrix,The fact that I know who the clown frightened the kids with its laugh frightened at the birthday party .
+hierarchy,42,that_gap_matrix,The fact that I know that the clown frightened the kids with its laugh frightened at the birthday party .
+hierarchy,43,what_nogap_subj,The fact that he knows who we delighted our relatives during the visit delighted everyone last year .
+hierarchy,43,that_nogap_subj,The fact that he knows that we delighted our relatives during the visit delighted everyone last year .
+hierarchy,43,what_gap_subj,The fact that he knows who we delighted during the visit delighted everyone last year .
+hierarchy,43,that_gap_subj,The fact that he knows that we delighted during the visit delighted everyone last year .
+hierarchy,43,what_nogap_matrix,The fact that he knows who we delighted our relatives during the visit delighted everyone last year .
+hierarchy,43,that_nogap_matrix,The fact that he knows that we delighted our relatives during the visit delighted everyone last year .
+hierarchy,43,what_gap_matrix,The fact that he knows who we delighted our relatives during the visit delighted last year .
+hierarchy,43,that_gap_matrix,The fact that he knows that we delighted our relatives during the visit delighted last year .
+hierarchy,44,what_nogap_subj,The fact that she knows who he shocked his coworkers with bad news shocked the manager at the meeting .
+hierarchy,44,that_nogap_subj,The fact that she knows that he shocked his coworkers with bad news shocked the manager at the meeting .
+hierarchy,44,what_gap_subj,The fact that she knows who he shocked with bad news shocked the manager at the meeting .
+hierarchy,44,that_gap_subj,The fact that she knows that he shocked with bad news shocked the manager at the meeting .
+hierarchy,44,what_nogap_matrix,The fact that she knows who he shocked his coworkers with bad news shocked the manager at the meeting .
+hierarchy,44,that_nogap_matrix,The fact that she knows that he shocked his coworkers with bad news shocked the manager at the meeting .
+hierarchy,44,what_gap_matrix,The fact that she knows who he shocked his coworkers with bad news shocked at the meeting .
+hierarchy,44,that_gap_matrix,The fact that she knows that he shocked his coworkers with bad news shocked at the meeting .
+hierarchy,45,what_nogap_subj,The fact that they know who she annoyed her friends with constant requests annoyed everyone constantly .
+hierarchy,45,that_nogap_subj,The fact that they know that she annoyed her friends with constant requests annoyed everyone constantly .
+hierarchy,45,what_gap_subj,The fact that they know who she annoyed with constant requests annoyed everyone constantly .
+hierarchy,45,that_gap_subj,The fact that they know that she annoyed with constant requests annoyed everyone constantly .
+hierarchy,45,what_nogap_matrix,The fact that they know who she annoyed her friends with constant requests annoyed everyone constantly .
+hierarchy,45,that_nogap_matrix,The fact that they know that she annoyed her friends with constant requests annoyed everyone constantly .
+hierarchy,45,what_gap_matrix,The fact that they know who she annoyed her friends with constant requests annoyed constantly .
+hierarchy,45,that_gap_matrix,The fact that they know that she annoyed her friends with constant requests annoyed constantly .
+islands_coordination,1,that_nogap_obj,I know that the man and woman bought a table and a lamp at the antique shop .
+islands_coordination,1,what_nogap_obj,I know what the man and woman bought a table and a lamp at the antique shop .
+islands_coordination,1,that_gap_obj,I know that the man and woman bought at the antique shop .
+islands_coordination,1,what_gap_obj,I know what the man and woman bought at the antique shop .
+islands_coordination,1,that_nogap_first,I know that the man and woman bought a table and a lamp at the antique shop .
+islands_coordination,1,what_nogap_first,I know what the man and woman bought a table and a lamp at the antique shop .
+islands_coordination,1,that_gap_first,I know that the man and woman bought and a lamp at the antique shop .
+islands_coordination,1,what_gap_first,I know what the man and woman bought and a lamp at the antique shop .
+islands_coordination,1,that_nogap_second,I know that the man bought a table and a lamp at the antique shop .
+islands_coordination,1,what_nogap_second,I know what the man bought a table and a lamp at the antique shop .
+islands_coordination,1,that_gap_second,I know that the man bought a table and at the antique shop .
+islands_coordination,1,what_gap_second,I know what the man bought a table and at the antique shop .
+islands_coordination,2,that_nogap_obj,She told me that my brother and sister ate a burger and a plate of fries for dinner .
+islands_coordination,2,what_nogap_obj,She told me what my brother and sister ate a burger and a plate of fries for dinner .
+islands_coordination,2,that_gap_obj,She told me that my brother and sister ate for dinner .
+islands_coordination,2,what_gap_obj,She told me what my brother and sister ate for dinner .
+islands_coordination,2,that_nogap_first,She told me that my brother and sister ate a burger and a plate of fries for dinner .
+islands_coordination,2,what_nogap_first,She told me what my brother and sister ate a burger and a plate of fries for dinner .
+islands_coordination,2,that_gap_first,She told me that my brother and sister ate and a plate of fries for dinner .
+islands_coordination,2,what_gap_first,She told me what my brother and sister ate and a plate of fries for dinner .
+islands_coordination,2,that_nogap_second,She told me that my brother ate a burger and a plate of fries for dinner .
+islands_coordination,2,what_nogap_second,She told me what my brother ate a burger and a plate of fries for dinner .
+islands_coordination,2,that_gap_second,She told me that my brother ate a burger and for dinner .
+islands_coordination,2,what_gap_second,She told me what my brother ate a burger and for dinner .
+islands_coordination,3,that_nogap_obj,He knows that the manager and the assistant prepared a presentation and a report for the meeting .
+islands_coordination,3,what_nogap_obj,He knows what the manager and the assistant prepared a presentation and a report for the meeting .
+islands_coordination,3,that_gap_obj,He knows that the manager and the assistant prepared for the meeting .
+islands_coordination,3,what_gap_obj,He knows what the manager and the assistant prepared for the meeting .
+islands_coordination,3,that_nogap_first,He knows that the manager and the assistant prepared a presentation and a report for the meeting .
+islands_coordination,3,what_nogap_first,He knows what the manager and the assistant prepared a presentation and a report for the meeting .
+islands_coordination,3,that_gap_first,He knows that the manager and the assistant prepared and a report for the meeting .
+islands_coordination,3,what_gap_first,He knows what the manager and the assistant prepared and a report for the meeting .
+islands_coordination,3,that_nogap_second,He knows that the manager prepared a presentation and a report for the meeting .
+islands_coordination,3,what_nogap_second,He knows what the manager prepared a presentation and a report for the meeting .
+islands_coordination,3,that_gap_second,He knows that the manager prepared a presentation and for the meeting .
+islands_coordination,3,what_gap_second,He knows what the manager prepared a presentation and for the meeting .
+islands_coordination,4,that_nogap_obj,He told me that the mailman and the receptionist delivered a package and a letter to the senior center .
+islands_coordination,4,what_nogap_obj,He told me what the mailman and the receptionist delivered a package and a letter to the senior center .
+islands_coordination,4,that_gap_obj,He told me that the mailman and the receptionist delivered to the senior center .
+islands_coordination,4,what_gap_obj,He told me what the mailman and the receptionist delivered to the senior center .
+islands_coordination,4,that_nogap_first,He told me that the mailman and the receptionist delivered a package and a letter to the senior center .
+islands_coordination,4,what_nogap_first,He told me what the mailman and the receptionist delivered a package and a letter to the senior center .
+islands_coordination,4,that_gap_first,He told me that the mailman and the receptionist delivered and a letter to the senior center .
+islands_coordination,4,what_gap_first,He told me what the mailman and the receptionist delivered and a letter to the senior center .
+islands_coordination,4,that_nogap_second,He told me that the mailman delivered a package and a letter to the senior center .
+islands_coordination,4,what_nogap_second,He told me what the mailman delivered a package and a letter to the senior center .
+islands_coordination,4,that_gap_second,He told me that the mailman delivered a package and to the senior center .
+islands_coordination,4,what_gap_second,He told me what the mailman delivered a package and to the senior center .
+islands_coordination,5,that_nogap_obj,I remember that the mayor and his assistant spoke with the clerk and the accountant after the meeting .
+islands_coordination,5,what_nogap_obj,I remember what the mayor and his assistant spoke with the clerk and the accountant after the meeting .
+islands_coordination,5,that_gap_obj,I remember that the mayor and his assistant spoke with after the meeting .
+islands_coordination,5,what_gap_obj,I remember what the mayor and his assistant spoke with after the meeting .
+islands_coordination,5,that_nogap_first,I remember that the mayor and his assistant spoke with the clerk and the accountant after the meeting .
+islands_coordination,5,what_nogap_first,I remember what the mayor and his assistant spoke with the clerk and the accountant after the meeting .
+islands_coordination,5,that_gap_first,I remember that the mayor and his assistant spoke with and the accountant after the meeting .
+islands_coordination,5,what_gap_first,I remember what the mayor and his assistant spoke with and the accountant after the meeting .
+islands_coordination,5,that_nogap_second,I remember that the mayor spoke with the clerk and the accountant after the meeting .
+islands_coordination,5,what_nogap_second,I remember what the mayor spoke with the clerk and the accountant after the meeting .
+islands_coordination,5,that_gap_second,I remember that the mayor spoke with the clerk and after the meeting .
+islands_coordination,5,what_gap_second,I remember what the mayor spoke with the clerk and after the meeting .
+islands_coordination,6,that_nogap_obj,He remembered that the soldier and the marine cleaned his boots and his gun after dinner .
+islands_coordination,6,what_nogap_obj,He remembered what the soldier and the marine cleaned his boots and his gun after dinner .
+islands_coordination,6,that_gap_obj,He remembered that the soldier and the marine cleaned after dinner .
+islands_coordination,6,what_gap_obj,He remembered what the soldier and the marine cleaned after dinner .
+islands_coordination,6,that_nogap_first,He remembered that the soldier and the marine cleaned his boots and his gun after dinner .
+islands_coordination,6,what_nogap_first,He remembered what the soldier and the marine cleaned his boots and his gun after dinner .
+islands_coordination,6,that_gap_first,He remembered that the soldier and the marine cleaned and his gun after dinner .
+islands_coordination,6,what_gap_first,He remembered what the soldier and the marine cleaned and his gun after dinner .
+islands_coordination,6,that_nogap_second,He remembered that the soldier cleaned his boots and his gun after dinner .
+islands_coordination,6,what_nogap_second,He remembered what the soldier cleaned his boots and his gun after dinner .
+islands_coordination,6,that_gap_second,He remembered that the soldier cleaned his boots and after dinner .
+islands_coordination,6,what_gap_second,He remembered what the soldier cleaned his boots and after dinner .
+islands_coordination,7,that_nogap_obj,The newspaper reported that the nurse and the doctor visited the new patient and the worried family last night .
+islands_coordination,7,what_nogap_obj,The newspaper reported what the nurse and the doctor visited the new patient and the worried family last night .
+islands_coordination,7,that_gap_obj,The newspaper reported that the nurse and the doctor visited last night .
+islands_coordination,7,what_gap_obj,The newspaper reported what the nurse and the doctor visited last night .
+islands_coordination,7,that_nogap_first,The newspaper reported that the nurse and the doctor visited the new patient and the worried family last night .
+islands_coordination,7,what_nogap_first,The newspaper reported what the nurse and the doctor visited the new patient and the worried family last night .
+islands_coordination,7,that_gap_first,The newspaper reported that the nurse and the doctor visited and the worried family last night .
+islands_coordination,7,what_gap_first,The newspaper reported what the nurse and the doctor visited and the worried family last night .
+islands_coordination,7,that_nogap_second,The newspaper reported that the nurse visited the new patient and the worried family last night .
+islands_coordination,7,what_nogap_second,The newspaper reported what the nurse visited the new patient and the worried family last night .
+islands_coordination,7,that_gap_second,The newspaper reported that the nurse visited the new patient and last night .
+islands_coordination,7,what_gap_second,The newspaper reported what the nurse visited the new patient and last night .
+islands_coordination,8,that_nogap_obj,We remembered that my mother and my father read a new novel and a book of poetry on vacation .
+islands_coordination,8,what_nogap_obj,We remembered what my mother and my father read a new novel and a book of poetry on vacation .
+islands_coordination,8,that_gap_obj,We remembered that my mother and my father read on vacation .
+islands_coordination,8,what_gap_obj,We remembered what my mother and my father read on vacation .
+islands_coordination,8,that_nogap_first,We remembered that my mother and my father read a new novel and a book of poetry on vacation .
+islands_coordination,8,what_nogap_first,We remembered what my mother and my father read a new novel and a book of poetry on vacation .
+islands_coordination,8,that_gap_first,We remembered that my mother and my father read and a book of poetry on vacation .
+islands_coordination,8,what_gap_first,We remembered what my mother and my father read and a book of poetry on vacation .
+islands_coordination,8,that_nogap_second,We remembered that my mother read a new novel and a book of poetry on vacation .
+islands_coordination,8,what_nogap_second,We remembered what my mother read a new novel and a book of poetry on vacation .
+islands_coordination,8,that_gap_second,We remembered that my mother read a new novel and on vacation .
+islands_coordination,8,what_gap_second,We remembered what my mother read a new novel and on vacation .
+islands_coordination,9,that_nogap_obj,They remembered that the boy and the girl watched a movie and a basketball game on television .
+islands_coordination,9,what_nogap_obj,They remembered what the boy and the girl watched a movie and a basketball game on television .
+islands_coordination,9,that_gap_obj,They remembered that the boy and the girl watched on television .
+islands_coordination,9,what_gap_obj,They remembered what the boy and the girl watched on television .
+islands_coordination,9,that_nogap_first,They remembered that the boy and the girl watched a movie and a basketball game on television .
+islands_coordination,9,what_nogap_first,They remembered what the boy and the girl watched a movie and a basketball game on television .
+islands_coordination,9,that_gap_first,They remembered that the boy and the girl watched and a basketball game on television .
+islands_coordination,9,what_gap_first,They remembered what the boy and the girl watched and a basketball game on television .
+islands_coordination,9,that_nogap_second,They remembered that the boy watched a movie and a basketball game on television .
+islands_coordination,9,what_nogap_second,They remembered what the boy watched a movie and a basketball game on television .
+islands_coordination,9,that_gap_second,They remembered that the boy watched a movie and on television .
+islands_coordination,9,what_gap_second,They remembered what the boy watched a movie and on television .
+islands_coordination,10,that_nogap_obj,We all know that the man and the woman dislike broccoli nan and kidney beans with a great passion .
+islands_coordination,10,what_nogap_obj,We all know what the man and the woman dislike broccoli nan and kidney beans with a great passion .
+islands_coordination,10,that_gap_obj,We all know that the man and the woman dislike with a great passion .
+islands_coordination,10,what_gap_obj,We all know what the man and the woman dislike with a great passion .
+islands_coordination,10,that_nogap_first,We all know that the man and the woman dislike broccoli nan and kidney beans with a great passion .
+islands_coordination,10,what_nogap_first,We all know what the man and the woman dislike broccoli nan and kidney beans with a great passion .
+islands_coordination,10,that_gap_first,We all know that the man and the woman dislike and kidney beans with a great passion .
+islands_coordination,10,what_gap_first,We all know what the man and the woman dislike and kidney beans with a great passion .
+islands_coordination,10,that_nogap_second,We all know that the man dislike broccoli nan and kidney beans with a great passion .
+islands_coordination,10,what_nogap_second,We all know what the man dislike broccoli nan and kidney beans with a great passion .
+islands_coordination,10,that_gap_second,We all know that the man dislike broccoli nan and with a great passion .
+islands_coordination,10,what_gap_second,We all know what the man dislike broccoli nan and with a great passion .
+islands_coordination,11,that_nogap_obj,The newspaper reported that the tourists and their friends saw the church and the museum on the tour .
+islands_coordination,11,what_nogap_obj,The newspaper reported what the tourists and their friends saw the church and the museum on the tour .
+islands_coordination,11,that_gap_obj,The newspaper reported that the tourists and their friends saw on the tour .
+islands_coordination,11,what_gap_obj,The newspaper reported what the tourists and their friends saw on the tour .
+islands_coordination,11,that_nogap_first,The newspaper reported that the tourists and their friends saw the church and the museum on the tour .
+islands_coordination,11,what_nogap_first,The newspaper reported what the tourists and their friends saw the church and the museum on the tour .
+islands_coordination,11,that_gap_first,The newspaper reported that the tourists and their friends saw and the museum on the tour .
+islands_coordination,11,what_gap_first,The newspaper reported what the tourists and their friends saw and the museum on the tour .
+islands_coordination,11,that_nogap_second,The newspaper reported that the tourists saw the church and the museum on the tour .
+islands_coordination,11,what_nogap_second,The newspaper reported what the tourists saw the church and the museum on the tour .
+islands_coordination,11,that_gap_second,The newspaper reported that the tourists saw the church and on the tour .
+islands_coordination,11,what_gap_second,The newspaper reported what the tourists saw the church and on the tour .
+islands_coordination,12,that_nogap_obj,He knows that the carpenter and the mason crafted a new table and a bedstand over the weekend .
+islands_coordination,12,what_nogap_obj,He knows what the carpenter and the mason crafted a new table and a bedstand over the weekend .
+islands_coordination,12,that_gap_obj,He knows that the carpenter and the mason crafted over the weekend .
+islands_coordination,12,what_gap_obj,He knows what the carpenter and the mason crafted over the weekend .
+islands_coordination,12,that_nogap_first,He knows that the carpenter and the mason crafted a new table and a bedstand over the weekend .
+islands_coordination,12,what_nogap_first,He knows what the carpenter and the mason crafted a new table and a bedstand over the weekend .
+islands_coordination,12,that_gap_first,He knows that the carpenter and the mason crafted and a bedstand over the weekend .
+islands_coordination,12,what_gap_first,He knows what the carpenter and the mason crafted and a bedstand over the weekend .
+islands_coordination,12,that_nogap_second,He knows that the carpenter crafted a new table and a bedstand over the weekend .
+islands_coordination,12,what_nogap_second,He knows what the carpenter crafted a new table and a bedstand over the weekend .
+islands_coordination,12,that_gap_second,He knows that the carpenter crafted a new table and over the weekend .
+islands_coordination,12,what_gap_second,He knows what the carpenter crafted a new table and over the weekend .
+islands_coordination,13,that_nogap_obj,I remember that the children and their friends visited a boutique and an ice cream parlor during the afternoon .
+islands_coordination,13,what_nogap_obj,I remember what the children and their friends visited a boutique and an ice cream parlor during the afternoon .
+islands_coordination,13,that_gap_obj,I remember that the children and their friends visited during the afternoon .
+islands_coordination,13,what_gap_obj,I remember what the children and their friends visited during the afternoon .
+islands_coordination,13,that_nogap_first,I remember that the children and their friends visited a boutique and an ice cream parlor during the afternoon .
+islands_coordination,13,what_nogap_first,I remember what the children and their friends visited a boutique and an ice cream parlor during the afternoon .
+islands_coordination,13,that_gap_first,I remember that the children and their friends visited and an ice cream parlor during the afternoon .
+islands_coordination,13,what_gap_first,I remember what the children and their friends visited and an ice cream parlor during the afternoon .
+islands_coordination,13,that_nogap_second,I remember that the children visited a boutique and an ice cream parlor during the afternoon .
+islands_coordination,13,what_nogap_second,I remember what the children visited a boutique and an ice cream parlor during the afternoon .
+islands_coordination,13,that_gap_second,I remember that the children visited a boutique and during the afternoon .
+islands_coordination,13,what_gap_second,I remember what the children visited a boutique and during the afternoon .
+islands_coordination,14,that_nogap_obj,She told me that the businessman and his assistant wore a blue suit and a tie last week .
+islands_coordination,14,what_nogap_obj,She told me what the businessman and his assistant wore a blue suit and a tie last week .
+islands_coordination,14,that_gap_obj,She told me that the businessman and his assistant wore last week .
+islands_coordination,14,what_gap_obj,She told me what the businessman and his assistant wore last week .
+islands_coordination,14,that_nogap_first,She told me that the businessman and his assistant wore a blue suit and a tie last week .
+islands_coordination,14,what_nogap_first,She told me what the businessman and his assistant wore a blue suit and a tie last week .
+islands_coordination,14,that_gap_first,She told me that the businessman and his assistant wore and a tie last week .
+islands_coordination,14,what_gap_first,She told me what the businessman and his assistant wore and a tie last week .
+islands_coordination,14,that_nogap_second,She told me that the businessman wore a blue suit and a tie last week .
+islands_coordination,14,what_nogap_second,She told me what the businessman wore a blue suit and a tie last week .
+islands_coordination,14,that_gap_second,She told me that the businessman wore a blue suit and last week .
+islands_coordination,14,what_gap_second,She told me what the businessman wore a blue suit and last week .
+islands_coordination,15,that_nogap_obj,The newspaper described that the lawyers and their clients destroyed the email server and the court records late at night .
+islands_coordination,15,what_nogap_obj,The newspaper described what the lawyers and their clients destroyed the email server and the court records late at night .
+islands_coordination,15,that_gap_obj,The newspaper described that the lawyers and their clients destroyed late at night .
+islands_coordination,15,what_gap_obj,The newspaper described what the lawyers and their clients destroyed late at night .
+islands_coordination,15,that_nogap_first,The newspaper described that the lawyers and their clients destroyed the email server and the court records late at night .
+islands_coordination,15,what_nogap_first,The newspaper described what the lawyers and their clients destroyed the email server and the court records late at night .
+islands_coordination,15,that_gap_first,The newspaper described that the lawyers and their clients destroyed and the court records late at night .
+islands_coordination,15,what_gap_first,The newspaper described what the lawyers and their clients destroyed and the court records late at night .
+islands_coordination,15,that_nogap_second,The newspaper described that the lawyers destroyed the email server and the court records late at night .
+islands_coordination,15,what_nogap_second,The newspaper described what the lawyers destroyed the email server and the court records late at night .
+islands_coordination,15,that_gap_second,The newspaper described that the lawyers destroyed the email server and late at night .
+islands_coordination,15,what_gap_second,The newspaper described what the lawyers destroyed the email server and late at night .
+islands_coordination,16,that_nogap_obj,The blog post described that the senators and the lobbyists discussed the new bill and a salary increase on television .
+islands_coordination,16,what_nogap_obj,The blog post described what the senators and the lobbyists discussed the new bill and a salary increase on television .
+islands_coordination,16,that_gap_obj,The blog post described that the senators and the lobbyists discussed on television .
+islands_coordination,16,what_gap_obj,The blog post described what the senators and the lobbyists discussed on television .
+islands_coordination,16,that_nogap_first,The blog post described that the senators and the lobbyists discussed the new bill and a salary increase on television .
+islands_coordination,16,what_nogap_first,The blog post described what the senators and the lobbyists discussed the new bill and a salary increase on television .
+islands_coordination,16,that_gap_first,The blog post described that the senators and the lobbyists discussed and a salary increase on television .
+islands_coordination,16,what_gap_first,The blog post described what the senators and the lobbyists discussed and a salary increase on television .
+islands_coordination,16,that_nogap_second,The blog post described that the senators discussed the new bill and a salary increase on television .
+islands_coordination,16,what_nogap_second,The blog post described what the senators discussed the new bill and a salary increase on television .
+islands_coordination,16,that_gap_second,The blog post described that the senators discussed the new bill and on television .
+islands_coordination,16,what_gap_second,The blog post described what the senators discussed the new bill and on television .
+islands_coordination,17,that_nogap_obj,The biography said that the athlete and the coach played football and soccer for many years .
+islands_coordination,17,what_nogap_obj,The biography said what the athlete and the coach played football and soccer for many years .
+islands_coordination,17,that_gap_obj,The biography said that the athlete and the coach played for many years .
+islands_coordination,17,what_gap_obj,The biography said what the athlete and the coach played for many years .
+islands_coordination,17,that_nogap_first,The biography said that the athlete and the coach played for many years .
+islands_coordination,17,what_nogap_first,The biography said what the athlete and the coach played football and soccer for many years .
+islands_coordination,17,that_gap_first,The biography said that the athlete and the coach played football and soccer for many years .
+islands_coordination,17,what_gap_first,The biography said what the athlete and the coach played and soccer for many years .
+islands_coordination,17,that_nogap_second,The biography said that the athlete played and soccer for many years .
+islands_coordination,17,what_nogap_second,The biography said what the athlete played football and soccer for many years .
+islands_coordination,17,that_gap_second,The biography said that the athlete played football and for many years .
+islands_coordination,17,what_gap_second,The biography said what the athlete played football and for many years .
+islands_coordination,18,that_nogap_obj,The newspaper reported that the electrician and the carpenter fixed the fridge and the microwave during his visit .
+islands_coordination,18,what_nogap_obj,The newspaper reported what the electrician and the carpenter fixed the fridge and the microwave during his visit .
+islands_coordination,18,that_gap_obj,The newspaper reported that the electrician and the carpenter fixed during his visit .
+islands_coordination,18,what_gap_obj,The newspaper reported what the electrician and the carpenter fixed during his visit .
+islands_coordination,18,that_nogap_first,The newspaper reported that the electrician and the carpenter fixed the fridge and the microwave during his visit .
+islands_coordination,18,what_nogap_first,The newspaper reported what the electrician and the carpenter fixed the fridge and the microwave during his visit .
+islands_coordination,18,that_gap_first,The newspaper reported that the electrician and the carpenter fixed and the microwave during his visit .
+islands_coordination,18,what_gap_first,The newspaper reported what the electrician and the carpenter fixed and the microwave during his visit .
+islands_coordination,18,that_nogap_second,The newspaper reported that the electrician fixed the fridge and the microwave during his visit .
+islands_coordination,18,what_nogap_second,The newspaper reported what the electrician fixed the fridge and the microwave during his visit .
+islands_coordination,18,that_gap_second,The newspaper reported that the electrician fixed the fridge and during his visit .
+islands_coordination,18,what_gap_second,The newspaper reported what the electrician fixed the fridge and during his visit .
+islands_coordination,19,that_nogap_obj,I remember that the professor and her husband taught roman law and greek theater for many years .
+islands_coordination,19,what_nogap_obj,I remember what the professor and her husband taught roman law and greek theater for many years .
+islands_coordination,19,that_gap_obj,I remember that the professor and her husband taught for many years .
+islands_coordination,19,what_gap_obj,I remember what the professor and her husband taught for many years .
+islands_coordination,19,that_nogap_first,I remember that the professor and her husband taught roman law and greek theater for many years .
+islands_coordination,19,what_nogap_first,I remember what the professor and her husband taught roman law and greek theater for many years .
+islands_coordination,19,that_gap_first,I remember that the professor and her husband taught and greek theater for many years .
+islands_coordination,19,what_gap_first,I remember what the professor and her husband taught and greek theater for many years .
+islands_coordination,19,that_nogap_second,I remember that the professor taught roman law and greek theater for many years .
+islands_coordination,19,what_nogap_second,I remember what the professor taught roman law and greek theater for many years .
+islands_coordination,19,that_gap_second,I remember that the professor taught roman law and for many years .
+islands_coordination,19,what_gap_second,I remember what the professor taught roman law and for many years .
+islands_coordination,20,that_nogap_obj,I know that the principal and the teachers admired the school nurse and the gym teacher for many years .
+islands_coordination,20,what_nogap_obj,I know what the principal and the teachers admired the school nurse and the gym teacher for many years .
+islands_coordination,20,that_gap_obj,I know that the principal and the teachers admired for many years .
+islands_coordination,20,what_gap_obj,I know what the principal and the teachers admired for many years .
+islands_coordination,20,that_nogap_first,I know that the principal and the teachers admired the school nurse and the gym teacher for many years .
+islands_coordination,20,what_nogap_first,I know what the principal and the teachers admired the school nurse and the gym teacher for many years .
+islands_coordination,20,that_gap_first,I know that the principal and the teachers admired and the gym teacher for many years .
+islands_coordination,20,what_gap_first,I know what the principal and the teachers admired and the gym teacher for many years .
+islands_coordination,20,that_nogap_second,I know that the principal admired the school nurse and the gym teacher for many years .
+islands_coordination,20,what_nogap_second,I know what the principal admired the school nurse and the gym teacher for many years .
+islands_coordination,20,that_gap_second,I know that the principal admired the school nurse and for many years .
+islands_coordination,20,what_gap_second,I know what the principal admired the school nurse and for many years .
+islands_coordination,21,nan,She told me that my friend and her boyfriend toured northern Africa and the Spanish coast during the holiday She told me what my friend and her boyfriend toured northern Africa and the Spanish coast during the holiday She told me that my friend and her boyfriend toured during the holiday She told me what my friend and her boyfriend toured during the holiday She told me that my friend and her boyfriend toured northern Africa and the Spanish coast during the holiday She told me what my friend and her boyfriend toured northern Africa and the Spanish coast during the holiday She told me that my friend and her boyfriend toured and the Spanish coast during the holiday She told me what my friend and her boyfriend toured and the Spanish coast during the holiday She told me that my friend toured northern Africa and the Spanish coast during the holiday She told me what my friend toured northern Africa and the Spanish coast during the holiday She told me that my friend toured northern Africa and during the holiday She told me what my friend toured northern Africa and during the holiday .
+islands_left-branch,1,that_nogap_obj,I know that he insulted a good person last weekend .
+islands_left-branch,1,what_nogap_obj,I know how good a person he insulted a good person last weekend .
+islands_left-branch,1,that_gap_obj,I know that he insulted last weekend .
+islands_left-branch,1,what_gap_obj,I know how good a person he insulted last weekend .
+islands_left-branch,1,that_nogap_lb,I know that he insulted a good person last weekend .
+islands_left-branch,1,what_nogap_lb,I know how good he insulted a good person last weekend .
+islands_left-branch,1,that_gap_lb,I know that he insulted a person last weekend .
+islands_left-branch,1,what_gap_lb,I know how good he insulted a person last weekend .
+islands_left-branch,2,that_nogap_obj,We realize that she trusted a close friend with the secret .
+islands_left-branch,2,what_nogap_obj,We realize how close a friend she trusted a close friend with the secret .
+islands_left-branch,2,that_gap_obj,We realize that she trusted with the secret .
+islands_left-branch,2,what_gap_obj,We realize how close a friend she trusted with the secret .
+islands_left-branch,2,that_nogap_lb,We realize that she trusted a close friend with the secret .
+islands_left-branch,2,what_nogap_lb,We realize how close she trusted a close friend with the secret .
+islands_left-branch,2,that_gap_lb,We realize that she trusted a friend with the secret .
+islands_left-branch,2,what_gap_lb,We realize how close she trusted a friend with the secret .
+islands_left-branch,3,that_nogap_obj,She wondered that he punched a dangerous criminal last night .
+islands_left-branch,3,what_nogap_obj,She wondered how dangerous a criminal he punched a dangerous criminal last night .
+islands_left-branch,3,that_gap_obj,She wondered that he punched last night .
+islands_left-branch,3,what_gap_obj,She wondered how dangerous a criminal he punched last night .
+islands_left-branch,3,that_nogap_lb,She wondered that he punched a dangerous criminal last night .
+islands_left-branch,3,what_nogap_lb,She wondered how dangerous he punched a dangerous criminal last night .
+islands_left-branch,3,that_gap_lb,She wondered that he punched a criminal last night .
+islands_left-branch,3,what_gap_lb,She wondered how dangerous he punched a criminal last night .
+islands_left-branch,4,that_nogap_obj,My friend told me that they met a beautiful dancer at the party .
+islands_left-branch,4,what_nogap_obj,My friend told me how beautiful a dancer they met a beautiful dancer at the party .
+islands_left-branch,4,that_gap_obj,My friend told me that they met at the party .
+islands_left-branch,4,what_gap_obj,My friend told me how beautiful a dancer they met at the party .
+islands_left-branch,4,that_nogap_lb,My friend told me that they met a beautiful dancer at the party .
+islands_left-branch,4,what_nogap_lb,My friend told me how beautiful they met a beautiful dancer at the party .
+islands_left-branch,4,that_gap_lb,My friend told me that they met a dancer at the party .
+islands_left-branch,4,what_gap_lb,My friend told me how beautiful they met a dancer at the party .
+islands_left-branch,5,that_nogap_obj,We discovered that the manager fired an unreliable employee yesterday .
+islands_left-branch,5,what_nogap_obj,We discovered how unreliable an employee the manager fired an unreliable employee yesterday .
+islands_left-branch,5,that_gap_obj,We discovered that the manager fired yesterday .
+islands_left-branch,5,what_gap_obj,We discovered how unreliable an employee the manager fired yesterday .
+islands_left-branch,5,that_nogap_lb,We discovered that the manager fired an unreliable employee yesterday .
+islands_left-branch,5,what_nogap_lb,We discovered how unreliable the manager fired an unreliable employee yesterday .
+islands_left-branch,5,that_gap_lb,We discovered that the manager fired an employee yesterday .
+islands_left-branch,5,what_gap_lb,We discovered how unreliable the manager fired an employee yesterday .
+islands_left-branch,6,that_nogap_obj,He knows that the lawyers represented a famous politician at the party .
+islands_left-branch,6,what_nogap_obj,He knows how famous a politician the lawyers represented a famous politician at the party .
+islands_left-branch,6,that_gap_obj,He knows that the lawyers represented at the party .
+islands_left-branch,6,what_gap_obj,He knows how famous a politician the lawyers represented at the party .
+islands_left-branch,6,that_nogap_lb,He knows that the lawyers represented a famous politician at the party .
+islands_left-branch,6,what_nogap_lb,He knows how famous the lawyers represented a famous politician at the party .
+islands_left-branch,6,that_gap_lb,He knows that the lawyers represented a politician at the party .
+islands_left-branch,6,what_gap_lb,He knows how famous the lawyers represented a politician at the party .
+islands_left-branch,7,that_nogap_obj,They know that the cavalry attacked a strong position during the battle .
+islands_left-branch,7,what_nogap_obj,They know how strong a position the cavalry attacked a strong position during the battle .
+islands_left-branch,7,that_gap_obj,They know that the cavalry attacked during the battle .
+islands_left-branch,7,what_gap_obj,They know how strong a position the cavalry attacked during the battle .
+islands_left-branch,7,that_nogap_lb,They know that the cavalry attacked a strong position during the battle .
+islands_left-branch,7,what_nogap_lb,They know how strong the cavalry attacked a strong position during the battle .
+islands_left-branch,7,that_gap_lb,They know that the cavalry attacked a position during the battle .
+islands_left-branch,7,what_gap_lb,They know how strong the cavalry attacked a position during the battle .
+islands_left-branch,8,that_nogap_obj,She knows that the mayor insulted a wealthy doner at the reception .
+islands_left-branch,8,what_nogap_obj,She knows how wealthy a donor the mayor insulted a wealthy doner at the reception .
+islands_left-branch,8,that_gap_obj,She knows that the mayor insulted at the reception .
+islands_left-branch,8,what_gap_obj,She knows how wealthy a donor the mayor insulted at the reception .
+islands_left-branch,8,that_nogap_lb,She knows that the mayor insulted a wealthy doner at the reception .
+islands_left-branch,8,what_nogap_lb,She knows how wealthy the mayor insulted a wealthy doner at the reception .
+islands_left-branch,8,that_gap_lb,She knows that the mayor insulted a doner at the reception .
+islands_left-branch,8,what_gap_lb,She knows how wealthy the mayor insulted a doner at the reception .
+islands_left-branch,9,that_nogap_obj,He reported that the detective observed a sly suspect for three hours .
+islands_left-branch,9,what_nogap_obj,He reported how sly a suspect the detective observed a sly suspect for three hours .
+islands_left-branch,9,that_gap_obj,He reported that the detective observed for three hours .
+islands_left-branch,9,what_gap_obj,He reported how sly a suspect the detective observed for three hours .
+islands_left-branch,9,that_nogap_lb,He reported that the detective observed a sly suspect for three hours .
+islands_left-branch,9,what_nogap_lb,He reported how sly the detective observed a sly suspect for three hours .
+islands_left-branch,9,that_gap_lb,He reported that the detective observed a suspect for three hours .
+islands_left-branch,9,what_gap_lb,He reported how sly the detective observed a suspect for three hours .
+islands_left-branch,10,that_nogap_obj,I know that the assassin shot a popular candidate at the rally .
+islands_left-branch,10,what_nogap_obj,I know how popular a candidate the assassin shot a popular candidate at the rally .
+islands_left-branch,10,that_gap_obj,I know that the assassin shot at the rally .
+islands_left-branch,10,what_gap_obj,I know how popular a candidate the assassin shot at the rally .
+islands_left-branch,10,that_nogap_lb,I know that the assassin shot a popular candidate at the rally .
+islands_left-branch,10,what_nogap_lb,I know how popular the assassin shot a popular candidate at the rally .
+islands_left-branch,10,that_gap_lb,I know that the assassin shot a candidate at the rally .
+islands_left-branch,10,what_gap_lb,I know how popular the assassin shot a candidate at the rally .
+islands_left-branch,11,that_nogap_obj,The newspaper reported that the witness identified a central witness during the trial .
+islands_left-branch,11,what_nogap_obj,The newspaper reported how central a suspect the witness identified a central witness during the trial .
+islands_left-branch,11,that_gap_obj,The newspaper reported that the witness identified during the trial .
+islands_left-branch,11,what_gap_obj,The newspaper reported how central a suspect the witness identified during the trial .
+islands_left-branch,11,that_nogap_lb,The newspaper reported that the witness identified a central witness during the trial .
+islands_left-branch,11,what_nogap_lb,The newspaper reported how central the witness identified a central witness during the trial .
+islands_left-branch,11,that_gap_lb,The newspaper reported that the witness identified a witness during the trial .
+islands_left-branch,11,what_gap_lb,The newspaper reported how central the witness identified a witness during the trial .
+islands_left-branch,12,that_nogap_obj,She found out that the lobbyist bribed a powerful senator last month .
+islands_left-branch,12,what_nogap_obj,She found out how powerful a senator the lobbyist bribed a powerful senator last month .
+islands_left-branch,12,that_gap_obj,She found out that the lobbyist bribed last month .
+islands_left-branch,12,what_gap_obj,She found out how powerful a senator the lobbyist bribed last month .
+islands_left-branch,12,that_nogap_lb,She found out that the lobbyist bribed a powerful senator last month .
+islands_left-branch,12,what_nogap_lb,She found out how powerful the lobbyist bribed a powerful senator last month .
+islands_left-branch,12,that_gap_lb,She found out that the lobbyist bribed a senator last month .
+islands_left-branch,12,what_gap_lb,She found out how powerful the lobbyist bribed a senator last month .
+islands_left-branch,13,that_nogap_obj,We discovered that the sergeant insulted a touchy citizen two hours ago .
+islands_left-branch,13,what_nogap_obj,We discovered how touchy a citizen the sergeant insulted a touchy citizen two hours ago .
+islands_left-branch,13,that_gap_obj,We discovered that the sergeant insulted two hours ago .
+islands_left-branch,13,what_gap_obj,We discovered how touchy a citizen the sergeant insulted two hours ago .
+islands_left-branch,13,that_nogap_lb,We discovered that the sergeant insulted a touchy citizen two hours ago .
+islands_left-branch,13,what_nogap_lb,We discovered how touchy the sergeant insulted a touchy citizen two hours ago .
+islands_left-branch,13,that_gap_lb,We discovered that the sergeant insulted a citizen two hours ago .
+islands_left-branch,13,what_gap_lb,We discovered how touchy the sergeant insulted a citizen two hours ago .
+islands_left-branch,14,that_nogap_obj,I realized that my brother married a beautiful woman last winter .
+islands_left-branch,14,what_nogap_obj,I realized how beautiful a woman my brother married a beautiful woman last winter .
+islands_left-branch,14,that_gap_obj,I realized that my brother married last winter .
+islands_left-branch,14,what_gap_obj,I realized how beautiful a woman my brother married last winter .
+islands_left-branch,14,that_nogap_lb,I realized that my brother married a beautiful woman last winter .
+islands_left-branch,14,what_nogap_lb,I realized how beautiful my brother married a beautiful woman last winter .
+islands_left-branch,14,that_gap_lb,I realized that my brother married a woman last winter .
+islands_left-branch,14,what_gap_lb,I realized how beautiful my brother married a woman last winter .
+islands_left-branch,15,that_nogap_obj,We all know that our friend despises a rude manager with great passion .
+islands_left-branch,15,what_nogap_obj,We all know how rude a manager our friend despises a rude manager with great passion .
+islands_left-branch,15,that_gap_obj,We all know that our friend despises with great passion .
+islands_left-branch,15,what_gap_obj,We all know how rude a manager our friend despises with great passion .
+islands_left-branch,15,that_nogap_lb,We all know that our friend despises a rude manager with great passion .
+islands_left-branch,15,what_nogap_lb,We all know how rude our friend despises a rude manager with great passion .
+islands_left-branch,15,that_gap_lb,We all know that our friend despises a manager with great passion .
+islands_left-branch,15,what_gap_lb,We all know how rude our friend despises a manager with great passion .
+islands_left-branch,16,that_nogap_obj,They know that the police followed a smart killer last weekend .
+islands_left-branch,16,what_nogap_obj,They know how smart a killer the police followed a smart killer last weekend .
+islands_left-branch,16,that_gap_obj,They know that the police followed last weekend .
+islands_left-branch,16,what_gap_obj,They know how smart a killer the police followed last weekend .
+islands_left-branch,16,that_nogap_lb,They know that the police followed a smart killer last weekend .
+islands_left-branch,16,what_nogap_lb,They know how smart the police followed a smart killer last weekend .
+islands_left-branch,16,that_gap_lb,They know that the police followed a killer last weekend .
+islands_left-branch,16,what_gap_lb,They know how smart the police followed a killer last weekend .
+islands_left-branch,17,that_nogap_obj,She knows that the nun spanked a naughty boy last week .
+islands_left-branch,17,what_nogap_obj,She knows how naughty a boy the nun spanked a naughty boy last week .
+islands_left-branch,17,that_gap_obj,She knows that the nun spanked last week .
+islands_left-branch,17,what_gap_obj,She knows how naughty a boy the nun spanked last week .
+islands_left-branch,17,that_nogap_lb,She knows that the nun spanked a naughty boy last week .
+islands_left-branch,17,what_nogap_lb,She knows how naughty the nun spanked a naughty boy last week .
+islands_left-branch,17,that_gap_lb,She knows that the nun spanked a boy last week .
+islands_left-branch,17,what_gap_lb,She knows how naughty the nun spanked a boy last week .
+islands_left-branch,18,that_nogap_obj,The officer said that the fireman saved a cranky lady during the fire .
+islands_left-branch,18,what_nogap_obj,The officer said how cranky a lady the fireman saved a cranky lady during the fire .
+islands_left-branch,18,that_gap_obj,The officer said that the fireman saved during the fire .
+islands_left-branch,18,what_gap_obj,The officer said how cranky a lady the fireman saved during the fire .
+islands_left-branch,18,that_nogap_lb,The officer said that the fireman saved a cranky lady during the fire .
+islands_left-branch,18,what_nogap_lb,The officer said how cranky the fireman saved a cranky lady during the fire .
+islands_left-branch,18,that_gap_lb,The officer said that the fireman saved a lady during the fire .
+islands_left-branch,18,what_gap_lb,The officer said how cranky the fireman saved a lady during the fire .
+islands_left-branch,19,that_nogap_obj,The nurse said that the patient admires a selfless doctor at the hospital .
+islands_left-branch,19,what_nogap_obj,The nurse said how selfless a doctor the patient admires a selfless doctor at the hospital .
+islands_left-branch,19,that_gap_obj,The nurse said that the patient admires at the hospital .
+islands_left-branch,19,what_gap_obj,The nurse said how selfless a doctor the patient admires at the hospital .
+islands_left-branch,19,that_nogap_lb,The nurse said that the patient admires a selfless doctor at the hospital .
+islands_left-branch,19,what_nogap_lb,The nurse said how selfless the patient admires a selfless doctor at the hospital .
+islands_left-branch,19,that_gap_lb,The nurse said that the patient admires a doctor at the hospital .
+islands_left-branch,19,what_gap_lb,The nurse said how selfless the patient admires a doctor at the hospital .
+islands_left-branch,20,that_nogap_obj,I know that he believed a truthful friend during the fight .
+islands_left-branch,20,what_nogap_obj,I know how truthful a friend he believed a truthful friend during the fight .
+islands_left-branch,20,that_gap_obj,I know that he believed during the fight .
+islands_left-branch,20,what_gap_obj,I know how truthful a friend he believed during the fight .
+islands_left-branch,20,that_nogap_lb,I know that he believed a truthful friend during the fight .
+islands_left-branch,20,what_nogap_lb,I know how truthful he believed a truthful friend during the fight .
+islands_left-branch,20,that_gap_lb,I know that he believed a friend during the fight .
+islands_left-branch,20,what_gap_lb,I know how truthful he believed a friend during the fight .
