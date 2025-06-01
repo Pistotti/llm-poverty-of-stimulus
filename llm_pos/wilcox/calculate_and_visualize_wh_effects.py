@@ -6,101 +6,126 @@ import seaborn as sns
 import numpy as np
 
 # --- Configuration ---
-# Assume this script is in llm_pos/wilcox/
 CURRENT_SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-
-# Input directory for aggregated surprisals
-RESULTS_INPUT_DIR = os.path.join(CURRENT_SCRIPT_DIR, "tims_results")
-# Output directory for plots and the new CSV with wh-effects
-ANALYSIS_OUTPUT_DIR = os.path.join(CURRENT_SCRIPT_DIR, "tims_results", "analysis") # Subdirectory for clarity
-
-# Basename of the sentence components file, used to construct the input aggregated file name
-SENTENCE_COMPONENTS_BASENAME = "test_set.csv"
 MODEL_NAME = "gpt2" # Should match the model used
 
-# Input aggregated surprisal CSV
-AGGREGATED_SURPRISALS_CSV_BASENAME = f"{SENTENCE_COMPONENTS_BASENAME.split('.')[0]}_{MODEL_NAME}_critical_region_surprisals_aggregated.csv"
-AGGREGATED_SURPRISALS_CSV = os.path.join(RESULTS_INPUT_DIR, AGGREGATED_SURPRISALS_CSV_BASENAME)
+# Input: Output from the new aggregate_surprisals.py
+# This file should contain 'sentence_type', 'item_id', 'condition', 'aggregated_surprisal_bits'
+AGGREGATED_INPUT_CSV = os.path.join(CURRENT_SCRIPT_DIR, "tims_results", "aggregated", f"{MODEL_NAME}_critical_regions_aggregated.csv")
 
-# Output CSV for wh-effects
-WH_EFFECTS_CSV = os.path.join(ANALYSIS_OUTPUT_DIR, f"{SENTENCE_COMPONENTS_BASENAME.split('.')[0]}_{MODEL_NAME}_wh_effects.csv")
+# Output directory for analysis results
+ANALYSIS_OUTPUT_DIR = os.path.join(CURRENT_SCRIPT_DIR, "tims_results", "analysis")
+# Output CSV for wh-effects (will include sentence_type)
+WH_EFFECTS_CSV = os.path.join(ANALYSIS_OUTPUT_DIR, f"{MODEL_NAME}_wh_effects_basic_types.csv")
 
-# Output plot file for individual item wh-effects
-WH_EFFECTS_PLOT_PNG = os.path.join(ANALYSIS_OUTPUT_DIR, f"{SENTENCE_COMPONENTS_BASENAME.split('.')[0]}_{MODEL_NAME}_wh_effects_plot.png")
-# Output plot file for average wh-effects
-AVERAGE_WH_EFFECTS_PLOT_PNG = os.path.join(ANALYSIS_OUTPUT_DIR, f"{SENTENCE_COMPONENTS_BASENAME.split('.')[0]}_{MODEL_NAME}_average_wh_effects_plot.png")
+# Output plot file for average wh-effects for basic types
+AVERAGE_WH_EFFECTS_PLOT_PNG = os.path.join(ANALYSIS_OUTPUT_DIR, f"{MODEL_NAME}_average_wh_effects_basic_types_plot.png")
+# Output directory for per-item plots for basic types
+PER_ITEM_PLOT_DIR = os.path.join(ANALYSIS_OUTPUT_DIR, "per_item_plots_basic")
+
+# Sentence types to focus on for this version
+TARGET_SENTENCE_TYPES = ["basic_object", "basic_pp", "basic_subject"]
 # --- End Configuration ---
 
-def calculate_wh_effects(df):
+def calculate_wh_effects_for_selected_types(df, sentence_types_to_process):
     """
-    Calculates wh-effects from the aggregated surprisal data.
-    Expects a DataFrame with columns: 'item', 'condition', 'aggregated_surprisal_bits'.
+    Calculates wh-effects from aggregated surprisal data for specified sentence types.
+    Expects df columns: 'sentence_type', 'item_id', 'condition', 'aggregated_surprisal_bits'.
     """
-    effects = []
-    df['item'] = df['item'].astype(str)
+    effects_data = []
+    
+    # Filter for target sentence types
+    df_filtered = df[df['sentence_type'].isin(sentence_types_to_process)].copy() # Use .copy() to avoid SettingWithCopyWarning
+    
+    if df_filtered.empty:
+        print(f"Warning: No data found for target sentence types: {sentence_types_to_process}")
+        return pd.DataFrame(effects_data)
 
-    for item, group in df.groupby('item'):
+    df_filtered['item_id'] = df_filtered['item_id'].astype(str)
+    df_filtered['sentence_type'] = df_filtered['sentence_type'].astype(str)
+
+    # Group by sentence_type and then by item_id
+    for (sentence_type, item_id), group in df_filtered.groupby(['sentence_type', 'item_id']):
+        
+        # For basic types, condition names are expected to be exactly these
+        # (e.g., "what_gap", "that_gap", etc., without additional suffixes)
+        # If your actual condition names have suffixes even for basic types, this part needs adjustment.
+        cond_wg = "what_gap"
+        cond_tg = "that_gap"
+        cond_wn = "what_nogap"
+        cond_tn = "that_nogap"
+        
+        # Check if this item has these exact 4 conditions.
+        # This strict matching is suitable for basic types where condition names are simple.
+        s_wg_series = group.loc[group['condition'] == cond_wg, 'aggregated_surprisal_bits']
+        s_tg_series = group.loc[group['condition'] == cond_tg, 'aggregated_surprisal_bits']
+        s_wn_series = group.loc[group['condition'] == cond_wn, 'aggregated_surprisal_bits']
+        s_tn_series = group.loc[group['condition'] == cond_tn, 'aggregated_surprisal_bits']
+
+        if s_wg_series.empty or s_tg_series.empty or s_wn_series.empty or s_tn_series.empty:
+            # print(f"  Debug: Item {item_id} (Type: {sentence_type}) missing one or more standard conditions ({cond_wg}, {cond_tg}, {cond_wn}, {cond_tn}). Skipping wh-effect for this item.")
+            continue # Skip this item if the 4 conditions aren't present
+
         try:
-            surprisal_what_gap = group.loc[group['condition'] == 'what_gap', 'aggregated_surprisal_bits'].iloc[0]
-            surprisal_that_gap = group.loc[group['condition'] == 'that_gap', 'aggregated_surprisal_bits'].iloc[0]
-            surprisal_what_nogap = group.loc[group['condition'] == 'what_nogap', 'aggregated_surprisal_bits'].iloc[0]
-            surprisal_that_nogap = group.loc[group['condition'] == 'that_nogap', 'aggregated_surprisal_bits'].iloc[0]
+            s_wg = s_wg_series.iloc[0]
+            s_tg = s_tg_series.iloc[0]
+            s_wn = s_wn_series.iloc[0]
+            s_tn = s_tn_series.iloc[0]
 
-            if pd.isna(surprisal_what_gap) or pd.isna(surprisal_that_gap) or \
-               pd.isna(surprisal_what_nogap) or pd.isna(surprisal_that_nogap):
-                print(f"Warning: Item {item} has NaN surprisal values for one or more conditions. Wh-effects will be NaN.")
-                wh_effect_plus_gap = np.nan
-                wh_effect_minus_gap = np.nan
+            if pd.isna(s_wg) or pd.isna(s_tg) or pd.isna(s_wn) or pd.isna(s_tn):
+                # print(f"Warning: Item {item_id} (Type: {sentence_type}) has NaN surprisal values. Wh-effects will be NaN.")
+                wh_plus_gap = np.nan
+                wh_minus_gap = np.nan
             else:
-                wh_effect_plus_gap = surprisal_what_gap - surprisal_that_gap
-                wh_effect_minus_gap = surprisal_what_nogap - surprisal_that_nogap
+                wh_plus_gap = s_wg - s_tg
+                wh_minus_gap = s_wn - s_tn
             
-            effects.append({
-                'item': item,
-                'wh_effect_plus_gap': wh_effect_plus_gap,
-                'wh_effect_minus_gap': wh_effect_minus_gap
+            effects_data.append({
+                'sentence_type': sentence_type,
+                'item_id': item_id,
+                # 'condition_stem': '', # Not strictly needed if conditions are simple for basic types
+                'wh_effect_plus_gap': wh_plus_gap,
+                'wh_effect_minus_gap': wh_minus_gap
             })
-        except IndexError:
-            print(f"Warning: Item {item} is missing one or more required conditions (what_gap, that_gap, what_nogap, that_nogap). Skipping this item for wh-effect calculation.")
-            effects.append({
-                'item': item,
-                'wh_effect_plus_gap': np.nan,
-                'wh_effect_minus_gap': np.nan
-            })
-        except Exception as e:
-            print(f"Error processing item {item}: {e}")
-            effects.append({
-                'item': item,
+        except Exception as e: # General exception if .iloc[0] fails for unexpected reasons
+            print(f"Error processing item {item_id} (Type: {sentence_type}): {e}")
+            effects_data.append({
+                'sentence_type': sentence_type,
+                'item_id': item_id,
+                # 'condition_stem': '',
                 'wh_effect_plus_gap': np.nan,
                 'wh_effect_minus_gap': np.nan
             })
             
-    return pd.DataFrame(effects)
+    if not effects_data:
+        print(f"Warning: No items found with the required four conditions for wh-effect calculation among selected types: {sentence_types_to_process}.")
+    
+    return pd.DataFrame(effects_data)
 
-def plot_wh_effects(effects_df, output_path):
-    """
-    Generates and saves a grouped bar plot of wh-effects per item.
-    """
+
+def plot_average_wh_effects_by_type(effects_df, output_path, title_suffix=""):
     if effects_df.empty or effects_df[['wh_effect_plus_gap', 'wh_effect_minus_gap']].isnull().all().all():
-        print("No valid individual item data to plot. Skipping individual effects plot generation.")
+        print("No valid data to plot for average wh-effects by type. Skipping plot generation.")
         return
 
-    plot_df = effects_df.melt(id_vars=['item'], 
-                              value_vars=['wh_effect_plus_gap', 'wh_effect_minus_gap'],
-                              var_name='effect_type', 
-                              value_name='wh_effect_value')
-    
+    avg_effects = effects_df.groupby('sentence_type')[['wh_effect_plus_gap', 'wh_effect_minus_gap']].mean().reset_index()
+
+    plot_df = avg_effects.melt(id_vars=['sentence_type'],
+                               value_vars=['wh_effect_plus_gap', 'wh_effect_minus_gap'],
+                               var_name='effect_type',
+                               value_name='average_wh_effect_value')
+
     plot_df['effect_type'] = plot_df['effect_type'].replace({
-        'wh_effect_plus_gap': 'Wh-Effect (+gap)',
-        'wh_effect_minus_gap': 'Wh-Effect (-gap)'
+        'wh_effect_plus_gap': 'Avg Wh-Effect (+gap)',
+        'wh_effect_minus_gap': 'Avg Wh-Effect (-gap)'
     })
 
-    plt.figure(figsize=(12, 7))
-    sns.barplot(x='item', y='wh_effect_value', hue='effect_type', data=plot_df, palette="viridis")
+    plt.figure(figsize=(max(10, len(avg_effects['sentence_type'].unique()) * 2.5), 7)) # Dynamic width
+    sns.barplot(x='sentence_type', y='average_wh_effect_value', hue='effect_type', data=plot_df, palette="viridis")
     
-    plt.title(f'Wh-Effects by Item ({MODEL_NAME} - {SENTENCE_COMPONENTS_BASENAME.split(".")[0]})', fontsize=16)
-    plt.xlabel('Item ID', fontsize=14)
-    plt.ylabel('Wh-Effect (Surprisal Difference in Bits)', fontsize=14)
+    plt.title(f'Average Wh-Effects by Basic Sentence Type ({MODEL_NAME}){title_suffix}', fontsize=16)
+    plt.xlabel('Sentence Type', fontsize=14)
+    plt.ylabel('Average Wh-Effect (Surprisal Bits)', fontsize=14)
     plt.axhline(0, color='grey', lw=1, linestyle='--')
     plt.legend(title='Effect Type', fontsize=12, title_fontsize=13)
     plt.xticks(rotation=45, ha='right')
@@ -108,97 +133,109 @@ def plot_wh_effects(effects_df, output_path):
     
     try:
         plt.savefig(output_path)
-        print(f"Individual item effects plot saved to {output_path}")
+        print(f"Average wh-effects plot saved to {os.path.abspath(output_path)}")
     except Exception as e:
-        print(f"Error saving individual item effects plot to {output_path}: {e}")
+        print(f"Error saving average wh-effects plot: {e}")
     plt.close()
 
-def plot_average_wh_effects(avg_plus_gap, avg_minus_gap, output_path):
-    """
-    Generates and saves a bar plot of average wh-effects.
-    """
-    if pd.isna(avg_plus_gap) and pd.isna(avg_minus_gap):
-        print("Average wh-effects are both NaN. Skipping average effects plot generation.")
+
+def plot_item_effects_by_type(effects_df, output_dir_base, title_suffix=""):
+    if effects_df.empty or effects_df[['wh_effect_plus_gap', 'wh_effect_minus_gap']].isnull().all().all():
+        print("No valid individual item data to plot. Skipping per-item plot generation.")
         return
 
-    effect_types = ['Average Wh-Effect (+gap)', 'Average Wh-Effect (-gap)']
-    average_values = [avg_plus_gap, avg_minus_gap]
+    if not os.path.exists(output_dir_base):
+        os.makedirs(output_dir_base)
+        print(f"Created directory for per-item plots: {output_dir_base}")
 
-    plt.figure(figsize=(8, 6))
-    colors = [sns.color_palette("viridis")[0], sns.color_palette("viridis")[1]] # Match individual plot colors if possible
-    
-    bars = plt.bar(effect_types, average_values, color=colors)
-    
-    plt.title(f'Average Wh-Effects ({MODEL_NAME} - {SENTENCE_COMPONENTS_BASENAME.split(".")[0]})', fontsize=16)
-    plt.ylabel('Average Wh-Effect (Surprisal Difference in Bits)', fontsize=14)
-    plt.axhline(0, color='grey', lw=1, linestyle='--')
-    
-    # Adding the values on top of the bars
-    for bar in bars:
-        yval = bar.get_height()
-        if not pd.isna(yval):
-            plt.text(bar.get_x() + bar.get_width()/2.0, yval, f'{yval:.2f}', va='bottom' if yval < 0 else 'top', ha='center')
-        else:
-            plt.text(bar.get_x() + bar.get_width()/2.0, 0, 'NaN', va='bottom', ha='center')
+    for sentence_type, group_df in effects_df.groupby('sentence_type'):
+        if group_df.empty or group_df[['wh_effect_plus_gap', 'wh_effect_minus_gap']].isnull().all().all():
+            print(f"No data or only NaN data to plot for items in sentence type '{sentence_type}'. Skipping this plot.")
+            continue
+            
+        plot_df = group_df.melt(id_vars=['item_id'], 
+                                  value_vars=['wh_effect_plus_gap', 'wh_effect_minus_gap'],
+                                  var_name='effect_type', 
+                                  value_name='wh_effect_value')
+        
+        plot_df['effect_type'] = plot_df['effect_type'].replace({
+            'wh_effect_plus_gap': 'Wh-Effect (+gap)',
+            'wh_effect_minus_gap': 'Wh-Effect (-gap)'
+        })
 
-
-    plt.tight_layout()
-    
-    try:
-        plt.savefig(output_path)
-        print(f"Average effects plot saved to {output_path}")
-    except Exception as e:
-        print(f"Error saving average effects plot to {output_path}: {e}")
-    plt.close()
+        num_items = len(group_df['item_id'].unique())
+        fig_width = max(10, num_items * 0.6) 
+        
+        plt.figure(figsize=(fig_width, 7))
+        sns.barplot(x='item_id', y='wh_effect_value', hue='effect_type', data=plot_df, palette="viridis")
+        
+        plt.title(f'Wh-Effects by Item for {sentence_type} ({MODEL_NAME}){title_suffix}', fontsize=16)
+        plt.xlabel('Item ID', fontsize=14)
+        plt.ylabel('Wh-Effect (Surprisal Bits)', fontsize=14)
+        plt.axhline(0, color='grey', lw=1, linestyle='--')
+        plt.legend(title='Effect Type', fontsize=12, title_fontsize=13)
+        plt.xticks(rotation=45, ha='right' if num_items > 15 else 'center') 
+        plt.tight_layout()
+        
+        plot_filename = os.path.join(output_dir_base, f"{sentence_type}_{MODEL_NAME}_item_wh_effects.png")
+        try:
+            plt.savefig(plot_filename)
+            print(f"Per-item effects plot for {sentence_type} saved to {os.path.abspath(plot_filename)}")
+        except Exception as e:
+            print(f"Error saving per-item plot for {sentence_type}: {e}")
+        plt.close()
 
 def main():
     if not os.path.exists(ANALYSIS_OUTPUT_DIR):
         os.makedirs(ANALYSIS_OUTPUT_DIR)
         print(f"Created output directory: {ANALYSIS_OUTPUT_DIR}")
 
-    if not os.path.exists(AGGREGATED_SURPRISALS_CSV):
-        print(f"Critical Error: Aggregated surprisals file not found at '{AGGREGATED_SURPRISALS_CSV}'")
-        print("Please ensure 'aggregate_surprisals.py' has been run successfully and the paths are correct.")
+    if not os.path.exists(AGGREGATED_INPUT_CSV):
+        print(f"Critical Error: Aggregated surprisals file not found at '{os.path.abspath(AGGREGATED_INPUT_CSV)}'")
         return
 
-    print(f"Loading aggregated surprisals from {AGGREGATED_SURPRISALS_CSV}...")
+    print(f"Loading aggregated surprisals from {AGGREGATED_INPUT_CSV}...")
     try:
-        aggregated_df = pd.read_csv(AGGREGATED_SURPRISALS_CSV)
+        aggregated_df_full = pd.read_csv(AGGREGATED_INPUT_CSV)
     except Exception as e:
-        print(f"Error loading {AGGREGATED_SURPRISALS_CSV}: {e}")
+        print(f"Error loading {AGGREGATED_INPUT_CSV}: {e}")
         return
         
-    if aggregated_df.empty:
-        print("Aggregated surprisals file is empty. Cannot calculate wh-effects.")
+    if aggregated_df_full.empty:
+        print("Aggregated surprisals file is empty.")
+        return
+    
+    required_cols = ['sentence_type', 'item_id', 'condition', 'aggregated_surprisal_bits']
+    missing_cols = [col for col in required_cols if col not in aggregated_df_full.columns]
+    if missing_cols:
+        print(f"Error: Aggregated input CSV is missing required columns: {', '.join(missing_cols)}")
+        print(f"Found columns: {aggregated_df_full.columns.tolist()}")
         return
 
-    print("Calculating wh-effects for individual items...")
-    wh_effects_df = calculate_wh_effects(aggregated_df)
+    print(f"Filtering for basic sentence types: {TARGET_SENTENCE_TYPES}")
+    aggregated_df_basic = aggregated_df_full[aggregated_df_full['sentence_type'].isin(TARGET_SENTENCE_TYPES)]
 
-    if not wh_effects_df.empty:
+    if aggregated_df_basic.empty:
+        print(f"No data found for the specified basic sentence types: {TARGET_SENTENCE_TYPES}. Exiting.")
+        return
+
+    print("Calculating wh-effects for basic sentence types and their items...")
+    wh_effects_df_basic = calculate_wh_effects_for_selected_types(aggregated_df_basic, TARGET_SENTENCE_TYPES)
+
+    if not wh_effects_df_basic.empty:
         try:
-            wh_effects_df.to_csv(WH_EFFECTS_CSV, index=False, float_format='%.8f')
-            print(f"Calculated individual wh-effects saved to {WH_EFFECTS_CSV}")
+            wh_effects_df_basic.to_csv(WH_EFFECTS_CSV, index=False, float_format='%.8f')
+            print(f"Calculated wh-effects for basic types saved to {os.path.abspath(WH_EFFECTS_CSV)}")
         except Exception as e:
-            print(f"Error saving wh-effects CSV to {WH_EFFECTS_CSV}: {e}")
+            print(f"Error saving wh-effects CSV: {e}")
         
-        print("Generating plot for individual item wh-effects...")
-        plot_wh_effects(wh_effects_df, WH_EFFECTS_PLOT_PNG)
+        print("\nGenerating plot for average wh-effects by basic sentence type...")
+        plot_average_wh_effects_by_type(wh_effects_df_basic, AVERAGE_WH_EFFECTS_PLOT_PNG)
 
-        # Calculate and print average wh-effects
-        # .mean() automatically skips NaN values
-        avg_plus_gap = wh_effects_df['wh_effect_plus_gap'].mean()
-        avg_minus_gap = wh_effects_df['wh_effect_minus_gap'].mean()
-
-        print("\n--- Average Wh-Effects ---")
-        print(f"Average Wh-Effect (+gap): {avg_plus_gap:.4f}" if not pd.isna(avg_plus_gap) else "Average Wh-Effect (+gap): NaN")
-        print(f"Average Wh-Effect (-gap): {avg_minus_gap:.4f}" if not pd.isna(avg_minus_gap) else "Average Wh-Effect (-gap): NaN")
-        
-        print("\nGenerating plot for average wh-effects...")
-        plot_average_wh_effects(avg_plus_gap, avg_minus_gap, AVERAGE_WH_EFFECTS_PLOT_PNG)
-
+        print("\nGenerating plots for per-item wh-effects for basic sentence types...")
+        plot_item_effects_by_type(wh_effects_df_basic, PER_ITEM_PLOT_DIR)
     else:
-        print("No wh-effects were calculated. Skipping CSV saving and plot generation.")
+        print("No wh-effects were calculated for basic types (e.g., items might not have had the full 2x2 set of conditions).")
         
     print("\nScript finished.")
 

@@ -1,0 +1,601 @@
+sentence_type,item_id,condition,critical_region_name,critical_region_text,aggregated_surprisal_bits,original_full_sentence
+basic_object,1,that_gap,basic_object_post_gap_prepositional_phrase,in front of,18.74899208,I know that with gusto our uncle grabbed in front of the guests at the holiday party .
+basic_object,1,that_nogap,basic_object_filled_object_NP,the food,19.73439175,I know that with gusto our uncle grabbed the food in front of the guests at the holiday party .
+basic_object,1,what_gap,basic_object_post_gap_prepositional_phrase,in front of,17.83939594,I know what with gusto our uncle grabbed in front of the guests at the holiday party .
+basic_object,1,what_nogap,basic_object_filled_object_NP,the food,19.82185947,I know what with gusto our uncle grabbed the food in front of the guests at the holiday party .
+basic_object,10,that_gap,basic_object_post_gap_prepositional_phrase,for,14.50021479,She can guess that with much fanfare the movie star received for her hard work during the award ceremony .
+basic_object,10,that_nogap,basic_object_filled_object_NP,a prize,16.66583855,She can guess that with much fanfare the movie star received a prize for her hard work during the award ceremony .
+basic_object,10,what_gap,basic_object_post_gap_prepositional_phrase,for,6.50493160,She can guess what with much fanfare the movie star received for her hard work during the award ceremony .
+basic_object,10,what_nogap,basic_object_filled_object_NP,a prize,22.10011730,She can guess what with much fanfare the movie star received a prize for her hard work during the award ceremony .
+basic_object,11,that_gap,basic_object_post_gap_prepositional_phrase,with,11.12794832,The newspaper reported that brutally the suspect killed with a gun in the middle of the night .
+basic_object,11,that_nogap,basic_object_filled_object_NP,the witness,19.81802045,The newspaper reported that brutally the suspect killed the witness with a gun in the middle of the night .
+basic_object,11,what_gap,basic_object_post_gap_prepositional_phrase,with,9.20388653,The newspaper reported who brutally the suspect killed with a gun in the middle of the night .
+basic_object,11,what_nogap,basic_object_filled_object_NP,the witness,26.85130882,The newspaper reported who brutally the suspect killed the witness with a gun in the middle of the night .
+basic_object,12,that_gap,basic_object_post_gap_prepositional_phrase,next to,12.09788662,We recall that clumsily the man placed next to the oven over an hour ago .
+basic_object,12,that_nogap,basic_object_filled_object_NP,a delicate plate,37.98225794,We recall that clumsily the man placed a delicate plate next to the oven over an hour ago .
+basic_object,12,what_gap,basic_object_post_gap_prepositional_phrase,next to,9.53993926,We recall what clumsily the man placed next to the oven over an hour ago .
+basic_object,12,what_nogap,basic_object_filled_object_NP,a delicate plate,40.36899057,We recall what clumsily the man placed a delicate plate next to the oven over an hour ago .
+basic_object,13,that_gap,basic_object_post_gap_prepositional_phrase,to,8.82598267,I remember that with skill the nurse administered to the patient without any delay .
+basic_object,13,that_nogap,basic_object_filled_object_NP,the new medicine,24.82642573,I remember that with skill the nurse administered the new medicine to the patient without any delay .
+basic_object,13,what_gap,basic_object_post_gap_prepositional_phrase,to,4.49019644,I remember what with skill the nurse administered to the patient without any delay .
+basic_object,13,what_nogap,basic_object_filled_object_NP,the new medicine,25.40827042,I remember what with skill the nurse administered the new medicine to the patient without any delay .
+basic_object,14,that_gap,basic_object_post_gap_prepositional_phrase,to,7.71213553,Our friend knew that without tact the gossip column revealed to the public yesterday .
+basic_object,14,that_nogap,basic_object_filled_object_NP,family secrets,23.00457745,Our friend knew that without tact the gossip column revealed family secrets to the public yesterday .
+basic_object,14,what_gap,basic_object_post_gap_prepositional_phrase,to,6.83423829,Our friend knew what without tact the gossip column revealed to the public yesterday .
+basic_object,14,what_nogap,basic_object_filled_object_NP,family secrets,28.08753833,Our friend knew what without tact the gossip column revealed family secrets to the public yesterday .
+basic_object,15,that_gap,basic_object_post_gap_prepositional_phrase,for,14.59840462,The mayor told me that with public funds the workers repaired for the town over the summer .
+basic_object,15,that_nogap,basic_object_filled_object_NP,the bridge,10.51825962,The mayor told me that with public funds the workers repaired the bridge for the town over the summer .
+basic_object,15,what_gap,basic_object_post_gap_prepositional_phrase,for,10.55101601,The mayor told me what with public funds the workers repaired for the town over the summer .
+basic_object,15,what_nogap,basic_object_filled_object_NP,the bridge,11.12618390,The mayor told me what with public funds the workers repaired the bridge for the town over the summer .
+basic_object,16,that_gap,basic_object_post_gap_prepositional_phrase,about,10.17400084,My friend remembers that secretly the government collected about foreign threats using illegal methods .
+basic_object,16,that_nogap,basic_object_filled_object_NP,sensitive data,17.19347252,My friend remembers that secretly the government collected sensitive data about foreign threats using illegal methods .
+basic_object,16,what_gap,basic_object_post_gap_prepositional_phrase,about,5.41634173,My friend remembers what secretly the government collected about foreign threats using illegal methods .
+basic_object,16,what_nogap,basic_object_filled_object_NP,sensitive data,27.97866679,My friend remembers what secretly the government collected sensitive data about foreign threats using illegal methods .
+basic_object,17,that_gap,basic_object_post_gap_prepositional_phrase,to,11.15366724,The newspaper said that secretly the neighbors sold to the new couple last month .
+basic_object,17,that_nogap,basic_object_filled_object_NP,a convertible,28.07299596,The newspaper said that secretly the neighbors sold a convertible to the new couple last month .
+basic_object,17,what_gap,basic_object_post_gap_prepositional_phrase,to,3.66147634,The newspaper said what secretly the neighbors sold to the new couple last month .
+basic_object,17,what_nogap,basic_object_filled_object_NP,a convertible,33.73847958,The newspaper said what secretly the neighbors sold a convertible to the new couple last month .
+basic_object,18,that_gap,basic_object_post_gap_prepositional_phrase,to,6.31499214,Our neighbor said that we believe the student sent to her mother over a week ago .
+basic_object,18,that_nogap,basic_object_filled_object_NP,a package,17.43929188,Our neighbor said that we believe the student sent a package to her mother over a week ago .
+basic_object,18,what_gap,basic_object_post_gap_prepositional_phrase,to,3.86656698,Our neighbor said what we believe the student sent to her mother over a week ago .
+basic_object,18,what_nogap,basic_object_filled_object_NP,a package,27.00812400,Our neighbor said what we believe the student sent a package to her mother over a week ago .
+basic_object,19,that_gap,basic_object_post_gap_prepositional_phrase,to help with,24.08288524,My friend told me that recently the university hired to help with increased enrollment for the following year .
+basic_object,19,that_nogap,basic_object_filled_object_NP,a new administrator,18.83210430,My friend told me that recently the university hired a new administrator to help with increased enrollment for the following year .
+basic_object,19,what_gap,basic_object_post_gap_prepositional_phrase,to help with,15.45406127,My friend told me who recently the university hired to help with increased enrollment for the following year .
+basic_object,19,what_nogap,basic_object_filled_object_NP,a new administrator,23.86930578,My friend told me who recently the university hired a new administrator to help with increased enrollment for the following year .
+basic_object,2,that_gap,basic_object_post_gap_prepositional_phrase,for,15.26018037,My neighbor told me that with skill the dog caught for his neighbors yesterday .
+basic_object,2,that_nogap,basic_object_filled_object_NP,the mouse,18.41362896,My neighbor told me that with skill the dog caught the mouse for his neighbors yesterday .
+basic_object,2,what_gap,basic_object_post_gap_prepositional_phrase,for,12.53329775,My neighbor told me what with skill the dog caught for his neighbors yesterday .
+basic_object,2,what_nogap,basic_object_filled_object_NP,the mouse,22.46102766,My neighbor told me what with skill the dog caught the mouse for his neighbors yesterday .
+basic_object,20,that_gap,basic_object_post_gap_prepositional_phrase,from,7.30049713,She can not believe that recently my friend stole from the store when he was young .
+basic_object,20,that_nogap,basic_object_filled_object_NP,a candy bar,21.05319392,She can not believe that recently my friend stole a candy bar from the store when he was young .
+basic_object,20,what_gap,basic_object_post_gap_prepositional_phrase,from,1.54063961,She can not believe what recently my friend stole from the store when he was young .
+basic_object,20,what_nogap,basic_object_filled_object_NP,a candy bar,23.57374083,She can not believe what recently my friend stole a candy bar from the store when he was young .
+basic_object,21,that_gap,basic_object_post_gap_prepositional_phrase,out of,12.25976999,Our neighbor reminded us that with effort the truck dragged out of the swamp last spring .
+basic_object,21,that_nogap,basic_object_filled_object_NP,the car,13.54902431,Our neighbor reminded us that with effort the truck dragged the car out of the swamp last spring .
+basic_object,21,what_gap,basic_object_post_gap_prepositional_phrase,out of,10.99317751,Our neighbor reminded us what with effort the truck dragged out of the swamp last spring .
+basic_object,21,what_nogap,basic_object_filled_object_NP,the car,14.03158272,Our neighbor reminded us what with effort the truck dragged the car out of the swamp last spring .
+basic_object,22,that_gap,basic_object_post_gap_prepositional_phrase,for,8.76380828,The shop owner told me that with care the chef prepared for the guests yesterday evening .
+basic_object,22,that_nogap,basic_object_filled_object_NP,a great meal,14.81144450,The shop owner told me that with care the chef prepared a great meal for the guests yesterday evening .
+basic_object,22,what_gap,basic_object_post_gap_prepositional_phrase,for,4.78409073,The shop owner told me what with care the chef prepared for the guests yesterday evening .
+basic_object,22,what_nogap,basic_object_filled_object_NP,a great meal,16.37381543,The shop owner told me what with care the chef prepared a great meal for the guests yesterday evening .
+basic_object,23,that_gap,basic_object_post_gap_prepositional_phrase,about,9.79713860,My sister told me that we believe the newspaper published about the mayor last month .
+basic_object,23,that_nogap,basic_object_filled_object_NP,a long story,21.82952109,My sister told me that we believe the newspaper published a long story about the mayor last month .
+basic_object,23,what_gap,basic_object_post_gap_prepositional_phrase,about,3.52949282,My sister told me what we believe the newspaper published about the mayor last month .
+basic_object,23,what_nogap,basic_object_filled_object_NP,a long story,32.11783244,My sister told me what we believe the newspaper published a long story about the mayor last month .
+basic_object,24,that_gap,basic_object_post_gap_prepositional_phrase,to,7.47592019,We remember that warmly our new friend brought to the birthday party last weekend .
+basic_object,24,that_nogap,basic_object_filled_object_NP,a large present,32.39337420,We remember that warmly our new friend brought a large present to the birthday party last weekend .
+basic_object,24,what_gap,basic_object_post_gap_prepositional_phrase,to,2.51472133,We remember what warmly our new friend brought to the birthday party last weekend .
+basic_object,24,what_nogap,basic_object_filled_object_NP,a large present,42.47387255,We remember what warmly our new friend brought a large present to the birthday party last weekend .
+basic_object,25,that_gap,basic_object_post_gap_prepositional_phrase,in front of,24.28611335,I know that warmly the teacher congratulated in front of the children at school .
+basic_object,25,that_nogap,basic_object_filled_object_NP,the couple,19.28405882,I know that warmly the teacher congratulated the couple in front of the children at school .
+basic_object,25,what_gap,basic_object_post_gap_prepositional_phrase,in front of,18.43324384,I know who warmly the teacher congratulated in front of the children at school .
+basic_object,25,what_nogap,basic_object_filled_object_NP,the couple,20.87453777,I know who warmly the teacher congratulated the couple in front of the children at school .
+basic_object,26,that_gap,basic_object_post_gap_prepositional_phrase,to,6.20009014,You know that graciously the journalist introduced to her family last year .
+basic_object,26,that_nogap,basic_object_filled_object_NP,her friend,19.43370092,You know that graciously the journalist introduced her friend to her family last year .
+basic_object,26,what_gap,basic_object_post_gap_prepositional_phrase,to,2.78593357,You know who graciously the journalist introduced to her family last year .
+basic_object,26,what_nogap,basic_object_filled_object_NP,her friend,22.18556236,You know who graciously the journalist introduced her friend to her family last year .
+basic_object,27,that_gap,basic_object_post_gap_prepositional_phrase,next to,18.79148090,She knows that warmly the young man waited for next to the theater last night .
+basic_object,27,that_nogap,basic_object_filled_object_NP,his date,19.05057594,She knows that warmly the young man waited for his date next to the theater last night .
+basic_object,27,what_gap,basic_object_post_gap_prepositional_phrase,next to,15.25040900,She knows who warmly the young man waited for next to the theater last night .
+basic_object,27,what_nogap,basic_object_filled_object_NP,his date,23.05876075,She knows who warmly the young man waited for his date next to the theater last night .
+basic_object,28,that_gap,basic_object_post_gap_prepositional_phrase,with,10.67821843,He knows that carefully the lawyer interrogated with bright lights yesterday .
+basic_object,28,that_nogap,basic_object_filled_object_NP,the spy,22.26162124,He knows that carefully the lawyer interrogated the spy with bright lights yesterday .
+basic_object,28,what_gap,basic_object_post_gap_prepositional_phrase,with,10.38310218,He knows who carefully the lawyer interrogated with bright lights yesterday .
+basic_object,28,what_nogap,basic_object_filled_object_NP,the spy,23.74411447,He knows who carefully the lawyer interrogated the spy with bright lights yesterday .
+basic_object,29,that_gap,basic_object_post_gap_prepositional_phrase,with,18.73686479,They recall that warmly the woman thanked with a big tip last week .
+basic_object,29,that_nogap,basic_object_filled_object_NP,the waitress,19.76847109,They recall that warmly the woman thanked the waitress with a big tip last week .
+basic_object,29,what_gap,basic_object_post_gap_prepositional_phrase,with,10.90553091,They recall who warmly the woman thanked with a big tip last week .
+basic_object,29,what_nogap,basic_object_filled_object_NP,the waitress,22.94915200,They recall who warmly the woman thanked the waitress with a big tip last week .
+basic_object,3,that_gap,basic_object_post_gap_prepositional_phrase,to,9.60966471,I know that with passion the committee delivered to the president by the deadline .
+basic_object,3,that_nogap,basic_object_filled_object_NP,the report,14.26111982,I know that with passion the committee delivered the report to the president by the deadline .
+basic_object,3,what_gap,basic_object_post_gap_prepositional_phrase,to,6.07003118,I know what with passion the committee delivered to the president by the deadline .
+basic_object,3,what_nogap,basic_object_filled_object_NP,the report,19.28694565,I know what with passion the committee delivered the report to the president by the deadline .
+basic_object,30,that_gap,basic_object_post_gap_prepositional_phrase,about,19.32068740,He remembers that skillfully the family reassured about her daughter yesterday evening .
+basic_object,30,that_nogap,basic_object_filled_object_NP,the old woman,27.30006200,He remembers that skillfully the family reassured the old woman about her daughter yesterday evening .
+basic_object,30,what_gap,basic_object_post_gap_prepositional_phrase,about,14.30975452,He remembers who skillfully the family reassured about her daughter yesterday evening .
+basic_object,30,what_nogap,basic_object_filled_object_NP,the old woman,29.37003939,He remembers who skillfully the family reassured the old woman about her daughter yesterday evening .
+basic_object,31,that_gap,basic_object_post_gap_prepositional_phrase,with,12.03053584,You said that unkindly the young man abandoned with mounting debts last evening .
+basic_object,31,that_nogap,basic_object_filled_object_NP,his partner,14.44047279,You said that unkindly the young man abandoned his partner with mounting debts last evening .
+basic_object,31,what_gap,basic_object_post_gap_prepositional_phrase,with,10.72955241,You said who unkindly the young man abandoned with mounting debts last evening .
+basic_object,31,what_nogap,basic_object_filled_object_NP,his partner,16.98882912,You said who unkindly the young man abandoned his partner with mounting debts last evening .
+basic_object,32,that_gap,basic_object_post_gap_prepositional_phrase,to,7.91113223,We recall that hesitantly the student delivered to the professor over the summer .
+basic_object,32,that_nogap,basic_object_filled_object_NP,the paper,14.31574603,We recall that hesitantly the student delivered the paper to the professor over the summer .
+basic_object,32,what_gap,basic_object_post_gap_prepositional_phrase,to,2.69514333,We recall what hesitantly the student delivered to the professor over the summer .
+basic_object,32,what_nogap,basic_object_filled_object_NP,the paper,21.61526213,We recall what hesitantly the student delivered the paper to the professor over the summer .
+basic_object,33,that_gap,basic_object_post_gap_prepositional_phrase,about,8.21373607,He said that hesitantly the company collected about their rivals last night .
+basic_object,33,that_nogap,basic_object_filled_object_NP,information,7.53367704,He said that hesitantly the company collected information about their rivals last night .
+basic_object,33,what_gap,basic_object_post_gap_prepositional_phrase,about,8.91723457,He said what hesitantly the company collected about their rivals last night .
+basic_object,33,what_nogap,basic_object_filled_object_NP,information,11.93478417,He said what hesitantly the company collected information about their rivals last night .
+basic_object,34,that_gap,basic_object_post_gap_prepositional_phrase,with,14.79873581,They know that rudely the couple frightened with threats last night .
+basic_object,34,that_nogap,basic_object_filled_object_NP,the children,10.52030681,They know that rudely the couple frightened the children with threats last night .
+basic_object,34,what_gap,basic_object_post_gap_prepositional_phrase,with,12.73132063,They know what rudely the couple frightened with threats last night .
+basic_object,34,what_nogap,basic_object_filled_object_NP,the children,13.23231524,They know what rudely the couple frightened the children with threats last night .
+basic_object,35,that_gap,basic_object_post_gap_prepositional_phrase,with,11.22543699,He knows that with skill the spy assassinated with a gun last year .
+basic_object,35,that_nogap,basic_object_filled_object_NP,the politician,21.05683239,He knows that with skill the spy assassinated the politician with a gun last year .
+basic_object,35,what_gap,basic_object_post_gap_prepositional_phrase,with,11.02196217,He knows who with skill the spy assassinated with a gun last year .
+basic_object,35,what_nogap,basic_object_filled_object_NP,the politician,24.23780038,He knows who with skill the spy assassinated the politician with a gun last year .
+basic_object,36,that_gap,basic_object_post_gap_prepositional_phrase,with,9.72611617,I know that warmly the lawyer greeted with a smile over lunch .
+basic_object,36,that_nogap,basic_object_filled_object_NP,the man,15.18001125,I know that warmly the lawyer greeted the man with a smile over lunch .
+basic_object,36,what_gap,basic_object_post_gap_prepositional_phrase,with,5.42200287,I know who warmly the lawyer greeted with a smile over lunch .
+basic_object,36,what_nogap,basic_object_filled_object_NP,the man,16.43204837,I know who warmly the lawyer greeted the man with a smile over lunch .
+basic_object,37,that_gap,basic_object_post_gap_prepositional_phrase,from,8.82782499,You know that skillfully the maid collected from the brook last year .
+basic_object,37,that_nogap,basic_object_filled_object_NP,water,12.80969360,You know that skillfully the maid collected water from the brook last year .
+basic_object,37,what_gap,basic_object_post_gap_prepositional_phrase,from,8.62053135,You know what skillfully the maid collected from the brook last year .
+basic_object,37,what_nogap,basic_object_filled_object_NP,water,14.53593159,You know what skillfully the maid collected water from the brook last year .
+basic_object,38,that_gap,basic_object_post_gap_prepositional_phrase,with,12.27601617,She knows that cooly the woman congratulated with her husband last summer .
+basic_object,38,that_nogap,basic_object_filled_object_NP,the athletes,24.12271660,She knows that cooly the woman congratulated the athletes with her husband last summer .
+basic_object,38,what_gap,basic_object_post_gap_prepositional_phrase,with,10.63277931,She knows who cooly the woman congratulated with her husband last summer .
+basic_object,38,what_nogap,basic_object_filled_object_NP,the athletes,25.21371289,She knows who cooly the woman congratulated the athletes with her husband last summer .
+basic_object,39,that_gap,basic_object_post_gap_prepositional_phrase,to,6.35630516,He knows that cheerfully the hunter introduced to his family last winter .
+basic_object,39,that_nogap,basic_object_filled_object_NP,his friends,15.61811734,He knows that cheerfully the hunter introduced his friends to his family last winter .
+basic_object,39,what_gap,basic_object_post_gap_prepositional_phrase,to,3.23623765,He knows who cheerfully the hunter introduced to his family last winter .
+basic_object,39,what_nogap,basic_object_filled_object_NP,his friends,16.92262528,He knows who cheerfully the hunter introduced his friends to his family last winter .
+basic_object,4,that_gap,basic_object_post_gap_prepositional_phrase,to,14.22157556,You remember that without thinking the businessman showed to the visitors after lunch .
+basic_object,4,that_nogap,basic_object_filled_object_NP,the presentation,28.72102283,You remember that without thinking the businessman showed the presentation to the visitors after lunch .
+basic_object,4,what_gap,basic_object_post_gap_prepositional_phrase,to,11.09331786,You remember what without thinking the businessman showed to the visitors after lunch .
+basic_object,4,what_nogap,basic_object_filled_object_NP,the presentation,29.79364495,You remember what without thinking the businessman showed the presentation to the visitors after lunch .
+basic_object,40,that_gap,basic_object_post_gap_prepositional_phrase,in,17.72285215,They recall that with sadness the man waited for in the rain last night .
+basic_object,40,that_nogap,basic_object_filled_object_NP,her friend,19.39575948,They recall that with sadness the man waited for her friend in the rain last night .
+basic_object,40,what_gap,basic_object_post_gap_prepositional_phrase,in,8.33399336,They recall who with sadness the man waited for in the rain last night .
+basic_object,40,what_nogap,basic_object_filled_object_NP,her friend,21.01998595,They recall who with sadness the man waited for her friend in the rain last night .
+basic_object,41,that_gap,basic_object_post_gap_prepositional_phrase,in,12.95856530,He remembers that brutally the detective interrogated in his cell yesterday .
+basic_object,41,that_nogap,basic_object_filled_object_NP,the criminal,22.96301774,He remembers that brutally the detective interrogated the criminal in his cell yesterday .
+basic_object,41,what_gap,basic_object_post_gap_prepositional_phrase,in,7.27970645,He remembers who brutally the detective interrogated in his cell yesterday .
+basic_object,41,what_nogap,basic_object_filled_object_NP,the criminal,25.74776685,He remembers who brutally the detective interrogated the criminal in his cell yesterday .
+basic_object,42,that_gap,basic_object_post_gap_prepositional_phrase,from,6.14409338,You said that skillfully the theif stole from the museum last night .
+basic_object,42,that_nogap,basic_object_filled_object_NP,a painting,23.25222038,You said that skillfully the theif stole a painting from the museum last night .
+basic_object,42,what_gap,basic_object_post_gap_prepositional_phrase,from,6.04231413,You said what skillfully the theif stole from the museum last night .
+basic_object,42,what_nogap,basic_object_filled_object_NP,a painting,24.07057471,You said what skillfully the theif stole a painting from the museum last night .
+basic_object,43,that_gap,basic_object_post_gap_prepositional_phrase,to,7.77321924,We recall that sadly the doctor administered to the old woman yesterday .
+basic_object,43,that_nogap,basic_object_filled_object_NP,medicine,14.93313295,We recall that sadly the doctor administered medicine to the old woman yesterday .
+basic_object,43,what_gap,basic_object_post_gap_prepositional_phrase,to,1.59804589,We recall what sadly the doctor administered to the old woman yesterday .
+basic_object,43,what_nogap,basic_object_filled_object_NP,medicine,20.21036425,We recall what sadly the doctor administered medicine to the old woman yesterday .
+basic_object,44,that_gap,basic_object_post_gap_prepositional_phrase,in,18.05716066,He said that anxiously the mother waited for in the car over the winter .
+basic_object,44,that_nogap,basic_object_filled_object_NP,her daughter,8.97787105,He said that anxiously the mother waited for her daughter in the car over the winter .
+basic_object,44,what_gap,basic_object_post_gap_prepositional_phrase,in,8.50327342,He said who anxiously the motehr waited for in the car over the winter .
+basic_object,44,what_nogap,basic_object_filled_object_NP,her daughter,9.40900458,He said who anxiously the mother waited for her daughter in the car over the winter .
+basic_object,45,that_gap,basic_object_post_gap_prepositional_phrase,with,13.97522528,They know that suddenly the woman chased with a broom yesterday morning .
+basic_object,45,that_nogap,basic_object_filled_object_NP,the intruder,17.17538401,They know that suddenly the woman chased the intruder with a broom yesterday morning .
+basic_object,45,what_gap,basic_object_post_gap_prepositional_phrase,with,12.42059009,They know who suddenly the woman chased with a broom yesterday morning .
+basic_object,45,what_nogap,basic_object_filled_object_NP,the intruder,19.52957089,They know who suddenly the woman chased the intruder with a broom yesterday morning .
+basic_object,46,that_gap,basic_object_post_gap_prepositional_phrase,to,9.87825269,He knows that quickly the scientists delivered to the journal last night .
+basic_object,46,that_nogap,basic_object_filled_object_NP,the article,20.56657287,He knows that quickly the scientists delivered the article to the journal last night .
+basic_object,46,what_gap,basic_object_post_gap_prepositional_phrase,to,4.61399121,He knows what quickly the scientists delivered to the journal last night .
+basic_object,46,what_nogap,basic_object_filled_object_NP,the article,25.96724982,He knows what quickly the scientists delivered the article to the journal last night .
+basic_object,47,that_gap,basic_object_post_gap_prepositional_phrase,with,16.49635073,I know that brutally the police frightened with their guns last night .
+basic_object,47,that_nogap,basic_object_filled_object_NP,the protesters,16.43754504,I know that brutally the police frightened the protesters with their guns last night .
+basic_object,47,what_gap,basic_object_post_gap_prepositional_phrase,with,11.41927028,I know who brutally the police frightened with their guns last night .
+basic_object,47,what_nogap,basic_object_filled_object_NP,the protesters,18.23170512,I know who brutally the police frightened the protesters with their guns last night .
+basic_object,48,that_gap,basic_object_post_gap_prepositional_phrase,with,11.77839603,You know that with skill the radical assassinated with a bomb yesterday .
+basic_object,48,that_nogap,basic_object_filled_object_NP,the politician,20.43625856,You know that with skill the radical assassinated the politician with a bomb yesterday .
+basic_object,48,what_gap,basic_object_post_gap_prepositional_phrase,with,10.89028306,You know who with skill the radical assassinated with a bomb yesterday .
+basic_object,48,what_nogap,basic_object_filled_object_NP,the politician,19.86251316,You know who with skill the radical assassinated the politician with a bomb yesterday .
+basic_object,49,that_gap,basic_object_post_gap_prepositional_phrase,with,10.43184796,She knows that cheerfully the mechanic greeted with a wave yesterday .
+basic_object,49,that_nogap,basic_object_filled_object_NP,the teacher,23.85286915,She knows that cheerfully the mechanic greeted the teacher with a wave yesterday .
+basic_object,49,what_gap,basic_object_post_gap_prepositional_phrase,with,7.41397663,She knows who cheerfully the mechanic greeted with a wave yesterday .
+basic_object,49,what_nogap,basic_object_filled_object_NP,the teacher,26.03206578,She knows who cheerfully the mechanic greeted the teacher with a wave yesterday .
+basic_object,5,that_gap,basic_object_post_gap_prepositional_phrase,from,7.08737067,She told me that secretly the star student stole from the teacher last year .
+basic_object,5,that_nogap,basic_object_filled_object_NP,answers to the test,44.04305443,She told me that secretly the star student stole answers to the test from the teacher last year .
+basic_object,5,what_gap,basic_object_post_gap_prepositional_phrase,from,1.63426042,She told me what secretly the star student stole from the teacher last year .
+basic_object,5,what_nogap,basic_object_filled_object_NP,answers to the test,49.37632001,She told me what secretly the star student stole answers to the test from the teacher last year .
+basic_object,50,that_gap,basic_object_post_gap_prepositional_phrase,with,17.93693655,He knows that kindly the students reassured with kind words last night .
+basic_object,50,that_nogap,basic_object_filled_object_NP,the principal,19.92912961,He knows that kindly the students reassured the principal with kind words last night .
+basic_object,50,what_gap,basic_object_post_gap_prepositional_phrase,with,15.03946967,He knows who kindly the students reassured with kind words last night .
+basic_object,50,what_nogap,basic_object_filled_object_NP,the principal,21.77987219,He knows who kindly the students reassured the principal with kind words last night .
+basic_object,6,that_gap,basic_object_post_gap_prepositional_phrase,with,10.93465315,She knows that with skill the collector forged with a brush a short while ago .
+basic_object,6,that_nogap,basic_object_filled_object_NP,the painting,19.49203629,She knows that with skill the collector forged the painting with a brush a short while ago .
+basic_object,6,what_gap,basic_object_post_gap_prepositional_phrase,with,9.29057375,She knows what with skill the collector forged with a brush a short while ago .
+basic_object,6,what_nogap,basic_object_filled_object_NP,the painting,20.79940366,She knows what with skill the collector forged the painting with a brush a short while ago .
+basic_object,7,that_gap,basic_object_post_gap_prepositional_phrase,into,6.55355908,We all remember that illegally the convict brought into the prison two weeks ago .
+basic_object,7,that_nogap,basic_object_filled_object_NP,a gun,11.04933875,We all remember that illegally the convict brought a gun into the prison two weeks ago .
+basic_object,7,what_gap,basic_object_post_gap_prepositional_phrase,into,6.66229933,We all remember what illegally the convict brought into the prison two weeks ago .
+basic_object,7,what_nogap,basic_object_filled_object_NP,a gun,20.86559450,We all remember what illegally the convict brought a gun into the prison two weeks ago .
+basic_object,8,that_gap,basic_object_post_gap_prepositional_phrase,to,8.67306420,My friend reported that illegally the company sold to stock holders last quarter .
+basic_object,8,that_nogap,basic_object_filled_object_NP,multiple assets,33.44449440,My friend reported that illegally the company sold multiple assets to stock holders last quarter .
+basic_object,8,what_gap,basic_object_post_gap_prepositional_phrase,to,3.53566900,My friend reported what illegally the company sold to stock holders last quarter .
+basic_object,8,what_nogap,basic_object_filled_object_NP,multiple assets,39.46390863,My friend reported what illegally the company sold multiple assets to stock holders last quarter .
+basic_object,9,that_gap,basic_object_post_gap_prepositional_phrase,with,11.91379440,I do not know that with malice her rival derailed with a cruel plan last week .
+basic_object,9,that_nogap,basic_object_filled_object_NP,the performance,18.69150790,I do not know that with malice her rival derailed the performance with a cruel plan last week .
+basic_object,9,what_gap,basic_object_post_gap_prepositional_phrase,with,11.02163035,I do not know what with malice her rival derailed with a cruel plan last week .
+basic_object,9,what_nogap,basic_object_filled_object_NP,the performance,20.90530901,I do not know what with malice her rival derailed the performance with a cruel plan last week .
+basic_pp,1,that_gap,basic_pp_post_gap_final_material,at the holiday party,48.88855491,I know that with gusto our uncle grabbed the food in front of at the holiday party .
+basic_pp,1,that_nogap,basic_pp_filled_object_of_prep_NP3,the guests,21.54971472,I know that with gusto our uncle grabbed the food in front of the guests at the holiday party .
+basic_pp,1,what_gap,basic_pp_post_gap_final_material,at the holiday party,42.96863183,I know who with gusto our uncle grabbed the food in front of at the holiday party .
+basic_pp,1,what_nogap,basic_pp_filled_object_of_prep_NP3,the guests,21.49939929,I know who with gusto our uncle grabbed the food in front of the guests at the holiday party .
+basic_pp,10,that_gap,basic_pp_post_gap_final_material,during the award ceremony,42.08040343,She can guess that with much fanfare the movie star received a prize for during the award ceremony .
+basic_pp,10,that_nogap,basic_pp_filled_object_of_prep_NP3,her hard work,14.72831642,She can guess that with much fanfare the movie star received a prize for her hard work during the award ceremony .
+basic_pp,10,what_gap,basic_pp_post_gap_final_material,during the award ceremony,33.73628957,She can guess what with much fanfare the movie star received a prize for during the award ceremony .
+basic_pp,10,what_nogap,basic_pp_filled_object_of_prep_NP3,her hard work,15.60621222,She can guess what with much fanfare the movie star received a prize for her hard work during the award ceremony .
+basic_pp,11,that_gap,basic_pp_post_gap_final_material,in the middle of the night,34.95633925,The newspaper reported that brutally the suspect killed the witness with in the middle of the night .
+basic_pp,11,that_nogap,basic_pp_filled_object_of_prep_NP3,a gun,10.02607411,The newspaper reported that brutally the suspect killed the witness with a gun in the middle of the night .
+basic_pp,11,what_gap,basic_pp_post_gap_final_material,in the middle of the night,27.03437960,The newspaper reported what brutally the suspect killed the witness with in the middle of the night .
+basic_pp,11,what_nogap,basic_pp_filled_object_of_prep_NP3,a gun,10.42418004,The newspaper reported what brutally the suspect killed the witness with a gun in the middle of the night .
+basic_pp,12,that_gap,basic_pp_post_gap_final_material,over an hour ago,43.20428596,We recall that clumsily the man placed a delicate plate next to over an hour ago .
+basic_pp,12,that_nogap,basic_pp_filled_object_of_prep_NP3,the oven,16.19467311,We recall that clumsily the man placed a delicate plate next to the oven over an hour ago .
+basic_pp,12,what_gap,basic_pp_post_gap_final_material,over an hour ago,40.24654183,We recall what clumsily the man placed a delicate plate next to over an hour ago .
+basic_pp,12,what_nogap,basic_pp_filled_object_of_prep_NP3,the oven,17.43102813,We recall what clumsily the man placed a delicate plate next to the oven over an hour ago .
+basic_pp,13,that_gap,basic_pp_post_gap_final_material,without any delay,41.08754792,I remember that with skill the nurse administered the new medicine to without any delay .
+basic_pp,13,that_nogap,basic_pp_filled_object_of_prep_NP3,the patient,7.52938647,I remember that with skill the nurse administered the new medicine to the patient without any delay .
+basic_pp,13,what_gap,basic_pp_post_gap_final_material,without any delay,33.93164923,I remember who with skill the nurse administered the new medicine to without any delay .
+basic_pp,13,what_nogap,basic_pp_filled_object_of_prep_NP3,the patient,9.83777643,I remember who with skill the nurse administered the new medicine to the patient without any delay .
+basic_pp,14,that_gap,basic_pp_post_gap_final_material,yesterday,23.64545721,Our friend knew that without tact the gossip column revealed family secrets to yesterday .
+basic_pp,14,that_nogap,basic_pp_filled_object_of_prep_NP3,the public,9.31090709,Our friend knew that without tact the gossip column revealed family secrets to the public yesterday .
+basic_pp,14,what_gap,basic_pp_post_gap_final_material,yesterday,22.36943529,Our friend knew who without tact the gossip column revealed family secrets to yesterday .
+basic_pp,14,what_nogap,basic_pp_filled_object_of_prep_NP3,the public,10.05639379,Our friend knew who without tact the gossip column revealed family secrets to the public yesterday .
+basic_pp,15,that_gap,basic_pp_post_gap_final_material,over the summer,25.99102110,The mayor told me that with public funds the workers repaired the bridge for over the summer .
+basic_pp,15,that_nogap,basic_pp_filled_object_of_prep_NP3,the town,15.59319623,The mayor told me that with public funds the workers repaired the bridge for the town over the summer .
+basic_pp,15,what_gap,basic_pp_post_gap_final_material,over the summer,26.63049135,The mayor told me what with public funds the workers repaired the bridge for over the summer .
+basic_pp,15,what_nogap,basic_pp_filled_object_of_prep_NP3,the town,14.95216354,The mayor told me what with public funds the workers repaired the bridge for the town over the summer .
+basic_pp,16,that_gap,basic_pp_post_gap_final_material,using illegal methods,43.87763502,My friend remembers that secretly the government collected sensitive data about using illegal methods .
+basic_pp,16,that_nogap,basic_pp_filled_object_of_prep_NP3,foreign threats,30.17019557,My friend remembers that secretly the government collected sensitive data about foreign threats using illegal methods .
+basic_pp,16,what_gap,basic_pp_post_gap_final_material,using illegal methods,43.37213631,My friend remembers what secretly the government collected sensitive data about using illegal methods .
+basic_pp,16,what_nogap,basic_pp_filled_object_of_prep_NP3,foreign threats,31.15105364,My friend remembers what secretly the government collected sensitive data about foreign threats using illegal methods .
+basic_pp,17,that_gap,basic_pp_post_gap_final_material,last month,24.94543653,The newspaper said that secretly the neighbors sold a convertible to last month .
+basic_pp,17,that_nogap,basic_pp_filled_object_of_prep_NP3,the new couple,25.83460122,The newspaper said that secretly the neighbors sold a convertible to the new couple last month .
+basic_pp,17,what_gap,basic_pp_post_gap_final_material,last month,16.62223165,The newspaper said who secretly the neighbors sold a convertible to last month .
+basic_pp,17,what_nogap,basic_pp_filled_object_of_prep_NP3,the new couple,30.74401309,The newspaper said who secretly the neighbors sold a convertible to the new couple last month .
+basic_pp,18,that_gap,basic_pp_post_gap_final_material,over a week ago,28.32774994,Our neighbor said that we believe the student sent a package to over a week ago .
+basic_pp,18,that_nogap,basic_pp_filled_object_of_prep_NP3,her mother,12.11410828,Our neighbor said that we believe the student sent a package to her mother over a week ago .
+basic_pp,18,what_gap,basic_pp_post_gap_final_material,over a week ago,22.82277191,Our neighbor said who we believe the student sent a package to over a week ago .
+basic_pp,18,what_nogap,basic_pp_filled_object_of_prep_NP3,her mother,18.64021288,Our neighbor said who we believe the student sent a package to her mother over a week ago .
+basic_pp,19,that_gap,basic_pp_post_gap_final_material,for the following year,41.60490847,My friend told me that recently the university hired a new administrator to help with for the following year .
+basic_pp,19,that_nogap,basic_pp_filled_object_of_prep_NP3,increased enrollment,26.70471658,My friend told me that recently the university hired a new administrator to help with increased enrollment for the following year .
+basic_pp,19,what_gap,basic_pp_post_gap_final_material,for the following year,38.53998076,My friend told me what recently the university hired a new administrator to help with for the following year .
+basic_pp,19,what_nogap,basic_pp_filled_object_of_prep_NP3,increased enrollment,27.29854572,My friend told me what recently the university hired a new administrator to help with increased enrollment for the following year .
+basic_pp,2,that_gap,basic_pp_post_gap_final_material,yesterday,22.26959358,My neighbor told me that with skill the dog caught the mouse for yesterday .
+basic_pp,2,that_nogap,basic_pp_filled_object_of_prep_NP3,his neighbors,25.16533211,My neighbor told me that with skill the dog caught the mouse for his neighbors yesterday .
+basic_pp,2,what_gap,basic_pp_post_gap_final_material,yesterday,16.52530562,My neighbor told me who with skill the dog caught the mouse for yesterday .
+basic_pp,2,what_nogap,basic_pp_filled_object_of_prep_NP3,his neighbors,22.50407913,My neighbor told me who with skill the dog caught the mouse for his neighbors yesterday .
+basic_pp,20,that_gap,basic_pp_post_gap_final_material,when he was young,31.74760804,She can not believe that recently my friend stole a candy bar from when he was young .
+basic_pp,20,that_nogap,basic_pp_filled_object_of_prep_NP3,the store,7.82003758,She can not believe that recently my friend stole a candy bar from the store when he was young .
+basic_pp,20,what_gap,basic_pp_post_gap_final_material,when he was young,29.56123833,She can not believe what recently my friend stole a candy bar from when he was young .
+basic_pp,20,what_nogap,basic_pp_filled_object_of_prep_NP3,the store,7.89775412,She can not believe what recently my friend stole a candy bar from the store when he was young .
+basic_pp,21,that_gap,basic_pp_post_gap_final_material,last spring,30.54652402,Our neighbor reminded us that with effort the truck dragged the car out of last spring .
+basic_pp,21,that_nogap,basic_pp_filled_object_of_prep_NP3,the swamp,16.76275591,Our neighbor reminded us that with effort the truck dragged the car out of the swamp last spring .
+basic_pp,21,what_gap,basic_pp_post_gap_final_material,last spring,26.85830877,Our neighbor reminded us what with effort the truck dragged the car out of last spring .
+basic_pp,21,what_nogap,basic_pp_filled_object_of_prep_NP3,the swamp,16.58941610,Our neighbor reminded us what with effort the truck dragged the car out of the swamp last spring .
+basic_pp,22,that_gap,basic_pp_post_gap_final_material,yesterday evening,28.59671590,The shop owner told me that with care the chef prepared a great meal for yesterday evening .
+basic_pp,22,that_nogap,basic_pp_filled_object_of_prep_NP3,the guests,10.07292707,The shop owner told me that with care the chef prepared a great meal for the guests yesterday evening .
+basic_pp,22,what_gap,basic_pp_post_gap_final_material,yesterday evening,28.84709995,The shop owner told me who with care the chef prepared a great meal for yesterday evening .
+basic_pp,22,what_nogap,basic_pp_filled_object_of_prep_NP3,the guests,10.63615955,The shop owner told me who with care the chef prepared a great meal for the guests yesterday evening .
+basic_pp,23,that_gap,basic_pp_post_gap_final_material,last month,21.28500327,My sister told me that we believe the newspaper published a long story about last month .
+basic_pp,23,that_nogap,basic_pp_filled_object_of_prep_NP3,the mayor,18.36279128,My sister told me that we believe the newspaper published a long story about the mayor last month .
+basic_pp,23,what_gap,basic_pp_post_gap_final_material,last month,16.72346844,My sister told me who we believe the newspaper published a long story about last month .
+basic_pp,23,what_nogap,basic_pp_filled_object_of_prep_NP3,the mayor,18.74170935,My sister told me who we believe the newspaper published a long story about the mayor last month .
+basic_pp,24,that_gap,basic_pp_post_gap_final_material,last weekend,23.39241860,We remember that warmly our new friend brought a large present to last weekend .
+basic_pp,24,that_nogap,basic_pp_filled_object_of_prep_NP3,the birthday party,19.22698869,We remember that warmly our new friend brought a large present to the birthday party last weekend .
+basic_pp,24,what_gap,basic_pp_post_gap_final_material,last weekend,21.49730016,We remember what warmly our new friend brought a large present to last weekend .
+basic_pp,24,what_nogap,basic_pp_filled_object_of_prep_NP3,the birthday party,18.67011851,We remember what warmly our new friend brought a large present to the birthday party last weekend .
+basic_pp,25,that_gap,basic_pp_post_gap_final_material,at school,34.35071463,I know that warmly the teacher congratulated the couple in front of at school .
+basic_pp,25,that_nogap,basic_pp_filled_object_of_prep_NP3,the children,10.13036509,I know that warmly the teacher congratulated the couple in front of the children at school .
+basic_pp,25,what_gap,basic_pp_post_gap_final_material,at school,31.82070218,I know who warmly the teacher congratulated the couple in front of at school .
+basic_pp,25,what_nogap,basic_pp_filled_object_of_prep_NP3,the children,11.02176740,I know who warmly the teacher congratulated the couple in front of the children at school .
+basic_pp,26,that_gap,basic_pp_post_gap_final_material,last year,22.14052719,You know that graciously the journalist introduced her friend to last year .
+basic_pp,26,that_nogap,basic_pp_filled_object_of_prep_NP3,her family,14.44108161,You know that graciously the journalist introduced her friend to her family last year .
+basic_pp,26,what_gap,basic_pp_post_gap_final_material,last year,19.39314243,You know who graciously the journalist introduced her friend to last year .
+basic_pp,26,what_nogap,basic_pp_filled_object_of_prep_NP3,her family,14.90162449,You know who graciously the journalist introduced her friend to her family last year .
+basic_pp,27,that_gap,basic_pp_post_gap_final_material,last night,21.36226246,She knows that warmly the young man waited for his date next to last night .
+basic_pp,27,that_nogap,basic_pp_filled_object_of_prep_NP3,the theater,24.44435969,She knows that warmly the young man waited for his date next to the theater last night .
+basic_pp,27,what_gap,basic_pp_post_gap_final_material,last night,14.32481770,She knows what warmly the young man waited for his date next to last night .
+basic_pp,27,what_nogap,basic_pp_filled_object_of_prep_NP3,the theater,24.16570170,She knows what warmly the young man waited for his date next to the theater last night .
+basic_pp,28,that_gap,basic_pp_post_gap_final_material,yesterday,20.81576814,He knows that carefully the lawyer interrogated the spy with yesterday .
+basic_pp,28,that_nogap,basic_pp_filled_object_of_prep_NP3,bright lights,25.05461970,He knows that carefully the lawyer interrogated the spy with bright lights yesterday .
+basic_pp,28,what_gap,basic_pp_post_gap_final_material,yesterday,14.26010128,He knows what carefully the lawyer interrogated the spy with yesterday .
+basic_pp,28,what_nogap,basic_pp_filled_object_of_prep_NP3,bright lights,27.72671597,He knows what carefully the lawyer interrogated the spy with bright lights yesterday .
+basic_pp,29,that_gap,basic_pp_post_gap_final_material,last week,29.58348757,They recall that warmly the woman thanked the waitress with last week .
+basic_pp,29,that_nogap,basic_pp_filled_object_of_prep_NP3,a big tip,27.51294895,They recall that warmly the woman thanked the waitress with a big tip last week .
+basic_pp,29,what_gap,basic_pp_post_gap_final_material,last week,24.77283250,They recall what warmly the woman thanked the waitress with last week .
+basic_pp,29,what_nogap,basic_pp_filled_object_of_prep_NP3,a big tip,27.57517528,They recall what warmly the woman thanked the waitress with a big tip last week .
+basic_pp,3,that_gap,basic_pp_post_gap_final_material,by the deadline,39.25241098,I know that with passion the committee delivered the report to by the deadline .
+basic_pp,3,that_nogap,basic_pp_filled_object_of_prep_NP3,the president,8.03515928,I know that with passion the committee delivered the report to the president by the deadline .
+basic_pp,3,what_gap,basic_pp_post_gap_final_material,by the deadline,34.02892583,I know who with passion the committee delivered the report to by the deadline .
+basic_pp,3,what_nogap,basic_pp_filled_object_of_prep_NP3,the president,10.40016637,I know who with passion the committee delivered the report to the president by the deadline .
+basic_pp,30,that_gap,basic_pp_post_gap_final_material,yesterday evening,36.81448142,He remembers that skillfully the family reassured the old woman about yesterday evening .
+basic_pp,30,that_nogap,basic_pp_filled_object_of_prep_NP3,her daughter,13.42556857,He remembers that skillfully the family reassured the old woman about her daughter yesterday evening .
+basic_pp,30,what_gap,basic_pp_post_gap_final_material,yesterday evening,31.02659378,He remembers who skillfully the family reassured the old woman about yesterday evening .
+basic_pp,30,what_nogap,basic_pp_filled_object_of_prep_NP3,her daughter,13.60915295,He remembers who skillfully the family reassured the old woman about her daughter yesterday evening .
+basic_pp,31,that_gap,basic_pp_post_gap_final_material,last evening,31.07770991,You said that unkindly the young man abandoned his partner with last evening .
+basic_pp,31,that_nogap,basic_pp_filled_object_of_prep_NP3,mounting debts,33.58115514,You said that unkindly the young man abandoned his partner with mounting debts last evening .
+basic_pp,31,what_gap,basic_pp_post_gap_final_material,last evening,28.00910477,You said who unkindly the young man abandoned his partner with last evening .
+basic_pp,31,what_nogap,basic_pp_filled_object_of_prep_NP3,mounting debts,33.22399289,You said who unkindly the young man abandoned his partner with mounting debts last evening .
+basic_pp,32,that_gap,basic_pp_post_gap_final_material,over the summer,37.83527183,We recall that hesitantly the student delivered the paper to over the summer .
+basic_pp,32,that_nogap,basic_pp_filled_object_of_prep_NP3,the professor,11.75101801,We recall that hesitantly the student delivered the paper to the professor over the summer .
+basic_pp,32,what_gap,basic_pp_post_gap_final_material,over the summer,36.00233644,We recall who hesitantly the student delivered the paper to over the summer .
+basic_pp,32,what_nogap,basic_pp_filled_object_of_prep_NP3,the professor,12.31416247,We recall who hesitantly the student delivered the paper to the professor over the summer .
+basic_pp,33,that_gap,basic_pp_post_gap_final_material,last night,23.62200764,He said that hesitantly the company collected information about last night .
+basic_pp,33,that_nogap,basic_pp_filled_object_of_prep_NP3,their rivals,25.68889479,He said that hesitantly the company collected information about their rivals last night .
+basic_pp,33,what_gap,basic_pp_post_gap_final_material,last night,23.41468660,He said who hesitantly the company collected information about last night .
+basic_pp,33,what_nogap,basic_pp_filled_object_of_prep_NP3,their rivals,24.68621742,He said who hesitantly the company collected information about their rivals last night .
+basic_pp,34,that_gap,basic_pp_post_gap_final_material,last night,22.43421807,They know that rudely the couple frightened the children with last night .
+basic_pp,34,that_nogap,basic_pp_filled_object_of_prep_NP3,threats,12.97333561,They know that rudely the couple frightened the children with threats last night .
+basic_pp,34,what_gap,basic_pp_post_gap_final_material,last night,14.53813458,They know what rudely the couple frightened the children with last night .
+basic_pp,34,what_nogap,basic_pp_filled_object_of_prep_NP3,threats,14.72455676,They know what rudely the couple frightened the children with threats last night .
+basic_pp,35,that_gap,basic_pp_post_gap_final_material,last year,23.70896032,He knows that with skill the spy assassinated the politician with last year .
+basic_pp,35,that_nogap,basic_pp_filled_object_of_prep_NP3,a gun,11.83013540,He knows that with skill the spy assassinated the politician with a gun last year .
+basic_pp,35,what_gap,basic_pp_post_gap_final_material,last year,19.20285528,He knows what with skill the spy assassinated the politician with last year .
+basic_pp,35,what_nogap,basic_pp_filled_object_of_prep_NP3,a gun,12.01128308,He knows what with skill the spy assassinated the politician with a gun last year .
+basic_pp,36,that_gap,basic_pp_post_gap_final_material,over lunch,36.62743312,I know that warmly the lawyer greeted the man with over lunch .
+basic_pp,36,that_nogap,basic_pp_filled_object_of_prep_NP3,a smile,7.38676885,I know that warmly the lawyer greeted the man with a smile over lunch .
+basic_pp,36,what_gap,basic_pp_post_gap_final_material,over lunch,28.81115088,I know what warmly the lawyer greeted the man with over lunch .
+basic_pp,36,what_nogap,basic_pp_filled_object_of_prep_NP3,a smile,12.47013367,I know what warmly the lawyer greeted the man with a smile over lunch .
+basic_pp,37,that_gap,basic_pp_post_gap_final_material,last year,24.35959414,You know that skillfully the maid collected water from last year .
+basic_pp,37,that_nogap,basic_pp_filled_object_of_prep_NP3,the brook,18.87187219,You know that skillfully the maid collected water from the brook last year .
+basic_pp,37,what_gap,basic_pp_post_gap_final_material,last year,22.51942075,You know what skillfully the maid collected water from last year .
+basic_pp,37,what_nogap,basic_pp_filled_object_of_prep_NP3,the brook,19.07901868,You know what skillfully the maid collected water from the brook last year .
+basic_pp,38,that_gap,basic_pp_post_gap_final_material,last summer,27.37291809,She knows that cooly the woman congratulated the athletes with last summer .
+basic_pp,38,that_nogap,basic_pp_filled_object_of_prep_NP3,her husband,14.38393502,She knows that cooly the woman congratulated the athletes with her husband last summer .
+basic_pp,38,what_gap,basic_pp_post_gap_final_material,last summer,24.98166405,She knows who cooly the woman congratulated the athletes with last summer .
+basic_pp,38,what_nogap,basic_pp_filled_object_of_prep_NP3,her husband,14.78066749,She knows who cooly the woman congratulated the athletes with her husband last summer .
+basic_pp,39,that_gap,basic_pp_post_gap_final_material,last winter,29.47479348,He knows that cheerfully the hunter introduced the athletes to last winter .
+basic_pp,39,that_nogap,basic_pp_filled_object_of_prep_NP3,his family,14.79339639,He knows that cheerfully the hunter introduced his friends to his family last winter .
+basic_pp,39,what_gap,basic_pp_post_gap_final_material,last winter,27.17837355,He knows who cheerfully the hunter introduced the athletes to last winter .
+basic_pp,39,what_nogap,basic_pp_filled_object_of_prep_NP3,his family,14.27298600,He knows who cheerfully the hunter introduced his friends to his family last winter .
+basic_pp,4,that_gap,basic_pp_post_gap_final_material,after lunch,33.95956250,You remember that without thinking the businessman showed the presentation to after lunch .
+basic_pp,4,that_nogap,basic_pp_filled_object_of_prep_NP3,the visitors,18.09925418,You remember that without thinking the businessman showed the presentation to the visitors after lunch .
+basic_pp,4,what_gap,basic_pp_post_gap_final_material,after lunch,34.58964081,You remember who without thinking the businessman showed the presentation to after lunch .
+basic_pp,4,what_nogap,basic_pp_filled_object_of_prep_NP3,the visitors,18.47189220,You remember who without thinking the businessman showed the presentation to the visitors after lunch .
+basic_pp,40,that_gap,basic_pp_post_gap_final_material,last night,21.46643659,They recall that with sadness the man waited for her friend in last night .
+basic_pp,40,that_nogap,basic_pp_filled_object_of_prep_NP3,the rain,14.43537431,They recall that with sadness the man waited for her friend in the rain last night .
+basic_pp,40,what_gap,basic_pp_post_gap_final_material,last night,19.06314181,They recall what with sadness the man waited for her friend in last night .
+basic_pp,40,what_nogap,basic_pp_filled_object_of_prep_NP3,the rain,14.86424571,They recall what with sadness the man waited for her friend in the rain last night .
+basic_pp,41,that_gap,basic_pp_post_gap_final_material,yesterday,21.82634428,He remembers that brutally the detective interrogated the criminal in yesterday .
+basic_pp,41,that_nogap,basic_pp_filled_object_of_prep_NP3,his cell,13.62530682,He remembers that brutally the detective interrogated the criminal in his cell yesterday .
+basic_pp,41,what_gap,basic_pp_post_gap_final_material,yesterday,20.39704178,He remembers what brutally the detective interrogated the criminal in yesterday .
+basic_pp,41,what_nogap,basic_pp_filled_object_of_prep_NP3,his cell,14.45378454,He remembers what brutally the detective interrogated the criminal in his cell yesterday .
+basic_pp,42,that_gap,basic_pp_post_gap_final_material,last night,19.02672242,You said that skillfully the theif stole a painting from last night .
+basic_pp,42,that_nogap,basic_pp_filled_object_of_prep_NP3,the museum,14.13164516,You said that skillfully the theif stole a painting from the museum last night .
+basic_pp,42,what_gap,basic_pp_post_gap_final_material,last night,18.88636694,You said what skillfully the theif stole a painting from last night .
+basic_pp,42,what_nogap,basic_pp_filled_object_of_prep_NP3,the museum,13.12140805,You said what skillfully the theif stole a painting from the museum last night .
+basic_pp,43,that_gap,basic_pp_post_gap_final_material,yesterday,20.59563885,We recall that sadly the doctor administered medicine to yesterday .
+basic_pp,43,that_nogap,basic_pp_filled_object_of_prep_NP3,the old woman,22.35991638,We recall that sadly the doctor administered medicine to the old woman yesterday .
+basic_pp,43,what_gap,basic_pp_post_gap_final_material,yesterday,13.77259299,We recall who sadly the doctor administered medicine to yesterday .
+basic_pp,43,what_nogap,basic_pp_filled_object_of_prep_NP3,the old woman,24.87717108,We recall who sadly the doctor administered medicine to the old woman yesterday .
+basic_pp,44,that_gap,basic_pp_post_gap_final_material,over the winter,34.34975958,He said that anxiously the mother waited for her daughter in over the winter .
+basic_pp,44,that_nogap,basic_pp_filled_object_of_prep_NP3,the car,6.82590528,He said that anxiously the mother waited for her daughter in the car over the winter .
+basic_pp,44,what_gap,basic_pp_post_gap_final_material,over the winter,32.49302548,He said what anxiously the motehr waited for her daughter in over the winter .
+basic_pp,44,what_nogap,basic_pp_filled_object_of_prep_NP3,the car,9.26659183,He said what anxiously the mother waited for her daughter in the car over the winter .
+basic_pp,45,that_gap,basic_pp_post_gap_final_material,yesterday morning,37.61350797,They know that suddenly the woman chased the intruder with yesterday morning .
+basic_pp,45,that_nogap,basic_pp_filled_object_of_prep_NP3,a broom,9.19497789,They know that suddenly the woman chased the intruder with a broom yesterday morning .
+basic_pp,45,what_gap,basic_pp_post_gap_final_material,yesterday morning,27.75311873,They know what suddenly the woman chased the intruder with yesterday morning .
+basic_pp,45,what_nogap,basic_pp_filled_object_of_prep_NP3,a broom,9.48313458,They know what suddenly the woman chased the intruder with a broom yesterday morning .
+basic_pp,46,that_gap,basic_pp_post_gap_final_material,last night,24.60970841,He knows that quickly the scientists delivered the article to last night .
+basic_pp,46,that_nogap,basic_pp_filled_object_of_prep_NP3,the journal,13.19565347,He knows that quickly the scientists delivered the article to the journal last night .
+basic_pp,46,what_gap,basic_pp_post_gap_final_material,last night,24.08279002,He knows what quickly the scientists delivered the article to last night .
+basic_pp,46,what_nogap,basic_pp_filled_object_of_prep_NP3,the journal,14.00501260,He knows what quickly the scientists delivered the article to the journal last night .
+basic_pp,47,that_gap,basic_pp_post_gap_final_material,last night,20.36855865,I know that brutally the police frightened the protesters with last night .
+basic_pp,47,that_nogap,basic_pp_filled_object_of_prep_NP3,their guns,11.75769480,I know that brutally the police frightened the protesters with their guns last night .
+basic_pp,47,what_gap,basic_pp_post_gap_final_material,last night,11.87634781,I know what brutally the police frightened the protesters with last night .
+basic_pp,47,what_nogap,basic_pp_filled_object_of_prep_NP3,their guns,13.71214118,I know what brutally the police frightened the protesters with their guns last night .
+basic_pp,48,that_gap,basic_pp_post_gap_final_material,yesterday,22.17351009,You know that with skill the radical assassinated the politician with yesterday .
+basic_pp,48,that_nogap,basic_pp_filled_object_of_prep_NP3,a bomb,15.47540884,You know that with skill the radical assassinated the politician with a bomb yesterday .
+basic_pp,48,what_gap,basic_pp_post_gap_final_material,yesterday,20.38356556,You know what with skill the radical assassinated the politician with yesterday .
+basic_pp,48,what_nogap,basic_pp_filled_object_of_prep_NP3,a bomb,14.78320375,You know what with skill the radical assassinated the politician with a bomb yesterday .
+basic_pp,49,that_gap,basic_pp_post_gap_final_material,yesterday,22.80053132,She knows that cheerfully the mechanic greeted the teacher with yesterday .
+basic_pp,49,that_nogap,basic_pp_filled_object_of_prep_NP3,a wave,11.71592734,She knows that cheerfully the mechanic greeted the teacher with a wave yesterday .
+basic_pp,49,what_gap,basic_pp_post_gap_final_material,yesterday,11.05365962,She knows what cheerfully the mechanic greeted the teacher with yesterday .
+basic_pp,49,what_nogap,basic_pp_filled_object_of_prep_NP3,a wave,18.28484967,She knows what cheerfully the mechanic greeted the teacher with a wave yesterday .
+basic_pp,5,that_gap,basic_pp_post_gap_final_material,last year,18.96344726,She told me that secretly the star student stole answers to the test from last year .
+basic_pp,5,that_nogap,basic_pp_filled_object_of_prep_NP3,the teacher,10.33553797,She told me that secretly the star student stole answers to the test from the teacher last year .
+basic_pp,5,what_gap,basic_pp_post_gap_final_material,last year,14.43116741,She told me who secretly the star student stole answers to the test from last year .
+basic_pp,5,what_nogap,basic_pp_filled_object_of_prep_NP3,the teacher,14.09436736,She told me who secretly the star student stole answers to the test from the teacher last year .
+basic_pp,50,that_gap,basic_pp_post_gap_final_material,last night,19.84758127,He knows that kindly the students reassured the principal with last night .
+basic_pp,50,that_nogap,basic_pp_filled_object_of_prep_NP3,kind words,20.70669319,He knows that kindly the students reassured the principal with kind words last night .
+basic_pp,50,what_gap,basic_pp_post_gap_final_material,last night,14.89701364,He knows what kindly the students reassured the principal with last night .
+basic_pp,50,what_nogap,basic_pp_filled_object_of_prep_NP3,kind words,24.21502456,He knows what kindly the students reassured the principal with kind words last night .
+basic_pp,6,that_gap,basic_pp_post_gap_final_material,a short while ago,34.12412639,She knows that with skill the collector forged the painting with a short while ago .
+basic_pp,6,that_nogap,basic_pp_filled_object_of_prep_NP3,a brush,15.99457851,She knows that with skill the collector forged the painting with a brush a short while ago .
+basic_pp,6,what_gap,basic_pp_post_gap_final_material,a short while ago,34.88097863,She knows what with skill the collector forged the painting with a short while ago .
+basic_pp,6,what_nogap,basic_pp_filled_object_of_prep_NP3,a brush,16.74774467,She knows what with skill the collector forged the painting with a brush a short while ago .
+basic_pp,7,that_gap,basic_pp_post_gap_final_material,two weeks ago,33.98849575,We all remember that illegally the convict brought a gun into two weeks ago .
+basic_pp,7,that_nogap,basic_pp_filled_object_of_prep_NP3,the prison,8.46442887,We all remember that illegally the convict brought a gun into the prison two weeks ago .
+basic_pp,7,what_gap,basic_pp_post_gap_final_material,two weeks ago,26.69092730,We all remember what illegally the convict brought a gun into two weeks ago .
+basic_pp,7,what_nogap,basic_pp_filled_object_of_prep_NP3,the prison,9.03245108,We all remember what illegally the convict brought a gun into the prison two weeks ago .
+basic_pp,8,that_gap,basic_pp_post_gap_final_material,last quarter,34.96723160,My friend reported that illegally the company sold multiple assets to last quarter .
+basic_pp,8,that_nogap,basic_pp_filled_object_of_prep_NP3,stock holders,26.20022487,My friend reported that illegally the company sold multiple assets to stock holders last quarter .
+basic_pp,8,what_gap,basic_pp_post_gap_final_material,last quarter,28.74750061,My friend reported who illegally the company sold multiple assets to last quarter .
+basic_pp,8,what_nogap,basic_pp_filled_object_of_prep_NP3,stock holders,28.52777960,My friend reported who illegally the company sold multiple assets to stock holders last quarter .
+basic_pp,9,that_gap,basic_pp_post_gap_final_material,last week,22.03928607,I do not know that with malice her rival derailed the performance with last week .
+basic_pp,9,that_nogap,basic_pp_filled_object_of_prep_NP3,a cruel plan,34.12295637,I do not know that with malice her rival derailed the performance with a cruel plan last week .
+basic_pp,9,what_gap,basic_pp_post_gap_final_material,last week,18.66152004,I do not know what with malice her rival derailed the performance with last week .
+basic_pp,9,what_nogap,basic_pp_filled_object_of_prep_NP3,a cruel plan,35.05482628,I do not know what with malice her rival derailed the performance with a cruel plan last week .
+basic_subject,1,that_gap,basic_subject_post_gap_verb,grabbed,27.51819316,I know that with gusto grabbed the food in front of the guests at the holiday party .
+basic_subject,1,that_nogap,basic_subject_filled_subject_NP1,our uncle,36.30156582,I know that with gusto our uncle grabbed the food in front of the guests at the holiday party .
+basic_subject,1,what_gap,basic_subject_post_gap_verb,grabbed,19.83854279,I know who with gusto grabbed the food in front of the guests at the holiday party .
+basic_subject,1,what_nogap,basic_subject_filled_subject_NP1,our uncle,37.96654987,I know who with gusto our uncle grabbed the food in front of the guests at the holiday party .
+basic_subject,10,that_gap,basic_subject_post_gap_verb,received,21.24465397,She can guess that with much fanfare received a prize for her hard work during the award ceremony .
+basic_subject,10,that_nogap,basic_subject_filled_subject_NP1,the movie star,31.71150315,She can guess that with much fanfare the movie star received a prize for her hard work during the award ceremony .
+basic_subject,10,what_gap,basic_subject_post_gap_verb,received,13.78806734,She can guess who with much fanfare received a prize for her hard work during the award ceremony .
+basic_subject,10,what_nogap,basic_subject_filled_subject_NP1,the movie star,28.04167218,She can guess who with much fanfare the movie star received a prize for her hard work during the award ceremony .
+basic_subject,11,that_gap,basic_subject_post_gap_verb,killed,10.06666722,The newspaper reported that brutally killed the witness with a gun in the middle of the night .
+basic_subject,11,that_nogap,basic_subject_filled_subject_NP1,the suspect,24.86090182,The newspaper reported that brutally the suspect killed the witness with a gun in the middle of the night .
+basic_subject,11,what_gap,basic_subject_post_gap_verb,killed,5.60296876,The newspaper reported who brutally killed the witness with a gun in the middle of the night .
+basic_subject,11,what_nogap,basic_subject_filled_subject_NP1,the suspect,29.02429753,The newspaper reported who brutally the suspect killed the witness with a gun in the middle of the night .
+basic_subject,12,that_gap,basic_subject_post_gap_verb,placed,10.47165913,We recall that clumsily placed a delicate plate next to the oven over an hour ago .
+basic_subject,12,that_nogap,basic_subject_filled_subject_NP1,the man,26.03202394,We recall that clumsily the man placed a delicate plate next to the oven over an hour ago .
+basic_subject,12,what_gap,basic_subject_post_gap_verb,placed,13.65451850,We recall who clumsily placed a delicate plate next to the oven over an hour ago .
+basic_subject,12,what_nogap,basic_subject_filled_subject_NP1,the man,26.53930725,We recall who clumsily the man placed a delicate plate next to the oven over an hour ago .
+basic_subject,13,that_gap,basic_subject_post_gap_verb,administered,27.67355987,I remember that with skill administered the new medicine to the patient without any delay .
+basic_subject,13,that_nogap,basic_subject_filled_subject_NP1,the nurse,30.82528877,I remember that with skill the nurse administered the new medicine to the patient without any delay .
+basic_subject,13,what_gap,basic_subject_post_gap_verb,administered,24.83002814,I remember who with skill administered the new medicine to the patient without any delay .
+basic_subject,13,what_nogap,basic_subject_filled_subject_NP1,the nurse,34.02068661,I remember who with skill the nurse administered the new medicine to the patient without any delay .
+basic_subject,14,that_gap,basic_subject_post_gap_verb,revealed,26.85731331,Our friend knew that without tact revealed family secrets to the public yesterday .
+basic_subject,14,that_nogap,basic_subject_filled_subject_NP1,the gossip column,40.67738972,Our friend knew that without tact the gossip column revealed family secrets to the public yesterday .
+basic_subject,14,what_gap,basic_subject_post_gap_verb,revealed,18.82584589,Our friend knew who without tact revealed family secrets to the public yesterday .
+basic_subject,14,what_nogap,basic_subject_filled_subject_NP1,the gossip column,40.34812921,Our friend knew who without tact the gossip column revealed family secrets to the public yesterday .
+basic_subject,15,that_gap,basic_subject_post_gap_verb,repaired,26.87982657,The mayor told me that with public funds repaired the bridge for the town over the summer .
+basic_subject,15,that_nogap,basic_subject_filled_subject_NP1,the workers,25.95976800,The mayor told me that with public funds the workers repaired the bridge for the town over the summer .
+basic_subject,15,what_gap,basic_subject_post_gap_verb,repaired,26.00908653,The mayor told me who with public funds repaired the bridge for the town over the summer .
+basic_subject,15,what_nogap,basic_subject_filled_subject_NP1,the workers,25.62985106,The mayor told me who with public funds the workers repaired the bridge for the town over the summer .
+basic_subject,16,that_gap,basic_subject_post_gap_verb,collected,19.25132984,My friend remembers that secretly collected sensitive data about foreign threats using illegal methods .
+basic_subject,16,that_nogap,basic_subject_filled_subject_NP1,the government,20.95510940,My friend remembers that secretly the government collected sensitive data about foreign threats using illegal methods .
+basic_subject,16,what_gap,basic_subject_post_gap_verb,collected,18.26945323,My friend remembers what secretly collected sensitive data about foreign threats using illegal methods .
+basic_subject,16,what_nogap,basic_subject_filled_subject_NP1,the government,24.36009476,My friend remembers what secretly the government collected sensitive data about foreign threats using illegal methods .
+basic_subject,17,that_gap,basic_subject_post_gap_verb,sold,13.14502065,The newspaper said that secretly sold a convertible to the new couple last month .
+basic_subject,17,that_nogap,basic_subject_filled_subject_NP1,the neighbors,32.88898324,The newspaper said that secretly the neighbors sold a convertible to the new couple last month .
+basic_subject,17,what_gap,basic_subject_post_gap_verb,sold,11.64078024,The newspaper said who secretly sold a convertible to the new couple last month .
+basic_subject,17,what_nogap,basic_subject_filled_subject_NP1,the neighbors,40.21489055,The newspaper said who secretly the neighbors sold a convertible to the new couple last month .
+basic_subject,18,that_gap,basic_subject_post_gap_verb,sent,26.32055862,Our neighbor said that we believe sent a package to her mother over a week ago .
+basic_subject,18,that_nogap,basic_subject_filled_subject_NP1,the student,21.20783639,Our neighbor said that we believe the student sent a package to her mother over a week ago .
+basic_subject,18,what_gap,basic_subject_post_gap_verb,sent,18.35756728,Our neighbor said who we believe sent a package to her mother over a week ago .
+basic_subject,18,what_nogap,basic_subject_filled_subject_NP1,the student,24.44839202,Our neighbor said who we believe the student sent a package to her mother over a week ago .
+basic_subject,19,that_gap,basic_subject_post_gap_verb,hired,20.45722524,My friend told me that recently hired a new administrator to help with increased enrollment for the following year .
+basic_subject,19,that_nogap,basic_subject_filled_subject_NP1,the university,21.43428758,My friend told me that recently the university hired a new administrator to help with increased enrollment for the following year .
+basic_subject,19,what_gap,basic_subject_post_gap_verb,hired,25.87110574,My friend told me what recently hired a new administrator to help with increased enrollment for the following year .
+basic_subject,19,what_nogap,basic_subject_filled_subject_NP1,the university,29.73265070,My friend told me what recently the university hired a new administrator to help with increased enrollment for the following year .
+basic_subject,2,that_gap,basic_subject_post_gap_verb,caught,24.84316388,My neighbor told me that with skill caught the mouse for his neighbors yesterday .
+basic_subject,2,that_nogap,basic_subject_filled_subject_NP1,the dog,19.39179207,My neighbor told me that with skill the dog caught the mouse for his neighbors yesterday .
+basic_subject,2,what_gap,basic_subject_post_gap_verb,caught,18.31086724,My neighbor told me who with skill caught the mouse for his neighbors yesterday .
+basic_subject,2,what_nogap,basic_subject_filled_subject_NP1,the dog,22.96993401,My neighbor told me who with skill the dog caught the mouse for his neighbors yesterday .
+basic_subject,20,that_gap,basic_subject_post_gap_verb,stole,22.39285167,She can not believe that recently stole a candy bar from the store when he was young .
+basic_subject,20,that_nogap,basic_subject_filled_subject_NP1,my friend,16.18606166,She can not believe that recently my friend stole a candy bar from the store when he was young .
+basic_subject,20,what_gap,basic_subject_post_gap_verb,stole,12.84684299,She can not believe who recently stole a candy bar from the store when he was young .
+basic_subject,20,what_nogap,basic_subject_filled_subject_NP1,my friend,25.36549306,She can not believe who recently my friend stole a candy bar from the store when he was young .
+basic_subject,21,that_gap,basic_subject_post_gap_verb,dragged,28.89423857,Our neighbor reminded us that with effort dragged the car out of the swamp last spring .
+basic_subject,21,that_nogap,basic_subject_filled_subject_NP1,the truck,25.50063031,Our neighbor reminded us that with effort the truck dragged the car out of the swamp last spring .
+basic_subject,21,what_gap,basic_subject_post_gap_verb,dragged,27.31343578,Our neighbor reminded us what with effort dragged the car out of the swamp last spring .
+basic_subject,21,what_nogap,basic_subject_filled_subject_NP1,the truck,27.60404217,Our neighbor reminded us what with effort the truck dragged the car out of the swamp last spring .
+basic_subject,22,that_gap,basic_subject_post_gap_verb,prepared,21.17679969,The shop owner told me that with care prepared a great meal for the guests yesterday evening .
+basic_subject,22,that_nogap,basic_subject_filled_subject_NP1,the chef,26.33085369,The shop owner told me that with care the chef prepared a great meal for the guests yesterday evening .
+basic_subject,22,what_gap,basic_subject_post_gap_verb,prepared,17.70087558,The shop owner told me who with care prepared a great meal for the guests yesterday evening .
+basic_subject,22,what_nogap,basic_subject_filled_subject_NP1,the chef,27.47978861,The shop owner told me who with care the chef prepared a great meal for the guests yesterday evening .
+basic_subject,23,that_gap,basic_subject_post_gap_verb,published,27.39569103,My sister told me that we believe published a long story about the mayor last month .
+basic_subject,23,that_nogap,basic_subject_filled_subject_NP1,the newspaper,26.32880218,My sister told me that we believe the newspaper published a long story about the mayor last month .
+basic_subject,23,what_gap,basic_subject_post_gap_verb,published,26.08209412,My sister told me what we believe published a long story about the mayor last month .
+basic_subject,23,what_nogap,basic_subject_filled_subject_NP1,the newspaper,30.67497005,My sister told me what we believe the newspaper published a long story about the mayor last month .
+basic_subject,24,that_gap,basic_subject_post_gap_verb,brought,17.01692848,We remember that warmly brought a large present to the birthday party last weekend .
+basic_subject,24,that_nogap,basic_subject_filled_subject_NP1,our new friend,36.77365892,We remember that warmly our new friend brought a large present to the birthday party last weekend .
+basic_subject,24,what_gap,basic_subject_post_gap_verb,brought,15.51140119,We remember who warmly brought a large present to the birthday party last weekend .
+basic_subject,24,what_nogap,basic_subject_filled_subject_NP1,our new friend,38.69209564,We remember who warmly our new friend brought a large present to the birthday party last weekend .
+basic_subject,25,that_gap,basic_subject_post_gap_verb,congratulated,16.01159077,I know that warmly congratulated the couple in front of the children at school .
+basic_subject,25,that_nogap,basic_subject_filled_subject_NP1,the teacher,33.74635093,I know that warmly the teacher congratulated the couple in front of the children at school .
+basic_subject,25,what_gap,basic_subject_post_gap_verb,congratulated,9.88922438,I know who warmly congratulated the couple in front of the children at school .
+basic_subject,25,what_nogap,basic_subject_filled_subject_NP1,the teacher,38.28981455,I know who warmly the teacher congratulated the couple in front of the children at school .
+basic_subject,26,that_gap,basic_subject_post_gap_verb,introduced,15.87404711,You know that graciously introduced her friend to her family last year .
+basic_subject,26,that_nogap,basic_subject_filled_subject_NP1,the journalist,31.99879712,You know that graciously the journalist introduced her friend to her family last year .
+basic_subject,26,what_gap,basic_subject_post_gap_verb,introduced,14.42641805,You know who graciously introduced her friend to her family last year .
+basic_subject,26,what_nogap,basic_subject_filled_subject_NP1,the journalist,38.01620022,You know who graciously the journalist introduced her friend to her family last year .
+basic_subject,27,that_gap,basic_subject_post_gap_verb,waited for,25.41511744,She knows that warmly waited for his date next to the theater last night .
+basic_subject,27,that_nogap,basic_subject_filled_subject_NP1,the young man,28.36568416,She knows that warmly the young man waited for his date next to the theater last night .
+basic_subject,27,what_gap,basic_subject_post_gap_verb,waited for,20.71151612,She knows who warmly waited for his date next to the theater last night .
+basic_subject,27,what_nogap,basic_subject_filled_subject_NP1,the young man,32.40597470,She knows who warmly the young man waited for his date next to the theater last night .
+basic_subject,28,that_gap,basic_subject_post_gap_verb,interrogated,26.15321177,He knows that carefully interrogated the spy with bright lights yesterday .
+basic_subject,28,that_nogap,basic_subject_filled_subject_NP1,the lawyer,30.39888871,He knows that carefully the lawyer interrogated the spy with bright lights yesterday .
+basic_subject,28,what_gap,basic_subject_post_gap_verb,interrogated,19.08073836,He knows who carefully interrogated the spy with bright lights yesterday .
+basic_subject,28,what_nogap,basic_subject_filled_subject_NP1,the lawyer,33.46711442,He knows who carefully the lawyer interrogated the spy with bright lights yesterday .
+basic_subject,29,that_gap,basic_subject_post_gap_verb,thanked,14.69245968,They recall that warmly thanked the waitress with a big tip last week .
+basic_subject,29,that_nogap,basic_subject_filled_subject_NP1,the woman,27.87852067,They recall that warmly the woman thanked the waitress with a big tip last week .
+basic_subject,29,what_gap,basic_subject_post_gap_verb,thanked,9.61202784,They recall who warmly thanked the waitress with a big tip last week .
+basic_subject,29,what_nogap,basic_subject_filled_subject_NP1,the woman,29.79513670,They recall who warmly the woman thanked the waitress with a big tip last week .
+basic_subject,3,that_gap,basic_subject_post_gap_verb,delivered,25.83390152,I know that with passion delivered the report to the president by the deadline .
+basic_subject,3,that_nogap,basic_subject_filled_subject_NP1,the committee,31.11780240,I know that with passion the committee delivered the report to the president by the deadline .
+basic_subject,3,what_gap,basic_subject_post_gap_verb,delivered,25.93144934,I know what with passion delivered the report to the president by the deadline .
+basic_subject,3,what_nogap,basic_subject_filled_subject_NP1,the committee,31.98357380,I know what with passion the committee delivered the report to the president by the deadline .
+basic_subject,30,that_gap,basic_subject_post_gap_verb,reassured,25.92871111,He remembers that skillfully reassured the old woman about her daughter yesterday evening .
+basic_subject,30,that_nogap,basic_subject_filled_subject_NP1,the family,23.84729458,He remembers that skillfully the family reassured the old woman about her daughter yesterday evening .
+basic_subject,30,what_gap,basic_subject_post_gap_verb,reassured,21.05193732,He remembers who skillfully reassured the old woman about her daughter yesterday evening .
+basic_subject,30,what_nogap,basic_subject_filled_subject_NP1,the family,30.44963984,He remembers who skillfully the family reassured the old woman about her daughter yesterday evening .
+basic_subject,31,that_gap,basic_subject_post_gap_verb,abandoned,24.32639340,You said that unkindly abandoned his partner with mounting debts last evening .
+basic_subject,31,that_nogap,basic_subject_filled_subject_NP1,the young man,30.66198147,You said that unkindly the young man abandoned his partner with mounting debts last evening .
+basic_subject,31,what_gap,basic_subject_post_gap_verb,abandoned,17.08260429,You said who unkindly abandoned his partner with mounting debts last evening .
+basic_subject,31,what_nogap,basic_subject_filled_subject_NP1,the young man,28.99932304,You said who unkindly the young man abandoned his partner with mounting debts last evening .
+basic_subject,32,that_gap,basic_subject_post_gap_verb,delivered,19.37878473,We recall that hesitantly delivered the paper to the professor over the summer .
+basic_subject,32,that_nogap,basic_subject_filled_subject_NP1,the student,25.67542146,We recall that hesitantly the student delivered the paper to the professor over the summer .
+basic_subject,32,what_gap,basic_subject_post_gap_verb,delivered,16.73718991,We recall who hesitantly delivered the paper to the professor over the summer .
+basic_subject,32,what_nogap,basic_subject_filled_subject_NP1,the student,32.80937965,We recall who hesitantly the student delivered the paper to the professor over the summer .
+basic_subject,33,that_gap,basic_subject_post_gap_verb,collected,23.16025146,He said that hesitantly collected information about their rivals last night .
+basic_subject,33,that_nogap,basic_subject_filled_subject_NP1,the company,20.68889898,He said that hesitantly the company collected information about their rivals last night .
+basic_subject,33,what_gap,basic_subject_post_gap_verb,collected,16.83587747,He said what hesitantly collected information about their rivals last night .
+basic_subject,33,what_nogap,basic_subject_filled_subject_NP1,the company,24.05742167,He said what hesitantly the company collected information about their rivals last night .
+basic_subject,34,that_gap,basic_subject_post_gap_verb,frightened,22.00919578,They know that rudely frightened the children with threats last night .
+basic_subject,34,that_nogap,basic_subject_filled_subject_NP1,the couple,32.20740938,They know that rudely the couple frightened the children with threats last night .
+basic_subject,34,what_gap,basic_subject_post_gap_verb,frightened,21.92779892,They know who rudely frightened the children with threats last night .
+basic_subject,34,what_nogap,basic_subject_filled_subject_NP1,the couple,33.61488823,They know who rudely the couple frightened the children with threats last night .
+basic_subject,35,that_gap,basic_subject_post_gap_verb,assassinated,35.92818048,He knows that with skill assassinated the politician with a gun last year .
+basic_subject,35,that_nogap,basic_subject_filled_subject_NP1,the spy,32.58145547,He knows that with skill the spy assassinated the politician with a gun last year .
+basic_subject,35,what_gap,basic_subject_post_gap_verb,assassinated,30.46081928,He knows who with skill assassinated the politician with a gun last year .
+basic_subject,35,what_nogap,basic_subject_filled_subject_NP1,the spy,33.67704819,He knows who with skill the spy assassinated the politician with a gun last year .
+basic_subject,36,that_gap,basic_subject_post_gap_verb,greeted,6.68217534,I know that warmly greeted the man with a smile over lunch .
+basic_subject,36,that_nogap,basic_subject_filled_subject_NP1,the lawyer,34.65699735,I know that warmly the lawyer greeted the man with a smile over lunch .
+basic_subject,36,what_gap,basic_subject_post_gap_verb,greeted,6.38136044,I know who warmly greeted the man with a smile over lunch .
+basic_subject,36,what_nogap,basic_subject_filled_subject_NP1,the lawyer,40.33593122,I know who warmly the lawyer greeted the man with a smile over lunch .
+basic_subject,37,that_gap,basic_subject_post_gap_verb,collected,16.31174925,You know that skillfully collected water from the brook last year .
+basic_subject,37,that_nogap,basic_subject_filled_subject_NP1,the maid,34.97724680,You know that skillfully the maid collected water from the brook last year .
+basic_subject,37,what_gap,basic_subject_post_gap_verb,collected,17.19267615,You know who skillfully collected water from the brook last year .
+basic_subject,37,what_nogap,basic_subject_filled_subject_NP1,the maid,35.29464548,You know who skillfully the maid collected water from the brook last year .
+basic_subject,38,that_gap,basic_subject_post_gap_verb,congratulated,31.98834046,She knows that cooly congratulated the athletes with her husband last summer .
+basic_subject,38,that_nogap,basic_subject_filled_subject_NP1,the woman,22.62965996,She knows that cooly the woman congratulated the athletes with her husband last summer .
+basic_subject,38,what_gap,basic_subject_post_gap_verb,congratulated,21.84976066,She knows who cooly congratulated the athletes with her husband last summer .
+basic_subject,38,what_nogap,basic_subject_filled_subject_NP1,the woman,25.51599501,She knows who cooly the woman congratulated the athletes with her husband last summer .
+basic_subject,39,that_gap,basic_subject_post_gap_verb,introduced,20.13028602,He knows that cheerfully introduced the athletes to his family last winter .
+basic_subject,39,that_nogap,basic_subject_filled_subject_NP1,the hunter,34.08479565,He knows that cheerfully the hunter introduced his friends to his family last winter .
+basic_subject,39,what_gap,basic_subject_post_gap_verb,introduced,13.89313305,He knows who cheerfully introduced the athletes to his family last winter .
+basic_subject,39,what_nogap,basic_subject_filled_subject_NP1,the hunter,40.65571756,He knows who cheerfully the hunter introduced his friends to his family last winter .
+basic_subject,4,that_gap,basic_subject_post_gap_verb,showed,31.24776758,You remember that without thinking showed the presentation to the visitors after lunch .
+basic_subject,4,that_nogap,basic_subject_filled_subject_NP1,the businessman,34.99482892,You remember that without thinking the businessman showed the presentation to the visitors after lunch .
+basic_subject,4,what_gap,basic_subject_post_gap_verb,showed,18.19563197,You remember who without thinking showed the presentation to the visitors after lunch .
+basic_subject,4,what_nogap,basic_subject_filled_subject_NP1,the businessman,36.60996497,You remember who without thinking the businessman showed the presentation to the visitors after lunch .
+basic_subject,40,that_gap,basic_subject_post_gap_verb,waited for,29.75071324,They recall that with sadness waited for her friend in the rain last night .
+basic_subject,40,that_nogap,basic_subject_filled_subject_NP1,the man,17.06870392,They recall that with sadness the man waited for her friend in the rain last night .
+basic_subject,40,what_gap,basic_subject_post_gap_verb,waited for,18.01211106,They recall who with sadness waited for her friend in the rain last night .
+basic_subject,40,what_nogap,basic_subject_filled_subject_NP1,the man,15.89711870,They recall who with sadness the man waited for her friend in the rain last night .
+basic_subject,41,that_gap,basic_subject_post_gap_verb,interrogated,18.07936806,He remembers that brutally interrogated the criminal in his cell yesterday .
+basic_subject,41,that_nogap,basic_subject_filled_subject_NP1,the detective,32.22267453,He remembers that brutally the detective interrogated the criminal in his cell yesterday .
+basic_subject,41,what_gap,basic_subject_post_gap_verb,interrogated,16.97513794,He remembers who brutally interrogated the criminal in his cell yesterday .
+basic_subject,41,what_nogap,basic_subject_filled_subject_NP1,the detective,37.98418970,He remembers who brutally the detective interrogated the criminal in his cell yesterday .
+basic_subject,42,that_gap,basic_subject_post_gap_verb,stole,23.28419195,You said that skillfully stole a painting from the museum last night .
+basic_subject,42,that_nogap,basic_subject_filled_subject_NP1,the theif,54.42488847,You said that skillfully the theif stole a painting from the museum last night .
+basic_subject,42,what_gap,basic_subject_post_gap_verb,stole,16.52115643,You said who skillfully stole a painting from the museum last night .
+basic_subject,42,what_nogap,basic_subject_filled_subject_NP1,the theif,54.22302803,You said who skillfully the theif stole a painting from the museum last night .
+basic_subject,43,that_gap,basic_subject_post_gap_verb,administered,29.31213539,We recall that sadly administered medicine to the old woman yesterday .
+basic_subject,43,that_nogap,basic_subject_filled_subject_NP1,the doctor,23.65844291,We recall that sadly the doctor administered medicine to the old woman yesterday .
+basic_subject,43,what_gap,basic_subject_post_gap_verb,administered,25.38604137,We recall who sadly administered medicine to the old woman yesterday .
+basic_subject,43,what_nogap,basic_subject_filled_subject_NP1,the doctor,29.73981945,We recall who sadly the doctor administered medicine to the old woman yesterday .
+basic_subject,44,that_gap,basic_subject_post_gap_verb,waited for,18.77530684,He said that anxiously waited for her daughter in the car over the winter .
+basic_subject,44,that_nogap,basic_subject_filled_subject_NP1,the mother,24.86194777,He said that anxiously the mother waited for her daughter in the car over the winter .
+basic_subject,44,what_gap,basic_subject_post_gap_verb,waited for,9.89744775,He said who anxiously waited for her daughter in the car over the winter .
+basic_subject,44,what_nogap,basic_subject_filled_subject_NP1,the mother,30.56331699,He said who anxiously the mother waited for her daughter in the car over the winter .
+basic_subject,45,that_gap,basic_subject_post_gap_verb,chased,30.35199102,They know that suddenly chased the intruder with a broom yesterday morning .
+basic_subject,45,that_nogap,basic_subject_filled_subject_NP1,the woman,21.80294088,They know that suddenly the woman chased the intruder with a broom yesterday morning .
+basic_subject,45,what_gap,basic_subject_post_gap_verb,chased,19.13164819,They know who suddenly chased the intruder with a broom yesterday morning .
+basic_subject,45,what_nogap,basic_subject_filled_subject_NP1,the woman,27.99907804,They know who suddenly the woman chased the intruder with a broom yesterday morning .
+basic_subject,46,that_gap,basic_subject_post_gap_verb,delivered,23.72967454,He knows that quickly delivered the article to the journal last night .
+basic_subject,46,that_nogap,basic_subject_filled_subject_NP1,the scientists,29.78878451,He knows that quickly the scientists delivered the article to the journal last night .
+basic_subject,46,what_gap,basic_subject_post_gap_verb,delivered,18.13938851,He knows who quickly delivered the article to the journal last night .
+basic_subject,46,what_nogap,basic_subject_filled_subject_NP1,the scientists,38.08732798,He knows who quickly the scientists delivered the article to the journal last night .
+basic_subject,47,that_gap,basic_subject_post_gap_verb,frightened,20.58728276,I know that brutally frightened the protesters with their guns last night .
+basic_subject,47,that_nogap,basic_subject_filled_subject_NP1,the police,27.56662731,I know that brutally the police frightened the protesters with their guns last night .
+basic_subject,47,what_gap,basic_subject_post_gap_verb,frightened,22.90582353,I know who brutally frightened the protesters with their guns last night .
+basic_subject,47,what_nogap,basic_subject_filled_subject_NP1,the police,31.38393491,I know who brutally the police frightened the protesters with their guns last night .
+basic_subject,48,that_gap,basic_subject_post_gap_verb,assassinated,34.24787789,You know that with skill assassinated the politician with a bomb yesterday .
+basic_subject,48,that_nogap,basic_subject_filled_subject_NP1,the radical,35.21501304,You know that with skill the radical assassinated the politician with a bomb yesterday .
+basic_subject,48,what_gap,basic_subject_post_gap_verb,assassinated,31.25780874,You know who with skill assassinated the politician with a bomb yesterday .
+basic_subject,48,what_nogap,basic_subject_filled_subject_NP1,the radical,38.25257715,You know who with skill the radical assassinated the politician with a bomb yesterday .
+basic_subject,49,that_gap,basic_subject_post_gap_verb,greeted,19.63527138,She knows that cheerfully greeted the teacher with a wave yesterday .
+basic_subject,49,that_nogap,basic_subject_filled_subject_NP1,the mechanic,34.02584568,She knows that cheerfully the mechanic greeted the teacher with a wave yesterday .
+basic_subject,49,what_gap,basic_subject_post_gap_verb,greeted,10.34067829,She knows who cheerfully greeted the teacher with a wave yesterday .
+basic_subject,49,what_nogap,basic_subject_filled_subject_NP1,the mechanic,40.56740876,She knows who cheerfully the mechanic greeted the teacher with a wave yesterday .
+basic_subject,5,that_gap,basic_subject_post_gap_verb,stole,24.83267404,She told me that secretly stole answers to the test from the teacher last year .
+basic_subject,5,that_nogap,basic_subject_filled_subject_NP1,the star student,43.10584944,She told me that secretly the star student stole answers to the test from the teacher last year .
+basic_subject,5,what_gap,basic_subject_post_gap_verb,stole,12.48064948,She told me who secretly stole answers to the test from the teacher last year .
+basic_subject,5,what_nogap,basic_subject_filled_subject_NP1,the star student,49.53888865,She told me who secretly the star student stole answers to the test from the teacher last year .
+basic_subject,50,that_gap,basic_subject_post_gap_verb,reassured,29.79543967,He knows that kindly reassured the principal with kind words last night .
+basic_subject,50,that_nogap,basic_subject_filled_subject_NP1,the students,26.73057111,He knows that kindly the students reassured the principal with kind words last night .
+basic_subject,50,what_gap,basic_subject_post_gap_verb,reassured,20.37458190,He knows who kindly reassured the principal with kind words last night .
+basic_subject,50,what_nogap,basic_subject_filled_subject_NP1,the students,32.84861086,He knows who kindly the students reassured the principal with kind words last night .
+basic_subject,6,that_gap,basic_subject_post_gap_verb,forged,21.95341109,She knows that with skill forged the painting with a brush a short while ago .
+basic_subject,6,that_nogap,basic_subject_filled_subject_NP1,the collector,34.33253379,She knows that with skill the collector forged the painting with a brush a short while ago .
+basic_subject,6,what_gap,basic_subject_post_gap_verb,forged,21.68739688,She knows who with skill forged the painting with a brush a short while ago .
+basic_subject,6,what_nogap,basic_subject_filled_subject_NP1,the collector,37.03265154,She knows who with skill the collector forged the painting with a brush a short while ago .
+basic_subject,7,that_gap,basic_subject_post_gap_verb,brought,11.47470007,We all remember that illegally brought a gun into the prison two weeks ago .
+basic_subject,7,that_nogap,basic_subject_filled_subject_NP1,the convict,38.94871213,We all remember that illegally the convict brought a gun into the prison two weeks ago .
+basic_subject,7,what_gap,basic_subject_post_gap_verb,brought,10.05209744,We all remember who illegally brought a gun into the prison two weeks ago .
+basic_subject,7,what_nogap,basic_subject_filled_subject_NP1,the convict,43.56499290,We all remember who illegally the convict brought a gun into the prison two weeks ago .
+basic_subject,8,that_gap,basic_subject_post_gap_verb,sold,10.10887038,My friend reported that illegally sold multiple assets to stock holders last quarter .
+basic_subject,8,that_nogap,basic_subject_filled_subject_NP1,the company,25.80939879,My friend reported that illegally the company sold multiple assets to stock holders last quarter .
+basic_subject,8,what_gap,basic_subject_post_gap_verb,sold,7.72919829,My friend reported who illegally sold multiple assets to stock holders last quarter .
+basic_subject,8,what_nogap,basic_subject_filled_subject_NP1,the company,31.27509800,My friend reported who illegally the company sold multiple assets to stock holders last quarter .
+basic_subject,9,that_gap,basic_subject_post_gap_verb,derailed,29.64514114,I do not know that with malice derailed the performance with a cruel plan last week .
+basic_subject,9,that_nogap,basic_subject_filled_subject_NP1,her rival,40.06615157,I do not know that with malice her rival derailed the performance with a cruel plan last week .
+basic_subject,9,what_gap,basic_subject_post_gap_verb,derailed,23.45583515,I do not know who with malice derailed the performance with a cruel plan last week .
+basic_subject,9,what_nogap,basic_subject_filled_subject_NP1,her rival,38.52648290,I do not know who with malice her rival derailed the performance with a cruel plan last week .
