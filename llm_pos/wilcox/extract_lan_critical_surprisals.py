@@ -154,8 +154,14 @@ def main():
     output_df["condition"] = merged_df[CONDITION_COL_CR] 
     output_df["critical_word_text"] = merged_df[CRITICAL_WORD_COL_CR] 
     output_df["aggregated_surprisal_bits"] = merged_df[actual_surprisal_col_ms]
-    # Add full sentence if it was part of your intended output schema (it's in merged_df[FULL_SENTENCE_COL_MS])
-    # output_df["original_full_sentence"] = merged_df[FULL_SENTENCE_COL_MS] # Uncomment if needed
+
+    if FULL_SENTENCE_COL_MS in merged_df.columns: # FULL_SENTENCE_COL_MS from your config, e.g., "full_sentence_text"
+        output_df["original_full_sentence"] = merged_df[FULL_SENTENCE_COL_MS]
+    else:
+        # Fallback if the column isn't found, though it should be from the merge
+        output_df["original_full_sentence"] = "N/A (Full sentence column not found in merged data)"
+        print(f"Warning: Column '{FULL_SENTENCE_COL_MS}' not found in merged data to populate 'original_full_sentence'.")
+
 
     # --- End MODIFIED SECTION ---
 
