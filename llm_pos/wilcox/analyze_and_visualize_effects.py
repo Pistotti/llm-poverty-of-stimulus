@@ -12,8 +12,8 @@ MODEL_NAME = "gpt2" # Should match the model used
 # *** Dataset type switch ***
 DATASET_TYPE = "LAN" # Or "WILCOX"
 
-# *** NEW: Threshold for skipping very large per-item plots ***
-MAX_ITEMS_FOR_PER_ITEM_PLOT = 200 # Adjust as needed. If num_items > this, the plot is skipped.
+# *** Threshold for skipping very large per-item plots ***
+MAX_ITEMS_FOR_PER_ITEM_PLOT = 200 
 
 # --- Conditional Configuration based on DATASET_TYPE ---
 if DATASET_TYPE == "WILCOX":
@@ -50,6 +50,11 @@ elif DATASET_TYPE == "LAN":
     LAN_PAPER_METRICS_CSV = os.path.join(
         CURRENT_SCRIPT_DIR, "tims_results", "analysis", DATASET_TYPE.lower(),
         f"{MODEL_NAME}_{ANALYSIS_SUFFIX}_lan_paper_metrics.csv"
+    )
+    # *** NEW: Output CSV for Lan paper accuracy summary ***
+    LAN_PAPER_ACCURACY_SUMMARY_CSV = os.path.join(
+        CURRENT_SCRIPT_DIR, "tims_results", "analysis", DATASET_TYPE.lower(),
+        f"{MODEL_NAME}_{ANALYSIS_SUFFIX}_lan_paper_accuracy_summary.csv" # New filename
     )
 else:
     raise ValueError(f"Unsupported DATASET_TYPE: {DATASET_TYPE}")
@@ -166,7 +171,12 @@ def summarize_lan_condition_surprisals(df, target_sentence_types, item_output_pa
         
     return item_level_surprisals 
 
-def calculate_lan_paper_metrics_and_accuracy(item_level_df, output_path):
+def calculate_lan_paper_metrics_and_accuracy(item_level_df, metrics_output_path, accuracy_summary_output_path): # Added accuracy_summary_output_path
+    """
+    Calculates Lan et al. (2024) style metrics (delta_plus_filler, delta_minus_filler, DiD)
+    and their success/accuracy rates from item-level LAN condition surprisals.
+    Saves both the item-level metrics and a summary of accuracy scores.
+    """
     if item_level_df is None or item_level_df.empty: 
         print("Error: Input item_level_df for Lan paper metrics is empty. Skipping."); return
 
@@ -197,12 +207,13 @@ def calculate_lan_paper_metrics_and_accuracy(item_level_df, output_path):
     
     if not metrics_df.empty:
         try: 
-            metrics_df.to_csv(output_path, index=False, float_format='%.8f')
-            print(f"Lan paper style metrics saved to {os.path.abspath(output_path)}")
+            metrics_df.to_csv(metrics_output_path, index=False, float_format='%.8f') # Use passed-in path
+            print(f"Lan paper style metrics saved to {os.path.abspath(metrics_output_path)}")
         except Exception as e: 
             print(f"Error saving Lan paper style metrics CSV: {e}")
             
-        print("\n--- Lan et al. (2024) Style Accuracy Scores ---")
+        print("\n--- Lan et al. (2024) Style Accuracy Scores (Console Output) ---")
+        accuracy_summary_data = [] # For saving to CSV
         for success_col, delta_col_name, desc_str in [
             ('success_delta_plus_filler', 'delta_plus_filler', "Delta_Plus_Filler > 0 (Preference for gapped with +Filler)"),
             ('success_did', 'did_effect', "Difference-in-Differences (Delta_Plus_Filler > Delta_Minus_Filler)")]:
@@ -210,12 +221,33 @@ def calculate_lan_paper_metrics_and_accuracy(item_level_df, output_path):
                 valid_items = metrics_df.dropna(subset=[delta_col_name]) 
                 if not valid_items.empty: 
                     accuracy = valid_items[success_col].mean() * 100
-                    print(f"Accuracy for ({desc_str}): {accuracy:.2f}% (N={len(valid_items)})")
+                    n_valid = len(valid_items)
+                    print(f"Accuracy for ({desc_str}): {accuracy:.2f}% (N={n_valid})")
+                    accuracy_summary_data.append({
+                        'metric_description': desc_str,
+                        'accuracy_percent': accuracy,
+                        'n_valid_items': n_valid
+                    })
                 else: 
                     print(f"No valid items for Accuracy ({desc_str}).")
+                    accuracy_summary_data.append({
+                        'metric_description': desc_str,
+                        'accuracy_percent': np.nan,
+                        'n_valid_items': 0
+                    })
         print("-------------------------------------------------")
+
+        # Save the accuracy summary to its own CSV
+        if accuracy_summary_data and accuracy_summary_output_path:
+            acc_summary_df = pd.DataFrame(accuracy_summary_data)
+            try:
+                acc_summary_df.to_csv(accuracy_summary_output_path, index=False, float_format='%.2f')
+                print(f"Lan paper accuracy summary saved to {os.path.abspath(accuracy_summary_output_path)}")
+            except Exception as e:
+                print(f"Error saving Lan paper accuracy summary CSV: {e}")
     else: 
         print("No Lan paper style metrics calculated.")
+
 
 def plot_average_effects(effects_df, effect1_col, effect2_col, effect1_lab, effect2_lab, title_lab, out_path, suffix=""):
     if effects_df.empty or effects_df[[effect1_col, effect2_col]].isnull().all().all(): 
@@ -254,11 +286,10 @@ def plot_item_effects(effects_df, effect1_col, effect2_col, item_eff1_lab, item_
             
         num_items = len(group_df['item_id'].unique())
 
-        # *** MODIFIED: Check number of items before attempting to plot ***
         if num_items > MAX_ITEMS_FOR_PER_ITEM_PLOT:
             print(f"Skipping per-item plot for sentence type '{stype}' because number of items ({num_items}) "
                   f"exceeds threshold ({MAX_ITEMS_FOR_PER_ITEM_PLOT}).")
-            continue # Skip to the next sentence_type
+            continue 
             
         plot_df = group_df.melt(id_vars=['item_id'], value_vars=[effect1_col, effect2_col], 
                                 var_name='eff_type_melt', value_name='eff_val')
@@ -274,7 +305,7 @@ def plot_item_effects(effects_df, effect1_col, effect2_col, item_eff1_lab, item_
         plt.axhline(0, color='grey', lw=1, linestyle='--')
         plt.legend(title='Effect Type', fontsize=12, title_fontsize=13, loc='best')
         plt.xticks(rotation=60, ha='right' if num_items > 10 else 'center', fontsize=10) 
-        plt.tight_layout() # This is where the error occurred
+        plt.tight_layout() 
         
         plot_fname = os.path.join(output_dir_base, f"{stype}_{MODEL_NAME}_item_effects.png")
         try: 
@@ -353,9 +384,11 @@ def main():
         
         if item_level_lan_surprisals is not None and not item_level_lan_surprisals.empty:
             print(f"\nCalculating Lan et al. (2024) style metrics for LAN data...")
+            # Pass the new output path for the accuracy summary
             calculate_lan_paper_metrics_and_accuracy(
                 item_level_lan_surprisals, 
-                LAN_PAPER_METRICS_CSV
+                LAN_PAPER_METRICS_CSV,
+                LAN_PAPER_ACCURACY_SUMMARY_CSV # New argument
             )
         else:
             print("Skipping Lan et al. (2024) style metrics calculation due to missing or empty item-level surprisal data.")

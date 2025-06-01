@@ -1,0 +1,50 @@
+Statistical Summary for: /data/home/tpis871/lan_project_replication/llm-poverty-of-stimulus/llm_pos/wilcox/tims_results/analysis/lan/gpt2_lan_types_lan_paper_metrics.csv
+
+Model: gpt2
+
+Analysis Suffix: lan_types
+
+============================================================
+
+Part 1: Lan et al. (2024) Style Delta Metrics
+--------------------------------------------------
+
+--- One-Sample T-test for 'delta_plus_filler' (vs 0, alternative='two-sided') ---
+  N (after NaN removal): 8064
+  Mean: -10.9559
+  Std Dev: 7.0796
+  95% CI for Mean: [-11.1104, -10.8014]
+  T-statistic: -138.9687
+  P-value: < .0001 (sig. at p < .001)
+
+--- One-Sample T-test for 'delta_minus_filler' (vs 0, alternative='two-sided') ---
+  N (after NaN removal): 8064
+  Mean: -12.0224
+  Std Dev: 6.0533
+  95% CI for Mean: [-12.1545, -11.8903]
+  T-statistic: -178.3506
+  P-value: < .0001 (sig. at p < .001)
+
+--- One-Sample T-test for 'did_effect' (vs 0, alternative='greater') ---
+  N (after NaN removal): 8064
+  Mean: 1.0665
+  Std Dev: 1.8563
+  95% CI for Mean: [1.0260, 1.1070]
+  T-statistic: 51.5917
+  P-value: < .0001 (sig. at p < .001)
+
+
+Part 2: Comparison of Average Surprisal for +Gap vs. -Gap Word Types
+----------------------------------------------------------------------
+
+--- One-Sample T-test for 'Difference: Avg(+Gap Word Surp) - Avg(-Gap Word Surp)' (vs 0, alternative='greater') ---
+  N (after NaN removal): 8064
+  Mean: 11.4892
+  Std Dev: 6.5207
+  95% CI for Mean: [11.3468, 11.6315]
+  T-statistic: 158.2223
+  P-value: < .0001 (sig. at p < .001)
+
+  Context Mean Avg(+Gap Word Surp): 22.9940
+  Context Mean Avg(-Gap Word Surp): 11.5048
+
