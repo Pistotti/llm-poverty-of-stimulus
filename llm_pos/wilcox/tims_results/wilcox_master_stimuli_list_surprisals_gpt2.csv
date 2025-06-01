@@ -1,0 +1,1177 @@
+source_doc_name,item,condition,full_sentence_text,bpe_token_index,bpe_token_id,bpe_token_str,log_prob_gpt2,surprisal_bits_gpt2
+lan_parasitic_gap,1,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,1,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,1,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,2,N/A,who,-8.36655500,12.07038741
+lan_parasitic_gap,1,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,3,N/A,Bob,-13.02666100,18.79349922
+lan_parasitic_gap,1,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,4,N/A,'s,-5.78773100,8.34993081
+lan_parasitic_gap,1,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,5,N/A,talking,-9.38370700,13.53782755
+lan_parasitic_gap,1,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,6,N/A,to,-3.44055400,4.96367019
+lan_parasitic_gap,1,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,7,N/A,is,-7.09274600,10.23266948
+lan_parasitic_gap,1,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,8,N/A,about,-8.48544000,12.24190221
+lan_parasitic_gap,1,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,9,N/A,to,-5.45174200,7.86520115
+lan_parasitic_gap,1,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,10,N/A,bother,-14.78733100,21.33360910
+lan_parasitic_gap,1,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,11,N/A,soon,-15.92608600,22.97648529
+lan_parasitic_gap,1,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,12,N/A,.,-10.13887900,14.62731045
+lan_parasitic_gap,1,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother soon .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,1,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother soon .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,1,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother soon .,2,N/A,that,-2.74970600,3.96698721
+lan_parasitic_gap,1,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother soon .,3,N/A,Bob,-14.07656500,20.30819052
+lan_parasitic_gap,1,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother soon .,4,N/A,'s,-3.84910000,5.55307748
+lan_parasitic_gap,1,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother soon .,5,N/A,talking,-10.96712000,15.82220964
+lan_parasitic_gap,1,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother soon .,6,N/A,to,-5.42034600,7.81990629
+lan_parasitic_gap,1,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother soon .,7,N/A,Jennifer,-12.96929400,18.71073614
+lan_parasitic_gap,1,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother soon .,8,N/A,is,-10.02393600,14.46148276
+lan_parasitic_gap,1,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother soon .,9,N/A,about,-6.24287100,9.00655903
+lan_parasitic_gap,1,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother soon .,10,N/A,to,-2.09805600,3.02685499
+lan_parasitic_gap,1,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother soon .,11,N/A,bother,-14.23607900,20.53832058
+lan_parasitic_gap,1,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother soon .,12,N/A,soon,-16.17575300,23.33667864
+lan_parasitic_gap,1,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother soon .,13,N/A,.,-10.57822800,15.26115708
+lan_parasitic_gap,1,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother Kim soon .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,1,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother Kim soon .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,1,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother Kim soon .,2,N/A,who,-8.36655500,12.07038741
+lan_parasitic_gap,1,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother Kim soon .,3,N/A,Bob,-13.02666100,18.79349922
+lan_parasitic_gap,1,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother Kim soon .,4,N/A,'s,-5.78773100,8.34993081
+lan_parasitic_gap,1,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother Kim soon .,5,N/A,talking,-9.38370700,13.53782755
+lan_parasitic_gap,1,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother Kim soon .,6,N/A,to,-3.44055400,4.96367019
+lan_parasitic_gap,1,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother Kim soon .,7,N/A,is,-7.09274600,10.23266948
+lan_parasitic_gap,1,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother Kim soon .,8,N/A,about,-8.48544000,12.24190221
+lan_parasitic_gap,1,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother Kim soon .,9,N/A,to,-5.45174200,7.86520115
+lan_parasitic_gap,1,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother Kim soon .,10,N/A,bother,-14.78733100,21.33360910
+lan_parasitic_gap,1,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother Kim soon .,11,N/A,Kim,-13.52283100,19.50932122
+lan_parasitic_gap,1,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother Kim soon .,12,N/A,soon,-12.20339900,17.60578322
+lan_parasitic_gap,1,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother Kim soon .,13,N/A,.,-10.39347800,14.99461917
+lan_parasitic_gap,1,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother Kim soon .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,1,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother Kim soon .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,1,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother Kim soon .,2,N/A,that,-2.74970600,3.96698721
+lan_parasitic_gap,1,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother Kim soon .,3,N/A,Bob,-14.07656500,20.30819052
+lan_parasitic_gap,1,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother Kim soon .,4,N/A,'s,-3.84910000,5.55307748
+lan_parasitic_gap,1,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother Kim soon .,5,N/A,talking,-10.96712000,15.82220964
+lan_parasitic_gap,1,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother Kim soon .,6,N/A,to,-5.42034600,7.81990629
+lan_parasitic_gap,1,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother Kim soon .,7,N/A,Jennifer,-12.96929400,18.71073614
+lan_parasitic_gap,1,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother Kim soon .,8,N/A,is,-10.02393600,14.46148276
+lan_parasitic_gap,1,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother Kim soon .,9,N/A,about,-6.24287100,9.00655903
+lan_parasitic_gap,1,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother Kim soon .,10,N/A,to,-2.09805600,3.02685499
+lan_parasitic_gap,1,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother Kim soon .,11,N/A,bother,-14.23607900,20.53832058
+lan_parasitic_gap,1,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother Kim soon .,12,N/A,Kim,-13.31240900,19.20574645
+lan_parasitic_gap,1,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother Kim soon .,13,N/A,soon,-11.86301700,17.11471580
+lan_parasitic_gap,1,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother Kim soon .,14,N/A,.,-10.82841800,15.62210495
+lan_parasitic_gap,2,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,2,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,2,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,2,N/A,who,-8.36655500,12.07038741
+lan_parasitic_gap,2,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,3,N/A,Bob,-13.02666100,18.79349922
+lan_parasitic_gap,2,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,4,N/A,'s,-5.78773100,8.34993081
+lan_parasitic_gap,2,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,5,N/A,talking,-9.38370700,13.53782755
+lan_parasitic_gap,2,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,6,N/A,to,-3.44055400,4.96367019
+lan_parasitic_gap,2,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,7,N/A,is,-7.09274600,10.23266948
+lan_parasitic_gap,2,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,8,N/A,about,-8.48544000,12.24190221
+lan_parasitic_gap,2,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,9,N/A,to,-5.45174200,7.86520115
+lan_parasitic_gap,2,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,10,N/A,bother,-14.78733100,21.33360910
+lan_parasitic_gap,2,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,11,N/A,soon,-15.92608600,22.97648529
+lan_parasitic_gap,2,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,12,N/A,.,-10.13887900,14.62731045
+lan_parasitic_gap,2,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother soon .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,2,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother soon .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,2,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother soon .,2,N/A,that,-2.74970600,3.96698721
+lan_parasitic_gap,2,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother soon .,3,N/A,Bob,-14.07656500,20.30819052
+lan_parasitic_gap,2,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother soon .,4,N/A,'s,-3.84910000,5.55307748
+lan_parasitic_gap,2,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother soon .,5,N/A,talking,-10.96712000,15.82220964
+lan_parasitic_gap,2,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother soon .,6,N/A,to,-5.42034600,7.81990629
+lan_parasitic_gap,2,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother soon .,7,N/A,Jennifer,-12.96929400,18.71073614
+lan_parasitic_gap,2,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother soon .,8,N/A,is,-10.02393600,14.46148276
+lan_parasitic_gap,2,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother soon .,9,N/A,about,-6.24287100,9.00655903
+lan_parasitic_gap,2,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother soon .,10,N/A,to,-2.09805600,3.02685499
+lan_parasitic_gap,2,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother soon .,11,N/A,bother,-14.23607900,20.53832058
+lan_parasitic_gap,2,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother soon .,12,N/A,soon,-16.17575300,23.33667864
+lan_parasitic_gap,2,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother soon .,13,N/A,.,-10.57822800,15.26115708
+lan_parasitic_gap,2,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother you soon .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,2,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother you soon .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,2,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother you soon .,2,N/A,who,-8.36655500,12.07038741
+lan_parasitic_gap,2,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother you soon .,3,N/A,Bob,-13.02666100,18.79349922
+lan_parasitic_gap,2,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother you soon .,4,N/A,'s,-5.78773100,8.34993081
+lan_parasitic_gap,2,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother you soon .,5,N/A,talking,-9.38370700,13.53782755
+lan_parasitic_gap,2,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother you soon .,6,N/A,to,-3.44055400,4.96367019
+lan_parasitic_gap,2,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother you soon .,7,N/A,is,-7.09274600,10.23266948
+lan_parasitic_gap,2,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother you soon .,8,N/A,about,-8.48544000,12.24190221
+lan_parasitic_gap,2,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother you soon .,9,N/A,to,-5.45174200,7.86520115
+lan_parasitic_gap,2,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother you soon .,10,N/A,bother,-14.78733100,21.33360910
+lan_parasitic_gap,2,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother you soon .,11,N/A,you,-2.86839300,4.13821636
+lan_parasitic_gap,2,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother you soon .,12,N/A,soon,-11.58731300,16.71695900
+lan_parasitic_gap,2,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother you soon .,13,N/A,.,-9.74453200,14.05838799
+lan_parasitic_gap,2,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother you soon .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,2,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother you soon .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,2,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother you soon .,2,N/A,that,-2.74970600,3.96698721
+lan_parasitic_gap,2,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother you soon .,3,N/A,Bob,-14.07656500,20.30819052
+lan_parasitic_gap,2,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother you soon .,4,N/A,'s,-3.84910000,5.55307748
+lan_parasitic_gap,2,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother you soon .,5,N/A,talking,-10.96712000,15.82220964
+lan_parasitic_gap,2,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother you soon .,6,N/A,to,-5.42034600,7.81990629
+lan_parasitic_gap,2,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother you soon .,7,N/A,Jennifer,-12.96929400,18.71073614
+lan_parasitic_gap,2,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother you soon .,8,N/A,is,-10.02393600,14.46148276
+lan_parasitic_gap,2,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother you soon .,9,N/A,about,-6.24287100,9.00655903
+lan_parasitic_gap,2,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother you soon .,10,N/A,to,-2.09805600,3.02685499
+lan_parasitic_gap,2,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother you soon .,11,N/A,bother,-14.23607900,20.53832058
+lan_parasitic_gap,2,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother you soon .,12,N/A,you,-4.00118500,5.77248976
+lan_parasitic_gap,2,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother you soon .,13,N/A,soon,-12.20887200,17.61367909
+lan_parasitic_gap,2,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother you soon .,14,N/A,.,-10.12056100,14.60088317
+lan_parasitic_gap,3,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,3,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,3,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,2,N/A,who,-8.36655500,12.07038741
+lan_parasitic_gap,3,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,3,N/A,Bob,-13.02666100,18.79349922
+lan_parasitic_gap,3,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,4,N/A,'s,-5.78773100,8.34993081
+lan_parasitic_gap,3,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,5,N/A,talking,-9.38370700,13.53782755
+lan_parasitic_gap,3,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,6,N/A,to,-3.44055400,4.96367019
+lan_parasitic_gap,3,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,7,N/A,is,-7.09274600,10.23266948
+lan_parasitic_gap,3,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,8,N/A,about,-8.48544000,12.24190221
+lan_parasitic_gap,3,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,9,N/A,to,-5.45174200,7.86520115
+lan_parasitic_gap,3,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,10,N/A,bother,-14.78733100,21.33360910
+lan_parasitic_gap,3,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,11,N/A,soon,-15.92608600,22.97648529
+lan_parasitic_gap,3,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,12,N/A,.,-10.13887900,14.62731045
+lan_parasitic_gap,3,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother soon .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,3,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother soon .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,3,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother soon .,2,N/A,that,-2.74970600,3.96698721
+lan_parasitic_gap,3,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother soon .,3,N/A,Bob,-14.07656500,20.30819052
+lan_parasitic_gap,3,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother soon .,4,N/A,'s,-3.84910000,5.55307748
+lan_parasitic_gap,3,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother soon .,5,N/A,talking,-10.96712000,15.82220964
+lan_parasitic_gap,3,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother soon .,6,N/A,to,-5.42034600,7.81990629
+lan_parasitic_gap,3,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother soon .,7,N/A,Jennifer,-12.96929400,18.71073614
+lan_parasitic_gap,3,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother soon .,8,N/A,is,-10.02393600,14.46148276
+lan_parasitic_gap,3,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother soon .,9,N/A,about,-6.24287100,9.00655903
+lan_parasitic_gap,3,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother soon .,10,N/A,to,-2.09805600,3.02685499
+lan_parasitic_gap,3,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother soon .,11,N/A,bother,-14.23607900,20.53832058
+lan_parasitic_gap,3,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother soon .,12,N/A,soon,-16.17575300,23.33667864
+lan_parasitic_gap,3,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother soon .,13,N/A,.,-10.57822800,15.26115708
+lan_parasitic_gap,3,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother us soon .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,3,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother us soon .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,3,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother us soon .,2,N/A,who,-8.36655500,12.07038741
+lan_parasitic_gap,3,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother us soon .,3,N/A,Bob,-13.02666100,18.79349922
+lan_parasitic_gap,3,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother us soon .,4,N/A,'s,-5.78773100,8.34993081
+lan_parasitic_gap,3,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother us soon .,5,N/A,talking,-9.38370700,13.53782755
+lan_parasitic_gap,3,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother us soon .,6,N/A,to,-3.44055400,4.96367019
+lan_parasitic_gap,3,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother us soon .,7,N/A,is,-7.09274600,10.23266948
+lan_parasitic_gap,3,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother us soon .,8,N/A,about,-8.48544000,12.24190221
+lan_parasitic_gap,3,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother us soon .,9,N/A,to,-5.45174200,7.86520115
+lan_parasitic_gap,3,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother us soon .,10,N/A,bother,-14.78733100,21.33360910
+lan_parasitic_gap,3,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother us soon .,11,N/A,us,-4.85809700,7.00875245
+lan_parasitic_gap,3,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother us soon .,12,N/A,soon,-10.76556200,15.53142291
+lan_parasitic_gap,3,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother us soon .,13,N/A,.,-10.08441600,14.54873695
+lan_parasitic_gap,3,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother us soon .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,3,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother us soon .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,3,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother us soon .,2,N/A,that,-2.74970600,3.96698721
+lan_parasitic_gap,3,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother us soon .,3,N/A,Bob,-14.07656500,20.30819052
+lan_parasitic_gap,3,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother us soon .,4,N/A,'s,-3.84910000,5.55307748
+lan_parasitic_gap,3,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother us soon .,5,N/A,talking,-10.96712000,15.82220964
+lan_parasitic_gap,3,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother us soon .,6,N/A,to,-5.42034600,7.81990629
+lan_parasitic_gap,3,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother us soon .,7,N/A,Jennifer,-12.96929400,18.71073614
+lan_parasitic_gap,3,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother us soon .,8,N/A,is,-10.02393600,14.46148276
+lan_parasitic_gap,3,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother us soon .,9,N/A,about,-6.24287100,9.00655903
+lan_parasitic_gap,3,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother us soon .,10,N/A,to,-2.09805600,3.02685499
+lan_parasitic_gap,3,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother us soon .,11,N/A,bother,-14.23607900,20.53832058
+lan_parasitic_gap,3,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother us soon .,12,N/A,us,-4.57771500,6.60424673
+lan_parasitic_gap,3,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother us soon .,13,N/A,soon,-11.50827500,16.60293127
+lan_parasitic_gap,3,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother us soon .,14,N/A,.,-10.41180600,15.02106088
+lan_parasitic_gap,4,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,4,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,4,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,2,N/A,who,-8.36655500,12.07038741
+lan_parasitic_gap,4,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,3,N/A,Bob,-13.02666100,18.79349922
+lan_parasitic_gap,4,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,4,N/A,'s,-5.78773100,8.34993081
+lan_parasitic_gap,4,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,5,N/A,talking,-9.38370700,13.53782755
+lan_parasitic_gap,4,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,6,N/A,to,-3.44055400,4.96367019
+lan_parasitic_gap,4,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,7,N/A,is,-7.09274600,10.23266948
+lan_parasitic_gap,4,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,8,N/A,about,-8.48544000,12.24190221
+lan_parasitic_gap,4,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,9,N/A,to,-5.45174200,7.86520115
+lan_parasitic_gap,4,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,10,N/A,bother,-14.78733100,21.33360910
+lan_parasitic_gap,4,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,11,N/A,soon,-15.92608600,22.97648529
+lan_parasitic_gap,4,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,12,N/A,.,-10.13887900,14.62731045
+lan_parasitic_gap,4,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother soon .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,4,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother soon .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,4,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother soon .,2,N/A,that,-2.74970600,3.96698721
+lan_parasitic_gap,4,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother soon .,3,N/A,Bob,-14.07656500,20.30819052
+lan_parasitic_gap,4,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother soon .,4,N/A,'s,-3.84910000,5.55307748
+lan_parasitic_gap,4,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother soon .,5,N/A,talking,-10.96712000,15.82220964
+lan_parasitic_gap,4,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother soon .,6,N/A,to,-5.42034600,7.81990629
+lan_parasitic_gap,4,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother soon .,7,N/A,Mary,-11.30849800,16.31471398
+lan_parasitic_gap,4,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother soon .,8,N/A,is,-8.91469300,12.86118338
+lan_parasitic_gap,4,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother soon .,9,N/A,about,-6.10766900,8.81150378
+lan_parasitic_gap,4,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother soon .,10,N/A,to,-2.53596100,3.65861836
+lan_parasitic_gap,4,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother soon .,11,N/A,bother,-14.43464800,20.82479509
+lan_parasitic_gap,4,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother soon .,12,N/A,soon,-16.12443800,23.26264674
+lan_parasitic_gap,4,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother soon .,13,N/A,.,-10.61548600,15.31490901
+lan_parasitic_gap,4,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother Kim soon .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,4,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother Kim soon .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,4,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother Kim soon .,2,N/A,who,-8.36655500,12.07038741
+lan_parasitic_gap,4,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother Kim soon .,3,N/A,Bob,-13.02666100,18.79349922
+lan_parasitic_gap,4,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother Kim soon .,4,N/A,'s,-5.78773100,8.34993081
+lan_parasitic_gap,4,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother Kim soon .,5,N/A,talking,-9.38370700,13.53782755
+lan_parasitic_gap,4,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother Kim soon .,6,N/A,to,-3.44055400,4.96367019
+lan_parasitic_gap,4,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother Kim soon .,7,N/A,is,-7.09274600,10.23266948
+lan_parasitic_gap,4,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother Kim soon .,8,N/A,about,-8.48544000,12.24190221
+lan_parasitic_gap,4,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother Kim soon .,9,N/A,to,-5.45174200,7.86520115
+lan_parasitic_gap,4,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother Kim soon .,10,N/A,bother,-14.78733100,21.33360910
+lan_parasitic_gap,4,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother Kim soon .,11,N/A,Kim,-13.52283100,19.50932122
+lan_parasitic_gap,4,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother Kim soon .,12,N/A,soon,-12.20339900,17.60578322
+lan_parasitic_gap,4,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother Kim soon .,13,N/A,.,-10.39347800,14.99461917
+lan_parasitic_gap,4,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother Kim soon .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,4,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother Kim soon .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,4,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother Kim soon .,2,N/A,that,-2.74970600,3.96698721
+lan_parasitic_gap,4,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother Kim soon .,3,N/A,Bob,-14.07656500,20.30819052
+lan_parasitic_gap,4,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother Kim soon .,4,N/A,'s,-3.84910000,5.55307748
+lan_parasitic_gap,4,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother Kim soon .,5,N/A,talking,-10.96712000,15.82220964
+lan_parasitic_gap,4,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother Kim soon .,6,N/A,to,-5.42034600,7.81990629
+lan_parasitic_gap,4,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother Kim soon .,7,N/A,Mary,-11.30849800,16.31471398
+lan_parasitic_gap,4,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother Kim soon .,8,N/A,is,-8.91469300,12.86118338
+lan_parasitic_gap,4,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother Kim soon .,9,N/A,about,-6.10766900,8.81150378
+lan_parasitic_gap,4,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother Kim soon .,10,N/A,to,-2.53596100,3.65861836
+lan_parasitic_gap,4,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother Kim soon .,11,N/A,bother,-14.43464800,20.82479509
+lan_parasitic_gap,4,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother Kim soon .,12,N/A,Kim,-13.97349400,20.15949050
+lan_parasitic_gap,4,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother Kim soon .,13,N/A,soon,-11.72940800,16.92195875
+lan_parasitic_gap,4,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother Kim soon .,14,N/A,.,-10.84753500,15.64968495
+lan_parasitic_gap,5,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,5,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,5,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,2,N/A,who,-8.36655500,12.07038741
+lan_parasitic_gap,5,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,3,N/A,Bob,-13.02666100,18.79349922
+lan_parasitic_gap,5,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,4,N/A,'s,-5.78773100,8.34993081
+lan_parasitic_gap,5,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,5,N/A,talking,-9.38370700,13.53782755
+lan_parasitic_gap,5,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,6,N/A,to,-3.44055400,4.96367019
+lan_parasitic_gap,5,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,7,N/A,is,-7.09274600,10.23266948
+lan_parasitic_gap,5,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,8,N/A,about,-8.48544000,12.24190221
+lan_parasitic_gap,5,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,9,N/A,to,-5.45174200,7.86520115
+lan_parasitic_gap,5,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,10,N/A,bother,-14.78733100,21.33360910
+lan_parasitic_gap,5,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,11,N/A,soon,-15.92608600,22.97648529
+lan_parasitic_gap,5,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,12,N/A,.,-10.13887900,14.62731045
+lan_parasitic_gap,5,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother soon .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,5,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother soon .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,5,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother soon .,2,N/A,that,-2.74970600,3.96698721
+lan_parasitic_gap,5,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother soon .,3,N/A,Bob,-14.07656500,20.30819052
+lan_parasitic_gap,5,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother soon .,4,N/A,'s,-3.84910000,5.55307748
+lan_parasitic_gap,5,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother soon .,5,N/A,talking,-10.96712000,15.82220964
+lan_parasitic_gap,5,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother soon .,6,N/A,to,-5.42034600,7.81990629
+lan_parasitic_gap,5,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother soon .,7,N/A,Mary,-11.30849800,16.31471398
+lan_parasitic_gap,5,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother soon .,8,N/A,is,-8.91469300,12.86118338
+lan_parasitic_gap,5,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother soon .,9,N/A,about,-6.10766900,8.81150378
+lan_parasitic_gap,5,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother soon .,10,N/A,to,-2.53596100,3.65861836
+lan_parasitic_gap,5,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother soon .,11,N/A,bother,-14.43464800,20.82479509
+lan_parasitic_gap,5,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother soon .,12,N/A,soon,-16.12443800,23.26264674
+lan_parasitic_gap,5,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother soon .,13,N/A,.,-10.61548600,15.31490901
+lan_parasitic_gap,5,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother you soon .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,5,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother you soon .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,5,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother you soon .,2,N/A,who,-8.36655500,12.07038741
+lan_parasitic_gap,5,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother you soon .,3,N/A,Bob,-13.02666100,18.79349922
+lan_parasitic_gap,5,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother you soon .,4,N/A,'s,-5.78773100,8.34993081
+lan_parasitic_gap,5,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother you soon .,5,N/A,talking,-9.38370700,13.53782755
+lan_parasitic_gap,5,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother you soon .,6,N/A,to,-3.44055400,4.96367019
+lan_parasitic_gap,5,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother you soon .,7,N/A,is,-7.09274600,10.23266948
+lan_parasitic_gap,5,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother you soon .,8,N/A,about,-8.48544000,12.24190221
+lan_parasitic_gap,5,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother you soon .,9,N/A,to,-5.45174200,7.86520115
+lan_parasitic_gap,5,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother you soon .,10,N/A,bother,-14.78733100,21.33360910
+lan_parasitic_gap,5,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother you soon .,11,N/A,you,-2.86839300,4.13821636
+lan_parasitic_gap,5,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother you soon .,12,N/A,soon,-11.58731300,16.71695900
+lan_parasitic_gap,5,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother you soon .,13,N/A,.,-9.74453200,14.05838799
+lan_parasitic_gap,5,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother you soon .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,5,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother you soon .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,5,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother you soon .,2,N/A,that,-2.74970600,3.96698721
+lan_parasitic_gap,5,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother you soon .,3,N/A,Bob,-14.07656500,20.30819052
+lan_parasitic_gap,5,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother you soon .,4,N/A,'s,-3.84910000,5.55307748
+lan_parasitic_gap,5,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother you soon .,5,N/A,talking,-10.96712000,15.82220964
+lan_parasitic_gap,5,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother you soon .,6,N/A,to,-5.42034600,7.81990629
+lan_parasitic_gap,5,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother you soon .,7,N/A,Mary,-11.30849800,16.31471398
+lan_parasitic_gap,5,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother you soon .,8,N/A,is,-8.91469300,12.86118338
+lan_parasitic_gap,5,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother you soon .,9,N/A,about,-6.10766900,8.81150378
+lan_parasitic_gap,5,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother you soon .,10,N/A,to,-2.53596100,3.65861836
+lan_parasitic_gap,5,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother you soon .,11,N/A,bother,-14.43464800,20.82479509
+lan_parasitic_gap,5,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother you soon .,12,N/A,you,-3.52195700,5.08110990
+lan_parasitic_gap,5,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother you soon .,13,N/A,soon,-12.03026600,17.35600510
+lan_parasitic_gap,5,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother you soon .,14,N/A,.,-10.13329600,14.61925589
+lan_parasitic_gap,6,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,6,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,6,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,2,N/A,who,-8.36655500,12.07038741
+lan_parasitic_gap,6,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,3,N/A,Bob,-13.02666100,18.79349922
+lan_parasitic_gap,6,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,4,N/A,'s,-5.78773100,8.34993081
+lan_parasitic_gap,6,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,5,N/A,talking,-9.38370700,13.53782755
+lan_parasitic_gap,6,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,6,N/A,to,-3.44055400,4.96367019
+lan_parasitic_gap,6,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,7,N/A,is,-7.09274600,10.23266948
+lan_parasitic_gap,6,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,8,N/A,about,-8.48544000,12.24190221
+lan_parasitic_gap,6,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,9,N/A,to,-5.45174200,7.86520115
+lan_parasitic_gap,6,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,10,N/A,bother,-14.78733100,21.33360910
+lan_parasitic_gap,6,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,11,N/A,soon,-15.92608600,22.97648529
+lan_parasitic_gap,6,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother soon .,12,N/A,.,-10.13887900,14.62731045
+lan_parasitic_gap,6,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother soon .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,6,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother soon .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,6,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother soon .,2,N/A,that,-2.74970600,3.96698721
+lan_parasitic_gap,6,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother soon .,3,N/A,Bob,-14.07656500,20.30819052
+lan_parasitic_gap,6,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother soon .,4,N/A,'s,-3.84910000,5.55307748
+lan_parasitic_gap,6,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother soon .,5,N/A,talking,-10.96712000,15.82220964
+lan_parasitic_gap,6,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother soon .,6,N/A,to,-5.42034600,7.81990629
+lan_parasitic_gap,6,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother soon .,7,N/A,Mary,-11.30849800,16.31471398
+lan_parasitic_gap,6,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother soon .,8,N/A,is,-8.91469300,12.86118338
+lan_parasitic_gap,6,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother soon .,9,N/A,about,-6.10766900,8.81150378
+lan_parasitic_gap,6,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother soon .,10,N/A,to,-2.53596100,3.65861836
+lan_parasitic_gap,6,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother soon .,11,N/A,bother,-14.43464800,20.82479509
+lan_parasitic_gap,6,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother soon .,12,N/A,soon,-16.12443800,23.26264674
+lan_parasitic_gap,6,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother soon .,13,N/A,.,-10.61548600,15.31490901
+lan_parasitic_gap,6,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother us soon .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,6,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother us soon .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,6,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother us soon .,2,N/A,who,-8.36655500,12.07038741
+lan_parasitic_gap,6,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother us soon .,3,N/A,Bob,-13.02666100,18.79349922
+lan_parasitic_gap,6,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother us soon .,4,N/A,'s,-5.78773100,8.34993081
+lan_parasitic_gap,6,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother us soon .,5,N/A,talking,-9.38370700,13.53782755
+lan_parasitic_gap,6,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother us soon .,6,N/A,to,-3.44055400,4.96367019
+lan_parasitic_gap,6,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother us soon .,7,N/A,is,-7.09274600,10.23266948
+lan_parasitic_gap,6,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother us soon .,8,N/A,about,-8.48544000,12.24190221
+lan_parasitic_gap,6,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother us soon .,9,N/A,to,-5.45174200,7.86520115
+lan_parasitic_gap,6,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother us soon .,10,N/A,bother,-14.78733100,21.33360910
+lan_parasitic_gap,6,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother us soon .,11,N/A,us,-4.85809700,7.00875245
+lan_parasitic_gap,6,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother us soon .,12,N/A,soon,-10.76556200,15.53142291
+lan_parasitic_gap,6,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother us soon .,13,N/A,.,-10.08441600,14.54873695
+lan_parasitic_gap,6,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother us soon .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,6,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother us soon .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,6,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother us soon .,2,N/A,that,-2.74970600,3.96698721
+lan_parasitic_gap,6,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother us soon .,3,N/A,Bob,-14.07656500,20.30819052
+lan_parasitic_gap,6,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother us soon .,4,N/A,'s,-3.84910000,5.55307748
+lan_parasitic_gap,6,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother us soon .,5,N/A,talking,-10.96712000,15.82220964
+lan_parasitic_gap,6,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother us soon .,6,N/A,to,-5.42034600,7.81990629
+lan_parasitic_gap,6,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother us soon .,7,N/A,Mary,-11.30849800,16.31471398
+lan_parasitic_gap,6,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother us soon .,8,N/A,is,-8.91469300,12.86118338
+lan_parasitic_gap,6,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother us soon .,9,N/A,about,-6.10766900,8.81150378
+lan_parasitic_gap,6,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother us soon .,10,N/A,to,-2.53596100,3.65861836
+lan_parasitic_gap,6,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother us soon .,11,N/A,bother,-14.43464800,20.82479509
+lan_parasitic_gap,6,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother us soon .,12,N/A,us,-4.55996200,6.57863456
+lan_parasitic_gap,6,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother us soon .,13,N/A,soon,-11.40032800,16.44719667
+lan_parasitic_gap,6,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother us soon .,14,N/A,.,-10.42895600,15.04580310
+lan_parasitic_gap,7,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,7,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,7,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,2,N/A,who,-8.36655500,12.07038741
+lan_parasitic_gap,7,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,3,N/A,Bob,-13.02666100,18.79349922
+lan_parasitic_gap,7,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,4,N/A,'s,-5.78773100,8.34993081
+lan_parasitic_gap,7,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,5,N/A,talking,-9.38370700,13.53782755
+lan_parasitic_gap,7,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,6,N/A,to,-3.44055400,4.96367019
+lan_parasitic_gap,7,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,7,N/A,is,-7.09274600,10.23266948
+lan_parasitic_gap,7,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,8,N/A,about,-8.48544000,12.24190221
+lan_parasitic_gap,7,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,9,N/A,to,-5.45174200,7.86520115
+lan_parasitic_gap,7,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,10,N/A,bother,-14.78733100,21.33360910
+lan_parasitic_gap,7,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,11,N/A,eventually,-15.99771900,23.07982987
+lan_parasitic_gap,7,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,12,N/A,.,-9.89894300,14.28115598
+lan_parasitic_gap,7,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother eventually .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,7,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother eventually .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,7,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother eventually .,2,N/A,that,-2.74970600,3.96698721
+lan_parasitic_gap,7,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother eventually .,3,N/A,Bob,-14.07656500,20.30819052
+lan_parasitic_gap,7,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother eventually .,4,N/A,'s,-3.84910000,5.55307748
+lan_parasitic_gap,7,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother eventually .,5,N/A,talking,-10.96712000,15.82220964
+lan_parasitic_gap,7,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother eventually .,6,N/A,to,-5.42034600,7.81990629
+lan_parasitic_gap,7,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother eventually .,7,N/A,Mary,-11.30849800,16.31471398
+lan_parasitic_gap,7,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother eventually .,8,N/A,is,-8.91469300,12.86118338
+lan_parasitic_gap,7,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother eventually .,9,N/A,about,-6.10766900,8.81150378
+lan_parasitic_gap,7,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother eventually .,10,N/A,to,-2.53596100,3.65861836
+lan_parasitic_gap,7,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother eventually .,11,N/A,bother,-14.43464800,20.82479509
+lan_parasitic_gap,7,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother eventually .,12,N/A,eventually,-16.41987400,23.68887079
+lan_parasitic_gap,7,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother eventually .,13,N/A,.,-10.22363300,14.74958463
+lan_parasitic_gap,7,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother us eventually .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,7,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother us eventually .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,7,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother us eventually .,2,N/A,who,-8.36655500,12.07038741
+lan_parasitic_gap,7,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother us eventually .,3,N/A,Bob,-13.02666100,18.79349922
+lan_parasitic_gap,7,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother us eventually .,4,N/A,'s,-5.78773100,8.34993081
+lan_parasitic_gap,7,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother us eventually .,5,N/A,talking,-9.38370700,13.53782755
+lan_parasitic_gap,7,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother us eventually .,6,N/A,to,-3.44055400,4.96367019
+lan_parasitic_gap,7,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother us eventually .,7,N/A,is,-7.09274600,10.23266948
+lan_parasitic_gap,7,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother us eventually .,8,N/A,about,-8.48544000,12.24190221
+lan_parasitic_gap,7,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother us eventually .,9,N/A,to,-5.45174200,7.86520115
+lan_parasitic_gap,7,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother us eventually .,10,N/A,bother,-14.78733100,21.33360910
+lan_parasitic_gap,7,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother us eventually .,11,N/A,us,-4.85809700,7.00875245
+lan_parasitic_gap,7,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother us eventually .,12,N/A,eventually,-13.85972000,19.99534931
+lan_parasitic_gap,7,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother us eventually .,13,N/A,.,-9.94006500,14.34048248
+lan_parasitic_gap,7,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother us eventually .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,7,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother us eventually .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,7,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother us eventually .,2,N/A,that,-2.74970600,3.96698721
+lan_parasitic_gap,7,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother us eventually .,3,N/A,Bob,-14.07656500,20.30819052
+lan_parasitic_gap,7,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother us eventually .,4,N/A,'s,-3.84910000,5.55307748
+lan_parasitic_gap,7,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother us eventually .,5,N/A,talking,-10.96712000,15.82220964
+lan_parasitic_gap,7,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother us eventually .,6,N/A,to,-5.42034600,7.81990629
+lan_parasitic_gap,7,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother us eventually .,7,N/A,Mary,-11.30849800,16.31471398
+lan_parasitic_gap,7,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother us eventually .,8,N/A,is,-8.91469300,12.86118338
+lan_parasitic_gap,7,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother us eventually .,9,N/A,about,-6.10766900,8.81150378
+lan_parasitic_gap,7,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother us eventually .,10,N/A,to,-2.53596100,3.65861836
+lan_parasitic_gap,7,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother us eventually .,11,N/A,bother,-14.43464800,20.82479509
+lan_parasitic_gap,7,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother us eventually .,12,N/A,us,-4.55996200,6.57863456
+lan_parasitic_gap,7,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother us eventually .,13,N/A,eventually,-13.66965200,19.72113915
+lan_parasitic_gap,7,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother us eventually .,14,N/A,.,-10.04250200,14.48826783
+lan_parasitic_gap,8,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,8,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,8,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,2,N/A,who,-8.36655500,12.07038741
+lan_parasitic_gap,8,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,3,N/A,Bob,-13.02666100,18.79349922
+lan_parasitic_gap,8,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,4,N/A,'s,-5.78773100,8.34993081
+lan_parasitic_gap,8,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,5,N/A,talking,-9.38370700,13.53782755
+lan_parasitic_gap,8,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,6,N/A,to,-3.44055400,4.96367019
+lan_parasitic_gap,8,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,7,N/A,is,-7.09274600,10.23266948
+lan_parasitic_gap,8,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,8,N/A,about,-8.48544000,12.24190221
+lan_parasitic_gap,8,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,9,N/A,to,-5.45174200,7.86520115
+lan_parasitic_gap,8,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,10,N/A,bother,-14.78733100,21.33360910
+lan_parasitic_gap,8,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,11,N/A,eventually,-15.99771900,23.07982987
+lan_parasitic_gap,8,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,12,N/A,.,-9.89894300,14.28115598
+lan_parasitic_gap,8,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother eventually .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,8,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother eventually .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,8,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother eventually .,2,N/A,that,-2.74970600,3.96698721
+lan_parasitic_gap,8,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother eventually .,3,N/A,Bob,-14.07656500,20.30819052
+lan_parasitic_gap,8,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother eventually .,4,N/A,'s,-3.84910000,5.55307748
+lan_parasitic_gap,8,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother eventually .,5,N/A,talking,-10.96712000,15.82220964
+lan_parasitic_gap,8,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother eventually .,6,N/A,to,-5.42034600,7.81990629
+lan_parasitic_gap,8,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother eventually .,7,N/A,Mary,-11.30849800,16.31471398
+lan_parasitic_gap,8,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother eventually .,8,N/A,is,-8.91469300,12.86118338
+lan_parasitic_gap,8,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother eventually .,9,N/A,about,-6.10766900,8.81150378
+lan_parasitic_gap,8,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother eventually .,10,N/A,to,-2.53596100,3.65861836
+lan_parasitic_gap,8,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother eventually .,11,N/A,bother,-14.43464800,20.82479509
+lan_parasitic_gap,8,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother eventually .,12,N/A,eventually,-16.41987400,23.68887079
+lan_parasitic_gap,8,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother eventually .,13,N/A,.,-10.22363300,14.74958463
+lan_parasitic_gap,8,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother Kim eventually .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,8,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother Kim eventually .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,8,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother Kim eventually .,2,N/A,who,-8.36655500,12.07038741
+lan_parasitic_gap,8,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother Kim eventually .,3,N/A,Bob,-13.02666100,18.79349922
+lan_parasitic_gap,8,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother Kim eventually .,4,N/A,'s,-5.78773100,8.34993081
+lan_parasitic_gap,8,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother Kim eventually .,5,N/A,talking,-9.38370700,13.53782755
+lan_parasitic_gap,8,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother Kim eventually .,6,N/A,to,-3.44055400,4.96367019
+lan_parasitic_gap,8,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother Kim eventually .,7,N/A,is,-7.09274600,10.23266948
+lan_parasitic_gap,8,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother Kim eventually .,8,N/A,about,-8.48544000,12.24190221
+lan_parasitic_gap,8,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother Kim eventually .,9,N/A,to,-5.45174200,7.86520115
+lan_parasitic_gap,8,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother Kim eventually .,10,N/A,bother,-14.78733100,21.33360910
+lan_parasitic_gap,8,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother Kim eventually .,11,N/A,Kim,-13.52283100,19.50932122
+lan_parasitic_gap,8,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother Kim eventually .,12,N/A,eventually,-15.98845900,23.06647051
+lan_parasitic_gap,8,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother Kim eventually .,13,N/A,.,-9.96315000,14.37378710
+lan_parasitic_gap,8,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother Kim eventually .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,8,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother Kim eventually .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,8,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother Kim eventually .,2,N/A,that,-2.74970600,3.96698721
+lan_parasitic_gap,8,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother Kim eventually .,3,N/A,Bob,-14.07656500,20.30819052
+lan_parasitic_gap,8,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother Kim eventually .,4,N/A,'s,-3.84910000,5.55307748
+lan_parasitic_gap,8,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother Kim eventually .,5,N/A,talking,-10.96712000,15.82220964
+lan_parasitic_gap,8,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother Kim eventually .,6,N/A,to,-5.42034600,7.81990629
+lan_parasitic_gap,8,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother Kim eventually .,7,N/A,Mary,-11.30849800,16.31471398
+lan_parasitic_gap,8,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother Kim eventually .,8,N/A,is,-8.91469300,12.86118338
+lan_parasitic_gap,8,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother Kim eventually .,9,N/A,about,-6.10766900,8.81150378
+lan_parasitic_gap,8,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother Kim eventually .,10,N/A,to,-2.53596100,3.65861836
+lan_parasitic_gap,8,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother Kim eventually .,11,N/A,bother,-14.43464800,20.82479509
+lan_parasitic_gap,8,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother Kim eventually .,12,N/A,Kim,-13.97349400,20.15949050
+lan_parasitic_gap,8,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother Kim eventually .,13,N/A,eventually,-15.01776000,21.66604788
+lan_parasitic_gap,8,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother Kim eventually .,14,N/A,.,-10.28573500,14.83917888
+lan_parasitic_gap,9,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,9,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,9,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,2,N/A,who,-8.36655500,12.07038741
+lan_parasitic_gap,9,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,3,N/A,Bob,-13.02666100,18.79349922
+lan_parasitic_gap,9,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,4,N/A,'s,-5.78773100,8.34993081
+lan_parasitic_gap,9,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,5,N/A,talking,-9.38370700,13.53782755
+lan_parasitic_gap,9,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,6,N/A,to,-3.44055400,4.96367019
+lan_parasitic_gap,9,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,7,N/A,is,-7.09274600,10.23266948
+lan_parasitic_gap,9,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,8,N/A,about,-8.48544000,12.24190221
+lan_parasitic_gap,9,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,9,N/A,to,-5.45174200,7.86520115
+lan_parasitic_gap,9,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,10,N/A,bother,-14.78733100,21.33360910
+lan_parasitic_gap,9,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,11,N/A,eventually,-15.99771900,23.07982987
+lan_parasitic_gap,9,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,12,N/A,.,-9.89894300,14.28115598
+lan_parasitic_gap,9,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother eventually .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,9,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother eventually .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,9,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother eventually .,2,N/A,that,-2.74970600,3.96698721
+lan_parasitic_gap,9,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother eventually .,3,N/A,Bob,-14.07656500,20.30819052
+lan_parasitic_gap,9,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother eventually .,4,N/A,'s,-3.84910000,5.55307748
+lan_parasitic_gap,9,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother eventually .,5,N/A,talking,-10.96712000,15.82220964
+lan_parasitic_gap,9,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother eventually .,6,N/A,to,-5.42034600,7.81990629
+lan_parasitic_gap,9,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother eventually .,7,N/A,Mary,-11.30849800,16.31471398
+lan_parasitic_gap,9,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother eventually .,8,N/A,is,-8.91469300,12.86118338
+lan_parasitic_gap,9,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother eventually .,9,N/A,about,-6.10766900,8.81150378
+lan_parasitic_gap,9,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother eventually .,10,N/A,to,-2.53596100,3.65861836
+lan_parasitic_gap,9,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother eventually .,11,N/A,bother,-14.43464800,20.82479509
+lan_parasitic_gap,9,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother eventually .,12,N/A,eventually,-16.41987400,23.68887079
+lan_parasitic_gap,9,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to bother eventually .,13,N/A,.,-10.22363300,14.74958463
+lan_parasitic_gap,9,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother you eventually .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,9,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother you eventually .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,9,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother you eventually .,2,N/A,who,-8.36655500,12.07038741
+lan_parasitic_gap,9,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother you eventually .,3,N/A,Bob,-13.02666100,18.79349922
+lan_parasitic_gap,9,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother you eventually .,4,N/A,'s,-5.78773100,8.34993081
+lan_parasitic_gap,9,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother you eventually .,5,N/A,talking,-9.38370700,13.53782755
+lan_parasitic_gap,9,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother you eventually .,6,N/A,to,-3.44055400,4.96367019
+lan_parasitic_gap,9,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother you eventually .,7,N/A,is,-7.09274600,10.23266948
+lan_parasitic_gap,9,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother you eventually .,8,N/A,about,-8.48544000,12.24190221
+lan_parasitic_gap,9,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother you eventually .,9,N/A,to,-5.45174200,7.86520115
+lan_parasitic_gap,9,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother you eventually .,10,N/A,bother,-14.78733100,21.33360910
+lan_parasitic_gap,9,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother you eventually .,11,N/A,you,-2.86839300,4.13821636
+lan_parasitic_gap,9,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother you eventually .,12,N/A,eventually,-14.90666100,21.50576590
+lan_parasitic_gap,9,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother you eventually .,13,N/A,.,-9.63632400,13.90227685
+lan_parasitic_gap,9,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother you eventually .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,9,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother you eventually .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,9,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother you eventually .,2,N/A,that,-2.74970600,3.96698721
+lan_parasitic_gap,9,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother you eventually .,3,N/A,Bob,-14.07656500,20.30819052
+lan_parasitic_gap,9,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother you eventually .,4,N/A,'s,-3.84910000,5.55307748
+lan_parasitic_gap,9,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother you eventually .,5,N/A,talking,-10.96712000,15.82220964
+lan_parasitic_gap,9,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother you eventually .,6,N/A,to,-5.42034600,7.81990629
+lan_parasitic_gap,9,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother you eventually .,7,N/A,Mary,-11.30849800,16.31471398
+lan_parasitic_gap,9,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother you eventually .,8,N/A,is,-8.91469300,12.86118338
+lan_parasitic_gap,9,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother you eventually .,9,N/A,about,-6.10766900,8.81150378
+lan_parasitic_gap,9,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother you eventually .,10,N/A,to,-2.53596100,3.65861836
+lan_parasitic_gap,9,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother you eventually .,11,N/A,bother,-14.43464800,20.82479509
+lan_parasitic_gap,9,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother you eventually .,12,N/A,you,-3.52195700,5.08110990
+lan_parasitic_gap,9,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother you eventually .,13,N/A,eventually,-14.77710200,21.31885177
+lan_parasitic_gap,9,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to bother you eventually .,14,N/A,.,-9.78789400,14.12094613
+lan_parasitic_gap,10,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,10,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,10,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,2,N/A,who,-8.36655500,12.07038741
+lan_parasitic_gap,10,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,3,N/A,Bob,-13.02666100,18.79349922
+lan_parasitic_gap,10,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,4,N/A,'s,-5.78773100,8.34993081
+lan_parasitic_gap,10,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,5,N/A,talking,-9.38370700,13.53782755
+lan_parasitic_gap,10,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,6,N/A,to,-3.44055400,4.96367019
+lan_parasitic_gap,10,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,7,N/A,is,-7.09274600,10.23266948
+lan_parasitic_gap,10,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,8,N/A,about,-8.48544000,12.24190221
+lan_parasitic_gap,10,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,9,N/A,to,-5.45174200,7.86520115
+lan_parasitic_gap,10,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,10,N/A,bother,-14.78733100,21.33360910
+lan_parasitic_gap,10,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,11,N/A,eventually,-15.99771900,23.07982987
+lan_parasitic_gap,10,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,12,N/A,.,-9.89894300,14.28115598
+lan_parasitic_gap,10,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother eventually .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,10,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother eventually .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,10,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother eventually .,2,N/A,that,-2.74970600,3.96698721
+lan_parasitic_gap,10,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother eventually .,3,N/A,Bob,-14.07656500,20.30819052
+lan_parasitic_gap,10,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother eventually .,4,N/A,'s,-3.84910000,5.55307748
+lan_parasitic_gap,10,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother eventually .,5,N/A,talking,-10.96712000,15.82220964
+lan_parasitic_gap,10,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother eventually .,6,N/A,to,-5.42034600,7.81990629
+lan_parasitic_gap,10,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother eventually .,7,N/A,Jennifer,-12.96929400,18.71073614
+lan_parasitic_gap,10,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother eventually .,8,N/A,is,-10.02393600,14.46148276
+lan_parasitic_gap,10,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother eventually .,9,N/A,about,-6.24287100,9.00655903
+lan_parasitic_gap,10,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother eventually .,10,N/A,to,-2.09805600,3.02685499
+lan_parasitic_gap,10,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother eventually .,11,N/A,bother,-14.23607900,20.53832058
+lan_parasitic_gap,10,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother eventually .,12,N/A,eventually,-16.20030900,23.37210546
+lan_parasitic_gap,10,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother eventually .,13,N/A,.,-10.18009400,14.68677113
+lan_parasitic_gap,10,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother us eventually .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,10,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother us eventually .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,10,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother us eventually .,2,N/A,who,-8.36655500,12.07038741
+lan_parasitic_gap,10,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother us eventually .,3,N/A,Bob,-13.02666100,18.79349922
+lan_parasitic_gap,10,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother us eventually .,4,N/A,'s,-5.78773100,8.34993081
+lan_parasitic_gap,10,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother us eventually .,5,N/A,talking,-9.38370700,13.53782755
+lan_parasitic_gap,10,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother us eventually .,6,N/A,to,-3.44055400,4.96367019
+lan_parasitic_gap,10,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother us eventually .,7,N/A,is,-7.09274600,10.23266948
+lan_parasitic_gap,10,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother us eventually .,8,N/A,about,-8.48544000,12.24190221
+lan_parasitic_gap,10,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother us eventually .,9,N/A,to,-5.45174200,7.86520115
+lan_parasitic_gap,10,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother us eventually .,10,N/A,bother,-14.78733100,21.33360910
+lan_parasitic_gap,10,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother us eventually .,11,N/A,us,-4.85809700,7.00875245
+lan_parasitic_gap,10,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother us eventually .,12,N/A,eventually,-13.85972000,19.99534931
+lan_parasitic_gap,10,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother us eventually .,13,N/A,.,-9.94006500,14.34048248
+lan_parasitic_gap,10,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother us eventually .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,10,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother us eventually .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,10,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother us eventually .,2,N/A,that,-2.74970600,3.96698721
+lan_parasitic_gap,10,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother us eventually .,3,N/A,Bob,-14.07656500,20.30819052
+lan_parasitic_gap,10,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother us eventually .,4,N/A,'s,-3.84910000,5.55307748
+lan_parasitic_gap,10,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother us eventually .,5,N/A,talking,-10.96712000,15.82220964
+lan_parasitic_gap,10,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother us eventually .,6,N/A,to,-5.42034600,7.81990629
+lan_parasitic_gap,10,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother us eventually .,7,N/A,Jennifer,-12.96929400,18.71073614
+lan_parasitic_gap,10,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother us eventually .,8,N/A,is,-10.02393600,14.46148276
+lan_parasitic_gap,10,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother us eventually .,9,N/A,about,-6.24287100,9.00655903
+lan_parasitic_gap,10,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother us eventually .,10,N/A,to,-2.09805600,3.02685499
+lan_parasitic_gap,10,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother us eventually .,11,N/A,bother,-14.23607900,20.53832058
+lan_parasitic_gap,10,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother us eventually .,12,N/A,us,-4.57771500,6.60424673
+lan_parasitic_gap,10,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother us eventually .,13,N/A,eventually,-13.64278700,19.68238115
+lan_parasitic_gap,10,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother us eventually .,14,N/A,.,-10.00747200,14.43773023
+lan_parasitic_gap,11,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,11,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,11,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,2,N/A,who,-8.36655500,12.07038741
+lan_parasitic_gap,11,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,3,N/A,Bob,-13.02666100,18.79349922
+lan_parasitic_gap,11,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,4,N/A,'s,-5.78773100,8.34993081
+lan_parasitic_gap,11,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,5,N/A,talking,-9.38370700,13.53782755
+lan_parasitic_gap,11,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,6,N/A,to,-3.44055400,4.96367019
+lan_parasitic_gap,11,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,7,N/A,is,-7.09274600,10.23266948
+lan_parasitic_gap,11,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,8,N/A,about,-8.48544000,12.24190221
+lan_parasitic_gap,11,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,9,N/A,to,-5.45174200,7.86520115
+lan_parasitic_gap,11,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,10,N/A,bother,-14.78733100,21.33360910
+lan_parasitic_gap,11,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,11,N/A,eventually,-15.99771900,23.07982987
+lan_parasitic_gap,11,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,12,N/A,.,-9.89894300,14.28115598
+lan_parasitic_gap,11,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother eventually .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,11,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother eventually .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,11,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother eventually .,2,N/A,that,-2.74970600,3.96698721
+lan_parasitic_gap,11,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother eventually .,3,N/A,Bob,-14.07656500,20.30819052
+lan_parasitic_gap,11,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother eventually .,4,N/A,'s,-3.84910000,5.55307748
+lan_parasitic_gap,11,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother eventually .,5,N/A,talking,-10.96712000,15.82220964
+lan_parasitic_gap,11,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother eventually .,6,N/A,to,-5.42034600,7.81990629
+lan_parasitic_gap,11,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother eventually .,7,N/A,Jennifer,-12.96929400,18.71073614
+lan_parasitic_gap,11,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother eventually .,8,N/A,is,-10.02393600,14.46148276
+lan_parasitic_gap,11,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother eventually .,9,N/A,about,-6.24287100,9.00655903
+lan_parasitic_gap,11,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother eventually .,10,N/A,to,-2.09805600,3.02685499
+lan_parasitic_gap,11,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother eventually .,11,N/A,bother,-14.23607900,20.53832058
+lan_parasitic_gap,11,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother eventually .,12,N/A,eventually,-16.20030900,23.37210546
+lan_parasitic_gap,11,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother eventually .,13,N/A,.,-10.18009400,14.68677113
+lan_parasitic_gap,11,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother Kim eventually .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,11,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother Kim eventually .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,11,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother Kim eventually .,2,N/A,who,-8.36655500,12.07038741
+lan_parasitic_gap,11,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother Kim eventually .,3,N/A,Bob,-13.02666100,18.79349922
+lan_parasitic_gap,11,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother Kim eventually .,4,N/A,'s,-5.78773100,8.34993081
+lan_parasitic_gap,11,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother Kim eventually .,5,N/A,talking,-9.38370700,13.53782755
+lan_parasitic_gap,11,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother Kim eventually .,6,N/A,to,-3.44055400,4.96367019
+lan_parasitic_gap,11,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother Kim eventually .,7,N/A,is,-7.09274600,10.23266948
+lan_parasitic_gap,11,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother Kim eventually .,8,N/A,about,-8.48544000,12.24190221
+lan_parasitic_gap,11,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother Kim eventually .,9,N/A,to,-5.45174200,7.86520115
+lan_parasitic_gap,11,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother Kim eventually .,10,N/A,bother,-14.78733100,21.33360910
+lan_parasitic_gap,11,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother Kim eventually .,11,N/A,Kim,-13.52283100,19.50932122
+lan_parasitic_gap,11,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother Kim eventually .,12,N/A,eventually,-15.98845900,23.06647051
+lan_parasitic_gap,11,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother Kim eventually .,13,N/A,.,-9.96315000,14.37378710
+lan_parasitic_gap,11,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother Kim eventually .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,11,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother Kim eventually .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,11,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother Kim eventually .,2,N/A,that,-2.74970600,3.96698721
+lan_parasitic_gap,11,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother Kim eventually .,3,N/A,Bob,-14.07656500,20.30819052
+lan_parasitic_gap,11,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother Kim eventually .,4,N/A,'s,-3.84910000,5.55307748
+lan_parasitic_gap,11,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother Kim eventually .,5,N/A,talking,-10.96712000,15.82220964
+lan_parasitic_gap,11,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother Kim eventually .,6,N/A,to,-5.42034600,7.81990629
+lan_parasitic_gap,11,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother Kim eventually .,7,N/A,Jennifer,-12.96929400,18.71073614
+lan_parasitic_gap,11,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother Kim eventually .,8,N/A,is,-10.02393600,14.46148276
+lan_parasitic_gap,11,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother Kim eventually .,9,N/A,about,-6.24287100,9.00655903
+lan_parasitic_gap,11,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother Kim eventually .,10,N/A,to,-2.09805600,3.02685499
+lan_parasitic_gap,11,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother Kim eventually .,11,N/A,bother,-14.23607900,20.53832058
+lan_parasitic_gap,11,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother Kim eventually .,12,N/A,Kim,-13.31240900,19.20574645
+lan_parasitic_gap,11,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother Kim eventually .,13,N/A,eventually,-14.80870200,21.36444094
+lan_parasitic_gap,11,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother Kim eventually .,14,N/A,.,-10.24320300,14.77781817
+lan_parasitic_gap,12,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,12,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,12,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,2,N/A,who,-8.36655500,12.07038741
+lan_parasitic_gap,12,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,3,N/A,Bob,-13.02666100,18.79349922
+lan_parasitic_gap,12,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,4,N/A,'s,-5.78773100,8.34993081
+lan_parasitic_gap,12,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,5,N/A,talking,-9.38370700,13.53782755
+lan_parasitic_gap,12,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,6,N/A,to,-3.44055400,4.96367019
+lan_parasitic_gap,12,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,7,N/A,is,-7.09274600,10.23266948
+lan_parasitic_gap,12,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,8,N/A,about,-8.48544000,12.24190221
+lan_parasitic_gap,12,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,9,N/A,to,-5.45174200,7.86520115
+lan_parasitic_gap,12,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,10,N/A,bother,-14.78733100,21.33360910
+lan_parasitic_gap,12,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,11,N/A,eventually,-15.99771900,23.07982987
+lan_parasitic_gap,12,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to bother eventually .,12,N/A,.,-9.89894300,14.28115598
+lan_parasitic_gap,12,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother eventually .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,12,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother eventually .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,12,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother eventually .,2,N/A,that,-2.74970600,3.96698721
+lan_parasitic_gap,12,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother eventually .,3,N/A,Bob,-14.07656500,20.30819052
+lan_parasitic_gap,12,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother eventually .,4,N/A,'s,-3.84910000,5.55307748
+lan_parasitic_gap,12,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother eventually .,5,N/A,talking,-10.96712000,15.82220964
+lan_parasitic_gap,12,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother eventually .,6,N/A,to,-5.42034600,7.81990629
+lan_parasitic_gap,12,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother eventually .,7,N/A,Jennifer,-12.96929400,18.71073614
+lan_parasitic_gap,12,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother eventually .,8,N/A,is,-10.02393600,14.46148276
+lan_parasitic_gap,12,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother eventually .,9,N/A,about,-6.24287100,9.00655903
+lan_parasitic_gap,12,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother eventually .,10,N/A,to,-2.09805600,3.02685499
+lan_parasitic_gap,12,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother eventually .,11,N/A,bother,-14.23607900,20.53832058
+lan_parasitic_gap,12,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother eventually .,12,N/A,eventually,-16.20030900,23.37210546
+lan_parasitic_gap,12,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to bother eventually .,13,N/A,.,-10.18009400,14.68677113
+lan_parasitic_gap,12,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother you eventually .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,12,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother you eventually .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,12,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother you eventually .,2,N/A,who,-8.36655500,12.07038741
+lan_parasitic_gap,12,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother you eventually .,3,N/A,Bob,-13.02666100,18.79349922
+lan_parasitic_gap,12,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother you eventually .,4,N/A,'s,-5.78773100,8.34993081
+lan_parasitic_gap,12,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother you eventually .,5,N/A,talking,-9.38370700,13.53782755
+lan_parasitic_gap,12,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother you eventually .,6,N/A,to,-3.44055400,4.96367019
+lan_parasitic_gap,12,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother you eventually .,7,N/A,is,-7.09274600,10.23266948
+lan_parasitic_gap,12,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother you eventually .,8,N/A,about,-8.48544000,12.24190221
+lan_parasitic_gap,12,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother you eventually .,9,N/A,to,-5.45174200,7.86520115
+lan_parasitic_gap,12,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother you eventually .,10,N/A,bother,-14.78733100,21.33360910
+lan_parasitic_gap,12,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother you eventually .,11,N/A,you,-2.86839300,4.13821636
+lan_parasitic_gap,12,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother you eventually .,12,N/A,eventually,-14.90666100,21.50576590
+lan_parasitic_gap,12,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to bother you eventually .,13,N/A,.,-9.63632400,13.90227685
+lan_parasitic_gap,12,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother you eventually .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,12,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother you eventually .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,12,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother you eventually .,2,N/A,that,-2.74970600,3.96698721
+lan_parasitic_gap,12,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother you eventually .,3,N/A,Bob,-14.07656500,20.30819052
+lan_parasitic_gap,12,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother you eventually .,4,N/A,'s,-3.84910000,5.55307748
+lan_parasitic_gap,12,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother you eventually .,5,N/A,talking,-10.96712000,15.82220964
+lan_parasitic_gap,12,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother you eventually .,6,N/A,to,-5.42034600,7.81990629
+lan_parasitic_gap,12,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother you eventually .,7,N/A,Jennifer,-12.96929400,18.71073614
+lan_parasitic_gap,12,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother you eventually .,8,N/A,is,-10.02393600,14.46148276
+lan_parasitic_gap,12,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother you eventually .,9,N/A,about,-6.24287100,9.00655903
+lan_parasitic_gap,12,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother you eventually .,10,N/A,to,-2.09805600,3.02685499
+lan_parasitic_gap,12,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother you eventually .,11,N/A,bother,-14.23607900,20.53832058
+lan_parasitic_gap,12,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother you eventually .,12,N/A,you,-4.00118500,5.77248976
+lan_parasitic_gap,12,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother you eventually .,13,N/A,eventually,-14.87183500,21.45552260
+lan_parasitic_gap,12,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to bother you eventually .,14,N/A,.,-9.77250500,14.09874450
+lan_parasitic_gap,13,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,13,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,13,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,2,N/A,who,-8.36655500,12.07038741
+lan_parasitic_gap,13,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,3,N/A,Bob,-13.02666100,18.79349922
+lan_parasitic_gap,13,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,4,N/A,'s,-5.78773100,8.34993081
+lan_parasitic_gap,13,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,5,N/A,talking,-9.38370700,13.53782755
+lan_parasitic_gap,13,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,6,N/A,to,-3.44055400,4.96367019
+lan_parasitic_gap,13,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,7,N/A,is,-7.09274600,10.23266948
+lan_parasitic_gap,13,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,8,N/A,about,-8.48544000,12.24190221
+lan_parasitic_gap,13,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,9,N/A,to,-5.45174200,7.86520115
+lan_parasitic_gap,13,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,10,N/A,annoy,-13.64987900,19.69261274
+lan_parasitic_gap,13,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,11,N/A,soon,-16.99794900,24.52285673
+lan_parasitic_gap,13,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,12,N/A,.,-10.08251600,14.54599583
+lan_parasitic_gap,13,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to annoy soon .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,13,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to annoy soon .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,13,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to annoy soon .,2,N/A,that,-2.74970600,3.96698721
+lan_parasitic_gap,13,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to annoy soon .,3,N/A,Bob,-14.07656500,20.30819052
+lan_parasitic_gap,13,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to annoy soon .,4,N/A,'s,-3.84910000,5.55307748
+lan_parasitic_gap,13,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to annoy soon .,5,N/A,talking,-10.96712000,15.82220964
+lan_parasitic_gap,13,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to annoy soon .,6,N/A,to,-5.42034600,7.81990629
+lan_parasitic_gap,13,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to annoy soon .,7,N/A,Jennifer,-12.96929400,18.71073614
+lan_parasitic_gap,13,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to annoy soon .,8,N/A,is,-10.02393600,14.46148276
+lan_parasitic_gap,13,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to annoy soon .,9,N/A,about,-6.24287100,9.00655903
+lan_parasitic_gap,13,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to annoy soon .,10,N/A,to,-2.09805600,3.02685499
+lan_parasitic_gap,13,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to annoy soon .,11,N/A,annoy,-12.32454500,17.78055995
+lan_parasitic_gap,13,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to annoy soon .,12,N/A,soon,-17.08205700,24.64419892
+lan_parasitic_gap,13,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to annoy soon .,13,N/A,.,-10.62357600,15.32658041
+lan_parasitic_gap,13,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy Kim soon .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,13,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy Kim soon .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,13,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy Kim soon .,2,N/A,who,-8.36655500,12.07038741
+lan_parasitic_gap,13,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy Kim soon .,3,N/A,Bob,-13.02666100,18.79349922
+lan_parasitic_gap,13,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy Kim soon .,4,N/A,'s,-5.78773100,8.34993081
+lan_parasitic_gap,13,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy Kim soon .,5,N/A,talking,-9.38370700,13.53782755
+lan_parasitic_gap,13,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy Kim soon .,6,N/A,to,-3.44055400,4.96367019
+lan_parasitic_gap,13,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy Kim soon .,7,N/A,is,-7.09274600,10.23266948
+lan_parasitic_gap,13,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy Kim soon .,8,N/A,about,-8.48544000,12.24190221
+lan_parasitic_gap,13,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy Kim soon .,9,N/A,to,-5.45174200,7.86520115
+lan_parasitic_gap,13,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy Kim soon .,10,N/A,annoy,-13.64987900,19.69261274
+lan_parasitic_gap,13,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy Kim soon .,11,N/A,Kim,-13.03504000,18.80558757
+lan_parasitic_gap,13,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy Kim soon .,12,N/A,soon,-13.72478000,19.80067204
+lan_parasitic_gap,13,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy Kim soon .,13,N/A,.,-10.10186100,14.57390477
+lan_parasitic_gap,13,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to annoy Kim soon .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,13,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to annoy Kim soon .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,13,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to annoy Kim soon .,2,N/A,that,-2.74970600,3.96698721
+lan_parasitic_gap,13,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to annoy Kim soon .,3,N/A,Bob,-14.07656500,20.30819052
+lan_parasitic_gap,13,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to annoy Kim soon .,4,N/A,'s,-3.84910000,5.55307748
+lan_parasitic_gap,13,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to annoy Kim soon .,5,N/A,talking,-10.96712000,15.82220964
+lan_parasitic_gap,13,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to annoy Kim soon .,6,N/A,to,-5.42034600,7.81990629
+lan_parasitic_gap,13,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to annoy Kim soon .,7,N/A,Jennifer,-12.96929400,18.71073614
+lan_parasitic_gap,13,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to annoy Kim soon .,8,N/A,is,-10.02393600,14.46148276
+lan_parasitic_gap,13,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to annoy Kim soon .,9,N/A,about,-6.24287100,9.00655903
+lan_parasitic_gap,13,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to annoy Kim soon .,10,N/A,to,-2.09805600,3.02685499
+lan_parasitic_gap,13,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to annoy Kim soon .,11,N/A,annoy,-12.32454500,17.78055995
+lan_parasitic_gap,13,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to annoy Kim soon .,12,N/A,Kim,-12.45699500,17.97164491
+lan_parasitic_gap,13,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to annoy Kim soon .,13,N/A,soon,-12.94355600,18.67360405
+lan_parasitic_gap,13,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to annoy Kim soon .,14,N/A,.,-10.74057900,15.49538006
+lan_parasitic_gap,14,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,14,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,14,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,2,N/A,who,-8.36655500,12.07038741
+lan_parasitic_gap,14,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,3,N/A,Bob,-13.02666100,18.79349922
+lan_parasitic_gap,14,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,4,N/A,'s,-5.78773100,8.34993081
+lan_parasitic_gap,14,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,5,N/A,talking,-9.38370700,13.53782755
+lan_parasitic_gap,14,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,6,N/A,to,-3.44055400,4.96367019
+lan_parasitic_gap,14,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,7,N/A,is,-7.09274600,10.23266948
+lan_parasitic_gap,14,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,8,N/A,about,-8.48544000,12.24190221
+lan_parasitic_gap,14,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,9,N/A,to,-5.45174200,7.86520115
+lan_parasitic_gap,14,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,10,N/A,annoy,-13.64987900,19.69261274
+lan_parasitic_gap,14,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,11,N/A,soon,-16.99794900,24.52285673
+lan_parasitic_gap,14,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,12,N/A,.,-10.08251600,14.54599583
+lan_parasitic_gap,14,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to annoy soon .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,14,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to annoy soon .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,14,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to annoy soon .,2,N/A,that,-2.74970600,3.96698721
+lan_parasitic_gap,14,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to annoy soon .,3,N/A,Bob,-14.07656500,20.30819052
+lan_parasitic_gap,14,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to annoy soon .,4,N/A,'s,-3.84910000,5.55307748
+lan_parasitic_gap,14,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to annoy soon .,5,N/A,talking,-10.96712000,15.82220964
+lan_parasitic_gap,14,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to annoy soon .,6,N/A,to,-5.42034600,7.81990629
+lan_parasitic_gap,14,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to annoy soon .,7,N/A,Jennifer,-12.96929400,18.71073614
+lan_parasitic_gap,14,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to annoy soon .,8,N/A,is,-10.02393600,14.46148276
+lan_parasitic_gap,14,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to annoy soon .,9,N/A,about,-6.24287100,9.00655903
+lan_parasitic_gap,14,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to annoy soon .,10,N/A,to,-2.09805600,3.02685499
+lan_parasitic_gap,14,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to annoy soon .,11,N/A,annoy,-12.32454500,17.78055995
+lan_parasitic_gap,14,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to annoy soon .,12,N/A,soon,-17.08205700,24.64419892
+lan_parasitic_gap,14,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to annoy soon .,13,N/A,.,-10.62357600,15.32658041
+lan_parasitic_gap,14,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy you soon .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,14,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy you soon .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,14,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy you soon .,2,N/A,who,-8.36655500,12.07038741
+lan_parasitic_gap,14,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy you soon .,3,N/A,Bob,-13.02666100,18.79349922
+lan_parasitic_gap,14,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy you soon .,4,N/A,'s,-5.78773100,8.34993081
+lan_parasitic_gap,14,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy you soon .,5,N/A,talking,-9.38370700,13.53782755
+lan_parasitic_gap,14,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy you soon .,6,N/A,to,-3.44055400,4.96367019
+lan_parasitic_gap,14,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy you soon .,7,N/A,is,-7.09274600,10.23266948
+lan_parasitic_gap,14,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy you soon .,8,N/A,about,-8.48544000,12.24190221
+lan_parasitic_gap,14,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy you soon .,9,N/A,to,-5.45174200,7.86520115
+lan_parasitic_gap,14,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy you soon .,10,N/A,annoy,-13.64987900,19.69261274
+lan_parasitic_gap,14,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy you soon .,11,N/A,you,-3.44718100,4.97323093
+lan_parasitic_gap,14,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy you soon .,12,N/A,soon,-12.86339300,18.55795329
+lan_parasitic_gap,14,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy you soon .,13,N/A,.,-9.59515900,13.84288831
+lan_parasitic_gap,14,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to annoy you soon .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,14,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to annoy you soon .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,14,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to annoy you soon .,2,N/A,that,-2.74970600,3.96698721
+lan_parasitic_gap,14,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to annoy you soon .,3,N/A,Bob,-14.07656500,20.30819052
+lan_parasitic_gap,14,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to annoy you soon .,4,N/A,'s,-3.84910000,5.55307748
+lan_parasitic_gap,14,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to annoy you soon .,5,N/A,talking,-10.96712000,15.82220964
+lan_parasitic_gap,14,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to annoy you soon .,6,N/A,to,-5.42034600,7.81990629
+lan_parasitic_gap,14,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to annoy you soon .,7,N/A,Jennifer,-12.96929400,18.71073614
+lan_parasitic_gap,14,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to annoy you soon .,8,N/A,is,-10.02393600,14.46148276
+lan_parasitic_gap,14,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to annoy you soon .,9,N/A,about,-6.24287100,9.00655903
+lan_parasitic_gap,14,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to annoy you soon .,10,N/A,to,-2.09805600,3.02685499
+lan_parasitic_gap,14,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to annoy you soon .,11,N/A,annoy,-12.32454500,17.78055995
+lan_parasitic_gap,14,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to annoy you soon .,12,N/A,you,-5.13284600,7.40513147
+lan_parasitic_gap,14,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to annoy you soon .,13,N/A,soon,-13.47545200,19.44096777
+lan_parasitic_gap,14,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to annoy you soon .,14,N/A,.,-10.14126700,14.63075561
+lan_parasitic_gap,15,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,15,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,15,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,2,N/A,who,-8.36655500,12.07038741
+lan_parasitic_gap,15,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,3,N/A,Bob,-13.02666100,18.79349922
+lan_parasitic_gap,15,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,4,N/A,'s,-5.78773100,8.34993081
+lan_parasitic_gap,15,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,5,N/A,talking,-9.38370700,13.53782755
+lan_parasitic_gap,15,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,6,N/A,to,-3.44055400,4.96367019
+lan_parasitic_gap,15,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,7,N/A,is,-7.09274600,10.23266948
+lan_parasitic_gap,15,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,8,N/A,about,-8.48544000,12.24190221
+lan_parasitic_gap,15,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,9,N/A,to,-5.45174200,7.86520115
+lan_parasitic_gap,15,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,10,N/A,annoy,-13.64987900,19.69261274
+lan_parasitic_gap,15,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,11,N/A,soon,-16.99794900,24.52285673
+lan_parasitic_gap,15,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,12,N/A,.,-10.08251600,14.54599583
+lan_parasitic_gap,15,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to annoy soon .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,15,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to annoy soon .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,15,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to annoy soon .,2,N/A,that,-2.74970600,3.96698721
+lan_parasitic_gap,15,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to annoy soon .,3,N/A,Bob,-14.07656500,20.30819052
+lan_parasitic_gap,15,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to annoy soon .,4,N/A,'s,-3.84910000,5.55307748
+lan_parasitic_gap,15,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to annoy soon .,5,N/A,talking,-10.96712000,15.82220964
+lan_parasitic_gap,15,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to annoy soon .,6,N/A,to,-5.42034600,7.81990629
+lan_parasitic_gap,15,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to annoy soon .,7,N/A,Jennifer,-12.96929400,18.71073614
+lan_parasitic_gap,15,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to annoy soon .,8,N/A,is,-10.02393600,14.46148276
+lan_parasitic_gap,15,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to annoy soon .,9,N/A,about,-6.24287100,9.00655903
+lan_parasitic_gap,15,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to annoy soon .,10,N/A,to,-2.09805600,3.02685499
+lan_parasitic_gap,15,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to annoy soon .,11,N/A,annoy,-12.32454500,17.78055995
+lan_parasitic_gap,15,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to annoy soon .,12,N/A,soon,-17.08205700,24.64419892
+lan_parasitic_gap,15,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Jennifer is about to annoy soon .,13,N/A,.,-10.62357600,15.32658041
+lan_parasitic_gap,15,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy us soon .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,15,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy us soon .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,15,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy us soon .,2,N/A,who,-8.36655500,12.07038741
+lan_parasitic_gap,15,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy us soon .,3,N/A,Bob,-13.02666100,18.79349922
+lan_parasitic_gap,15,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy us soon .,4,N/A,'s,-5.78773100,8.34993081
+lan_parasitic_gap,15,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy us soon .,5,N/A,talking,-9.38370700,13.53782755
+lan_parasitic_gap,15,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy us soon .,6,N/A,to,-3.44055400,4.96367019
+lan_parasitic_gap,15,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy us soon .,7,N/A,is,-7.09274600,10.23266948
+lan_parasitic_gap,15,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy us soon .,8,N/A,about,-8.48544000,12.24190221
+lan_parasitic_gap,15,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy us soon .,9,N/A,to,-5.45174200,7.86520115
+lan_parasitic_gap,15,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy us soon .,10,N/A,annoy,-13.64987900,19.69261274
+lan_parasitic_gap,15,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy us soon .,11,N/A,us,-5.05362500,7.29083973
+lan_parasitic_gap,15,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy us soon .,12,N/A,soon,-12.00324600,17.31702348
+lan_parasitic_gap,15,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy us soon .,13,N/A,.,-9.99478600,14.41942820
+lan_parasitic_gap,15,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to annoy us soon .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,15,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to annoy us soon .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,15,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to annoy us soon .,2,N/A,that,-2.74970600,3.96698721
+lan_parasitic_gap,15,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to annoy us soon .,3,N/A,Bob,-14.07656500,20.30819052
+lan_parasitic_gap,15,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to annoy us soon .,4,N/A,'s,-3.84910000,5.55307748
+lan_parasitic_gap,15,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to annoy us soon .,5,N/A,talking,-10.96712000,15.82220964
+lan_parasitic_gap,15,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to annoy us soon .,6,N/A,to,-5.42034600,7.81990629
+lan_parasitic_gap,15,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to annoy us soon .,7,N/A,Jennifer,-12.96929400,18.71073614
+lan_parasitic_gap,15,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to annoy us soon .,8,N/A,is,-10.02393600,14.46148276
+lan_parasitic_gap,15,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to annoy us soon .,9,N/A,about,-6.24287100,9.00655903
+lan_parasitic_gap,15,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to annoy us soon .,10,N/A,to,-2.09805600,3.02685499
+lan_parasitic_gap,15,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to annoy us soon .,11,N/A,annoy,-12.32454500,17.78055995
+lan_parasitic_gap,15,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to annoy us soon .,12,N/A,us,-5.21240300,7.51990796
+lan_parasitic_gap,15,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to annoy us soon .,13,N/A,soon,-12.50073500,18.03474839
+lan_parasitic_gap,15,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Jennifer is about to annoy us soon .,14,N/A,.,-10.43849700,15.05956786
+lan_parasitic_gap,16,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,16,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,16,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,2,N/A,who,-8.36655500,12.07038741
+lan_parasitic_gap,16,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,3,N/A,Bob,-13.02666100,18.79349922
+lan_parasitic_gap,16,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,4,N/A,'s,-5.78773100,8.34993081
+lan_parasitic_gap,16,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,5,N/A,talking,-9.38370700,13.53782755
+lan_parasitic_gap,16,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,6,N/A,to,-3.44055400,4.96367019
+lan_parasitic_gap,16,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,7,N/A,is,-7.09274600,10.23266948
+lan_parasitic_gap,16,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,8,N/A,about,-8.48544000,12.24190221
+lan_parasitic_gap,16,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,9,N/A,to,-5.45174200,7.86520115
+lan_parasitic_gap,16,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,10,N/A,annoy,-13.64987900,19.69261274
+lan_parasitic_gap,16,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,11,N/A,soon,-16.99794900,24.52285673
+lan_parasitic_gap,16,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,12,N/A,.,-10.08251600,14.54599583
+lan_parasitic_gap,16,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy soon .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,16,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy soon .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,16,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy soon .,2,N/A,that,-2.74970600,3.96698721
+lan_parasitic_gap,16,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy soon .,3,N/A,Bob,-14.07656500,20.30819052
+lan_parasitic_gap,16,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy soon .,4,N/A,'s,-3.84910000,5.55307748
+lan_parasitic_gap,16,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy soon .,5,N/A,talking,-10.96712000,15.82220964
+lan_parasitic_gap,16,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy soon .,6,N/A,to,-5.42034600,7.81990629
+lan_parasitic_gap,16,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy soon .,7,N/A,Mary,-11.30849800,16.31471398
+lan_parasitic_gap,16,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy soon .,8,N/A,is,-8.91469300,12.86118338
+lan_parasitic_gap,16,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy soon .,9,N/A,about,-6.10766900,8.81150378
+lan_parasitic_gap,16,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy soon .,10,N/A,to,-2.53596100,3.65861836
+lan_parasitic_gap,16,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy soon .,11,N/A,annoy,-13.11799300,18.92526345
+lan_parasitic_gap,16,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy soon .,12,N/A,soon,-16.84663900,24.30456254
+lan_parasitic_gap,16,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy soon .,13,N/A,.,-10.74146200,15.49665396
+lan_parasitic_gap,16,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy Kim soon .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,16,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy Kim soon .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,16,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy Kim soon .,2,N/A,who,-8.36655500,12.07038741
+lan_parasitic_gap,16,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy Kim soon .,3,N/A,Bob,-13.02666100,18.79349922
+lan_parasitic_gap,16,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy Kim soon .,4,N/A,'s,-5.78773100,8.34993081
+lan_parasitic_gap,16,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy Kim soon .,5,N/A,talking,-9.38370700,13.53782755
+lan_parasitic_gap,16,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy Kim soon .,6,N/A,to,-3.44055400,4.96367019
+lan_parasitic_gap,16,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy Kim soon .,7,N/A,is,-7.09274600,10.23266948
+lan_parasitic_gap,16,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy Kim soon .,8,N/A,about,-8.48544000,12.24190221
+lan_parasitic_gap,16,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy Kim soon .,9,N/A,to,-5.45174200,7.86520115
+lan_parasitic_gap,16,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy Kim soon .,10,N/A,annoy,-13.64987900,19.69261274
+lan_parasitic_gap,16,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy Kim soon .,11,N/A,Kim,-13.03504000,18.80558757
+lan_parasitic_gap,16,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy Kim soon .,12,N/A,soon,-13.72478000,19.80067204
+lan_parasitic_gap,16,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy Kim soon .,13,N/A,.,-10.10186100,14.57390477
+lan_parasitic_gap,16,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy Kim soon .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,16,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy Kim soon .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,16,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy Kim soon .,2,N/A,that,-2.74970600,3.96698721
+lan_parasitic_gap,16,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy Kim soon .,3,N/A,Bob,-14.07656500,20.30819052
+lan_parasitic_gap,16,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy Kim soon .,4,N/A,'s,-3.84910000,5.55307748
+lan_parasitic_gap,16,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy Kim soon .,5,N/A,talking,-10.96712000,15.82220964
+lan_parasitic_gap,16,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy Kim soon .,6,N/A,to,-5.42034600,7.81990629
+lan_parasitic_gap,16,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy Kim soon .,7,N/A,Mary,-11.30849800,16.31471398
+lan_parasitic_gap,16,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy Kim soon .,8,N/A,is,-8.91469300,12.86118338
+lan_parasitic_gap,16,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy Kim soon .,9,N/A,about,-6.10766900,8.81150378
+lan_parasitic_gap,16,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy Kim soon .,10,N/A,to,-2.53596100,3.65861836
+lan_parasitic_gap,16,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy Kim soon .,11,N/A,annoy,-13.11799300,18.92526345
+lan_parasitic_gap,16,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy Kim soon .,12,N/A,Kim,-13.69576300,19.75880936
+lan_parasitic_gap,16,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy Kim soon .,13,N/A,soon,-12.81524000,18.48848320
+lan_parasitic_gap,16,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy Kim soon .,14,N/A,.,-10.82719800,15.62034486
+lan_parasitic_gap,17,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,17,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,17,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,2,N/A,who,-8.36655500,12.07038741
+lan_parasitic_gap,17,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,3,N/A,Bob,-13.02666100,18.79349922
+lan_parasitic_gap,17,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,4,N/A,'s,-5.78773100,8.34993081
+lan_parasitic_gap,17,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,5,N/A,talking,-9.38370700,13.53782755
+lan_parasitic_gap,17,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,6,N/A,to,-3.44055400,4.96367019
+lan_parasitic_gap,17,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,7,N/A,is,-7.09274600,10.23266948
+lan_parasitic_gap,17,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,8,N/A,about,-8.48544000,12.24190221
+lan_parasitic_gap,17,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,9,N/A,to,-5.45174200,7.86520115
+lan_parasitic_gap,17,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,10,N/A,annoy,-13.64987900,19.69261274
+lan_parasitic_gap,17,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,11,N/A,soon,-16.99794900,24.52285673
+lan_parasitic_gap,17,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,12,N/A,.,-10.08251600,14.54599583
+lan_parasitic_gap,17,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy soon .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,17,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy soon .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,17,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy soon .,2,N/A,that,-2.74970600,3.96698721
+lan_parasitic_gap,17,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy soon .,3,N/A,Bob,-14.07656500,20.30819052
+lan_parasitic_gap,17,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy soon .,4,N/A,'s,-3.84910000,5.55307748
+lan_parasitic_gap,17,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy soon .,5,N/A,talking,-10.96712000,15.82220964
+lan_parasitic_gap,17,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy soon .,6,N/A,to,-5.42034600,7.81990629
+lan_parasitic_gap,17,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy soon .,7,N/A,Mary,-11.30849800,16.31471398
+lan_parasitic_gap,17,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy soon .,8,N/A,is,-8.91469300,12.86118338
+lan_parasitic_gap,17,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy soon .,9,N/A,about,-6.10766900,8.81150378
+lan_parasitic_gap,17,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy soon .,10,N/A,to,-2.53596100,3.65861836
+lan_parasitic_gap,17,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy soon .,11,N/A,annoy,-13.11799300,18.92526345
+lan_parasitic_gap,17,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy soon .,12,N/A,soon,-16.84663900,24.30456254
+lan_parasitic_gap,17,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy soon .,13,N/A,.,-10.74146200,15.49665396
+lan_parasitic_gap,17,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy you soon .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,17,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy you soon .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,17,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy you soon .,2,N/A,who,-8.36655500,12.07038741
+lan_parasitic_gap,17,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy you soon .,3,N/A,Bob,-13.02666100,18.79349922
+lan_parasitic_gap,17,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy you soon .,4,N/A,'s,-5.78773100,8.34993081
+lan_parasitic_gap,17,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy you soon .,5,N/A,talking,-9.38370700,13.53782755
+lan_parasitic_gap,17,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy you soon .,6,N/A,to,-3.44055400,4.96367019
+lan_parasitic_gap,17,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy you soon .,7,N/A,is,-7.09274600,10.23266948
+lan_parasitic_gap,17,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy you soon .,8,N/A,about,-8.48544000,12.24190221
+lan_parasitic_gap,17,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy you soon .,9,N/A,to,-5.45174200,7.86520115
+lan_parasitic_gap,17,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy you soon .,10,N/A,annoy,-13.64987900,19.69261274
+lan_parasitic_gap,17,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy you soon .,11,N/A,you,-3.44718100,4.97323093
+lan_parasitic_gap,17,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy you soon .,12,N/A,soon,-12.86339300,18.55795329
+lan_parasitic_gap,17,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy you soon .,13,N/A,.,-9.59515900,13.84288831
+lan_parasitic_gap,17,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy you soon .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,17,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy you soon .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,17,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy you soon .,2,N/A,that,-2.74970600,3.96698721
+lan_parasitic_gap,17,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy you soon .,3,N/A,Bob,-14.07656500,20.30819052
+lan_parasitic_gap,17,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy you soon .,4,N/A,'s,-3.84910000,5.55307748
+lan_parasitic_gap,17,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy you soon .,5,N/A,talking,-10.96712000,15.82220964
+lan_parasitic_gap,17,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy you soon .,6,N/A,to,-5.42034600,7.81990629
+lan_parasitic_gap,17,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy you soon .,7,N/A,Mary,-11.30849800,16.31471398
+lan_parasitic_gap,17,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy you soon .,8,N/A,is,-8.91469300,12.86118338
+lan_parasitic_gap,17,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy you soon .,9,N/A,about,-6.10766900,8.81150378
+lan_parasitic_gap,17,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy you soon .,10,N/A,to,-2.53596100,3.65861836
+lan_parasitic_gap,17,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy you soon .,11,N/A,annoy,-13.11799300,18.92526345
+lan_parasitic_gap,17,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy you soon .,12,N/A,you,-4.62775900,6.67644496
+lan_parasitic_gap,17,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy you soon .,13,N/A,soon,-13.25116300,19.11738715
+lan_parasitic_gap,17,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy you soon .,14,N/A,.,-10.23139100,14.76077706
+lan_parasitic_gap,18,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,18,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,18,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,2,N/A,who,-8.36655500,12.07038741
+lan_parasitic_gap,18,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,3,N/A,Bob,-13.02666100,18.79349922
+lan_parasitic_gap,18,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,4,N/A,'s,-5.78773100,8.34993081
+lan_parasitic_gap,18,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,5,N/A,talking,-9.38370700,13.53782755
+lan_parasitic_gap,18,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,6,N/A,to,-3.44055400,4.96367019
+lan_parasitic_gap,18,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,7,N/A,is,-7.09274600,10.23266948
+lan_parasitic_gap,18,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,8,N/A,about,-8.48544000,12.24190221
+lan_parasitic_gap,18,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,9,N/A,to,-5.45174200,7.86520115
+lan_parasitic_gap,18,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,10,N/A,annoy,-13.64987900,19.69261274
+lan_parasitic_gap,18,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,11,N/A,soon,-16.99794900,24.52285673
+lan_parasitic_gap,18,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy soon .,12,N/A,.,-10.08251600,14.54599583
+lan_parasitic_gap,18,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy soon .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,18,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy soon .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,18,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy soon .,2,N/A,that,-2.74970600,3.96698721
+lan_parasitic_gap,18,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy soon .,3,N/A,Bob,-14.07656500,20.30819052
+lan_parasitic_gap,18,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy soon .,4,N/A,'s,-3.84910000,5.55307748
+lan_parasitic_gap,18,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy soon .,5,N/A,talking,-10.96712000,15.82220964
+lan_parasitic_gap,18,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy soon .,6,N/A,to,-5.42034600,7.81990629
+lan_parasitic_gap,18,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy soon .,7,N/A,Mary,-11.30849800,16.31471398
+lan_parasitic_gap,18,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy soon .,8,N/A,is,-8.91469300,12.86118338
+lan_parasitic_gap,18,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy soon .,9,N/A,about,-6.10766900,8.81150378
+lan_parasitic_gap,18,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy soon .,10,N/A,to,-2.53596100,3.65861836
+lan_parasitic_gap,18,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy soon .,11,N/A,annoy,-13.11799300,18.92526345
+lan_parasitic_gap,18,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy soon .,12,N/A,soon,-16.84663900,24.30456254
+lan_parasitic_gap,18,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy soon .,13,N/A,.,-10.74146200,15.49665396
+lan_parasitic_gap,18,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy us soon .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,18,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy us soon .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,18,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy us soon .,2,N/A,who,-8.36655500,12.07038741
+lan_parasitic_gap,18,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy us soon .,3,N/A,Bob,-13.02666100,18.79349922
+lan_parasitic_gap,18,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy us soon .,4,N/A,'s,-5.78773100,8.34993081
+lan_parasitic_gap,18,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy us soon .,5,N/A,talking,-9.38370700,13.53782755
+lan_parasitic_gap,18,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy us soon .,6,N/A,to,-3.44055400,4.96367019
+lan_parasitic_gap,18,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy us soon .,7,N/A,is,-7.09274600,10.23266948
+lan_parasitic_gap,18,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy us soon .,8,N/A,about,-8.48544000,12.24190221
+lan_parasitic_gap,18,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy us soon .,9,N/A,to,-5.45174200,7.86520115
+lan_parasitic_gap,18,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy us soon .,10,N/A,annoy,-13.64987900,19.69261274
+lan_parasitic_gap,18,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy us soon .,11,N/A,us,-5.05362500,7.29083973
+lan_parasitic_gap,18,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy us soon .,12,N/A,soon,-12.00324600,17.31702348
+lan_parasitic_gap,18,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy us soon .,13,N/A,.,-9.99478600,14.41942820
+lan_parasitic_gap,18,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy us soon .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,18,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy us soon .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,18,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy us soon .,2,N/A,that,-2.74970600,3.96698721
+lan_parasitic_gap,18,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy us soon .,3,N/A,Bob,-14.07656500,20.30819052
+lan_parasitic_gap,18,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy us soon .,4,N/A,'s,-3.84910000,5.55307748
+lan_parasitic_gap,18,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy us soon .,5,N/A,talking,-10.96712000,15.82220964
+lan_parasitic_gap,18,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy us soon .,6,N/A,to,-5.42034600,7.81990629
+lan_parasitic_gap,18,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy us soon .,7,N/A,Mary,-11.30849800,16.31471398
+lan_parasitic_gap,18,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy us soon .,8,N/A,is,-8.91469300,12.86118338
+lan_parasitic_gap,18,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy us soon .,9,N/A,about,-6.10766900,8.81150378
+lan_parasitic_gap,18,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy us soon .,10,N/A,to,-2.53596100,3.65861836
+lan_parasitic_gap,18,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy us soon .,11,N/A,annoy,-13.11799300,18.92526345
+lan_parasitic_gap,18,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy us soon .,12,N/A,us,-5.06490900,7.30711910
+lan_parasitic_gap,18,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy us soon .,13,N/A,soon,-12.30177700,17.74771267
+lan_parasitic_gap,18,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy us soon .,14,N/A,.,-10.53243200,15.19508741
+lan_parasitic_gap,19,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy eventually .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,19,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy eventually .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,19,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy eventually .,2,N/A,who,-8.36655500,12.07038741
+lan_parasitic_gap,19,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy eventually .,3,N/A,Bob,-13.02666100,18.79349922
+lan_parasitic_gap,19,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy eventually .,4,N/A,'s,-5.78773100,8.34993081
+lan_parasitic_gap,19,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy eventually .,5,N/A,talking,-9.38370700,13.53782755
+lan_parasitic_gap,19,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy eventually .,6,N/A,to,-3.44055400,4.96367019
+lan_parasitic_gap,19,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy eventually .,7,N/A,is,-7.09274600,10.23266948
+lan_parasitic_gap,19,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy eventually .,8,N/A,about,-8.48544000,12.24190221
+lan_parasitic_gap,19,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy eventually .,9,N/A,to,-5.45174200,7.86520115
+lan_parasitic_gap,19,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy eventually .,10,N/A,annoy,-13.64987900,19.69261274
+lan_parasitic_gap,19,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy eventually .,11,N/A,eventually,-19.12102400,27.58580650
+lan_parasitic_gap,19,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy eventually .,12,N/A,.,-9.37979100,13.53217796
+lan_parasitic_gap,19,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy eventually .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,19,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy eventually .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,19,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy eventually .,2,N/A,that,-2.74970600,3.96698721
+lan_parasitic_gap,19,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy eventually .,3,N/A,Bob,-14.07656500,20.30819052
+lan_parasitic_gap,19,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy eventually .,4,N/A,'s,-3.84910000,5.55307748
+lan_parasitic_gap,19,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy eventually .,5,N/A,talking,-10.96712000,15.82220964
+lan_parasitic_gap,19,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy eventually .,6,N/A,to,-5.42034600,7.81990629
+lan_parasitic_gap,19,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy eventually .,7,N/A,Mary,-11.30849800,16.31471398
+lan_parasitic_gap,19,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy eventually .,8,N/A,is,-8.91469300,12.86118338
+lan_parasitic_gap,19,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy eventually .,9,N/A,about,-6.10766900,8.81150378
+lan_parasitic_gap,19,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy eventually .,10,N/A,to,-2.53596100,3.65861836
+lan_parasitic_gap,19,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy eventually .,11,N/A,annoy,-13.11799300,18.92526345
+lan_parasitic_gap,19,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy eventually .,12,N/A,eventually,-18.60980000,26.84826617
+lan_parasitic_gap,19,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy eventually .,13,N/A,.,-9.85559800,14.21862236
+lan_parasitic_gap,19,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy us eventually .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,19,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy us eventually .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,19,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy us eventually .,2,N/A,who,-8.36655500,12.07038741
+lan_parasitic_gap,19,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy us eventually .,3,N/A,Bob,-13.02666100,18.79349922
+lan_parasitic_gap,19,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy us eventually .,4,N/A,'s,-5.78773100,8.34993081
+lan_parasitic_gap,19,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy us eventually .,5,N/A,talking,-9.38370700,13.53782755
+lan_parasitic_gap,19,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy us eventually .,6,N/A,to,-3.44055400,4.96367019
+lan_parasitic_gap,19,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy us eventually .,7,N/A,is,-7.09274600,10.23266948
+lan_parasitic_gap,19,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy us eventually .,8,N/A,about,-8.48544000,12.24190221
+lan_parasitic_gap,19,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy us eventually .,9,N/A,to,-5.45174200,7.86520115
+lan_parasitic_gap,19,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy us eventually .,10,N/A,annoy,-13.64987900,19.69261274
+lan_parasitic_gap,19,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy us eventually .,11,N/A,us,-5.05362500,7.29083973
+lan_parasitic_gap,19,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy us eventually .,12,N/A,eventually,-14.83226900,21.39844093
+lan_parasitic_gap,19,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy us eventually .,13,N/A,.,-9.62750000,13.88954651
+lan_parasitic_gap,19,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy us eventually .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,19,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy us eventually .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,19,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy us eventually .,2,N/A,that,-2.74970600,3.96698721
+lan_parasitic_gap,19,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy us eventually .,3,N/A,Bob,-14.07656500,20.30819052
+lan_parasitic_gap,19,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy us eventually .,4,N/A,'s,-3.84910000,5.55307748
+lan_parasitic_gap,19,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy us eventually .,5,N/A,talking,-10.96712000,15.82220964
+lan_parasitic_gap,19,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy us eventually .,6,N/A,to,-5.42034600,7.81990629
+lan_parasitic_gap,19,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy us eventually .,7,N/A,Mary,-11.30849800,16.31471398
+lan_parasitic_gap,19,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy us eventually .,8,N/A,is,-8.91469300,12.86118338
+lan_parasitic_gap,19,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy us eventually .,9,N/A,about,-6.10766900,8.81150378
+lan_parasitic_gap,19,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy us eventually .,10,N/A,to,-2.53596100,3.65861836
+lan_parasitic_gap,19,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy us eventually .,11,N/A,annoy,-13.11799300,18.92526345
+lan_parasitic_gap,19,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy us eventually .,12,N/A,us,-5.06490900,7.30711910
+lan_parasitic_gap,19,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy us eventually .,13,N/A,eventually,-14.50030400,20.91951667
+lan_parasitic_gap,19,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy us eventually .,14,N/A,.,-9.89068000,14.26923499
+lan_parasitic_gap,20,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy eventually .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,20,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy eventually .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,20,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy eventually .,2,N/A,who,-8.36655500,12.07038741
+lan_parasitic_gap,20,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy eventually .,3,N/A,Bob,-13.02666100,18.79349922
+lan_parasitic_gap,20,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy eventually .,4,N/A,'s,-5.78773100,8.34993081
+lan_parasitic_gap,20,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy eventually .,5,N/A,talking,-9.38370700,13.53782755
+lan_parasitic_gap,20,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy eventually .,6,N/A,to,-3.44055400,4.96367019
+lan_parasitic_gap,20,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy eventually .,7,N/A,is,-7.09274600,10.23266948
+lan_parasitic_gap,20,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy eventually .,8,N/A,about,-8.48544000,12.24190221
+lan_parasitic_gap,20,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy eventually .,9,N/A,to,-5.45174200,7.86520115
+lan_parasitic_gap,20,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy eventually .,10,N/A,annoy,-13.64987900,19.69261274
+lan_parasitic_gap,20,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy eventually .,11,N/A,eventually,-19.12102400,27.58580650
+lan_parasitic_gap,20,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy eventually .,12,N/A,.,-9.37979100,13.53217796
+lan_parasitic_gap,20,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy eventually .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,20,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy eventually .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,20,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy eventually .,2,N/A,that,-2.74970600,3.96698721
+lan_parasitic_gap,20,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy eventually .,3,N/A,Bob,-14.07656500,20.30819052
+lan_parasitic_gap,20,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy eventually .,4,N/A,'s,-3.84910000,5.55307748
+lan_parasitic_gap,20,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy eventually .,5,N/A,talking,-10.96712000,15.82220964
+lan_parasitic_gap,20,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy eventually .,6,N/A,to,-5.42034600,7.81990629
+lan_parasitic_gap,20,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy eventually .,7,N/A,Mary,-11.30849800,16.31471398
+lan_parasitic_gap,20,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy eventually .,8,N/A,is,-8.91469300,12.86118338
+lan_parasitic_gap,20,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy eventually .,9,N/A,about,-6.10766900,8.81150378
+lan_parasitic_gap,20,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy eventually .,10,N/A,to,-2.53596100,3.65861836
+lan_parasitic_gap,20,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy eventually .,11,N/A,annoy,-13.11799300,18.92526345
+lan_parasitic_gap,20,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy eventually .,12,N/A,eventually,-18.60980000,26.84826617
+lan_parasitic_gap,20,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy eventually .,13,N/A,.,-9.85559800,14.21862236
+lan_parasitic_gap,20,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy Kim eventually .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,20,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy Kim eventually .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,20,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy Kim eventually .,2,N/A,who,-8.36655500,12.07038741
+lan_parasitic_gap,20,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy Kim eventually .,3,N/A,Bob,-13.02666100,18.79349922
+lan_parasitic_gap,20,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy Kim eventually .,4,N/A,'s,-5.78773100,8.34993081
+lan_parasitic_gap,20,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy Kim eventually .,5,N/A,talking,-9.38370700,13.53782755
+lan_parasitic_gap,20,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy Kim eventually .,6,N/A,to,-3.44055400,4.96367019
+lan_parasitic_gap,20,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy Kim eventually .,7,N/A,is,-7.09274600,10.23266948
+lan_parasitic_gap,20,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy Kim eventually .,8,N/A,about,-8.48544000,12.24190221
+lan_parasitic_gap,20,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy Kim eventually .,9,N/A,to,-5.45174200,7.86520115
+lan_parasitic_gap,20,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy Kim eventually .,10,N/A,annoy,-13.64987900,19.69261274
+lan_parasitic_gap,20,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy Kim eventually .,11,N/A,Kim,-13.03504000,18.80558757
+lan_parasitic_gap,20,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy Kim eventually .,12,N/A,eventually,-17.44760700,25.17157609
+lan_parasitic_gap,20,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy Kim eventually .,13,N/A,.,-9.55864900,13.79021551
+lan_parasitic_gap,20,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy Kim eventually .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,20,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy Kim eventually .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,20,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy Kim eventually .,2,N/A,that,-2.74970600,3.96698721
+lan_parasitic_gap,20,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy Kim eventually .,3,N/A,Bob,-14.07656500,20.30819052
+lan_parasitic_gap,20,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy Kim eventually .,4,N/A,'s,-3.84910000,5.55307748
+lan_parasitic_gap,20,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy Kim eventually .,5,N/A,talking,-10.96712000,15.82220964
+lan_parasitic_gap,20,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy Kim eventually .,6,N/A,to,-5.42034600,7.81990629
+lan_parasitic_gap,20,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy Kim eventually .,7,N/A,Mary,-11.30849800,16.31471398
+lan_parasitic_gap,20,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy Kim eventually .,8,N/A,is,-8.91469300,12.86118338
+lan_parasitic_gap,20,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy Kim eventually .,9,N/A,about,-6.10766900,8.81150378
+lan_parasitic_gap,20,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy Kim eventually .,10,N/A,to,-2.53596100,3.65861836
+lan_parasitic_gap,20,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy Kim eventually .,11,N/A,annoy,-13.11799300,18.92526345
+lan_parasitic_gap,20,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy Kim eventually .,12,N/A,Kim,-13.69576300,19.75880936
+lan_parasitic_gap,20,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy Kim eventually .,13,N/A,eventually,-16.20555000,23.37966662
+lan_parasitic_gap,20,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy Kim eventually .,14,N/A,.,-10.08392800,14.54803292
+lan_parasitic_gap,21,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy eventually .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,21,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy eventually .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,21,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy eventually .,2,N/A,who,-8.36655500,12.07038741
+lan_parasitic_gap,21,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy eventually .,3,N/A,Bob,-13.02666100,18.79349922
+lan_parasitic_gap,21,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy eventually .,4,N/A,'s,-5.78773100,8.34993081
+lan_parasitic_gap,21,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy eventually .,5,N/A,talking,-9.38370700,13.53782755
+lan_parasitic_gap,21,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy eventually .,6,N/A,to,-3.44055400,4.96367019
+lan_parasitic_gap,21,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy eventually .,7,N/A,is,-7.09274600,10.23266948
+lan_parasitic_gap,21,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy eventually .,8,N/A,about,-8.48544000,12.24190221
+lan_parasitic_gap,21,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy eventually .,9,N/A,to,-5.45174200,7.86520115
+lan_parasitic_gap,21,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy eventually .,10,N/A,annoy,-13.64987900,19.69261274
+lan_parasitic_gap,21,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy eventually .,11,N/A,eventually,-19.12102400,27.58580650
+lan_parasitic_gap,21,PLUS_FILLER_PLUS_GAP,I know who Bob's talking to is about to annoy eventually .,12,N/A,.,-9.37979100,13.53217796
+lan_parasitic_gap,21,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy eventually .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,21,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy eventually .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,21,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy eventually .,2,N/A,that,-2.74970600,3.96698721
+lan_parasitic_gap,21,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy eventually .,3,N/A,Bob,-14.07656500,20.30819052
+lan_parasitic_gap,21,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy eventually .,4,N/A,'s,-3.84910000,5.55307748
+lan_parasitic_gap,21,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy eventually .,5,N/A,talking,-10.96712000,15.82220964
+lan_parasitic_gap,21,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy eventually .,6,N/A,to,-5.42034600,7.81990629
+lan_parasitic_gap,21,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy eventually .,7,N/A,Mary,-11.30849800,16.31471398
+lan_parasitic_gap,21,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy eventually .,8,N/A,is,-8.91469300,12.86118338
+lan_parasitic_gap,21,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy eventually .,9,N/A,about,-6.10766900,8.81150378
+lan_parasitic_gap,21,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy eventually .,10,N/A,to,-2.53596100,3.65861836
+lan_parasitic_gap,21,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy eventually .,11,N/A,annoy,-13.11799300,18.92526345
+lan_parasitic_gap,21,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy eventually .,12,N/A,eventually,-18.60980000,26.84826617
+lan_parasitic_gap,21,MINUS_FILLER_PLUS_GAP,I know that Bob's talking to Mary is about to annoy eventually .,13,N/A,.,-9.85559800,14.21862236
+lan_parasitic_gap,21,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy you eventually .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,21,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy you eventually .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,21,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy you eventually .,2,N/A,who,-8.36655500,12.07038741
+lan_parasitic_gap,21,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy you eventually .,3,N/A,Bob,-13.02666100,18.79349922
+lan_parasitic_gap,21,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy you eventually .,4,N/A,'s,-5.78773100,8.34993081
+lan_parasitic_gap,21,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy you eventually .,5,N/A,talking,-9.38370700,13.53782755
+lan_parasitic_gap,21,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy you eventually .,6,N/A,to,-3.44055400,4.96367019
+lan_parasitic_gap,21,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy you eventually .,7,N/A,is,-7.09274600,10.23266948
+lan_parasitic_gap,21,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy you eventually .,8,N/A,about,-8.48544000,12.24190221
+lan_parasitic_gap,21,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy you eventually .,9,N/A,to,-5.45174200,7.86520115
+lan_parasitic_gap,21,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy you eventually .,10,N/A,annoy,-13.64987900,19.69261274
+lan_parasitic_gap,21,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy you eventually .,11,N/A,you,-3.44718100,4.97323093
+lan_parasitic_gap,21,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy you eventually .,12,N/A,eventually,-16.01481900,23.10449995
+lan_parasitic_gap,21,PLUS_FILLER_MINUS_GAP,I know who Bob's talking to is about to annoy you eventually .,13,N/A,.,-9.29886000,13.41541921
+lan_parasitic_gap,21,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy you eventually .,0,N/A,I,-5.77036000,8.32486976
+lan_parasitic_gap,21,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy you eventually .,1,N/A,know,-5.54568300,8.00072936
+lan_parasitic_gap,21,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy you eventually .,2,N/A,that,-2.74970600,3.96698721
+lan_parasitic_gap,21,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy you eventually .,3,N/A,Bob,-14.07656500,20.30819052
+lan_parasitic_gap,21,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy you eventually .,4,N/A,'s,-3.84910000,5.55307748
+lan_parasitic_gap,21,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy you eventually .,5,N/A,talking,-10.96712000,15.82220964
+lan_parasitic_gap,21,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy you eventually .,6,N/A,to,-5.42034600,7.81990629
+lan_parasitic_gap,21,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy you eventually .,7,N/A,Mary,-11.30849800,16.31471398
+lan_parasitic_gap,21,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy you eventually .,8,N/A,is,-8.91469300,12.86118338
+lan_parasitic_gap,21,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy you eventually .,9,N/A,about,-6.10766900,8.81150378
+lan_parasitic_gap,21,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy you eventually .,10,N/A,to,-2.53596100,3.65861836
+lan_parasitic_gap,21,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy you eventually .,11,N/A,annoy,-13.11799300,18.92526345
+lan_parasitic_gap,21,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy you eventually .,12,N/A,you,-4.62775900,6.67644496
+lan_parasitic_gap,21,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy you eventually .,13,N/A,eventually,-15.89554600,22.93242539
+lan_parasitic_gap,21,MINUS_FILLER_MINUS_GAP,I know that Bob's talking to Mary is about to annoy you eventually .,14,N/A,.,-9.61986200,13.87852720

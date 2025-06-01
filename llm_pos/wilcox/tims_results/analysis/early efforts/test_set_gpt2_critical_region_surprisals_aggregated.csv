@@ -1,0 +1,201 @@
+source_doc_name,item,condition,critical_region_text,aggregated_surprisal_bits
+test_set.csv,1,that_gap,in front of,18.74899208
+test_set.csv,1,that_nogap,the food,19.73439175
+test_set.csv,1,what_gap,in front of,17.83939594
+test_set.csv,1,what_nogap,the food,19.82185947
+test_set.csv,10,that_gap,for,14.50021479
+test_set.csv,10,that_nogap,a prize,16.66583855
+test_set.csv,10,what_gap,for,6.50493160
+test_set.csv,10,what_nogap,a prize,22.10011730
+test_set.csv,11,that_gap,with,11.12794832
+test_set.csv,11,that_nogap,the witness,19.81802045
+test_set.csv,11,what_gap,with,9.20388653
+test_set.csv,11,what_nogap,the witness,26.85130882
+test_set.csv,12,that_gap,next to,12.09788662
+test_set.csv,12,that_nogap,a delicate plate,37.98225794
+test_set.csv,12,what_gap,next to,9.53993926
+test_set.csv,12,what_nogap,a delicate plate,40.36899057
+test_set.csv,13,that_gap,to,8.82598267
+test_set.csv,13,that_nogap,the new medicine,24.82642573
+test_set.csv,13,what_gap,to,4.49019644
+test_set.csv,13,what_nogap,the new medicine,25.40827042
+test_set.csv,14,that_gap,to,7.71213553
+test_set.csv,14,that_nogap,family secrets,23.00457745
+test_set.csv,14,what_gap,to,6.83423829
+test_set.csv,14,what_nogap,family secrets,28.08753833
+test_set.csv,15,that_gap,for,14.59840462
+test_set.csv,15,that_nogap,the bridge,10.51825962
+test_set.csv,15,what_gap,for,10.55101601
+test_set.csv,15,what_nogap,the bridge,11.12618390
+test_set.csv,16,that_gap,about,10.17400084
+test_set.csv,16,that_nogap,sensitive data,17.19347252
+test_set.csv,16,what_gap,about,5.41634173
+test_set.csv,16,what_nogap,sensitive data,27.97866679
+test_set.csv,17,that_gap,to,11.15366724
+test_set.csv,17,that_nogap,a convertible,28.07299596
+test_set.csv,17,what_gap,to,3.66147634
+test_set.csv,17,what_nogap,a convertible,33.73847958
+test_set.csv,18,that_gap,to,6.31499214
+test_set.csv,18,that_nogap,a package,17.43929188
+test_set.csv,18,what_gap,to,3.86656698
+test_set.csv,18,what_nogap,a package,27.00812400
+test_set.csv,19,that_gap,to help with,24.08288524
+test_set.csv,19,that_nogap,a new administrator,18.83210430
+test_set.csv,19,what_gap,to help with,15.45406127
+test_set.csv,19,what_nogap,a new administrator,23.86930578
+test_set.csv,2,that_gap,for,15.26018037
+test_set.csv,2,that_nogap,the mouse,18.41362896
+test_set.csv,2,what_gap,for,12.53329775
+test_set.csv,2,what_nogap,the mouse,22.46102766
+test_set.csv,20,that_gap,from,7.30049713
+test_set.csv,20,that_nogap,a candy bar,21.05319392
+test_set.csv,20,what_gap,from,1.54063961
+test_set.csv,20,what_nogap,a candy bar,23.57374083
+test_set.csv,21,that_gap,out of,12.25976999
+test_set.csv,21,that_nogap,the car,13.54902431
+test_set.csv,21,what_gap,out of,10.99317751
+test_set.csv,21,what_nogap,the car,14.03158272
+test_set.csv,22,that_gap,for,8.76380828
+test_set.csv,22,that_nogap,a great meal,14.81144450
+test_set.csv,22,what_gap,for,4.78409073
+test_set.csv,22,what_nogap,a great meal,16.37381543
+test_set.csv,23,that_gap,about,9.79713860
+test_set.csv,23,that_nogap,a long story,21.82952109
+test_set.csv,23,what_gap,about,3.52949282
+test_set.csv,23,what_nogap,a long story,32.11783244
+test_set.csv,24,that_gap,to,7.47592019
+test_set.csv,24,that_nogap,a large present,32.39337420
+test_set.csv,24,what_gap,to,2.51472133
+test_set.csv,24,what_nogap,a large present,42.47387255
+test_set.csv,25,that_gap,in front of,24.28611335
+test_set.csv,25,that_nogap,the couple,19.28405882
+test_set.csv,25,what_gap,in front of,18.43324384
+test_set.csv,25,what_nogap,the couple,20.87453777
+test_set.csv,26,that_gap,to,6.20009014
+test_set.csv,26,that_nogap,her friend,19.43370092
+test_set.csv,26,what_gap,to,2.78593357
+test_set.csv,26,what_nogap,her friend,22.18556236
+test_set.csv,27,that_gap,next to,18.79148090
+test_set.csv,27,that_nogap,his date,19.05057594
+test_set.csv,27,what_gap,next to,15.25040900
+test_set.csv,27,what_nogap,his date,23.05876075
+test_set.csv,28,that_gap,with,10.67821843
+test_set.csv,28,that_nogap,the spy,22.26162124
+test_set.csv,28,what_gap,with,10.38310218
+test_set.csv,28,what_nogap,the spy,23.74411447
+test_set.csv,29,that_gap,with,18.73686479
+test_set.csv,29,that_nogap,the waitress,19.76847109
+test_set.csv,29,what_gap,with,10.90553091
+test_set.csv,29,what_nogap,the waitress,22.94915200
+test_set.csv,3,that_gap,to,9.60966471
+test_set.csv,3,that_nogap,the report,14.26111982
+test_set.csv,3,what_gap,to,6.07003118
+test_set.csv,3,what_nogap,the report,19.28694565
+test_set.csv,30,that_gap,about,19.32068740
+test_set.csv,30,that_nogap,the old woman,27.30006200
+test_set.csv,30,what_gap,about,14.30975452
+test_set.csv,30,what_nogap,the old woman,29.37003939
+test_set.csv,31,that_gap,with,12.03053584
+test_set.csv,31,that_nogap,his partner,14.44047279
+test_set.csv,31,what_gap,with,10.72955241
+test_set.csv,31,what_nogap,his partner,16.98882912
+test_set.csv,32,that_gap,to,7.91113223
+test_set.csv,32,that_nogap,the paper,14.31574603
+test_set.csv,32,what_gap,to,2.69514333
+test_set.csv,32,what_nogap,the paper,21.61526213
+test_set.csv,33,that_gap,about,8.21373607
+test_set.csv,33,that_nogap,information,7.53367704
+test_set.csv,33,what_gap,about,8.91723457
+test_set.csv,33,what_nogap,information,11.93478417
+test_set.csv,34,that_gap,with,14.79873581
+test_set.csv,34,that_nogap,the children,10.52030681
+test_set.csv,34,what_gap,with,12.73132063
+test_set.csv,34,what_nogap,the children,13.23231524
+test_set.csv,35,that_gap,with,11.22543699
+test_set.csv,35,that_nogap,the politician,21.05683239
+test_set.csv,35,what_gap,with,11.02196217
+test_set.csv,35,what_nogap,the politician,24.23780038
+test_set.csv,36,that_gap,with,9.72611617
+test_set.csv,36,that_nogap,the man,15.18001125
+test_set.csv,36,what_gap,with,5.42200287
+test_set.csv,36,what_nogap,the man,16.43204837
+test_set.csv,37,that_gap,from,8.82782499
+test_set.csv,37,that_nogap,water,12.80969360
+test_set.csv,37,what_gap,from,8.62053135
+test_set.csv,37,what_nogap,water,14.53593159
+test_set.csv,38,that_gap,with,12.27601617
+test_set.csv,38,that_nogap,the athletes,24.12271660
+test_set.csv,38,what_gap,with,10.63277931
+test_set.csv,38,what_nogap,the athletes,25.21371289
+test_set.csv,39,that_gap,to,6.35630516
+test_set.csv,39,that_nogap,his friends,15.61811734
+test_set.csv,39,what_gap,to,3.23623765
+test_set.csv,39,what_nogap,his friends,16.92262528
+test_set.csv,4,that_gap,to,14.22157556
+test_set.csv,4,that_nogap,the presentation,28.72102283
+test_set.csv,4,what_gap,to,11.09331786
+test_set.csv,4,what_nogap,the presentation,29.79364495
+test_set.csv,40,that_gap,in,17.72285215
+test_set.csv,40,that_nogap,her friend,19.39575948
+test_set.csv,40,what_gap,in,8.33399336
+test_set.csv,40,what_nogap,her friend,21.01998595
+test_set.csv,41,that_gap,in,12.95856530
+test_set.csv,41,that_nogap,the criminal,22.96301774
+test_set.csv,41,what_gap,in,7.27970645
+test_set.csv,41,what_nogap,the criminal,25.74776685
+test_set.csv,42,that_gap,from,6.14409338
+test_set.csv,42,that_nogap,a painting,23.25222038
+test_set.csv,42,what_gap,from,6.04231413
+test_set.csv,42,what_nogap,a painting,24.07057471
+test_set.csv,43,that_gap,to,7.77321924
+test_set.csv,43,that_nogap,medicine,14.93313295
+test_set.csv,43,what_gap,to,1.59804589
+test_set.csv,43,what_nogap,medicine,20.21036425
+test_set.csv,44,that_gap,in,18.05716066
+test_set.csv,44,that_nogap,her daughter,8.97787105
+test_set.csv,44,what_gap,in,8.50327342
+test_set.csv,44,what_nogap,her daughter,9.40900458
+test_set.csv,45,that_gap,with,13.97522528
+test_set.csv,45,that_nogap,the intruder,17.17538401
+test_set.csv,45,what_gap,with,12.42059009
+test_set.csv,45,what_nogap,the intruder,19.52957089
+test_set.csv,46,that_gap,to,9.87825269
+test_set.csv,46,that_nogap,the article,20.56657287
+test_set.csv,46,what_gap,to,4.61399121
+test_set.csv,46,what_nogap,the article,25.96724982
+test_set.csv,47,that_gap,with,16.49635073
+test_set.csv,47,that_nogap,the protesters,16.43754504
+test_set.csv,47,what_gap,with,11.41927028
+test_set.csv,47,what_nogap,the protesters,18.23170512
+test_set.csv,48,that_gap,with,11.77839603
+test_set.csv,48,that_nogap,the politician,20.43625856
+test_set.csv,48,what_gap,with,10.89028306
+test_set.csv,48,what_nogap,the politician,19.86251316
+test_set.csv,49,that_gap,with,10.43184796
+test_set.csv,49,that_nogap,the teacher,23.85286915
+test_set.csv,49,what_gap,with,7.41397663
+test_set.csv,49,what_nogap,the teacher,26.03206578
+test_set.csv,5,that_gap,from,7.08737067
+test_set.csv,5,that_nogap,answers to the test,44.04305443
+test_set.csv,5,what_gap,from,1.63426042
+test_set.csv,5,what_nogap,answers to the test,49.37632001
+test_set.csv,50,that_gap,with,17.93693655
+test_set.csv,50,that_nogap,the principal,19.92912961
+test_set.csv,50,what_gap,with,15.03946967
+test_set.csv,50,what_nogap,the principal,21.77987219
+test_set.csv,6,that_gap,with,10.93465315
+test_set.csv,6,that_nogap,the painting,19.49203629
+test_set.csv,6,what_gap,with,9.29057375
+test_set.csv,6,what_nogap,the painting,20.79940366
+test_set.csv,7,that_gap,into,6.55355908
+test_set.csv,7,that_nogap,a gun,11.04933875
+test_set.csv,7,what_gap,into,6.66229933
+test_set.csv,7,what_nogap,a gun,20.86559450
+test_set.csv,8,that_gap,to,8.67306420
+test_set.csv,8,that_nogap,multiple assets,33.44449440
+test_set.csv,8,what_gap,to,3.53566900
+test_set.csv,8,what_nogap,multiple assets,39.46390863
+test_set.csv,9,that_gap,with,11.91379440
+test_set.csv,9,that_nogap,the performance,18.69150790
+test_set.csv,9,what_gap,with,11.02163035
+test_set.csv,9,what_nogap,the performance,20.90530901
