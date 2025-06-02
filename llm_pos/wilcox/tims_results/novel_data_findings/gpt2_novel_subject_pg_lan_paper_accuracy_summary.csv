@@ -1,0 +1,3 @@
+sentence_type,metric_description,accuracy_percent,n_valid_items
+subject_gap,Delta_Plus_Filler > 0 (Preference for gapped G2 with +Filler),60.00,10
+subject_gap,Difference-in-Differences (Delta_Plus_Filler > Delta_Minus_Filler),80.00,10

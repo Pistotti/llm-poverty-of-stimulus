@@ -1,0 +1,35 @@
+Statistical Summary for: Input derived from NOVEL_SUBJECT_PG data
+
+Model: gpt2
+
+Analysis Suffix: novel_subject_pg
+
+============================================================
+
+
+--- Statistics for Sentence Type: subject_gap ---
+
+  One-Sample T-test for 'Lan: Delta_Plus_Filler (Ungapped G2 - Gapped G2, with +Filler)' (H0: mean = 0, HA: mean > 0)
+    N (after NaN removal): 10
+    Mean: 2.4266
+    Std Dev: 4.6244
+    95% CI for Mean: [-0.8815, 5.7347]
+    T-statistic: 1.6594
+    P-value: 0.0657 (not sig. at p < .05)
+
+  One-Sample T-test for 'Lan: Delta_Minus_Filler (Ungapped G2 - Gapped G2, with -Filler)' (H0: mean = 0, HA: mean != 0)
+    N (after NaN removal): 10
+    Mean: -0.2745
+    Std Dev: 5.9015
+    95% CI for Mean: [-4.4962, 3.9472]
+    T-statistic: -0.1471
+    P-value: 0.8863 (not sig. at p < .05)
+
+  One-Sample T-test for 'Lan: Difference-in-Differences' (H0: mean = 0, HA: mean > 0)
+    N (after NaN removal): 10
+    Mean: 2.7011
+    Std Dev: 3.2331
+    95% CI for Mean: [0.3882, 5.0140]
+    T-statistic: 2.6419
+    P-value: 0.0134 (sig. at p < .05)
+

@@ -1,0 +1,41 @@
+sentence_type,item_id,condition,critical_region_text,aggregated_surprisal_bits,original_full_sentence
+subject_gap,1,PFPG,soon,20.55230029,I know who the story about is likely to amuse soon.
+subject_gap,1,MFPG,soon,23.03160779,I know that the story about Mary is likely to amuse soon.
+subject_gap,1,PFMG,Ben,23.89836742,I know who the story about is likely to amuse Ben soon.
+subject_gap,1,MFMG,Ben,25.40158785,I know that the story about Mary is likely to amuse Ben soon.
+subject_gap,2,PFPG,eventually,19.61956044,She heard who the report about is going to upset eventually.
+subject_gap,2,MFPG,eventually,25.91635442,She heard that the report about John is going to upset eventually.
+subject_gap,2,PFMG,Anna,19.04349663,She heard who the report about is going to upset Anna eventually.
+subject_gap,2,MFMG,Anna,19.00034995,She heard that the report about John is going to upset Anna eventually.
+subject_gap,3,PFPG,soon,19.83665863,They believe who the book about is expected to interest soon.
+subject_gap,3,MFPG,soon,21.37627969,They believe that the book about Sarah is expected to interest soon.
+subject_gap,3,PFMG,Chris,22.85203265,They believe who the book about is expected to interest Chris soon.
+subject_gap,3,MFMG,Chris,23.01564004,They believe that the book about Sarah is expected to interest Chris soon.
+subject_gap,4,PFPG,eventually,18.75133646,The report suggested who the article about will probably surprise eventually.
+subject_gap,4,MFPG,eventually,23.16402699,The report suggested that the article about the manager will probably surprise eventually.
+subject_gap,4,PFMG,Dana,26.25569505,The report suggested who the article about will probably surprise Dana eventually.
+subject_gap,4,MFMG,Dana,25.54243961,The report suggested that the article about the manager will probably surprise Dana eventually.
+subject_gap,5,PFPG,soon,21.39539252,It is clear who the picture of might delight soon.
+subject_gap,5,MFPG,soon,21.97915165,It is clear that the picture of the artist might delight soon.
+subject_gap,5,PFMG,Leo,23.80184824,It is clear who the picture of might delight Leo soon.
+subject_gap,5,MFMG,Leo,26.37962400,It is clear that the picture of the artist might delight Leo soon.
+subject_gap,6,PFPG,eventually,19.38386879,I know who the critique of is likely to anger eventually.
+subject_gap,6,MFPG,eventually,23.41679438,I know that the critique of the writer is likely to anger eventually.
+subject_gap,6,PFMG,Sara,26.22638093,I know who the critique of is likely to anger Sara eventually.
+subject_gap,6,MFMG,Sara,27.12763108,I know that the critique of the writer is likely to anger Sara eventually.
+subject_gap,7,PFPG,soon,17.42630186,She heard who the rumor about is going to please soon.
+subject_gap,7,MFPG,soon,20.89836821,She heard that the rumor about the director is going to please soon.
+subject_gap,7,PFMG,Tom,16.63594302,She heard who the rumor about is going to please Tom soon.
+subject_gap,7,MFMG,Tom,13.43659797,She heard that the rumor about the director is going to please Tom soon.
+subject_gap,8,PFPG,eventually,21.84552780,They believe who the discussion about is expected to concern eventually.
+subject_gap,8,MFPG,eventually,26.34356528,They believe that the discussion about the critic is expected to concern eventually.
+subject_gap,8,PFMG,Paul,19.32778691,They believe who the discussion about is expected to concern Paul eventually.
+subject_gap,8,MFMG,Paul,17.75626641,They believe that the discussion about the critic is expected to concern Paul eventually.
+subject_gap,9,PFPG,soon,18.05487255,The report suggested who the painting of will probably fascinate soon.
+subject_gap,9,MFPG,soon,20.67999179,The report suggested that the painting of the professor will probably fascinate soon.
+subject_gap,9,PFMG,Nina,27.71977516,The report suggested who the painting of will probably fascinate Nina soon.
+subject_gap,9,MFMG,Nina,29.60230176,The report suggested that the painting of the professor will probably fascinate Nina soon.
+subject_gap,10,PFPG,eventually,23.96408651,It is clear who the description of might disturb eventually.
+subject_gap,10,MFPG,eventually,26.36043327,It is clear that the description of the consultant might disturb eventually.
+subject_gap,10,PFMG,Ben,19.33474214,It is clear who the description of might disturb Ben eventually.
+subject_gap,10,MFMG,Ben,23.15931515,It is clear that the description of the consultant might disturb Ben eventually.
