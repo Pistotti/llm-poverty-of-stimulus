@@ -1,0 +1,24 @@
+Statistical Summary for: LAN data (lan_extracted_critical_surprisals_gpt2.csv)
+
+Model: gpt2
+
+============================================================
+
+
+--- Statistics for Sentence Type: lan_parasitic_gap ---
+
+  One-Sample T-test for 'Lan: Delta_Plus_Filler' (H0: mean=0)
+    N: 8064, Mean: -10.9559, SD: 7.0796
+    95% CI: [-11.1104, -10.8014]
+    t(8063) = -138.9687, p = 1.0000 (greater)
+
+  One-Sample T-test for 'Lan: Delta_Minus_Filler' (H0: mean=0)
+    N: 8064, Mean: -12.0224, SD: 6.0533
+    95% CI: [-12.1545, -11.8903]
+    t(8063) = -178.3506, p = < .0001 (two-sided)
+
+  One-Sample T-test for 'Lan: Difference-in-Differences' (H0: mean=0)
+    N: 8064, Mean: 1.0665, SD: 1.8563
+    95% CI: [1.0260, 1.1070]
+    t(8063) = 51.5917, p = < .0001 (greater)
+

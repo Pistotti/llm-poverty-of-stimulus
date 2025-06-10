@@ -1,0 +1,38 @@
+Statistical Summary for: novel_data_extracted_critical_surprisals_gpt2.csv
+Model: gpt2
+============================================================
+Part 1: Lan et al. (2024) Style Delta Metrics
+--------------------------------------------------
+--- One-Sample T-test for 'Lan Metric: delta_plus_filler' (vs 0, alternative='greater') ---
+  N (after NaN removal): 10
+  Mean: 2.4266
+  Std Dev: 4.6244
+  95% CI for Mean: [-0.8815, 5.7347]
+  T-statistic: 1.6594
+  P-value: 0.0657 (not sig. at p < .05)
+--- One-Sample T-test for 'Lan Metric: delta_minus_filler' (vs 0, alternative='two-sided') ---
+  N (after NaN removal): 10
+  Mean: -0.2745
+  Std Dev: 5.9015
+  95% CI for Mean: [-4.4962, 3.9472]
+  T-statistic: -0.1471
+  P-value: 0.8863 (not sig. at p < .05)
+--- One-Sample T-test for 'Lan Metric: did_effect' (vs 0, alternative='greater') ---
+  N (after NaN removal): 10
+  Mean: 2.7011
+  Std Dev: 3.2331
+  95% CI for Mean: [0.3882, 5.0140]
+  T-statistic: 2.6419
+  P-value: 0.0134 (sig. at p < .05)
+
+Part 2: Comparison of Baseline Surprisal for Critical Word Types
+----------------------------------------------------------------------
+--- One-Sample T-test for 'Difference: Avg(+Gap Word Surp) - Avg(-Gap Word Surp)' (vs 0, alternative='two-sided') ---
+  N (after NaN removal): 10
+  Mean: -1.0761
+  Std Dev: 5.0491
+  95% CI for Mean: [-4.6880, 2.5358]
+  T-statistic: -0.6740
+  P-value: 0.5173 (not sig. at p < .05)
+  Context Mean Avg(+Gap Word Surp): 21.6998
+  Context Mean Avg(-Gap Word Surp): 22.7759

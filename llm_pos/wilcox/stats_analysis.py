@@ -6,57 +6,42 @@ import numpy as np
 
 # --- Configuration ---
 CURRENT_SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-MODEL_NAME = "gpt2" 
-ANALYSIS_SUFFIX = "lan_types" 
+MODEL_NAME = "gpt2"
 
-INPUT_METRICS_CSV = os.path.join(
-    CURRENT_SCRIPT_DIR, "tims_results", "analysis", "lan", 
-    f"{MODEL_NAME}_{ANALYSIS_SUFFIX}_lan_paper_metrics.csv"
-)
-# This ^ file contains the item-level raw surprisals needed: PLUS_FILLER_PLUS_GAP, etc.
+# Define a single base directory for analysis inputs and outputs for simplicity
+ANALYSIS_BASE_DIR = os.path.join(CURRENT_SCRIPT_DIR, "tims_results")
 
-STAT_RESULTS_OUTPUT_TXT = os.path.join(
-    CURRENT_SCRIPT_DIR, "tims_results", "analysis", "lan",
-    f"{MODEL_NAME}_{ANALYSIS_SUFFIX}_lan_paper_stat_summary.txt" # Will append to this
-)
+# --- INPUT FILE ---
+# Corrected path to point to the aggregated results for your novel data
+INPUT_SURPRISALS_CSV = os.path.join(ANALYSIS_BASE_DIR, "aggregated", "novel_data_extracted_critical_surprisals_gpt2.csv")
 
-COLUMNS_TO_TEST_LAN_PAPER_METRICS = [ # For Lan et al. style deltas
-    'delta_plus_filler',
-    'delta_minus_filler',
-    'did_effect'
-]
-
-# Column names for raw surprisals from ..._lan_paper_metrics.csv 
-# (which originally come from ..._item_condition_surprisals.csv)
-S_PFPG_COL = "PLUS_FILLER_PLUS_GAP"    # Surprisal of gapped with +Filler (e.g., "soon")
-S_MFPG_COL = "MINUS_FILLER_PLUS_GAP"   # Surprisal of gapped with -Filler (e.g., "soon")
-S_PFMG_COL = "PLUS_FILLER_MINUS_GAP"  # Surprisal of ungapped with +Filler (e.g., "Kim/you")
-S_MFMG_COL = "MINUS_FILLER_MINUS_GAP" # Surprisal of ungapped with -Filler (e.g., "Kim/you")
-
-# --- End Configuration ---
+# --- OUTPUT FILES ---
+# Place outputs in a new, clearly named subdirectory
+ANALYSIS_OUTPUT_DIR = os.path.join(ANALYSIS_BASE_DIR, "analysis", "novel_data_stats")
+NEW_STATS_CSV = os.path.join(ANALYSIS_OUTPUT_DIR, "novel_data_full_metrics.csv")
+STAT_SUMMARY_TXT = os.path.join(ANALYSIS_OUTPUT_DIR, "novel_data_statistical_summary.txt")
 
 def perform_one_sample_t_test(data_series, column_name, popmean=0, alternative='two-sided'):
     """Performs a one-sample t-test on a pandas Series and returns a results string."""
     cleaned_data = data_series.dropna()
     
-    if len(cleaned_data) < 2: 
-        return f"T-test for '{column_name}': Not enough data (N={len(cleaned_data)} after NaN removal).\n"
+    if len(cleaned_data) < 2:
+        return f"--- T-test for '{column_name}' ---\n  Not enough data (N={len(cleaned_data)} after NaN removal).\n"
 
     mean_val = cleaned_data.mean()
     std_val = cleaned_data.std()
     n_val = len(cleaned_data)
     
-    # For SciPy >= 1.6.0, ttest_1samp has 'alternative' parameter
     t_statistic, p_value = stats.ttest_1samp(cleaned_data, popmean, alternative=alternative)
     
     try:
         conf_int = stats.t.interval(0.95, len(cleaned_data)-1, loc=mean_val, scale=stats.sem(cleaned_data))
         conf_int_str = f"[{conf_int[0]:.4f}, {conf_int[1]:.4f}]"
-    except Exception: 
+    except Exception:
         conf_int_str = "N/A"
 
     p_value_print = f"{p_value:.4f}"
-    if p_value < 0.0001: p_value_print = "< .0001" # Avoid 0.0000 for very small p-values
+    if p_value < 0.0001: p_value_print = "< .0001"
 
     result_str = (
         f"--- One-Sample T-test for '{column_name}' (vs {popmean}, alternative='{alternative}') ---\n"
@@ -75,97 +60,103 @@ def perform_one_sample_t_test(data_series, column_name, popmean=0, alternative='
     return result_str
 
 def main():
-    print(f"--- Statistical Analysis for Lan et al. (2024) Style Metrics & Word Type Surprisals ---")
-    print(f"Reading data from: {INPUT_METRICS_CSV}")
-
-    if not os.path.exists(INPUT_METRICS_CSV):
-        print(f"Error: Input file not found at {INPUT_METRICS_CSV}"); return
-
-    try: metrics_df = pd.read_csv(INPUT_METRICS_CSV)
-    except Exception as e: print(f"Error reading {INPUT_METRICS_CSV}: {e}"); return
-
-    if metrics_df.empty: print("Input metrics file is empty."); return
-
-    all_results_text = [f"Statistical Summary for: {INPUT_METRICS_CSV}\n",
-                        f"Model: {MODEL_NAME}\n",
-                        f"Analysis Suffix: {ANALYSIS_SUFFIX}\n",
-                        "="*60 + "\n",
-                        "Part 1: Lan et al. (2024) Style Delta Metrics\n" + "-"*50 + "\n"]
-                        
-    print("\nPerforming one-sample t-tests for Lan et al. (2024) style delta metrics (H0: mean = 0):")
-    for col in COLUMNS_TO_TEST_LAN_PAPER_METRICS:
-        if col in metrics_df.columns:
-            # For delta_plus_filler and did_effect, Lan et al. predict > 0
-            # For delta_minus_filler, prediction is typically also > 0 if defined as S(ungapped)-S(gapped)
-            # and ungapped is less preferred (more surprising) than gapped without a filler (which is usually opposite,
-            # ungapped is preferred, so S(ungapped) < S(gapped), making delta_minus_filler negative).
-            # Given previous results, delta_plus_filler and delta_minus_filler were negative.
-            # The DiD was positive. Let's use two-sided for deltas for now, or be specific.
-            # Lan et al. success is delta_plus_filler > 0 and DiD > 0.
-            # We test if mean is different from 0. The direction can be inferred from mean.
-            alt_hypothesis = 'two-sided'
-            if col == 'did_effect': # Expected to be positive
-                alt_hypothesis = 'greater'
-            # For delta_plus_filler, expected positive if model learns PG, but we found negative
-            # For delta_minus_filler, expected positive if model disprefers gapped version even more without filler, 
-            # or negative if model strongly prefers ungapped version (which is what we found).
-            # Let's stick to testing if different from 0 for deltas, and greater for DiD.
-            
-            result = perform_one_sample_t_test(metrics_df[col], col, alternative=alt_hypothesis if col == 'did_effect' else 'two-sided')
-            print(result)
-            all_results_text.append(result)
-        else:
-            warning_msg = f"Warning: Column '{col}' not found. Skipping t-test.\n"
-            print(warning_msg); all_results_text.append(warning_msg)
+    print("--- Statistical Analysis of Novel PG Data Critical Surprisals ---")
     
-    # --- NEW: Test for Average +Gap Surprisal vs Average -Gap Surprisal ---
-    all_results_text.append("\nPart 2: Comparison of Average Surprisal for +Gap vs. -Gap Word Types\n" + "-"*70 + "\n")
-    print("\n--- Comparing Average Surprisal for +Gap vs. -Gap Word Types ---")
+    if not os.path.exists(ANALYSIS_OUTPUT_DIR):
+        os.makedirs(ANALYSIS_OUTPUT_DIR)
+        print(f"Created output directory: {ANALYSIS_OUTPUT_DIR}")
 
-    required_raw_s_cols = [S_PFPG_COL, S_MFPG_COL, S_PFMG_COL, S_MFMG_COL]
-    if not all(col in metrics_df.columns for col in required_raw_s_cols):
-        print(f"Error: Not all required raw surprisal columns found in input file for +Gap vs -Gap comparison. Missing: "
-              f"{[col for col in required_raw_s_cols if col not in metrics_df.columns]}")
-    else:
-        # Calculate average surprisal for +Gap conditions (words like "soon") per item
-        metrics_df['avg_plus_gap_surprisal'] = (metrics_df[S_PFPG_COL] + metrics_df[S_MFPG_COL]) / 2
-        
-        # Calculate average surprisal for -Gap conditions (words like "Kim", "you") per item
-        metrics_df['avg_minus_gap_surprisal'] = (metrics_df[S_PFMG_COL] + metrics_df[S_MFMG_COL]) / 2
-        
-        # Calculate the difference: (+Gap Surprisal) - (-Gap Surprisal)
-        metrics_df['diff_gapped_vs_ungapped_words'] = metrics_df['avg_plus_gap_surprisal'] - metrics_df['avg_minus_gap_surprisal']
-        
-        # Perform a one-sample t-test on this difference.
-        # H0: Mean difference is 0.
-        # HA: Mean difference is > 0 (i.e., +Gap word surprisals are greater than -Gap word surprisals)
-        result_gap_ungap_diff = perform_one_sample_t_test(
-            metrics_df['diff_gapped_vs_ungapped_words'], 
-            'Difference: Avg(+Gap Word Surp) - Avg(-Gap Word Surp)',
-            alternative='greater' # One-sided test: expect +Gap > -Gap surprisal
-        )
-        print(result_gap_ungap_diff)
-        all_results_text.append(result_gap_ungap_diff)
+    if not os.path.exists(INPUT_SURPRISALS_CSV):
+        print(f"Error: Input file not found at '{os.path.abspath(INPUT_SURPRISALS_CSV)}'"); return
 
-        # For context, also print means of the averages:
-        if 'avg_plus_gap_surprisal' in metrics_df and 'avg_minus_gap_surprisal' in metrics_df:
-            mean_avg_plus_gap = metrics_df['avg_plus_gap_surprisal'].dropna().mean()
-            mean_avg_minus_gap = metrics_df['avg_minus_gap_surprisal'].dropna().mean()
-            context_msg = (f"  Context Mean Avg(+Gap Word Surp): {mean_avg_plus_gap:.4f}\n"
-                           f"  Context Mean Avg(-Gap Word Surp): {mean_avg_minus_gap:.4f}\n")
-            print(context_msg)
-            all_results_text.append(context_msg)
+    try:
+        df = pd.read_csv(INPUT_SURPRISALS_CSV)
+    except Exception as e:
+        print(f"Error reading {INPUT_SURPRISALS_CSV}: {e}"); return
 
-    # Save all results to a text file
-    if STAT_RESULTS_OUTPUT_TXT:
-        try:
-            output_dir = os.path.dirname(STAT_RESULTS_OUTPUT_TXT)
-            if output_dir and not os.path.exists(output_dir): # Ensure output_dir is not empty string if script is in results dir
-                os.makedirs(output_dir); print(f"Created dir for stat summary: {output_dir}")
-            with open(STAT_RESULTS_OUTPUT_TXT, 'w') as f:
-                for text_block in all_results_text: f.write(text_block + "\n")
-            print(f"\nFull statistical summary saved to: {os.path.abspath(STAT_RESULTS_OUTPUT_TXT)}")
-        except Exception as e: print(f"Error saving statistical summary: {e}")
+    if df.empty:
+        print("Input surprisals file is empty."); return
+
+    # --- Step 1: Reshape the data ---
+    try:
+        item_level_df = df.pivot_table(
+            index=['sentence_type', 'item_id'],
+            columns='condition',
+            values='aggregated_surprisal_bits'
+        ).reset_index()
+    except Exception as e:
+        print(f"Error: Could not pivot the data. Check if the input CSV has unique rows for each item-condition pair. Details: {e}")
+        return
+    
+    print(f"Reshaped data to {item_level_df.shape[0]} items.")
+
+    # --- Step 2: Calculate Lan et al. (2024) style metrics ---
+    s_pfpg_col = "PFPG"    
+    s_mfpg_col = "MFPG"   
+    s_pfmg_col = "PFMG"  
+    s_mfmg_col = "MFMG" 
+    
+    required_cols = [s_pfpg_col, s_mfpg_col, s_pfmg_col, s_mfmg_col]
+    if not all(col in item_level_df.columns for col in required_cols):
+        print(f"Error: Pivoted data is missing one or more required condition columns. Found: {item_level_df.columns.tolist()}"); return
+
+    item_level_df['delta_plus_filler'] = item_level_df[s_pfmg_col] - item_level_df[s_pfpg_col]
+    item_level_df['delta_minus_filler'] = item_level_df[s_mfmg_col] - item_level_df[s_mfpg_col]
+    item_level_df['did_effect'] = item_level_df['delta_plus_filler'] - item_level_df['delta_minus_filler']
+    item_level_df['success_delta_plus_filler'] = item_level_df['delta_plus_filler'] > 0
+    item_level_df['success_did'] = item_level_df['did_effect'] > 0
+
+    print("Calculated Lan et al. (2024) style delta and DiD metrics per item.")
+
+    # --- Step 3: Calculate metrics for baseline word type comparison ---
+    item_level_df['avg_surprisal_plus_gap_words'] = (item_level_df[s_pfpg_col] + item_level_df[s_mfpg_col]) / 2
+    item_level_df['avg_surprisal_minus_gap_words'] = (item_level_df[s_pfmg_col] + item_level_df[s_mfmg_col]) / 2
+    item_level_df['diff_gapped_vs_ungapped_words'] = item_level_df['avg_surprisal_plus_gap_words'] - item_level_df['avg_surprisal_minus_gap_words']
+    
+    print("Calculated average surprisal difference between +Gap and -Gap critical words.")
+
+    # --- Step 4: Perform statistical tests ---
+    all_results_text = [
+        f"Statistical Summary for: {os.path.basename(INPUT_SURPRISALS_CSV)}\n",
+        f"Model: {MODEL_NAME}\n",
+        "="*60 + "\n"
+    ]
+    
+    print("\nPerforming statistical tests...")
+    
+    lan_metrics_results = ""
+    for col in ['delta_plus_filler', 'delta_minus_filler', 'did_effect']:
+        alt = 'greater' if col != 'delta_minus_filler' else 'two-sided'
+        lan_metrics_results += perform_one_sample_t_test(item_level_df[col], f"Lan Metric: {col}", alternative=alt)
+    all_results_text.append("Part 1: Lan et al. (2024) Style Delta Metrics\n" + "-"*50 + "\n" + lan_metrics_results)
+    
+    word_type_diff_results = perform_one_sample_t_test(
+        item_level_df['diff_gapped_vs_ungapped_words'],
+        'Difference: Avg(+Gap Word Surp) - Avg(-Gap Word Surp)',
+        alternative='two-sided'
+    )
+    all_results_text.append("\nPart 2: Comparison of Baseline Surprisal for Critical Word Types\n" + "-"*70 + "\n" + word_type_diff_results)
+    
+    mean_avg_plus_gap = item_level_df['avg_surprisal_plus_gap_words'].dropna().mean()
+    mean_avg_minus_gap = item_level_df['avg_surprisal_minus_gap_words'].dropna().mean()
+    context_msg = (f"  Context Mean Avg(+Gap Word Surp): {mean_avg_plus_gap:.4f}\n"
+                   f"  Context Mean Avg(-Gap Word Surp): {mean_avg_minus_gap:.4f}\n")
+    all_results_text.append(context_msg)
+
+    # --- Step 5: Save outputs ---
+    try:
+        item_level_df.to_csv(NEW_STATS_CSV, index=False, float_format='%.8f')
+        print(f"\nFull item-level metrics and calculations saved to: {os.path.abspath(NEW_STATS_CSV)}")
+    except Exception as e:
+        print(f"Error saving detailed stats CSV: {e}")
+        
+    try:
+        with open(STAT_SUMMARY_TXT, 'w') as f:
+            for text_block in all_results_text:
+                f.write(text_block)
+        print(f"Full statistical summary saved to: {os.path.abspath(STAT_SUMMARY_TXT)}")
+    except Exception as e:
+        print(f"Error saving statistical summary text file: {e}")
 
     print("\nStatistical analysis finished.")
 

@@ -1,0 +1,3 @@
+sentence_type,metric,accuracy_percent,n_valid_items
+lan_parasitic_gap,Delta_Plus_Filler > 0,5.61,8064
+lan_parasitic_gap,Difference-in-Differences,68.75,8064
