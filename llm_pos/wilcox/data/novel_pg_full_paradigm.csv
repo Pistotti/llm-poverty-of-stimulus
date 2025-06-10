@@ -1,0 +1,81 @@
+sentence_type,item_id,condition,full_sentence
+subject_pg_full,1,plusF_plusG1_plusG2,The investigators know who the story about is likely to damage severely.
+subject_pg_full,1,plusF_plusG1_minusG2,The investigators know who the story about is likely to damage the campaign severely.
+subject_pg_full,1,plusF_minusG1_plusG2,The investigators know who the story about the politician is likely to damage severely.
+subject_pg_full,1,plusF_minusG1_minusG2,The investigators know who the story about the politician is likely to damage the campaign severely.
+subject_pg_full,1,minusF_plusG1_plusG2,The investigators know that the story about is likely to damage severely.
+subject_pg_full,1,minusF_plusG1_minusG2,The investigators know that the story about is likely to damage the campaign severely.
+subject_pg_full,1,minusF_minusG1_plusG2,The investigators know that the story about the politician is likely to damage severely.
+subject_pg_full,1,minusF_minusG1_minusG2,The investigators know that the story about the politician is likely to damage the campaign severely.
+subject_pg_full,2,plusF_plusG1_plusG2,The audience believed who the picture of might have flattered greatly.
+subject_pg_full,2,plusF_plusG1_minusG2,The audience believed who the picture of might have flattered the director greatly.
+subject_pg_full,2,plusF_minusG1_plusG2,The audience believed who the picture of the actor might have flattered greatly.
+subject_pg_full,2,plusF_minusG1_minusG2,The audience believed who the picture of the actor might have flattered the director greatly.
+subject_pg_full,2,minusF_plusG1_plusG2,The audience believed that the picture of might have flattered greatly.
+subject_pg_full,2,minusF_plusG1_minusG2,The audience believed that the picture of might have flattered the director greatly.
+subject_pg_full,2,minusF_minusG1_plusG2,The audience believed that the picture of the actor might have flattered greatly.
+subject_pg_full,2,minusF_minusG1_minusG2,The audience believed that the picture of the actor might have flattered the director greatly.
+subject_pg_full,3,plusF_plusG1_plusG2,The board understood who the critique of would probably anger immensely.
+subject_pg_full,3,plusF_plusG1_minusG2,The board understood who the critique of would probably anger the CEO immensely.
+subject_pg_full,3,plusF_minusG1_plusG2,The board understood who the critique of the new project would probably anger immensely.
+subject_pg_full,3,plusF_minusG1_minusG2,The board understood who the critique of the new project would probably anger the CEO immensely.
+subject_pg_full,3,minusF_plusG1_plusG2,The board understood that the critique of would probably anger immensely.
+subject_pg_full,3,minusF_plusG1_minusG2,The board understood that the critique of would probably anger the CEO immensely.
+subject_pg_full,3,minusF_minusG1_plusG2,The board understood that the critique of the new project would probably anger immensely.
+subject_pg_full,3,minusF_minusG1_minusG2,The board understood that the critique of the new project would probably anger the CEO immensely.
+subject_pg_full,4,plusF_plusG1_plusG2,The witness recalled who the discussion about seemed to concern deeply.
+subject_pg_full,4,plusF_plusG1_minusG2,The witness recalled who the discussion about seemed to concern the lawyer deeply.
+subject_pg_full,4,plusF_minusG1_plusG2,The witness recalled who the discussion about the defendant seemed to concern deeply.
+subject_pg_full,4,plusF_minusG1_minusG2,The witness recalled who the discussion about the defendant seemed to concern the lawyer deeply.
+subject_pg_full,4,minusF_plusG1_plusG2,The witness recalled that the discussion about seemed to concern deeply.
+subject_pg_full,4,minusF_plusG1_minusG2,The witness recalled that the discussion about seemed to concern the lawyer deeply.
+subject_pg_full,4,minusF_minusG1_plusG2,The witness recalled that the discussion about the defendant seemed to concern deeply.
+subject_pg_full,4,minusF_minusG1_minusG2,The witness recalled that the discussion about the defendant seemed to concern the lawyer deeply.
+subject_pg_full,5,plusF_plusG1_plusG2,It is clear who the picture of might delight soon.
+subject_pg_full,5,plusF_plusG1_minusG2,It is clear who the picture of might delight Leo soon.
+subject_pg_full,5,plusF_minusG1_plusG2,It is clear who the picture of the artist might delight soon.
+subject_pg_full,5,plusF_minusG1_minusG2,It is clear who the picture of the artist might delight Leo soon.
+subject_pg_full,5,minusF_plusG1_plusG2,It is clear that the picture of might delight soon.
+subject_pg_full,5,minusF_plusG1_minusG2,It is clear that the picture of might delight Leo soon.
+subject_pg_full,5,minusF_minusG1_plusG2,It is clear that the picture of the artist might delight soon.
+subject_pg_full,5,minusF_minusG1_minusG2,It is clear that the picture of the artist might delight Leo soon.
+subject_pg_full,6,plusF_plusG1_plusG2,I know who the critique of is likely to anger eventually.
+subject_pg_full,6,plusF_plusG1_minusG2,I know who the critique of is likely to anger Sara eventually.
+subject_pg_full,6,plusF_minusG1_plusG2,I know who the critique of the writer is likely to anger eventually.
+subject_pg_full,6,plusF_minusG1_minusG2,I know who the critique of the writer is likely to anger Sara eventually.
+subject_pg_full,6,minusF_plusG1_plusG2,I know that the critique of is likely to anger eventually.
+subject_pg_full,6,minusF_plusG1_minusG2,I know that the critique of is likely to anger Sara eventually.
+subject_pg_full,6,minusF_minusG1_plusG2,I know that the critique of the writer is likely to anger eventually.
+subject_pg_full,6,minusF_minusG1_minusG2,I know that the critique of the writer is likely to anger Sara eventually.
+subject_pg_full,7,plusF_plusG1_plusG2,She heard who the rumor about is going to please soon.
+subject_pg_full,7,plusF_plusG1_minusG2,She heard who the rumor about is going to please Tom soon.
+subject_pg_full,7,plusF_minusG1_plusG2,She heard who the rumor about the director is going to please soon.
+subject_pg_full,7,plusF_minusG1_minusG2,She heard who the rumor about the director is going to please Tom soon.
+subject_pg_full,7,minusF_plusG1_plusG2,She heard that the rumor about is going to please soon.
+subject_pg_full,7,minusF_plusG1_minusG2,She heard that the rumor about is going to please Tom soon.
+subject_pg_full,7,minusF_minusG1_plusG2,She heard that the rumor about the director is going to please soon.
+subject_pg_full,7,minusF_minusG1_minusG2,She heard that the rumor about the director is going to please Tom soon.
+subject_pg_full,8,plusF_plusG1_plusG2,They believe who the discussion about is expected to concern eventually.
+subject_pg_full,8,plusF_plusG1_minusG2,They believe who the discussion about is expected to concern Paul eventually.
+subject_pg_full,8,plusF_minusG1_plusG2,They believe who the discussion about the critic is expected to concern eventually.
+subject_pg_full,8,plusF_minusG1_minusG2,They believe who the discussion about the critic is expected to concern Paul eventually.
+subject_pg_full,8,minusF_plusG1_plusG2,They believe that the discussion about is expected to concern eventually.
+subject_pg_full,8,minusF_plusG1_minusG2,They believe that the discussion about is expected to concern Paul eventually.
+subject_pg_full,8,minusF_minusG1_plusG2,They believe that the discussion about the critic is expected to concern eventually.
+subject_pg_full,8,minusF_minusG1_minusG2,They believe that the discussion about the critic is expected to concern Paul eventually.
+subject_pg_full,9,plusF_plusG1_plusG2,The report suggested who the painting of will probably fascinate soon.
+subject_pg_full,9,plusF_plusG1_minusG2,The report suggested who the painting of will probably fascinate Nina soon.
+subject_pg_full,9,plusF_minusG1_plusG2,The report suggested who the painting of the professor will probably fascinate soon.
+subject_pg_full,9,plusF_minusG1_minusG2,The report suggested who the painting of the professor will probably fascinate Nina soon.
+subject_pg_full,9,minusF_plusG1_plusG2,The report suggested that the painting of will probably fascinate soon.
+subject_pg_full,9,minusF_plusG1_minusG2,The report suggested that the painting of will probably fascinate Nina soon.
+subject_pg_full,9,minusF_minusG1_plusG2,The report suggested that the painting of the professor will probably fascinate soon.
+subject_pg_full,9,minusF_minusG1_minusG2,The report suggested that the painting of the professor will probably fascinate Nina soon.
+subject_pg_full,10,plusF_plusG1_plusG2,It is clear who the description of might disturb eventually.
+subject_pg_full,10,plusF_plusG1_minusG2,It is clear who the description of might disturb Ben eventually.
+subject_pg_full,10,plusF_minusG1_plusG2,It is clear who the description of the consultant might disturb eventually.
+subject_pg_full,10,plusF_minusG1_minusG2,It is clear who the description of the consultant might disturb Ben eventually.
+subject_pg_full,10,minusF_plusG1_plusG2,It is clear that the description of might disturb eventually.
+subject_pg_full,10,minusF_plusG1_minusG2,It is clear that the description of might disturb Ben eventually.
+subject_pg_full,10,minusF_minusG1_plusG2,It is clear that the description of the consultant might disturb eventually.
+subject_pg_full,10,minusF_minusG1_minusG2,It is clear that the description of the consultant might disturb Ben eventually.
