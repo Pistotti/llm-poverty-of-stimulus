@@ -2,9 +2,7 @@
 import pandas as pd
 import os
 import math
-# NOTE: This script, as per your request to follow the 'lan_data based script',
-# does NOT use a Hugging Face tokenizer for matching critical regions.
-# It relies on direct string match of CR_TEXT with BPE_TOKEN_STR.
+from transformers import AutoTokenizer
 
 # --- Configuration ---
 CURRENT_SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -13,146 +11,156 @@ BPE_RESULTS_INPUT_DIR = os.path.join(CURRENT_SCRIPT_DIR, "tims_results")
 AGGREGATED_OUTPUT_DIR = os.path.join(CURRENT_SCRIPT_DIR, "tims_results", "aggregated")
 
 MODEL_NAME = "gpt2"
-NOVEL_SENTENCE_TYPE_IDENTIFIER = "subject_gap" 
+HF_MODEL_NAME_TOKENIZER = "gpt2"
+# This should match the 'sentence_type' in your BPE surprisal file for this dataset
+NOVEL_SENTENCE_TYPE_IDENTIFIER = "subject_pg_full"
 
-CRITICAL_REGION_DEFINITIONS_CSV_BASENAME = "novel_data_critical_regions.csv"
-CRITICAL_REGION_DEFINITIONS_CSV = os.path.join(DATA_PROCESSED_DIR, CRITICAL_REGION_DEFINITIONS_CSV_BASENAME)
+# --- INPUT FILES ---
+# Input 1: BPE surprisals for your new 80-sentence paradigm
+BPE_SURPRISALS_INPUT_FILE = os.path.join(BPE_RESULTS_INPUT_DIR, "novel_pg_full_paradigm_surprisals_gpt2.csv")
 
-MASTER_SURPRISALS_CSV_BASENAME = f"master_stimuli_list_surprisals_{MODEL_NAME}.csv"
-MASTER_SURPRISALS_CSV = os.path.join(BPE_RESULTS_INPUT_DIR, MASTER_SURPRISALS_CSV_BASENAME)
+# Input 2: The tokenized and region-labeled file you will create
+WORD_TOKEN_MAP_FILE = os.path.join(DATA_PROCESSED_DIR, "test_items_novel_pg_full.csv")
 
-OUTPUT_CSV_BASENAME = f"novel_data_extracted_critical_surprisals_{MODEL_NAME}.csv"
-EXTRACTED_NOVEL_OUTPUT_CSV = os.path.join(AGGREGATED_OUTPUT_DIR, OUTPUT_CSV_BASENAME)
+# Input 3: The file defining the text of the critical region for each sentence
+CRITICAL_REGIONS_DEF_FILE = os.path.join(DATA_PROCESSED_DIR, "novel_pg_full_paradigm_critical_regions.csv")
 
-ITEM_COL_CR = "item_id" 
-CONDITION_COL_CR = "condition"
-CRITICAL_WORD_COL_CR = "critical_region"
+# --- OUTPUT FILE ---
+OUTPUT_CSV_FILE = os.path.join(AGGREGATED_OUTPUT_DIR, "novel_pg_full_paradigm_aggregated_surprisals.csv")
 
-SOURCE_DOC_COL_MS = "source_doc_name"
-ITEM_COL_MS = "item"                 
-CONDITION_COL_MS = "condition"
-FULL_SENTENCE_COL_MS = "full_sentence_text"
-TOKEN_STRING_COL_MS = "bpe_token_str"     
-SURPRISAL_COL_MS_PATTERN = f"surprisal_bits_{MODEL_NAME}"
+# --- Initialize Tokenizer ---
+tokenizer = None
+try:
+    print(f"Loading tokenizer: {HF_MODEL_NAME_TOKENIZER}")
+    tokenizer = AutoTokenizer.from_pretrained(HF_MODEL_NAME_TOKENIZER)
+    if tokenizer.pad_token is None and tokenizer.eos_token is not None:
+        tokenizer.pad_token = tokenizer.eos_token
+except Exception as e:
+    print(f"Critical Error: Could not load tokenizer '{HF_MODEL_NAME_TOKENIZER}'. Exception: {e}")
+
+def get_word_level_surprisals(current_bpe_df_group, current_word_map_df_group, tokenizer_instance, bpe_surprisal_col):
+    """
+    Aligns BPE tokens to words from the word map and sums their surprisals.
+    """
+    if tokenizer_instance is None: return []
+
+    sentence_word_data = []
+    bpes_for_sentence = current_bpe_df_group.to_dict('records')
+    target_words = current_word_map_df_group['token'].tolist()
+    bpe_cursor = 0
+
+    for word_idx, target_word in enumerate(target_words):
+        word_bpes = []
+        reconstructed = ""
+        start_cursor = bpe_cursor
+        
+        while bpe_cursor < len(bpes_for_sentence):
+            word_bpes.append(bpes_for_sentence[bpe_cursor]['bpe_token_str'])
+            reconstructed = tokenizer_instance.convert_tokens_to_string(word_bpes).strip()
+            bpe_cursor += 1
+            if reconstructed.lower() == str(target_word).lower():
+                break
+        
+        if reconstructed.lower() == str(target_word).lower():
+            bpe_span = bpes_for_sentence[start_cursor:bpe_cursor]
+            word_surprisal = sum(bpe[bpe_surprisal_col] for bpe in bpe_span if pd.notna(bpe[bpe_surprisal_col]))
+            if any(pd.isna(bpe[bpe_surprisal_col]) for bpe in bpe_span):
+                word_surprisal = math.nan
+            sentence_word_data.append({'word_index': word_idx, 'word': target_word, 'surprisal': word_surprisal})
+        else:
+            bpe_cursor = start_cursor # Backtrack if word not matched
+            sentence_word_data.append({'word_index': word_idx, 'word': target_word, 'surprisal': math.nan})
+            bpe_cursor += 1 # Try to advance cursor past the failed word to avoid getting stuck
+
+    return sentence_word_data
 
 def main():
-    print(f"--- Novel Data ('{NOVEL_SENTENCE_TYPE_IDENTIFIER}') Critical Region Surprisal Extraction for {MODEL_NAME} ---")
+    if tokenizer is None: print("Tokenizer not loaded. Exiting."); return
+    if not os.path.exists(AGGREGATED_OUTPUT_DIR): os.makedirs(AGGREGATED_OUTPUT_DIR)
 
-    if not os.path.exists(AGGREGATED_OUTPUT_DIR):
-        os.makedirs(AGGREGATED_OUTPUT_DIR)
-        print(f"Created output directory: {AGGREGATED_OUTPUT_DIR}")
-
-    input_files_to_check = {
-        "Critical Region Definitions CSV": CRITICAL_REGION_DEFINITIONS_CSV,
-        "Master Surprisals CSV": MASTER_SURPRISALS_CSV,
-    }
-    missing_files = False
-    for name, fpath in input_files_to_check.items():
-        if not os.path.exists(fpath):
-            print(f"Critical Error: Input file '{name}' not found at '{os.path.abspath(fpath)}'")
-            missing_files = True
-    if missing_files: return
-
-    print("Loading data...")
+    print("Loading input files...")
     try:
-        critical_defs_df = pd.read_csv(CRITICAL_REGION_DEFINITIONS_CSV)
-        master_surprisals_df = pd.read_csv(MASTER_SURPRISALS_CSV)
-    except Exception as e: print(f"Critical Error: Error loading input CSV files. {e}"); return
+        bpe_df = pd.read_csv(BPE_SURPRISALS_INPUT_FILE)
+        cr_def_df = pd.read_csv(CRITICAL_REGIONS_DEF_FILE)
+        word_map_df = pd.read_csv(WORD_TOKEN_MAP_FILE)
+    except FileNotFoundError as e:
+        print(f"Error: An input file was not found. {e}"); return
     
-    print(f"Loaded {len(critical_defs_df)} critical region definitions from {os.path.basename(CRITICAL_REGION_DEFINITIONS_CSV)}")
-    print(f"Loaded {len(master_surprisals_df)} BPE surprisal rows from {os.path.basename(MASTER_SURPRISALS_CSV)}")
+    # Prepare dataframes for processing
+    bpe_df.rename(columns={'source_doc_name': 'sentence_type', 'item': 'item_id'}, inplace=True, errors='ignore')
+    for col in ['sentence_type', 'item_id', 'condition']:
+        if col in bpe_df.columns: bpe_df[col] = bpe_df[col].astype(str)
+        if col in cr_def_df.columns: cr_def_df[col] = cr_def_df[col].astype(str)
+        if col in word_map_df.columns: word_map_df[col] = word_map_df[col].astype(str)
+        
+    aggregated_results = []
+    bpe_surprisal_col_name = f"surprisal_bits_{MODEL_NAME}"
+    
+    grouped_bpe_data = bpe_df[bpe_df['sentence_type'] == NOVEL_SENTENCE_TYPE_IDENTIFIER].groupby(['item_id', 'condition'])
+    print(f"Processing {len(grouped_bpe_data)} unique sentences for type '{NOVEL_SENTENCE_TYPE_IDENTIFIER}'...")
 
-    expected_cr_cols = [ITEM_COL_CR, CONDITION_COL_CR, CRITICAL_WORD_COL_CR]
-    for col in expected_cr_cols:
-        if col not in critical_defs_df.columns:
-            print(f"Critical Error: Column '{col}' missing from {os.path.basename(CRITICAL_REGION_DEFINITIONS_CSV)}. Found headers: {critical_defs_df.columns.tolist()}"); return
+    for (item_id, condition_str), current_sentence_bpes_df in grouped_bpe_data:
+        # Get the target words for this sentence from the word map
+        current_word_map = word_map_df[
+            (word_map_df['item_id'] == item_id) & 
+            (word_map_df['condition'] == condition_str) &
+            (word_map_df['sentence_type'] == NOVEL_SENTENCE_TYPE_IDENTIFIER)
+        ].sort_values(by='token_index')
+
+        if current_word_map.empty:
+            print(f"    Warning: No token map found for Item='{item_id}', Cond='{condition_str}'. Skipping.")
+            continue
+
+        sentence_word_surprisals = get_word_level_surprisals(current_sentence_bpes_df, current_word_map, tokenizer, bpe_surprisal_col_name)
+        if not sentence_word_surprisals:
+            print(f"    Warning: BPE-to-word alignment failed for Item='{item_id}', Cond='{condition_str}'. Skipping.")
+            continue
+
+        cr_text_row = cr_def_df[(cr_def_df['item_id'] == item_id) & (cr_def_df['condition'] == condition_str)]
+        if cr_text_row.empty: continue
             
-    actual_surprisal_col_ms = SURPRISAL_COL_MS_PATTERN
-    if actual_surprisal_col_ms not in master_surprisals_df.columns:
-        print(f"Critical Error: Surprisal column '{actual_surprisal_col_ms}' not found in {MASTER_SURPRISALS_CSV_BASENAME}. Avail: {master_surprisals_df.columns.tolist()}"); return
-
-    expected_ms_cols_subset = [SOURCE_DOC_COL_MS, ITEM_COL_MS, CONDITION_COL_MS, TOKEN_STRING_COL_MS, actual_surprisal_col_ms, FULL_SENTENCE_COL_MS]
-    for col in expected_ms_cols_subset:
-        if col not in master_surprisals_df.columns: print(f"Critical Error: Column '{col}' missing from {MASTER_SURPRISALS_CSV_BASENAME}. Avail: {master_surprisals_df.columns.tolist()}"); return
-
-    if ITEM_COL_CR != 'item' and ITEM_COL_CR in critical_defs_df.columns:
-        critical_defs_df.rename(columns={ITEM_COL_CR: 'item'}, inplace=True)
-    elif 'item' not in critical_defs_df.columns and ITEM_COL_CR not in critical_defs_df.columns:
-         print(f"Critical Error: Column for item ID ('item' or '{ITEM_COL_CR}') not found in {os.path.basename(CRITICAL_REGION_DEFINITIONS_CSV)}."); return
-
-    critical_defs_df['item'] = critical_defs_df['item'].astype(str)
-    critical_defs_df[CONDITION_COL_CR] = critical_defs_df[CONDITION_COL_CR].astype(str)
-    critical_defs_df[CRITICAL_WORD_COL_CR] = critical_defs_df[CRITICAL_WORD_COL_CR].astype(str).str.strip()
-
-    master_surprisals_df[SOURCE_DOC_COL_MS] = master_surprisals_df[SOURCE_DOC_COL_MS].astype(str)
-    master_surprisals_df[ITEM_COL_MS] = master_surprisals_df[ITEM_COL_MS].astype(str)
-    master_surprisals_df[CONDITION_COL_MS] = master_surprisals_df[CONDITION_COL_MS].astype(str)
-    master_surprisals_df[TOKEN_STRING_COL_MS] = master_surprisals_df[TOKEN_STRING_COL_MS].astype(str).str.strip()
-    
-    print(f"\nFiltering master surprisals for sentence_type '{NOVEL_SENTENCE_TYPE_IDENTIFIER}' entries...")
-    novel_data_bpe_df = master_surprisals_df[
-        master_surprisals_df[SOURCE_DOC_COL_MS] == NOVEL_SENTENCE_TYPE_IDENTIFIER
-    ].copy()
-    
-    print(f"Found {len(novel_data_bpe_df)} BPE rows for '{NOVEL_SENTENCE_TYPE_IDENTIFIER}'.")
-
-    if novel_data_bpe_df.empty:
-        print(f"Warning: No BPE rows for '{NOVEL_SENTENCE_TYPE_IDENTIFIER}' found. Output will be empty.")
-        return
+        target_cr_text = cr_text_row['critical_region_text'].iloc[0]
+        target_cr_words = str(target_cr_text).split()
         
-    print(f"Attempting to merge critical definitions with filtered BPE surprisal rows for '{NOVEL_SENTENCE_TYPE_IDENTIFIER}'...")
-    
-    merged_df = pd.merge(
-        critical_defs_df, 
-        novel_data_bpe_df,
-        left_on=['item', CONDITION_COL_CR, CRITICAL_WORD_COL_CR],
-        right_on=[ITEM_COL_MS, CONDITION_COL_MS, TOKEN_STRING_COL_MS],
-        how='left'
-    )
-    print(f"Merge completed. Resulting table has {len(merged_df)} rows.")
-    
-    # --- MODIFIED/IMPROVED PART for output_df construction ---
-    if not merged_df.empty:
-        data_for_output = {
-            "sentence_type": NOVEL_SENTENCE_TYPE_IDENTIFIER, # Assign the known type for all rows
-            "item_id": merged_df['item'],  # 'item' from critical_defs_df (after potential rename)
-            "condition": merged_df[CONDITION_COL_CR],
-            "critical_region_text": merged_df[CRITICAL_WORD_COL_CR],
-            "aggregated_surprisal_bits": merged_df.get(actual_surprisal_col_ms, pd.Series([math.nan] * len(merged_df))), # Get surprisal, default to NaN if column missing from a row after left merge
-            "original_full_sentence": merged_df.get(FULL_SENTENCE_COL_MS, pd.Series(["N/A"] * len(merged_df))) # Get full sentence
-        }
-        output_df = pd.DataFrame(data_for_output)
+        aggregated_surprisal = math.nan
         
-        # Ensure specific column order for output
-        final_output_cols = ["sentence_type", "item_id", "condition", "critical_region_text", 
-                             "aggregated_surprisal_bits", "original_full_sentence"]
-        output_df = output_df[final_output_cols] # Reorder to desired final output
+        reconstructed_words = [str(d['word']) for d in sentence_word_surprisals]
+        cr_word_start_idx = -1
+        # Find the start of the CR word sequence in our reconstructed words
+        for i in range(len(reconstructed_words) - len(target_cr_words) + 1):
+            window = reconstructed_words[i:i+len(target_cr_words)]
+            if window == target_cr_words:
+                cr_word_start_idx = i
+                break
+        
+        if cr_word_start_idx != -1:
+            cr_word_data = sentence_word_surprisals[cr_word_start_idx : cr_word_start_idx + len(target_cr_words)]
+            surprisals_for_cr = [d['surprisal'] for d in cr_word_data]
+            if any(math.isnan(s) for s in surprisals_for_cr):
+                aggregated_surprisal = math.nan
+            else:
+                aggregated_surprisal = sum(surprisals_for_cr)
+        else:
+            print(f"    Warning: Failed to find CR '{target_cr_text}' in reconstructed words for Item='{item_id}', Cond='{condition_str}'.")
+
+        aggregated_results.append({
+            "sentence_type": NOVEL_SENTENCE_TYPE_IDENTIFIER,
+            "item_id": item_id,
+            "condition": condition_str,
+            "critical_region_text": target_cr_text,
+            "aggregated_surprisal_bits": aggregated_surprisal,
+            "original_full_sentence": current_sentence_bpes_df['full_sentence_text'].iloc[0]
+        })
+
+    if aggregated_results:
+        output_df = pd.DataFrame(aggregated_results)
+        output_df.to_csv(OUTPUT_CSV_FILE, index=False, float_format='%.8f')
+        print(f"\nSuccessfully aggregated surprisals for {len(output_df)} sentences to {os.path.abspath(OUTPUT_CSV_FILE)}")
+        print(f"First few results:\n{output_df.head()}")
     else:
-        # If merged_df is empty, create an empty DataFrame with correct columns
-        output_df = pd.DataFrame(columns=["sentence_type", "item_id", "condition", "critical_region_text", 
-                                          "aggregated_surprisal_bits", "original_full_sentence"])
-    # --- END MODIFIED/IMPROVED PART ---
+        print("\nNo results were aggregated.")
 
-    num_unmatched = output_df["aggregated_surprisal_bits"].isnull().sum()
-    if num_unmatched > 0 and not merged_df.empty : # only print warning if there were rows to process
-        print(f"WARNING: {num_unmatched} out of {len(critical_defs_df)} critical region definitions "
-              f"did NOT find an exact match for '{CRITICAL_WORD_COL_CR}' in the 'bpe_token_str' column "
-              f"of the BPE surprisal data (or the surprisal was already NaN).")
-        print("  This means the critical word might be split into multiple BPEs, or there's a text mismatch (e.g., 'soon' vs 'Ġsoon').")
-        print("  For such cases, 'aggregated_surprisal_bits' will be NaN.")
-
-    if not output_df.empty:
-        try:
-            output_df.to_csv(EXTRACTED_NOVEL_OUTPUT_CSV, index=False, float_format='%.8f')
-            print(f"\nSuccessfully extracted surprisals to {os.path.abspath(EXTRACTED_NOVEL_OUTPUT_CSV)}")
-            print(f"Generated {len(output_df)} rows.")
-            print(f"First few results:\n{output_df.head()}")
-        except Exception as e:
-            print(f"Error saving output CSV: {e}")
-            import traceback
-            traceback.print_exc()
-    else:
-        print("\nNo results were extracted (output DataFrame is empty or only headers).")
-
+# --- THIS IS THE FIX ---
+# This block ensures that the main() function is called when you run the script.
 if __name__ == "__main__":
     main()

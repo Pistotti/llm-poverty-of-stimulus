@@ -407,88 +407,67 @@ def _start_container(model: str) -> str:
 
     if model_base == _JRNN:
         post_command = "cp /tmp/pos-mount/modified_external_sources/lm-zoo/JRNN/bin/get_surprisals_concurrent /opt/bin/get_surprisals"
-
     elif model_base == _GRNN and checkpoint is not None:
         checkpoint_path = _GRNN_MOUNT_INSIDE_DOCKER / "checkpoints" / f"{checkpoint}.pt"
         post_command = f"cp {checkpoint_path} /opt/colorlessgreenRNNs/hidden650_batch128_dropout0.2_lr20.0.pt"
 
-    # Resolve RETRAINING_DATA_PATH to an absolute path.
-    # This relies on the global RETRAINING_DATA_PATH (../data/retraining)
-    # and assumes the script's current working directory allows this relative
-    # path to correctly point to your project's data/retraining directory.
-    # For example, if running scripts from within the <project_root>/llm_pos/ directory.
     abs_retraining_data_path = RETRAINING_DATA_PATH.resolve()
-
-    # The second mount uses os.getcwd(). If your scripts are run from the
-    # <project_root>/llm_pos/ directory, os.getcwd() will be that absolute path,
-    # which is likely what's intended for accessing files under /tmp/pos-mount/ in the container.
     current_working_dir = os.getcwd()
-
+    
+    # This logic assumes you have already modified lib.py to add the --gpus flag
+    # If not, add it here as well.
     docker_command_args = [
-        "docker",
-        "run",
-        "-i",
-        "-d",
-        "--rm",
-        "--gpus", "all",
-        "-v",
-        f"{abs_retraining_data_path}:{_GRNN_MOUNT_INSIDE_DOCKER}",  # Fixed path
-        "-v",
-        f"{current_working_dir}:/tmp/pos-mount/", # Path for llm_pos code
-        "--label",
-        f"checkpoint={checkpoint}",
+        "docker", "run", "-i", "-d", "--rm", "--gpus", "all",
+        "-v", f"{abs_retraining_data_path}:{_GRNN_MOUNT_INSIDE_DOCKER}",
+        "-v", f"{current_working_dir}:/tmp/pos-mount/",
+        "--label", f"checkpoint={checkpoint}",
         f"{_DOCKER_BASE_IMAGE}:{model_base}",
-        "/bin/bash", # Keep container alive with bash
+        "/bin/bash",
     ]
 
     logger.debug(f"Executing Docker command: {' '.join(str(arg) for arg in docker_command_args)}")
 
-    try:
-        full_container_id = (
-            subprocess.check_output(
-                docker_command_args,
-                stderr=subprocess.STDOUT,  # Capture stderr for more detailed error messages
-            )
-            .decode("utf-8")
-            .strip() # Use strip() to remove potential trailing newline
-        )
-    except subprocess.CalledProcessError as e:
-        logger.error(f"Docker run command failed. Output:\n{e.output.decode('utf-8')}")
-        raise RuntimeError(f"Failed to start Docker container for {model}. Docker output: {e.output.decode('utf-8')}") from e
+    # --- START OF REVISED LOGIC ---
+    # We separate stdout and stderr to robustly capture the container ID
+    process = subprocess.Popen(docker_command_args, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    stdout, stderr = process.communicate()
 
-    if not full_container_id:
-        raise RuntimeError(f"Failed to get container ID for model {model}. Docker command might have failed silently or produced no ID.")
+    if process.returncode != 0:
+        # Docker run command itself failed
+        error_message = stderr.decode('utf-8').strip()
+        logger.error(f"Docker run command failed. Error:\n{error_message}")
+        raise RuntimeError(f"Failed to start Docker container for {model}. Docker error: {error_message}")
+    
+    full_container_id = stdout.decode('utf-8').strip()
+
+    # A valid container ID is a 64-character hex string. Let's check for that.
+    if not re.match(r'^[a-f0-9]{64}$', full_container_id):
+        # The output was not a valid container ID. It might be an error or warning.
+        # Let's check stderr as well.
+        stderr_output = stderr.decode('utf-8').strip()
+        logger.error(f"Did not receive a valid container ID from 'docker run'.")
+        logger.error(f"STDOUT: {full_container_id}")
+        logger.error(f"STDERR: {stderr_output}")
+        raise RuntimeError(f"Failed to parse container ID for model {model}. STDOUT: {full_container_id}")
+    # --- END OF REVISED LOGIC ---
 
     short_id = full_container_id[:12]
 
     if post_command:
-        # Wait briefly for the container to be fully up and running its main process
-        # This might not always be necessary but can prevent "container not running" errors for exec
         time.sleep(2)
-        process = subprocess.run(
-            [
-                "docker",
-                "exec",
-                short_id,
-                "/bin/bash",
-                "-c",
-                post_command,
-            ],
+        exec_process = subprocess.run(
+            ["docker", "exec", short_id, "/bin/bash", "-c", post_command],
             capture_output=True,
         )
-        if process.returncode != 0:
-            _kill_container(short_id) # Ensure cleanup on error
-            error_message = process.stderr.decode('utf-8') if process.stderr else process.stdout.decode('utf-8')
+        if exec_process.returncode != 0:
+            _kill_container(short_id)
+            error_message = exec_process.stderr.decode('utf-8') if exec_process.stderr else exec_process.stdout.decode('utf-8')
             logger.error(f"Error running Docker exec command on {short_id}: {error_message}")
-            raise RuntimeError(
-                f"Error running Docker exec command on {short_id}: {error_message}"
-            )
+            raise RuntimeError(f"Error running Docker exec command on {short_id}: {error_message}")
 
-    logger.debug(
-        f"Started container for model {model_base} checkpoint {checkpoint}: container id {short_id}"
-    )
+    logger.debug(f"Started container for model {model_base} checkpoint {checkpoint}: container id {short_id}")
     return short_id
-
+    
 def _start_or_get_container(model: str) -> str:
     container_id = _get_running_container_id(model)
     if container_id is None:

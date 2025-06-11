@@ -1,0 +1,18 @@
+Statistical Summary for Lan-Style Metrics on FULL Critical Regions
+
+Dataset: novel_pg_full_paradigm_aggregated_surprisals.csv
+
+Model: gpt2
+
+============================================================
+
+--- One-Sample T-test for 'Lan Metric: Delta_Plus_Filler' (H0: mean=0, HA: mean > 0) ---
+  N: 10, Mean: -2.4602, SD: 7.5532
+  95% CI: [-7.8635, 2.9430]
+  t(9) = -1.0300, p = 0.8351
+
+--- One-Sample T-test for 'Lan Metric: Difference-in-Differences' (H0: mean=0, HA: mean > 0) ---
+  N: 10, Mean: 2.0218, SD: 3.2773
+  95% CI: [-0.3226, 4.3662]
+  t(9) = 1.9509, p = 0.0414
+

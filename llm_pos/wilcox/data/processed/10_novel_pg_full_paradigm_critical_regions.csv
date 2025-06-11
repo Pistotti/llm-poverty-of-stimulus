@@ -1,0 +1,81 @@
+item_id,condition,critical_region_text
+1,plusF_plusG1_plusG2,severely
+1,plusF_plusG1_minusG2,the campaign
+1,plusF_minusG1_plusG2,severely
+1,plusF_minusG1_minusG2,the campaign
+1,minusF_plusG1_plusG2,severely
+1,minusF_plusG1_minusG2,the campaign
+1,minusF_minusG1_plusG2,severely
+1,minusF_minusG1_minusG2,the campaign
+2,plusF_plusG1_plusG2,greatly
+2,plusF_plusG1_minusG2,the director
+2,plusF_minusG1_plusG2,greatly
+2,plusF_minusG1_minusG2,the director
+2,minusF_plusG1_plusG2,greatly
+2,minusF_plusG1_minusG2,the director
+2,minusF_minusG1_plusG2,greatly
+2,minusF_minusG1_minusG2,the director
+3,plusF_plusG1_plusG2,immensely
+3,plusF_plusG1_minusG2,the CEO
+3,plusF_minusG1_plusG2,immensely
+3,plusF_minusG1_minusG2,the CEO
+3,minusF_plusG1_plusG2,immensely
+3,minusF_plusG1_minusG2,the CEO
+3,minusF_minusG1_plusG2,immensely
+3,minusF_minusG1_minusG2,the CEO
+4,plusF_plusG1_plusG2,deeply
+4,plusF_plusG1_minusG2,the lawyer
+4,plusF_minusG1_plusG2,deeply
+4,plusF_minusG1_minusG2,the lawyer
+4,minusF_plusG1_plusG2,deeply
+4,minusF_plusG1_minusG2,the lawyer
+4,minusF_minusG1_plusG2,deeply
+4,minusF_minusG1_minusG2,the lawyer
+5,plusF_plusG1_plusG2,soon
+5,plusF_plusG1_minusG2,Leo
+5,plusF_minusG1_plusG2,soon
+5,plusF_minusG1_minusG2,Leo
+5,minusF_plusG1_plusG2,soon
+5,minusF_plusG1_minusG2,Leo
+5,minusF_minusG1_plusG2,soon
+5,minusF_minusG1_minusG2,Leo
+6,plusF_plusG1_plusG2,eventually
+6,plusF_plusG1_minusG2,Sara
+6,plusF_minusG1_plusG2,eventually
+6,plusF_minusG1_minusG2,Sara
+6,minusF_plusG1_plusG2,eventually
+6,minusF_plusG1_minusG2,Sara
+6,minusF_minusG1_plusG2,eventually
+6,minusF_minusG1_minusG2,Sara
+7,plusF_plusG1_plusG2,soon
+7,plusF_plusG1_minusG2,Tom
+7,plusF_minusG1_plusG2,soon
+7,plusF_minusG1_minusG2,Tom
+7,minusF_plusG1_plusG2,soon
+7,minusF_plusG1_minusG2,Tom
+7,minusF_minusG1_plusG2,soon
+7,minusF_minusG1_minusG2,Tom
+8,plusF_plusG1_plusG2,eventually
+8,plusF_plusG1_minusG2,Paul
+8,plusF_minusG1_plusG2,eventually
+8,plusF_minusG1_minusG2,Paul
+8,minusF_plusG1_plusG2,eventually
+8,minusF_plusG1_minusG2,Paul
+8,minusF_minusG1_plusG2,eventually
+8,minusF_minusG1_minusG2,Paul
+9,plusF_plusG1_plusG2,soon
+9,plusF_plusG1_minusG2,Nina
+9,plusF_minusG1_plusG2,soon
+9,plusF_minusG1_minusG2,Nina
+9,minusF_plusG1_plusG2,soon
+9,minusF_plusG1_minusG2,Nina
+9,minusF_minusG1_plusG2,soon
+9,minusF_minusG1_minusG2,Nina
+10,plusF_plusG1_plusG2,eventually
+10,plusF_plusG1_minusG2,Ben
+10,plusF_minusG1_plusG2,eventually
+10,plusF_minusG1_minusG2,Ben
+10,minusF_plusG1_plusG2,eventually
+10,minusF_plusG1_minusG2,Ben
+10,minusF_minusG1_plusG2,eventually
+10,minusF_minusG1_minusG2,Ben

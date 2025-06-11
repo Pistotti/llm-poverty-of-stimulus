@@ -1,0 +1,1109 @@
+source_doc_name,item,condition,full_sentence_text,bpe_token_index,bpe_token_id,bpe_token_str,log_prob_gpt2,surprisal_bits_gpt2
+subject_pg_full,1,plusF_plusG1_plusG2,The investigators know who the story about is likely to damage severely.,0,N/A,The,-4.72930100,6.82293910
+subject_pg_full,1,plusF_plusG1_plusG2,The investigators know who the story about is likely to damage severely.,1,N/A,investigators,-14.26418900,20.57887473
+subject_pg_full,1,plusF_plusG1_plusG2,The investigators know who the story about is likely to damage severely.,2,N/A,know,-10.53838400,15.20367434
+subject_pg_full,1,plusF_plusG1_plusG2,The investigators know who the story about is likely to damage severely.,3,N/A,who,-5.29779500,7.64310257
+subject_pg_full,1,plusF_plusG1_plusG2,The investigators know who the story about is likely to damage severely.,4,N/A,the,-3.26508100,4.71051617
+subject_pg_full,1,plusF_plusG1_plusG2,The investigators know who the story about is likely to damage severely.,5,N/A,story,-12.58247400,18.15267284
+subject_pg_full,1,plusF_plusG1_plusG2,The investigators know who the story about is likely to damage severely.,6,N/A,about,-8.60263800,12.41098318
+subject_pg_full,1,plusF_plusG1_plusG2,The investigators know who the story about is likely to damage severely.,7,N/A,is,-10.68289400,15.41215820
+subject_pg_full,1,plusF_plusG1_plusG2,The investigators know who the story about is likely to damage severely.,8,N/A,likely,-10.03896400,14.48316358
+subject_pg_full,1,plusF_plusG1_plusG2,The investigators know who the story about is likely to damage severely.,9,N/A,to,-1.45458400,2.09852112
+subject_pg_full,1,plusF_plusG1_plusG2,The investigators know who the story about is likely to damage severely.,10,N/A,damage,-13.41873900,19.35914821
+subject_pg_full,1,plusF_plusG1_plusG2,The investigators know who the story about is likely to damage severely.,11,N/A,severely,-18.29800200,26.39843674
+subject_pg_full,1,plusF_plusG1_plusG2,The investigators know who the story about is likely to damage severely.,12,N/A,.,-12.35238300,17.82072170
+subject_pg_full,1,plusF_plusG1_minusG2,The investigators know who the story about is likely to damage the campaign severely.,0,N/A,The,-4.72930100,6.82293910
+subject_pg_full,1,plusF_plusG1_minusG2,The investigators know who the story about is likely to damage the campaign severely.,1,N/A,investigators,-14.26418900,20.57887473
+subject_pg_full,1,plusF_plusG1_minusG2,The investigators know who the story about is likely to damage the campaign severely.,2,N/A,know,-10.53838400,15.20367434
+subject_pg_full,1,plusF_plusG1_minusG2,The investigators know who the story about is likely to damage the campaign severely.,3,N/A,who,-5.29779500,7.64310257
+subject_pg_full,1,plusF_plusG1_minusG2,The investigators know who the story about is likely to damage the campaign severely.,4,N/A,the,-3.26508100,4.71051617
+subject_pg_full,1,plusF_plusG1_minusG2,The investigators know who the story about is likely to damage the campaign severely.,5,N/A,story,-12.58247400,18.15267284
+subject_pg_full,1,plusF_plusG1_minusG2,The investigators know who the story about is likely to damage the campaign severely.,6,N/A,about,-8.60263800,12.41098318
+subject_pg_full,1,plusF_plusG1_minusG2,The investigators know who the story about is likely to damage the campaign severely.,7,N/A,is,-10.68289400,15.41215820
+subject_pg_full,1,plusF_plusG1_minusG2,The investigators know who the story about is likely to damage the campaign severely.,8,N/A,likely,-10.03896400,14.48316358
+subject_pg_full,1,plusF_plusG1_minusG2,The investigators know who the story about is likely to damage the campaign severely.,9,N/A,to,-1.45458400,2.09852112
+subject_pg_full,1,plusF_plusG1_minusG2,The investigators know who the story about is likely to damage the campaign severely.,10,N/A,damage,-13.41873900,19.35914821
+subject_pg_full,1,plusF_plusG1_minusG2,The investigators know who the story about is likely to damage the campaign severely.,11,N/A,the,-1.80155900,2.59910024
+subject_pg_full,1,plusF_plusG1_minusG2,The investigators know who the story about is likely to damage the campaign severely.,12,N/A,campaign,-6.13396800,8.84944521
+subject_pg_full,1,plusF_plusG1_minusG2,The investigators know who the story about is likely to damage the campaign severely.,13,N/A,severely,-18.34881900,26.47175018
+subject_pg_full,1,plusF_plusG1_minusG2,The investigators know who the story about is likely to damage the campaign severely.,14,N/A,.,-10.97948500,15.84004856
+subject_pg_full,1,plusF_minusG1_plusG2,The investigators know who the story about the politician is likely to damage severely.,0,N/A,The,-4.72930100,6.82293910
+subject_pg_full,1,plusF_minusG1_plusG2,The investigators know who the story about the politician is likely to damage severely.,1,N/A,investigators,-14.26418900,20.57887473
+subject_pg_full,1,plusF_minusG1_plusG2,The investigators know who the story about the politician is likely to damage severely.,2,N/A,know,-10.53838400,15.20367434
+subject_pg_full,1,plusF_minusG1_plusG2,The investigators know who the story about the politician is likely to damage severely.,3,N/A,who,-5.29779500,7.64310257
+subject_pg_full,1,plusF_minusG1_plusG2,The investigators know who the story about the politician is likely to damage severely.,4,N/A,the,-3.26508100,4.71051617
+subject_pg_full,1,plusF_minusG1_plusG2,The investigators know who the story about the politician is likely to damage severely.,5,N/A,story,-12.58247400,18.15267284
+subject_pg_full,1,plusF_minusG1_plusG2,The investigators know who the story about the politician is likely to damage severely.,6,N/A,about,-8.60263800,12.41098318
+subject_pg_full,1,plusF_minusG1_plusG2,The investigators know who the story about the politician is likely to damage severely.,7,N/A,the,-1.87346400,2.70283722
+subject_pg_full,1,plusF_minusG1_plusG2,The investigators know who the story about the politician is likely to damage severely.,8,N/A,politician,-13.54472300,19.54090470
+subject_pg_full,1,plusF_minusG1_plusG2,The investigators know who the story about the politician is likely to damage severely.,9,N/A,is,-2.33584900,3.36991777
+subject_pg_full,1,plusF_minusG1_plusG2,The investigators know who the story about the politician is likely to damage severely.,10,N/A,likely,-12.46394500,17.98167164
+subject_pg_full,1,plusF_minusG1_plusG2,The investigators know who the story about the politician is likely to damage severely.,11,N/A,to,-0.14342000,0.20691132
+subject_pg_full,1,plusF_minusG1_plusG2,The investigators know who the story about the politician is likely to damage severely.,12,N/A,damage,-16.63532000,23.99969367
+subject_pg_full,1,plusF_minusG1_plusG2,The investigators know who the story about the politician is likely to damage severely.,13,N/A,severely,-16.07297800,23.18840565
+subject_pg_full,1,plusF_minusG1_plusG2,The investigators know who the story about the politician is likely to damage severely.,14,N/A,.,-11.83878600,17.07975785
+subject_pg_full,1,plusF_minusG1_minusG2,The investigators know who the story about the politician is likely to damage the campaign severely.,0,N/A,The,-4.72930100,6.82293910
+subject_pg_full,1,plusF_minusG1_minusG2,The investigators know who the story about the politician is likely to damage the campaign severely.,1,N/A,investigators,-14.26418900,20.57887473
+subject_pg_full,1,plusF_minusG1_minusG2,The investigators know who the story about the politician is likely to damage the campaign severely.,2,N/A,know,-10.53838400,15.20367434
+subject_pg_full,1,plusF_minusG1_minusG2,The investigators know who the story about the politician is likely to damage the campaign severely.,3,N/A,who,-5.29779500,7.64310257
+subject_pg_full,1,plusF_minusG1_minusG2,The investigators know who the story about the politician is likely to damage the campaign severely.,4,N/A,the,-3.26508100,4.71051617
+subject_pg_full,1,plusF_minusG1_minusG2,The investigators know who the story about the politician is likely to damage the campaign severely.,5,N/A,story,-12.58247400,18.15267284
+subject_pg_full,1,plusF_minusG1_minusG2,The investigators know who the story about the politician is likely to damage the campaign severely.,6,N/A,about,-8.60263800,12.41098318
+subject_pg_full,1,plusF_minusG1_minusG2,The investigators know who the story about the politician is likely to damage the campaign severely.,7,N/A,the,-1.87346400,2.70283722
+subject_pg_full,1,plusF_minusG1_minusG2,The investigators know who the story about the politician is likely to damage the campaign severely.,8,N/A,politician,-13.54472300,19.54090470
+subject_pg_full,1,plusF_minusG1_minusG2,The investigators know who the story about the politician is likely to damage the campaign severely.,9,N/A,is,-2.33584900,3.36991777
+subject_pg_full,1,plusF_minusG1_minusG2,The investigators know who the story about the politician is likely to damage the campaign severely.,10,N/A,likely,-12.46394500,17.98167164
+subject_pg_full,1,plusF_minusG1_minusG2,The investigators know who the story about the politician is likely to damage the campaign severely.,11,N/A,to,-0.14342000,0.20691132
+subject_pg_full,1,plusF_minusG1_minusG2,The investigators know who the story about the politician is likely to damage the campaign severely.,12,N/A,damage,-16.63532000,23.99969367
+subject_pg_full,1,plusF_minusG1_minusG2,The investigators know who the story about the politician is likely to damage the campaign severely.,13,N/A,the,-3.20737800,4.62726833
+subject_pg_full,1,plusF_minusG1_minusG2,The investigators know who the story about the politician is likely to damage the campaign severely.,14,N/A,campaign,-4.00958100,5.78460262
+subject_pg_full,1,plusF_minusG1_minusG2,The investigators know who the story about the politician is likely to damage the campaign severely.,15,N/A,severely,-17.60727700,25.40193121
+subject_pg_full,1,plusF_minusG1_minusG2,The investigators know who the story about the politician is likely to damage the campaign severely.,16,N/A,.,-11.01276700,15.88806434
+subject_pg_full,1,minusF_plusG1_plusG2,The investigators know that the story about is likely to damage severely.,0,N/A,The,-4.72930100,6.82293910
+subject_pg_full,1,minusF_plusG1_plusG2,The investigators know that the story about is likely to damage severely.,1,N/A,investigators,-14.26418900,20.57887473
+subject_pg_full,1,minusF_plusG1_plusG2,The investigators know that the story about is likely to damage severely.,2,N/A,know,-10.53838400,15.20367434
+subject_pg_full,1,minusF_plusG1_plusG2,The investigators know that the story about is likely to damage severely.,3,N/A,that,-2.01317400,2.90439615
+subject_pg_full,1,minusF_plusG1_plusG2,The investigators know that the story about is likely to damage severely.,4,N/A,the,-2.79168700,4.02755299
+subject_pg_full,1,minusF_plusG1_plusG2,The investigators know that the story about is likely to damage severely.,5,N/A,story,-9.51370200,13.72537070
+subject_pg_full,1,minusF_plusG1_plusG2,The investigators know that the story about is likely to damage severely.,6,N/A,about,-4.39669700,6.34309296
+subject_pg_full,1,minusF_plusG1_plusG2,The investigators know that the story about is likely to damage severely.,7,N/A,is,-14.26636800,20.58201837
+subject_pg_full,1,minusF_plusG1_plusG2,The investigators know that the story about is likely to damage severely.,8,N/A,likely,-8.60153800,12.40939622
+subject_pg_full,1,minusF_plusG1_plusG2,The investigators know that the story about is likely to damage severely.,9,N/A,to,-1.89574800,2.73498624
+subject_pg_full,1,minusF_plusG1_plusG2,The investigators know that the story about is likely to damage severely.,10,N/A,damage,-10.49336200,15.13872132
+subject_pg_full,1,minusF_plusG1_plusG2,The investigators know that the story about is likely to damage severely.,11,N/A,severely,-17.07619900,24.63574761
+subject_pg_full,1,minusF_plusG1_plusG2,The investigators know that the story about is likely to damage severely.,12,N/A,.,-13.35220900,19.26316571
+subject_pg_full,1,minusF_plusG1_minusG2,The investigators know that the story about is likely to damage the campaign severely.,0,N/A,The,-4.72930100,6.82293910
+subject_pg_full,1,minusF_plusG1_minusG2,The investigators know that the story about is likely to damage the campaign severely.,1,N/A,investigators,-14.26418900,20.57887473
+subject_pg_full,1,minusF_plusG1_minusG2,The investigators know that the story about is likely to damage the campaign severely.,2,N/A,know,-10.53838400,15.20367434
+subject_pg_full,1,minusF_plusG1_minusG2,The investigators know that the story about is likely to damage the campaign severely.,3,N/A,that,-2.01317400,2.90439615
+subject_pg_full,1,minusF_plusG1_minusG2,The investigators know that the story about is likely to damage the campaign severely.,4,N/A,the,-2.79168700,4.02755299
+subject_pg_full,1,minusF_plusG1_minusG2,The investigators know that the story about is likely to damage the campaign severely.,5,N/A,story,-9.51370200,13.72537070
+subject_pg_full,1,minusF_plusG1_minusG2,The investigators know that the story about is likely to damage the campaign severely.,6,N/A,about,-4.39669700,6.34309296
+subject_pg_full,1,minusF_plusG1_minusG2,The investigators know that the story about is likely to damage the campaign severely.,7,N/A,is,-14.26636800,20.58201837
+subject_pg_full,1,minusF_plusG1_minusG2,The investigators know that the story about is likely to damage the campaign severely.,8,N/A,likely,-8.60153800,12.40939622
+subject_pg_full,1,minusF_plusG1_minusG2,The investigators know that the story about is likely to damage the campaign severely.,9,N/A,to,-1.89574800,2.73498624
+subject_pg_full,1,minusF_plusG1_minusG2,The investigators know that the story about is likely to damage the campaign severely.,10,N/A,damage,-10.49336200,15.13872132
+subject_pg_full,1,minusF_plusG1_minusG2,The investigators know that the story about is likely to damage the campaign severely.,11,N/A,the,-1.70350400,2.45763677
+subject_pg_full,1,minusF_plusG1_minusG2,The investigators know that the story about is likely to damage the campaign severely.,12,N/A,campaign,-5.98408700,8.63321264
+subject_pg_full,1,minusF_plusG1_minusG2,The investigators know that the story about is likely to damage the campaign severely.,13,N/A,severely,-16.53075500,23.84883826
+subject_pg_full,1,minusF_plusG1_minusG2,The investigators know that the story about is likely to damage the campaign severely.,14,N/A,.,-10.62893900,15.33431759
+subject_pg_full,1,minusF_minusG1_plusG2,The investigators know that the story about the politician is likely to damage severely.,0,N/A,The,-4.72930100,6.82293910
+subject_pg_full,1,minusF_minusG1_plusG2,The investigators know that the story about the politician is likely to damage severely.,1,N/A,investigators,-14.26418900,20.57887473
+subject_pg_full,1,minusF_minusG1_plusG2,The investigators know that the story about the politician is likely to damage severely.,2,N/A,know,-10.53838400,15.20367434
+subject_pg_full,1,minusF_minusG1_plusG2,The investigators know that the story about the politician is likely to damage severely.,3,N/A,that,-2.01317400,2.90439615
+subject_pg_full,1,minusF_minusG1_plusG2,The investigators know that the story about the politician is likely to damage severely.,4,N/A,the,-2.79168700,4.02755299
+subject_pg_full,1,minusF_minusG1_plusG2,The investigators know that the story about the politician is likely to damage severely.,5,N/A,story,-9.51370200,13.72537070
+subject_pg_full,1,minusF_minusG1_plusG2,The investigators know that the story about the politician is likely to damage severely.,6,N/A,about,-4.39669700,6.34309296
+subject_pg_full,1,minusF_minusG1_plusG2,The investigators know that the story about the politician is likely to damage severely.,7,N/A,the,-1.94208600,2.80183784
+subject_pg_full,1,minusF_minusG1_plusG2,The investigators know that the story about the politician is likely to damage severely.,8,N/A,politician,-13.84377000,19.97233833
+subject_pg_full,1,minusF_minusG1_plusG2,The investigators know that the story about the politician is likely to damage severely.,9,N/A,is,-3.96434800,5.71934520
+subject_pg_full,1,minusF_minusG1_plusG2,The investigators know that the story about the politician is likely to damage severely.,10,N/A,likely,-8.38260600,12.09354411
+subject_pg_full,1,minusF_minusG1_plusG2,The investigators know that the story about the politician is likely to damage severely.,11,N/A,to,-1.18568700,1.71058475
+subject_pg_full,1,minusF_minusG1_plusG2,The investigators know that the story about the politician is likely to damage severely.,12,N/A,damage,-10.06769000,14.52460644
+subject_pg_full,1,minusF_minusG1_plusG2,The investigators know that the story about the politician is likely to damage severely.,13,N/A,severely,-17.69445000,25.52769527
+subject_pg_full,1,minusF_minusG1_plusG2,The investigators know that the story about the politician is likely to damage severely.,14,N/A,.,-14.65604400,21.14420200
+subject_pg_full,1,minusF_minusG1_minusG2,The investigators know that the story about the politician is likely to damage the campaign severely.,0,N/A,The,-4.72930100,6.82293910
+subject_pg_full,1,minusF_minusG1_minusG2,The investigators know that the story about the politician is likely to damage the campaign severely.,1,N/A,investigators,-14.26418900,20.57887473
+subject_pg_full,1,minusF_minusG1_minusG2,The investigators know that the story about the politician is likely to damage the campaign severely.,2,N/A,know,-10.53838400,15.20367434
+subject_pg_full,1,minusF_minusG1_minusG2,The investigators know that the story about the politician is likely to damage the campaign severely.,3,N/A,that,-2.01317400,2.90439615
+subject_pg_full,1,minusF_minusG1_minusG2,The investigators know that the story about the politician is likely to damage the campaign severely.,4,N/A,the,-2.79168700,4.02755299
+subject_pg_full,1,minusF_minusG1_minusG2,The investigators know that the story about the politician is likely to damage the campaign severely.,5,N/A,story,-9.51370200,13.72537070
+subject_pg_full,1,minusF_minusG1_minusG2,The investigators know that the story about the politician is likely to damage the campaign severely.,6,N/A,about,-4.39669700,6.34309296
+subject_pg_full,1,minusF_minusG1_minusG2,The investigators know that the story about the politician is likely to damage the campaign severely.,7,N/A,the,-1.94208600,2.80183784
+subject_pg_full,1,minusF_minusG1_minusG2,The investigators know that the story about the politician is likely to damage the campaign severely.,8,N/A,politician,-13.84377000,19.97233833
+subject_pg_full,1,minusF_minusG1_minusG2,The investigators know that the story about the politician is likely to damage the campaign severely.,9,N/A,is,-3.96434800,5.71934520
+subject_pg_full,1,minusF_minusG1_minusG2,The investigators know that the story about the politician is likely to damage the campaign severely.,10,N/A,likely,-8.38260600,12.09354411
+subject_pg_full,1,minusF_minusG1_minusG2,The investigators know that the story about the politician is likely to damage the campaign severely.,11,N/A,to,-1.18568700,1.71058475
+subject_pg_full,1,minusF_minusG1_minusG2,The investigators know that the story about the politician is likely to damage the campaign severely.,12,N/A,damage,-10.06769000,14.52460644
+subject_pg_full,1,minusF_minusG1_minusG2,The investigators know that the story about the politician is likely to damage the campaign severely.,13,N/A,the,-2.19428300,3.16568120
+subject_pg_full,1,minusF_minusG1_minusG2,The investigators know that the story about the politician is likely to damage the campaign severely.,14,N/A,campaign,-4.24880200,6.12972558
+subject_pg_full,1,minusF_minusG1_minusG2,The investigators know that the story about the politician is likely to damage the campaign severely.,15,N/A,severely,-15.07736400,21.75203827
+subject_pg_full,1,minusF_minusG1_minusG2,The investigators know that the story about the politician is likely to damage the campaign severely.,16,N/A,.,-10.91188600,15.74252382
+subject_pg_full,2,plusF_plusG1_plusG2,The audience believed who the picture of might have flattered greatly.,0,N/A,The,-4.72930100,6.82293910
+subject_pg_full,2,plusF_plusG1_plusG2,The audience believed who the picture of might have flattered greatly.,1,N/A,audience,-13.05685400,18.83705852
+subject_pg_full,2,plusF_plusG1_plusG2,The audience believed who the picture of might have flattered greatly.,2,N/A,believed,-11.94620900,17.23473648
+subject_pg_full,2,plusF_plusG1_plusG2,The audience believed who the picture of might have flattered greatly.,3,N/A,who,-12.91084600,18.62641350
+subject_pg_full,2,plusF_plusG1_plusG2,The audience believed who the picture of might have flattered greatly.,4,N/A,the,-3.74834300,5.40771586
+subject_pg_full,2,plusF_plusG1_plusG2,The audience believed who the picture of might have flattered greatly.,5,N/A,picture,-12.19802100,17.59802441
+subject_pg_full,2,plusF_plusG1_plusG2,The audience believed who the picture of might have flattered greatly.,6,N/A,of,-4.56950500,6.59240220
+subject_pg_full,2,plusF_plusG1_plusG2,The audience believed who the picture of might have flattered greatly.,7,N/A,might,-15.99094600,23.07005849
+subject_pg_full,2,plusF_plusG1_plusG2,The audience believed who the picture of might have flattered greatly.,8,N/A,have,-4.82812300,6.96550911
+subject_pg_full,2,plusF_plusG1_plusG2,The audience believed who the picture of might have flattered greatly.,9,N/A,flat,-17.67882000,25.50514594
+subject_pg_full,2,plusF_plusG1_plusG2,The audience believed who the picture of might have flattered greatly.,10,N/A,tered,-1.78095900,2.56938072
+subject_pg_full,2,plusF_plusG1_plusG2,The audience believed who the picture of might have flattered greatly.,11,N/A,greatly,-17.67781300,25.50369315
+subject_pg_full,2,plusF_plusG1_plusG2,The audience believed who the picture of might have flattered greatly.,12,N/A,.,-10.62563600,15.32955236
+subject_pg_full,2,plusF_plusG1_minusG2,The audience believed who the picture of might have flattered the director greatly.,0,N/A,The,-4.72930100,6.82293910
+subject_pg_full,2,plusF_plusG1_minusG2,The audience believed who the picture of might have flattered the director greatly.,1,N/A,audience,-13.05685400,18.83705852
+subject_pg_full,2,plusF_plusG1_minusG2,The audience believed who the picture of might have flattered the director greatly.,2,N/A,believed,-11.94620900,17.23473648
+subject_pg_full,2,plusF_plusG1_minusG2,The audience believed who the picture of might have flattered the director greatly.,3,N/A,who,-12.91084600,18.62641350
+subject_pg_full,2,plusF_plusG1_minusG2,The audience believed who the picture of might have flattered the director greatly.,4,N/A,the,-3.74834300,5.40771586
+subject_pg_full,2,plusF_plusG1_minusG2,The audience believed who the picture of might have flattered the director greatly.,5,N/A,picture,-12.19802100,17.59802441
+subject_pg_full,2,plusF_plusG1_minusG2,The audience believed who the picture of might have flattered the director greatly.,6,N/A,of,-4.56950500,6.59240220
+subject_pg_full,2,plusF_plusG1_minusG2,The audience believed who the picture of might have flattered the director greatly.,7,N/A,might,-15.99094600,23.07005849
+subject_pg_full,2,plusF_plusG1_minusG2,The audience believed who the picture of might have flattered the director greatly.,8,N/A,have,-4.82812300,6.96550911
+subject_pg_full,2,plusF_plusG1_minusG2,The audience believed who the picture of might have flattered the director greatly.,9,N/A,flat,-17.67882000,25.50514594
+subject_pg_full,2,plusF_plusG1_minusG2,The audience believed who the picture of might have flattered the director greatly.,10,N/A,tered,-1.78095900,2.56938072
+subject_pg_full,2,plusF_plusG1_minusG2,The audience believed who the picture of might have flattered the director greatly.,11,N/A,the,-3.70527100,5.34557610
+subject_pg_full,2,plusF_plusG1_minusG2,The audience believed who the picture of might have flattered the director greatly.,12,N/A,director,-7.43140900,10.72125691
+subject_pg_full,2,plusF_plusG1_minusG2,The audience believed who the picture of might have flattered the director greatly.,13,N/A,greatly,-14.09306500,20.33199499
+subject_pg_full,2,plusF_plusG1_minusG2,The audience believed who the picture of might have flattered the director greatly.,14,N/A,.,-10.15978700,14.65747432
+subject_pg_full,2,plusF_minusG1_plusG2,The audience believed who the picture of the actor might have flattered greatly.,0,N/A,The,-4.72930100,6.82293910
+subject_pg_full,2,plusF_minusG1_plusG2,The audience believed who the picture of the actor might have flattered greatly.,1,N/A,audience,-13.05685400,18.83705852
+subject_pg_full,2,plusF_minusG1_plusG2,The audience believed who the picture of the actor might have flattered greatly.,2,N/A,believed,-11.94620900,17.23473648
+subject_pg_full,2,plusF_minusG1_plusG2,The audience believed who the picture of the actor might have flattered greatly.,3,N/A,who,-12.91084600,18.62641350
+subject_pg_full,2,plusF_minusG1_plusG2,The audience believed who the picture of the actor might have flattered greatly.,4,N/A,the,-3.74834300,5.40771586
+subject_pg_full,2,plusF_minusG1_plusG2,The audience believed who the picture of the actor might have flattered greatly.,5,N/A,picture,-12.19802100,17.59802441
+subject_pg_full,2,plusF_minusG1_plusG2,The audience believed who the picture of the actor might have flattered greatly.,6,N/A,of,-4.56950500,6.59240220
+subject_pg_full,2,plusF_minusG1_plusG2,The audience believed who the picture of the actor might have flattered greatly.,7,N/A,the,-2.30661900,3.32774779
+subject_pg_full,2,plusF_minusG1_plusG2,The audience believed who the picture of the actor might have flattered greatly.,8,N/A,actor,-8.66883600,12.50648671
+subject_pg_full,2,plusF_minusG1_plusG2,The audience believed who the picture of the actor might have flattered greatly.,9,N/A,might,-8.52159100,12.29405708
+subject_pg_full,2,plusF_minusG1_plusG2,The audience believed who the picture of the actor might have flattered greatly.,10,N/A,have,-3.95528100,5.70626428
+subject_pg_full,2,plusF_minusG1_plusG2,The audience believed who the picture of the actor might have flattered greatly.,11,N/A,flat,-20.83856400,30.06369294
+subject_pg_full,2,plusF_minusG1_plusG2,The audience believed who the picture of the actor might have flattered greatly.,12,N/A,tered,-1.58860600,2.29187400
+subject_pg_full,2,plusF_minusG1_plusG2,The audience believed who the picture of the actor might have flattered greatly.,13,N/A,greatly,-16.28937400,23.50059909
+subject_pg_full,2,plusF_minusG1_plusG2,The audience believed who the picture of the actor might have flattered greatly.,14,N/A,.,-10.56297100,15.23914588
+subject_pg_full,2,plusF_minusG1_minusG2,The audience believed who the picture of the actor might have flattered the director greatly.,0,N/A,The,-4.72930100,6.82293910
+subject_pg_full,2,plusF_minusG1_minusG2,The audience believed who the picture of the actor might have flattered the director greatly.,1,N/A,audience,-13.05685400,18.83705852
+subject_pg_full,2,plusF_minusG1_minusG2,The audience believed who the picture of the actor might have flattered the director greatly.,2,N/A,believed,-11.94620900,17.23473648
+subject_pg_full,2,plusF_minusG1_minusG2,The audience believed who the picture of the actor might have flattered the director greatly.,3,N/A,who,-12.91084600,18.62641350
+subject_pg_full,2,plusF_minusG1_minusG2,The audience believed who the picture of the actor might have flattered the director greatly.,4,N/A,the,-3.74834300,5.40771586
+subject_pg_full,2,plusF_minusG1_minusG2,The audience believed who the picture of the actor might have flattered the director greatly.,5,N/A,picture,-12.19802100,17.59802441
+subject_pg_full,2,plusF_minusG1_minusG2,The audience believed who the picture of the actor might have flattered the director greatly.,6,N/A,of,-4.56950500,6.59240220
+subject_pg_full,2,plusF_minusG1_minusG2,The audience believed who the picture of the actor might have flattered the director greatly.,7,N/A,the,-2.30661900,3.32774779
+subject_pg_full,2,plusF_minusG1_minusG2,The audience believed who the picture of the actor might have flattered the director greatly.,8,N/A,actor,-8.66883600,12.50648671
+subject_pg_full,2,plusF_minusG1_minusG2,The audience believed who the picture of the actor might have flattered the director greatly.,9,N/A,might,-8.52159100,12.29405708
+subject_pg_full,2,plusF_minusG1_minusG2,The audience believed who the picture of the actor might have flattered the director greatly.,10,N/A,have,-3.95528100,5.70626428
+subject_pg_full,2,plusF_minusG1_minusG2,The audience believed who the picture of the actor might have flattered the director greatly.,11,N/A,flat,-20.83856400,30.06369294
+subject_pg_full,2,plusF_minusG1_minusG2,The audience believed who the picture of the actor might have flattered the director greatly.,12,N/A,tered,-1.58860600,2.29187400
+subject_pg_full,2,plusF_minusG1_minusG2,The audience believed who the picture of the actor might have flattered the director greatly.,13,N/A,the,-4.14786000,5.98409705
+subject_pg_full,2,plusF_minusG1_minusG2,The audience believed who the picture of the actor might have flattered the director greatly.,14,N/A,director,-5.24298500,7.56402846
+subject_pg_full,2,plusF_minusG1_minusG2,The audience believed who the picture of the actor might have flattered the director greatly.,15,N/A,greatly,-15.52960400,22.40448268
+subject_pg_full,2,plusF_minusG1_minusG2,The audience believed who the picture of the actor might have flattered the director greatly.,16,N/A,.,-10.24946800,14.78685666
+subject_pg_full,2,minusF_plusG1_plusG2,The audience believed that the picture of might have flattered greatly.,0,N/A,The,-4.72930100,6.82293910
+subject_pg_full,2,minusF_plusG1_plusG2,The audience believed that the picture of might have flattered greatly.,1,N/A,audience,-13.05685400,18.83705852
+subject_pg_full,2,minusF_plusG1_plusG2,The audience believed that the picture of might have flattered greatly.,2,N/A,believed,-11.94620900,17.23473648
+subject_pg_full,2,minusF_plusG1_plusG2,The audience believed that the picture of might have flattered greatly.,3,N/A,that,-1.81788300,2.62265079
+subject_pg_full,2,minusF_plusG1_plusG2,The audience believed that the picture of might have flattered greatly.,4,N/A,the,-2.35493600,3.39745449
+subject_pg_full,2,minusF_plusG1_plusG2,The audience believed that the picture of might have flattered greatly.,5,N/A,picture,-10.60052300,15.29332196
+subject_pg_full,2,minusF_plusG1_plusG2,The audience believed that the picture of might have flattered greatly.,6,N/A,of,-2.94474500,4.24836901
+subject_pg_full,2,minusF_plusG1_plusG2,The audience believed that the picture of might have flattered greatly.,7,N/A,might,-17.47883100,25.21662280
+subject_pg_full,2,minusF_plusG1_plusG2,The audience believed that the picture of might have flattered greatly.,8,N/A,have,-3.94834900,5.69626352
+subject_pg_full,2,minusF_plusG1_plusG2,The audience believed that the picture of might have flattered greatly.,9,N/A,flat,-15.34127200,22.13277704
+subject_pg_full,2,minusF_plusG1_plusG2,The audience believed that the picture of might have flattered greatly.,10,N/A,tered,-2.22649900,3.21215907
+subject_pg_full,2,minusF_plusG1_plusG2,The audience believed that the picture of might have flattered greatly.,11,N/A,greatly,-17.90603400,25.83294645
+subject_pg_full,2,minusF_plusG1_plusG2,The audience believed that the picture of might have flattered greatly.,12,N/A,.,-12.23123300,17.64593919
+subject_pg_full,2,minusF_plusG1_minusG2,The audience believed that the picture of might have flattered the director greatly.,0,N/A,The,-4.72930100,6.82293910
+subject_pg_full,2,minusF_plusG1_minusG2,The audience believed that the picture of might have flattered the director greatly.,1,N/A,audience,-13.05685400,18.83705852
+subject_pg_full,2,minusF_plusG1_minusG2,The audience believed that the picture of might have flattered the director greatly.,2,N/A,believed,-11.94620900,17.23473648
+subject_pg_full,2,minusF_plusG1_minusG2,The audience believed that the picture of might have flattered the director greatly.,3,N/A,that,-1.81788300,2.62265079
+subject_pg_full,2,minusF_plusG1_minusG2,The audience believed that the picture of might have flattered the director greatly.,4,N/A,the,-2.35493600,3.39745449
+subject_pg_full,2,minusF_plusG1_minusG2,The audience believed that the picture of might have flattered the director greatly.,5,N/A,picture,-10.60052300,15.29332196
+subject_pg_full,2,minusF_plusG1_minusG2,The audience believed that the picture of might have flattered the director greatly.,6,N/A,of,-2.94474500,4.24836901
+subject_pg_full,2,minusF_plusG1_minusG2,The audience believed that the picture of might have flattered the director greatly.,7,N/A,might,-17.47883100,25.21662280
+subject_pg_full,2,minusF_plusG1_minusG2,The audience believed that the picture of might have flattered the director greatly.,8,N/A,have,-3.94834900,5.69626352
+subject_pg_full,2,minusF_plusG1_minusG2,The audience believed that the picture of might have flattered the director greatly.,9,N/A,flat,-15.34127200,22.13277704
+subject_pg_full,2,minusF_plusG1_minusG2,The audience believed that the picture of might have flattered the director greatly.,10,N/A,tered,-2.22649900,3.21215907
+subject_pg_full,2,minusF_plusG1_minusG2,The audience believed that the picture of might have flattered the director greatly.,11,N/A,the,-2.56917800,3.70654036
+subject_pg_full,2,minusF_plusG1_minusG2,The audience believed that the picture of might have flattered the director greatly.,12,N/A,director,-7.88112800,11.37006428
+subject_pg_full,2,minusF_plusG1_minusG2,The audience believed that the picture of might have flattered the director greatly.,13,N/A,greatly,-13.46059100,19.41952788
+subject_pg_full,2,minusF_plusG1_minusG2,The audience believed that the picture of might have flattered the director greatly.,14,N/A,.,-10.29429300,14.85152546
+subject_pg_full,2,minusF_minusG1_plusG2,The audience believed that the picture of the actor might have flattered greatly.,0,N/A,The,-4.72930100,6.82293910
+subject_pg_full,2,minusF_minusG1_plusG2,The audience believed that the picture of the actor might have flattered greatly.,1,N/A,audience,-13.05685400,18.83705852
+subject_pg_full,2,minusF_minusG1_plusG2,The audience believed that the picture of the actor might have flattered greatly.,2,N/A,believed,-11.94620900,17.23473648
+subject_pg_full,2,minusF_minusG1_plusG2,The audience believed that the picture of the actor might have flattered greatly.,3,N/A,that,-1.81788300,2.62265079
+subject_pg_full,2,minusF_minusG1_plusG2,The audience believed that the picture of the actor might have flattered greatly.,4,N/A,the,-2.35493600,3.39745449
+subject_pg_full,2,minusF_minusG1_plusG2,The audience believed that the picture of the actor might have flattered greatly.,5,N/A,picture,-10.60052300,15.29332196
+subject_pg_full,2,minusF_minusG1_plusG2,The audience believed that the picture of the actor might have flattered greatly.,6,N/A,of,-2.94474500,4.24836901
+subject_pg_full,2,minusF_minusG1_plusG2,The audience believed that the picture of the actor might have flattered greatly.,7,N/A,the,-2.47769500,3.57455829
+subject_pg_full,2,minusF_minusG1_plusG2,The audience believed that the picture of the actor might have flattered greatly.,8,N/A,actor,-9.83363600,14.18693789
+subject_pg_full,2,minusF_minusG1_plusG2,The audience believed that the picture of the actor might have flattered greatly.,9,N/A,might,-10.11197300,14.58849330
+subject_pg_full,2,minusF_minusG1_plusG2,The audience believed that the picture of the actor might have flattered greatly.,10,N/A,have,-2.85356200,4.11681975
+subject_pg_full,2,minusF_minusG1_plusG2,The audience believed that the picture of the actor might have flattered greatly.,11,N/A,flat,-14.81082800,21.36750811
+subject_pg_full,2,minusF_minusG1_plusG2,The audience believed that the picture of the actor might have flattered greatly.,12,N/A,tered,-1.63598700,2.36023033
+subject_pg_full,2,minusF_minusG1_plusG2,The audience believed that the picture of the actor might have flattered greatly.,13,N/A,greatly,-18.92669100,27.30544325
+subject_pg_full,2,minusF_minusG1_plusG2,The audience believed that the picture of the actor might have flattered greatly.,14,N/A,.,-12.78293000,18.44186972
+subject_pg_full,2,minusF_minusG1_minusG2,The audience believed that the picture of the actor might have flattered the director greatly.,0,N/A,The,-4.72930100,6.82293910
+subject_pg_full,2,minusF_minusG1_minusG2,The audience believed that the picture of the actor might have flattered the director greatly.,1,N/A,audience,-13.05685400,18.83705852
+subject_pg_full,2,minusF_minusG1_minusG2,The audience believed that the picture of the actor might have flattered the director greatly.,2,N/A,believed,-11.94620900,17.23473648
+subject_pg_full,2,minusF_minusG1_minusG2,The audience believed that the picture of the actor might have flattered the director greatly.,3,N/A,that,-1.81788300,2.62265079
+subject_pg_full,2,minusF_minusG1_minusG2,The audience believed that the picture of the actor might have flattered the director greatly.,4,N/A,the,-2.35493600,3.39745449
+subject_pg_full,2,minusF_minusG1_minusG2,The audience believed that the picture of the actor might have flattered the director greatly.,5,N/A,picture,-10.60052300,15.29332196
+subject_pg_full,2,minusF_minusG1_minusG2,The audience believed that the picture of the actor might have flattered the director greatly.,6,N/A,of,-2.94474500,4.24836901
+subject_pg_full,2,minusF_minusG1_minusG2,The audience believed that the picture of the actor might have flattered the director greatly.,7,N/A,the,-2.47769500,3.57455829
+subject_pg_full,2,minusF_minusG1_minusG2,The audience believed that the picture of the actor might have flattered the director greatly.,8,N/A,actor,-9.83363600,14.18693789
+subject_pg_full,2,minusF_minusG1_minusG2,The audience believed that the picture of the actor might have flattered the director greatly.,9,N/A,might,-10.11197300,14.58849330
+subject_pg_full,2,minusF_minusG1_minusG2,The audience believed that the picture of the actor might have flattered the director greatly.,10,N/A,have,-2.85356200,4.11681975
+subject_pg_full,2,minusF_minusG1_minusG2,The audience believed that the picture of the actor might have flattered the director greatly.,11,N/A,flat,-14.81082800,21.36750811
+subject_pg_full,2,minusF_minusG1_minusG2,The audience believed that the picture of the actor might have flattered the director greatly.,12,N/A,tered,-1.63598700,2.36023033
+subject_pg_full,2,minusF_minusG1_minusG2,The audience believed that the picture of the actor might have flattered the director greatly.,13,N/A,the,-2.55878600,3.69154787
+subject_pg_full,2,minusF_minusG1_minusG2,The audience believed that the picture of the actor might have flattered the director greatly.,14,N/A,director,-5.83247000,8.41447555
+subject_pg_full,2,minusF_minusG1_minusG2,The audience believed that the picture of the actor might have flattered the director greatly.,15,N/A,greatly,-13.61071900,19.63611680
+subject_pg_full,2,minusF_minusG1_minusG2,The audience believed that the picture of the actor might have flattered the director greatly.,16,N/A,.,-10.35787600,14.94325634
+subject_pg_full,3,plusF_plusG1_plusG2,The board understood who the critique of would probably anger immensely.,0,N/A,The,-4.72930100,6.82293910
+subject_pg_full,3,plusF_plusG1_plusG2,The board understood who the critique of would probably anger immensely.,1,N/A,board,-11.82024100,17.05300307
+subject_pg_full,3,plusF_plusG1_plusG2,The board understood who the critique of would probably anger immensely.,2,N/A,understood,-14.97363200,21.60238463
+subject_pg_full,3,plusF_plusG1_plusG2,The board understood who the critique of would probably anger immensely.,3,N/A,who,-12.87703600,18.57763598
+subject_pg_full,3,plusF_plusG1_plusG2,The board understood who the critique of would probably anger immensely.,4,N/A,the,-3.28206500,4.73501890
+subject_pg_full,3,plusF_plusG1_plusG2,The board understood who the critique of would probably anger immensely.,5,N/A,critique,-19.72200000,28.45283160
+subject_pg_full,3,plusF_plusG1_plusG2,The board understood who the critique of would probably anger immensely.,6,N/A,of,-4.62709700,6.67548990
+subject_pg_full,3,plusF_plusG1_plusG2,The board understood who the critique of would probably anger immensely.,7,N/A,would,-15.17900900,21.89868101
+subject_pg_full,3,plusF_plusG1_plusG2,The board understood who the critique of would probably anger immensely.,8,N/A,probably,-10.58902800,15.27673818
+subject_pg_full,3,plusF_plusG1_plusG2,The board understood who the critique of would probably anger immensely.,9,N/A,anger,-16.86387300,24.32942595
+subject_pg_full,3,plusF_plusG1_plusG2,The board understood who the critique of would probably anger immensely.,10,N/A,immensely,-18.41450300,26.56651216
+subject_pg_full,3,plusF_plusG1_plusG2,The board understood who the critique of would probably anger immensely.,11,N/A,.,-11.20722100,16.16860216
+subject_pg_full,3,plusF_plusG1_minusG2,The board understood who the critique of would probably anger the CEO immensely.,0,N/A,The,-4.72930100,6.82293910
+subject_pg_full,3,plusF_plusG1_minusG2,The board understood who the critique of would probably anger the CEO immensely.,1,N/A,board,-11.82024100,17.05300307
+subject_pg_full,3,plusF_plusG1_minusG2,The board understood who the critique of would probably anger the CEO immensely.,2,N/A,understood,-14.97363200,21.60238463
+subject_pg_full,3,plusF_plusG1_minusG2,The board understood who the critique of would probably anger the CEO immensely.,3,N/A,who,-12.87703600,18.57763598
+subject_pg_full,3,plusF_plusG1_minusG2,The board understood who the critique of would probably anger the CEO immensely.,4,N/A,the,-3.28206500,4.73501890
+subject_pg_full,3,plusF_plusG1_minusG2,The board understood who the critique of would probably anger the CEO immensely.,5,N/A,critique,-19.72200000,28.45283160
+subject_pg_full,3,plusF_plusG1_minusG2,The board understood who the critique of would probably anger the CEO immensely.,6,N/A,of,-4.62709700,6.67548990
+subject_pg_full,3,plusF_plusG1_minusG2,The board understood who the critique of would probably anger the CEO immensely.,7,N/A,would,-15.17900900,21.89868101
+subject_pg_full,3,plusF_plusG1_minusG2,The board understood who the critique of would probably anger the CEO immensely.,8,N/A,probably,-10.58902800,15.27673818
+subject_pg_full,3,plusF_plusG1_minusG2,The board understood who the critique of would probably anger the CEO immensely.,9,N/A,anger,-16.86387300,24.32942595
+subject_pg_full,3,plusF_plusG1_minusG2,The board understood who the critique of would probably anger the CEO immensely.,10,N/A,the,-2.71638900,3.91892094
+subject_pg_full,3,plusF_plusG1_minusG2,The board understood who the critique of would probably anger the CEO immensely.,11,N/A,CEO,-9.39893300,13.55979403
+subject_pg_full,3,plusF_plusG1_minusG2,The board understood who the critique of would probably anger the CEO immensely.,12,N/A,immensely,-18.64422900,26.89793672
+subject_pg_full,3,plusF_plusG1_minusG2,The board understood who the critique of would probably anger the CEO immensely.,13,N/A,.,-10.39715600,14.99992540
+subject_pg_full,3,plusF_minusG1_plusG2,The board understood who the critique of the new project would probably anger immensely.,0,N/A,The,-4.72930100,6.82293910
+subject_pg_full,3,plusF_minusG1_plusG2,The board understood who the critique of the new project would probably anger immensely.,1,N/A,board,-11.82024100,17.05300307
+subject_pg_full,3,plusF_minusG1_plusG2,The board understood who the critique of the new project would probably anger immensely.,2,N/A,understood,-14.97363200,21.60238463
+subject_pg_full,3,plusF_minusG1_plusG2,The board understood who the critique of the new project would probably anger immensely.,3,N/A,who,-12.87703600,18.57763598
+subject_pg_full,3,plusF_minusG1_plusG2,The board understood who the critique of the new project would probably anger immensely.,4,N/A,the,-3.28206500,4.73501890
+subject_pg_full,3,plusF_minusG1_plusG2,The board understood who the critique of the new project would probably anger immensely.,5,N/A,critique,-19.72200000,28.45283160
+subject_pg_full,3,plusF_minusG1_plusG2,The board understood who the critique of the new project would probably anger immensely.,6,N/A,of,-4.62709700,6.67548990
+subject_pg_full,3,plusF_minusG1_plusG2,The board understood who the critique of the new project would probably anger immensely.,7,N/A,the,-1.75040500,2.52530061
+subject_pg_full,3,plusF_minusG1_plusG2,The board understood who the critique of the new project would probably anger immensely.,8,N/A,new,-6.56721100,9.47448274
+subject_pg_full,3,plusF_minusG1_plusG2,The board understood who the critique of the new project would probably anger immensely.,9,N/A,project,-7.90881600,11.41000962
+subject_pg_full,3,plusF_minusG1_plusG2,The board understood who the critique of the new project would probably anger immensely.,10,N/A,would,-4.05126100,5.84473415
+subject_pg_full,3,plusF_minusG1_plusG2,The board understood who the critique of the new project would probably anger immensely.,11,N/A,probably,-12.28429100,17.72248571
+subject_pg_full,3,plusF_minusG1_plusG2,The board understood who the critique of the new project would probably anger immensely.,12,N/A,anger,-16.50174600,23.80698712
+subject_pg_full,3,plusF_minusG1_plusG2,The board understood who the critique of the new project would probably anger immensely.,13,N/A,immensely,-18.68721900,26.95995818
+subject_pg_full,3,plusF_minusG1_plusG2,The board understood who the critique of the new project would probably anger immensely.,14,N/A,.,-11.08019600,15.98534382
+subject_pg_full,3,plusF_minusG1_minusG2,The board understood who the critique of the new project would probably anger the CEO immensely.,0,N/A,The,-4.72930100,6.82293910
+subject_pg_full,3,plusF_minusG1_minusG2,The board understood who the critique of the new project would probably anger the CEO immensely.,1,N/A,board,-11.82024100,17.05300307
+subject_pg_full,3,plusF_minusG1_minusG2,The board understood who the critique of the new project would probably anger the CEO immensely.,2,N/A,understood,-14.97363200,21.60238463
+subject_pg_full,3,plusF_minusG1_minusG2,The board understood who the critique of the new project would probably anger the CEO immensely.,3,N/A,who,-12.87703600,18.57763598
+subject_pg_full,3,plusF_minusG1_minusG2,The board understood who the critique of the new project would probably anger the CEO immensely.,4,N/A,the,-3.28206500,4.73501890
+subject_pg_full,3,plusF_minusG1_minusG2,The board understood who the critique of the new project would probably anger the CEO immensely.,5,N/A,critique,-19.72200000,28.45283160
+subject_pg_full,3,plusF_minusG1_minusG2,The board understood who the critique of the new project would probably anger the CEO immensely.,6,N/A,of,-4.62709700,6.67548990
+subject_pg_full,3,plusF_minusG1_minusG2,The board understood who the critique of the new project would probably anger the CEO immensely.,7,N/A,the,-1.75040500,2.52530061
+subject_pg_full,3,plusF_minusG1_minusG2,The board understood who the critique of the new project would probably anger the CEO immensely.,8,N/A,new,-6.56721100,9.47448274
+subject_pg_full,3,plusF_minusG1_minusG2,The board understood who the critique of the new project would probably anger the CEO immensely.,9,N/A,project,-7.90881600,11.41000962
+subject_pg_full,3,plusF_minusG1_minusG2,The board understood who the critique of the new project would probably anger the CEO immensely.,10,N/A,would,-4.05126100,5.84473415
+subject_pg_full,3,plusF_minusG1_minusG2,The board understood who the critique of the new project would probably anger the CEO immensely.,11,N/A,probably,-12.28429100,17.72248571
+subject_pg_full,3,plusF_minusG1_minusG2,The board understood who the critique of the new project would probably anger the CEO immensely.,12,N/A,anger,-16.50174600,23.80698712
+subject_pg_full,3,plusF_minusG1_minusG2,The board understood who the critique of the new project would probably anger the CEO immensely.,13,N/A,the,-5.53804700,7.98971294
+subject_pg_full,3,plusF_minusG1_minusG2,The board understood who the critique of the new project would probably anger the CEO immensely.,14,N/A,CEO,-9.44845200,13.63123484
+subject_pg_full,3,plusF_minusG1_minusG2,The board understood who the critique of the new project would probably anger the CEO immensely.,15,N/A,immensely,-20.16070300,29.08574624
+subject_pg_full,3,plusF_minusG1_minusG2,The board understood who the critique of the new project would probably anger the CEO immensely.,16,N/A,.,-10.35021900,14.93220962
+subject_pg_full,3,minusF_plusG1_plusG2,The board understood that the critique of would probably anger immensely.,0,N/A,The,-4.72930100,6.82293910
+subject_pg_full,3,minusF_plusG1_plusG2,The board understood that the critique of would probably anger immensely.,1,N/A,board,-11.82024100,17.05300307
+subject_pg_full,3,minusF_plusG1_plusG2,The board understood that the critique of would probably anger immensely.,2,N/A,understood,-14.97363200,21.60238463
+subject_pg_full,3,minusF_plusG1_plusG2,The board understood that the critique of would probably anger immensely.,3,N/A,that,-1.10412100,1.59290989
+subject_pg_full,3,minusF_plusG1_plusG2,The board understood that the critique of would probably anger immensely.,4,N/A,the,-2.14726100,3.09784280
+subject_pg_full,3,minusF_plusG1_plusG2,The board understood that the critique of would probably anger immensely.,5,N/A,critique,-17.12497300,24.70611362
+subject_pg_full,3,minusF_plusG1_plusG2,The board understood that the critique of would probably anger immensely.,6,N/A,of,-1.86966000,2.69734921
+subject_pg_full,3,minusF_plusG1_plusG2,The board understood that the critique of would probably anger immensely.,7,N/A,would,-15.57585200,22.47120444
+subject_pg_full,3,minusF_plusG1_plusG2,The board understood that the critique of would probably anger immensely.,8,N/A,probably,-10.83645800,15.63370422
+subject_pg_full,3,minusF_plusG1_plusG2,The board understood that the critique of would probably anger immensely.,9,N/A,anger,-12.24618400,17.66750893
+subject_pg_full,3,minusF_plusG1_plusG2,The board understood that the critique of would probably anger immensely.,10,N/A,immensely,-17.17267700,24.77493595
+subject_pg_full,3,minusF_plusG1_plusG2,The board understood that the critique of would probably anger immensely.,11,N/A,.,-14.56926300,21.01900348
+subject_pg_full,3,minusF_plusG1_minusG2,The board understood that the critique of would probably anger the CEO immensely.,0,N/A,The,-4.72930100,6.82293910
+subject_pg_full,3,minusF_plusG1_minusG2,The board understood that the critique of would probably anger the CEO immensely.,1,N/A,board,-11.82024100,17.05300307
+subject_pg_full,3,minusF_plusG1_minusG2,The board understood that the critique of would probably anger the CEO immensely.,2,N/A,understood,-14.97363200,21.60238463
+subject_pg_full,3,minusF_plusG1_minusG2,The board understood that the critique of would probably anger the CEO immensely.,3,N/A,that,-1.10412100,1.59290989
+subject_pg_full,3,minusF_plusG1_minusG2,The board understood that the critique of would probably anger the CEO immensely.,4,N/A,the,-2.14726100,3.09784280
+subject_pg_full,3,minusF_plusG1_minusG2,The board understood that the critique of would probably anger the CEO immensely.,5,N/A,critique,-17.12497300,24.70611362
+subject_pg_full,3,minusF_plusG1_minusG2,The board understood that the critique of would probably anger the CEO immensely.,6,N/A,of,-1.86966000,2.69734921
+subject_pg_full,3,minusF_plusG1_minusG2,The board understood that the critique of would probably anger the CEO immensely.,7,N/A,would,-15.57585200,22.47120444
+subject_pg_full,3,minusF_plusG1_minusG2,The board understood that the critique of would probably anger the CEO immensely.,8,N/A,probably,-10.83645800,15.63370422
+subject_pg_full,3,minusF_plusG1_minusG2,The board understood that the critique of would probably anger the CEO immensely.,9,N/A,anger,-12.24618400,17.66750893
+subject_pg_full,3,minusF_plusG1_minusG2,The board understood that the critique of would probably anger the CEO immensely.,10,N/A,the,-2.80678200,4.04933047
+subject_pg_full,3,minusF_plusG1_minusG2,The board understood that the critique of would probably anger the CEO immensely.,11,N/A,CEO,-9.03605000,13.03626452
+subject_pg_full,3,minusF_plusG1_minusG2,The board understood that the critique of would probably anger the CEO immensely.,12,N/A,immensely,-15.54829100,22.43144232
+subject_pg_full,3,minusF_plusG1_minusG2,The board understood that the critique of would probably anger the CEO immensely.,13,N/A,.,-9.99927200,14.42590013
+subject_pg_full,3,minusF_minusG1_plusG2,The board understood that the critique of the new project would probably anger immensely.,0,N/A,The,-4.72930100,6.82293910
+subject_pg_full,3,minusF_minusG1_plusG2,The board understood that the critique of the new project would probably anger immensely.,1,N/A,board,-11.82024100,17.05300307
+subject_pg_full,3,minusF_minusG1_plusG2,The board understood that the critique of the new project would probably anger immensely.,2,N/A,understood,-14.97363200,21.60238463
+subject_pg_full,3,minusF_minusG1_plusG2,The board understood that the critique of the new project would probably anger immensely.,3,N/A,that,-1.10412100,1.59290989
+subject_pg_full,3,minusF_minusG1_plusG2,The board understood that the critique of the new project would probably anger immensely.,4,N/A,the,-2.14726100,3.09784280
+subject_pg_full,3,minusF_minusG1_plusG2,The board understood that the critique of the new project would probably anger immensely.,5,N/A,critique,-17.12497300,24.70611362
+subject_pg_full,3,minusF_minusG1_plusG2,The board understood that the critique of the new project would probably anger immensely.,6,N/A,of,-1.86966000,2.69734921
+subject_pg_full,3,minusF_minusG1_plusG2,The board understood that the critique of the new project would probably anger immensely.,7,N/A,the,-1.58512200,2.28684765
+subject_pg_full,3,minusF_minusG1_plusG2,The board understood that the critique of the new project would probably anger immensely.,8,N/A,new,-7.29145600,10.51934741
+subject_pg_full,3,minusF_minusG1_plusG2,The board understood that the critique of the new project would probably anger immensely.,9,N/A,project,-7.75705900,11.19107055
+subject_pg_full,3,minusF_minusG1_plusG2,The board understood that the critique of the new project would probably anger immensely.,10,N/A,would,-3.21645200,4.64035935
+subject_pg_full,3,minusF_minusG1_plusG2,The board understood that the critique of the new project would probably anger immensely.,11,N/A,probably,-8.94251700,12.90132493
+subject_pg_full,3,minusF_minusG1_plusG2,The board understood that the critique of the new project would probably anger immensely.,12,N/A,anger,-11.01868400,15.89660076
+subject_pg_full,3,minusF_minusG1_plusG2,The board understood that the critique of the new project would probably anger immensely.,13,N/A,immensely,-18.27765300,26.36907934
+subject_pg_full,3,minusF_minusG1_plusG2,The board understood that the critique of the new project would probably anger immensely.,14,N/A,.,-14.93454000,21.54598680
+subject_pg_full,3,minusF_minusG1_minusG2,The board understood that the critique of the new project would probably anger the CEO immensely.,0,N/A,The,-4.72930100,6.82293910
+subject_pg_full,3,minusF_minusG1_minusG2,The board understood that the critique of the new project would probably anger the CEO immensely.,1,N/A,board,-11.82024100,17.05300307
+subject_pg_full,3,minusF_minusG1_minusG2,The board understood that the critique of the new project would probably anger the CEO immensely.,2,N/A,understood,-14.97363200,21.60238463
+subject_pg_full,3,minusF_minusG1_minusG2,The board understood that the critique of the new project would probably anger the CEO immensely.,3,N/A,that,-1.10412100,1.59290989
+subject_pg_full,3,minusF_minusG1_minusG2,The board understood that the critique of the new project would probably anger the CEO immensely.,4,N/A,the,-2.14726100,3.09784280
+subject_pg_full,3,minusF_minusG1_minusG2,The board understood that the critique of the new project would probably anger the CEO immensely.,5,N/A,critique,-17.12497300,24.70611362
+subject_pg_full,3,minusF_minusG1_minusG2,The board understood that the critique of the new project would probably anger the CEO immensely.,6,N/A,of,-1.86966000,2.69734921
+subject_pg_full,3,minusF_minusG1_minusG2,The board understood that the critique of the new project would probably anger the CEO immensely.,7,N/A,the,-1.58512200,2.28684765
+subject_pg_full,3,minusF_minusG1_minusG2,The board understood that the critique of the new project would probably anger the CEO immensely.,8,N/A,new,-7.29145600,10.51934741
+subject_pg_full,3,minusF_minusG1_minusG2,The board understood that the critique of the new project would probably anger the CEO immensely.,9,N/A,project,-7.75705900,11.19107055
+subject_pg_full,3,minusF_minusG1_minusG2,The board understood that the critique of the new project would probably anger the CEO immensely.,10,N/A,would,-3.21645200,4.64035935
+subject_pg_full,3,minusF_minusG1_minusG2,The board understood that the critique of the new project would probably anger the CEO immensely.,11,N/A,probably,-8.94251700,12.90132493
+subject_pg_full,3,minusF_minusG1_minusG2,The board understood that the critique of the new project would probably anger the CEO immensely.,12,N/A,anger,-11.01868400,15.89660076
+subject_pg_full,3,minusF_minusG1_minusG2,The board understood that the critique of the new project would probably anger the CEO immensely.,13,N/A,the,-3.00507600,4.33540824
+subject_pg_full,3,minusF_minusG1_minusG2,The board understood that the critique of the new project would probably anger the CEO immensely.,14,N/A,CEO,-10.07283600,14.53203054
+subject_pg_full,3,minusF_minusG1_minusG2,The board understood that the critique of the new project would probably anger the CEO immensely.,15,N/A,immensely,-16.79474200,24.22969100
+subject_pg_full,3,minusF_minusG1_minusG2,The board understood that the critique of the new project would probably anger the CEO immensely.,16,N/A,.,-10.05113200,14.50071829
+subject_pg_full,4,plusF_plusG1_plusG2,The witness recalled who the discussion about seemed to concern deeply.,0,N/A,The,-4.72930100,6.82293910
+subject_pg_full,4,plusF_plusG1_plusG2,The witness recalled who the discussion about seemed to concern deeply.,1,N/A,witness,-15.80361200,22.79979266
+subject_pg_full,4,plusF_plusG1_plusG2,The witness recalled who the discussion about seemed to concern deeply.,2,N/A,recalled,-10.87853100,15.69440273
+subject_pg_full,4,plusF_plusG1_plusG2,The witness recalled who the discussion about seemed to concern deeply.,3,N/A,who,-11.15482600,16.09301215
+subject_pg_full,4,plusF_plusG1_plusG2,The witness recalled who the discussion about seemed to concern deeply.,4,N/A,the,-4.66907000,6.73604413
+subject_pg_full,4,plusF_plusG1_plusG2,The witness recalled who the discussion about seemed to concern deeply.,5,N/A,discussion,-14.54684600,20.98666258
+subject_pg_full,4,plusF_plusG1_plusG2,The witness recalled who the discussion about seemed to concern deeply.,6,N/A,about,-5.57789900,8.04720723
+subject_pg_full,4,plusF_plusG1_plusG2,The witness recalled who the discussion about seemed to concern deeply.,7,N/A,seemed,-18.04351900,26.03129538
+subject_pg_full,4,plusF_plusG1_plusG2,The witness recalled who the discussion about seemed to concern deeply.,8,N/A,to,-0.45997800,0.66360798
+subject_pg_full,4,plusF_plusG1_plusG2,The witness recalled who the discussion about seemed to concern deeply.,9,N/A,concern,-8.15677100,11.76773307
+subject_pg_full,4,plusF_plusG1_plusG2,The witness recalled who the discussion about seemed to concern deeply.,10,N/A,deeply,-15.79266200,22.78399515
+subject_pg_full,4,plusF_plusG1_plusG2,The witness recalled who the discussion about seemed to concern deeply.,11,N/A,.,-10.72405400,15.47153952
+subject_pg_full,4,plusF_plusG1_minusG2,The witness recalled who the discussion about seemed to concern the lawyer deeply.,0,N/A,The,-4.72930100,6.82293910
+subject_pg_full,4,plusF_plusG1_minusG2,The witness recalled who the discussion about seemed to concern the lawyer deeply.,1,N/A,witness,-15.80361200,22.79979266
+subject_pg_full,4,plusF_plusG1_minusG2,The witness recalled who the discussion about seemed to concern the lawyer deeply.,2,N/A,recalled,-10.87853100,15.69440273
+subject_pg_full,4,plusF_plusG1_minusG2,The witness recalled who the discussion about seemed to concern the lawyer deeply.,3,N/A,who,-11.15482600,16.09301215
+subject_pg_full,4,plusF_plusG1_minusG2,The witness recalled who the discussion about seemed to concern the lawyer deeply.,4,N/A,the,-4.66907000,6.73604413
+subject_pg_full,4,plusF_plusG1_minusG2,The witness recalled who the discussion about seemed to concern the lawyer deeply.,5,N/A,discussion,-14.54684600,20.98666258
+subject_pg_full,4,plusF_plusG1_minusG2,The witness recalled who the discussion about seemed to concern the lawyer deeply.,6,N/A,about,-5.57789900,8.04720723
+subject_pg_full,4,plusF_plusG1_minusG2,The witness recalled who the discussion about seemed to concern the lawyer deeply.,7,N/A,seemed,-18.04351900,26.03129538
+subject_pg_full,4,plusF_plusG1_minusG2,The witness recalled who the discussion about seemed to concern the lawyer deeply.,8,N/A,to,-0.45997800,0.66360798
+subject_pg_full,4,plusF_plusG1_minusG2,The witness recalled who the discussion about seemed to concern the lawyer deeply.,9,N/A,concern,-8.15677100,11.76773307
+subject_pg_full,4,plusF_plusG1_minusG2,The witness recalled who the discussion about seemed to concern the lawyer deeply.,10,N/A,the,-4.59888600,6.63479003
+subject_pg_full,4,plusF_plusG1_minusG2,The witness recalled who the discussion about seemed to concern the lawyer deeply.,11,N/A,lawyer,-9.73523500,14.04497526
+subject_pg_full,4,plusF_plusG1_minusG2,The witness recalled who the discussion about seemed to concern the lawyer deeply.,12,N/A,deeply,-14.44515700,20.83995637
+subject_pg_full,4,plusF_plusG1_minusG2,The witness recalled who the discussion about seemed to concern the lawyer deeply.,13,N/A,.,-11.14066000,16.07257493
+subject_pg_full,4,plusF_minusG1_plusG2,The witness recalled who the discussion about the defendant seemed to concern deeply.,0,N/A,The,-4.72930100,6.82293910
+subject_pg_full,4,plusF_minusG1_plusG2,The witness recalled who the discussion about the defendant seemed to concern deeply.,1,N/A,witness,-15.80361200,22.79979266
+subject_pg_full,4,plusF_minusG1_plusG2,The witness recalled who the discussion about the defendant seemed to concern deeply.,2,N/A,recalled,-10.87853100,15.69440273
+subject_pg_full,4,plusF_minusG1_plusG2,The witness recalled who the discussion about the defendant seemed to concern deeply.,3,N/A,who,-11.15482600,16.09301215
+subject_pg_full,4,plusF_minusG1_plusG2,The witness recalled who the discussion about the defendant seemed to concern deeply.,4,N/A,the,-4.66907000,6.73604413
+subject_pg_full,4,plusF_minusG1_plusG2,The witness recalled who the discussion about the defendant seemed to concern deeply.,5,N/A,discussion,-14.54684600,20.98666258
+subject_pg_full,4,plusF_minusG1_plusG2,The witness recalled who the discussion about the defendant seemed to concern deeply.,6,N/A,about,-5.57789900,8.04720723
+subject_pg_full,4,plusF_minusG1_plusG2,The witness recalled who the discussion about the defendant seemed to concern deeply.,7,N/A,the,-1.92706500,2.78016712
+subject_pg_full,4,plusF_minusG1_plusG2,The witness recalled who the discussion about the defendant seemed to concern deeply.,8,N/A,defendant,-9.89150200,14.27042088
+subject_pg_full,4,plusF_minusG1_plusG2,The witness recalled who the discussion about the defendant seemed to concern deeply.,9,N/A,seemed,-8.92191400,12.87160108
+subject_pg_full,4,plusF_minusG1_plusG2,The witness recalled who the discussion about the defendant seemed to concern deeply.,10,N/A,to,-0.11964500,0.17261125
+subject_pg_full,4,plusF_minusG1_plusG2,The witness recalled who the discussion about the defendant seemed to concern deeply.,11,N/A,concern,-8.64215000,12.46798695
+subject_pg_full,4,plusF_minusG1_plusG2,The witness recalled who the discussion about the defendant seemed to concern deeply.,12,N/A,deeply,-15.79737700,22.79079746
+subject_pg_full,4,plusF_minusG1_plusG2,The witness recalled who the discussion about the defendant seemed to concern deeply.,13,N/A,.,-10.48794800,15.13091057
+subject_pg_full,4,plusF_minusG1_minusG2,The witness recalled who the discussion about the defendant seemed to concern the lawyer deeply.,0,N/A,The,-4.72930100,6.82293910
+subject_pg_full,4,plusF_minusG1_minusG2,The witness recalled who the discussion about the defendant seemed to concern the lawyer deeply.,1,N/A,witness,-15.80361200,22.79979266
+subject_pg_full,4,plusF_minusG1_minusG2,The witness recalled who the discussion about the defendant seemed to concern the lawyer deeply.,2,N/A,recalled,-10.87853100,15.69440273
+subject_pg_full,4,plusF_minusG1_minusG2,The witness recalled who the discussion about the defendant seemed to concern the lawyer deeply.,3,N/A,who,-11.15482600,16.09301215
+subject_pg_full,4,plusF_minusG1_minusG2,The witness recalled who the discussion about the defendant seemed to concern the lawyer deeply.,4,N/A,the,-4.66907000,6.73604413
+subject_pg_full,4,plusF_minusG1_minusG2,The witness recalled who the discussion about the defendant seemed to concern the lawyer deeply.,5,N/A,discussion,-14.54684600,20.98666258
+subject_pg_full,4,plusF_minusG1_minusG2,The witness recalled who the discussion about the defendant seemed to concern the lawyer deeply.,6,N/A,about,-5.57789900,8.04720723
+subject_pg_full,4,plusF_minusG1_minusG2,The witness recalled who the discussion about the defendant seemed to concern the lawyer deeply.,7,N/A,the,-1.92706500,2.78016712
+subject_pg_full,4,plusF_minusG1_minusG2,The witness recalled who the discussion about the defendant seemed to concern the lawyer deeply.,8,N/A,defendant,-9.89150200,14.27042088
+subject_pg_full,4,plusF_minusG1_minusG2,The witness recalled who the discussion about the defendant seemed to concern the lawyer deeply.,9,N/A,seemed,-8.92191400,12.87160108
+subject_pg_full,4,plusF_minusG1_minusG2,The witness recalled who the discussion about the defendant seemed to concern the lawyer deeply.,10,N/A,to,-0.11964500,0.17261125
+subject_pg_full,4,plusF_minusG1_minusG2,The witness recalled who the discussion about the defendant seemed to concern the lawyer deeply.,11,N/A,concern,-8.64215000,12.46798695
+subject_pg_full,4,plusF_minusG1_minusG2,The witness recalled who the discussion about the defendant seemed to concern the lawyer deeply.,12,N/A,the,-6.13778600,8.85495342
+subject_pg_full,4,plusF_minusG1_minusG2,The witness recalled who the discussion about the defendant seemed to concern the lawyer deeply.,13,N/A,lawyer,-8.61896100,12.43453229
+subject_pg_full,4,plusF_minusG1_minusG2,The witness recalled who the discussion about the defendant seemed to concern the lawyer deeply.,14,N/A,deeply,-14.37643400,20.74081004
+subject_pg_full,4,plusF_minusG1_minusG2,The witness recalled who the discussion about the defendant seemed to concern the lawyer deeply.,15,N/A,.,-10.50609600,15.15709260
+subject_pg_full,4,minusF_plusG1_plusG2,The witness recalled that the discussion about seemed to concern deeply.,0,N/A,The,-4.72930100,6.82293910
+subject_pg_full,4,minusF_plusG1_plusG2,The witness recalled that the discussion about seemed to concern deeply.,1,N/A,witness,-15.80361200,22.79979266
+subject_pg_full,4,minusF_plusG1_plusG2,The witness recalled that the discussion about seemed to concern deeply.,2,N/A,recalled,-10.87853100,15.69440273
+subject_pg_full,4,minusF_plusG1_plusG2,The witness recalled that the discussion about seemed to concern deeply.,3,N/A,that,-2.02198100,2.91710196
+subject_pg_full,4,minusF_plusG1_plusG2,The witness recalled that the discussion about seemed to concern deeply.,4,N/A,the,-3.51204800,5.06681423
+subject_pg_full,4,minusF_plusG1_plusG2,The witness recalled that the discussion about seemed to concern deeply.,5,N/A,discussion,-12.42042300,17.91888267
+subject_pg_full,4,minusF_plusG1_plusG2,The witness recalled that the discussion about seemed to concern deeply.,6,N/A,about,-3.11971900,4.50080313
+subject_pg_full,4,minusF_plusG1_plusG2,The witness recalled that the discussion about seemed to concern deeply.,7,N/A,seemed,-21.22461000,30.62063959
+subject_pg_full,4,minusF_plusG1_plusG2,The witness recalled that the discussion about seemed to concern deeply.,8,N/A,to,-0.73688800,1.06310466
+subject_pg_full,4,minusF_plusG1_plusG2,The witness recalled that the discussion about seemed to concern deeply.,9,N/A,concern,-9.68718800,13.97565809
+subject_pg_full,4,minusF_plusG1_plusG2,The witness recalled that the discussion about seemed to concern deeply.,10,N/A,deeply,-15.22160500,21.96013405
+subject_pg_full,4,minusF_plusG1_plusG2,The witness recalled that the discussion about seemed to concern deeply.,11,N/A,.,-13.20792800,19.05501223
+subject_pg_full,4,minusF_plusG1_minusG2,The witness recalled that the discussion about seemed to concern the lawyer deeply.,0,N/A,The,-4.72930100,6.82293910
+subject_pg_full,4,minusF_plusG1_minusG2,The witness recalled that the discussion about seemed to concern the lawyer deeply.,1,N/A,witness,-15.80361200,22.79979266
+subject_pg_full,4,minusF_plusG1_minusG2,The witness recalled that the discussion about seemed to concern the lawyer deeply.,2,N/A,recalled,-10.87853100,15.69440273
+subject_pg_full,4,minusF_plusG1_minusG2,The witness recalled that the discussion about seemed to concern the lawyer deeply.,3,N/A,that,-2.02198100,2.91710196
+subject_pg_full,4,minusF_plusG1_minusG2,The witness recalled that the discussion about seemed to concern the lawyer deeply.,4,N/A,the,-3.51204800,5.06681423
+subject_pg_full,4,minusF_plusG1_minusG2,The witness recalled that the discussion about seemed to concern the lawyer deeply.,5,N/A,discussion,-12.42042300,17.91888267
+subject_pg_full,4,minusF_plusG1_minusG2,The witness recalled that the discussion about seemed to concern the lawyer deeply.,6,N/A,about,-3.11971900,4.50080313
+subject_pg_full,4,minusF_plusG1_minusG2,The witness recalled that the discussion about seemed to concern the lawyer deeply.,7,N/A,seemed,-21.22461000,30.62063959
+subject_pg_full,4,minusF_plusG1_minusG2,The witness recalled that the discussion about seemed to concern the lawyer deeply.,8,N/A,to,-0.73688800,1.06310466
+subject_pg_full,4,minusF_plusG1_minusG2,The witness recalled that the discussion about seemed to concern the lawyer deeply.,9,N/A,concern,-9.68718800,13.97565809
+subject_pg_full,4,minusF_plusG1_minusG2,The witness recalled that the discussion about seemed to concern the lawyer deeply.,10,N/A,the,-2.89269900,4.17328250
+subject_pg_full,4,minusF_plusG1_minusG2,The witness recalled that the discussion about seemed to concern the lawyer deeply.,11,N/A,lawyer,-10.50224900,15.15154255
+subject_pg_full,4,minusF_plusG1_minusG2,The witness recalled that the discussion about seemed to concern the lawyer deeply.,12,N/A,deeply,-13.50921100,19.48967172
+subject_pg_full,4,minusF_plusG1_minusG2,The witness recalled that the discussion about seemed to concern the lawyer deeply.,13,N/A,.,-11.74436800,16.94354147
+subject_pg_full,4,minusF_minusG1_plusG2,The witness recalled that the discussion about the defendant seemed to concern deeply.,0,N/A,The,-4.72930100,6.82293910
+subject_pg_full,4,minusF_minusG1_plusG2,The witness recalled that the discussion about the defendant seemed to concern deeply.,1,N/A,witness,-15.80361200,22.79979266
+subject_pg_full,4,minusF_minusG1_plusG2,The witness recalled that the discussion about the defendant seemed to concern deeply.,2,N/A,recalled,-10.87853100,15.69440273
+subject_pg_full,4,minusF_minusG1_plusG2,The witness recalled that the discussion about the defendant seemed to concern deeply.,3,N/A,that,-2.02198100,2.91710196
+subject_pg_full,4,minusF_minusG1_plusG2,The witness recalled that the discussion about the defendant seemed to concern deeply.,4,N/A,the,-3.51204800,5.06681423
+subject_pg_full,4,minusF_minusG1_plusG2,The witness recalled that the discussion about the defendant seemed to concern deeply.,5,N/A,discussion,-12.42042300,17.91888267
+subject_pg_full,4,minusF_minusG1_plusG2,The witness recalled that the discussion about the defendant seemed to concern deeply.,6,N/A,about,-3.11971900,4.50080313
+subject_pg_full,4,minusF_minusG1_plusG2,The witness recalled that the discussion about the defendant seemed to concern deeply.,7,N/A,the,-2.02325600,2.91894140
+subject_pg_full,4,minusF_minusG1_plusG2,The witness recalled that the discussion about the defendant seemed to concern deeply.,8,N/A,defendant,-9.85745600,14.22130289
+subject_pg_full,4,minusF_minusG1_plusG2,The witness recalled that the discussion about the defendant seemed to concern deeply.,9,N/A,seemed,-10.16134100,14.65971627
+subject_pg_full,4,minusF_minusG1_plusG2,The witness recalled that the discussion about the defendant seemed to concern deeply.,10,N/A,to,-0.66061400,0.95306454
+subject_pg_full,4,minusF_minusG1_plusG2,The witness recalled that the discussion about the defendant seemed to concern deeply.,11,N/A,concern,-9.35419400,13.49524930
+subject_pg_full,4,minusF_minusG1_plusG2,The witness recalled that the discussion about the defendant seemed to concern deeply.,12,N/A,deeply,-15.07382000,21.74692536
+subject_pg_full,4,minusF_minusG1_plusG2,The witness recalled that the discussion about the defendant seemed to concern deeply.,13,N/A,.,-13.67284800,19.72575000
+subject_pg_full,4,minusF_minusG1_minusG2,The witness recalled that the discussion about the defendant seemed to concern the lawyer deeply.,0,N/A,The,-4.72930100,6.82293910
+subject_pg_full,4,minusF_minusG1_minusG2,The witness recalled that the discussion about the defendant seemed to concern the lawyer deeply.,1,N/A,witness,-15.80361200,22.79979266
+subject_pg_full,4,minusF_minusG1_minusG2,The witness recalled that the discussion about the defendant seemed to concern the lawyer deeply.,2,N/A,recalled,-10.87853100,15.69440273
+subject_pg_full,4,minusF_minusG1_minusG2,The witness recalled that the discussion about the defendant seemed to concern the lawyer deeply.,3,N/A,that,-2.02198100,2.91710196
+subject_pg_full,4,minusF_minusG1_minusG2,The witness recalled that the discussion about the defendant seemed to concern the lawyer deeply.,4,N/A,the,-3.51204800,5.06681423
+subject_pg_full,4,minusF_minusG1_minusG2,The witness recalled that the discussion about the defendant seemed to concern the lawyer deeply.,5,N/A,discussion,-12.42042300,17.91888267
+subject_pg_full,4,minusF_minusG1_minusG2,The witness recalled that the discussion about the defendant seemed to concern the lawyer deeply.,6,N/A,about,-3.11971900,4.50080313
+subject_pg_full,4,minusF_minusG1_minusG2,The witness recalled that the discussion about the defendant seemed to concern the lawyer deeply.,7,N/A,the,-2.02325600,2.91894140
+subject_pg_full,4,minusF_minusG1_minusG2,The witness recalled that the discussion about the defendant seemed to concern the lawyer deeply.,8,N/A,defendant,-9.85745600,14.22130289
+subject_pg_full,4,minusF_minusG1_minusG2,The witness recalled that the discussion about the defendant seemed to concern the lawyer deeply.,9,N/A,seemed,-10.16134100,14.65971627
+subject_pg_full,4,minusF_minusG1_minusG2,The witness recalled that the discussion about the defendant seemed to concern the lawyer deeply.,10,N/A,to,-0.66061400,0.95306454
+subject_pg_full,4,minusF_minusG1_minusG2,The witness recalled that the discussion about the defendant seemed to concern the lawyer deeply.,11,N/A,concern,-9.35419400,13.49524930
+subject_pg_full,4,minusF_minusG1_minusG2,The witness recalled that the discussion about the defendant seemed to concern the lawyer deeply.,12,N/A,the,-3.08851700,4.45578816
+subject_pg_full,4,minusF_minusG1_minusG2,The witness recalled that the discussion about the defendant seemed to concern the lawyer deeply.,13,N/A,lawyer,-9.44103400,13.62053293
+subject_pg_full,4,minusF_minusG1_minusG2,The witness recalled that the discussion about the defendant seemed to concern the lawyer deeply.,14,N/A,deeply,-12.72061300,18.35196529
+subject_pg_full,4,minusF_minusG1_minusG2,The witness recalled that the discussion about the defendant seemed to concern the lawyer deeply.,15,N/A,.,-10.29096400,14.84672273
+subject_pg_full,5,plusF_plusG1_plusG2,It is clear who the picture of might delight soon.,0,N/A,It,-6.77742400,9.77775599
+subject_pg_full,5,plusF_plusG1_plusG2,It is clear who the picture of might delight soon.,1,N/A,is,-3.01378200,4.34796835
+subject_pg_full,5,plusF_plusG1_plusG2,It is clear who the picture of might delight soon.,2,N/A,clear,-6.49428600,9.36927421
+subject_pg_full,5,plusF_plusG1_plusG2,It is clear who the picture of might delight soon.,3,N/A,who,-9.44811200,13.63074433
+subject_pg_full,5,plusF_plusG1_plusG2,It is clear who the picture of might delight soon.,4,N/A,the,-3.71462200,5.35906674
+subject_pg_full,5,plusF_plusG1_plusG2,It is clear who the picture of might delight soon.,5,N/A,picture,-13.27986600,19.15879682
+subject_pg_full,5,plusF_plusG1_plusG2,It is clear who the picture of might delight soon.,6,N/A,of,-2.39177000,3.45059472
+subject_pg_full,5,plusF_plusG1_plusG2,It is clear who the picture of might delight soon.,7,N/A,might,-17.34734500,25.02692860
+subject_pg_full,5,plusF_plusG1_plusG2,It is clear who the picture of might delight soon.,8,N/A,delight,-17.19333100,24.80473337
+subject_pg_full,5,plusF_plusG1_plusG2,It is clear who the picture of might delight soon.,9,N/A,soon,-14.83015600,21.39539252
+subject_pg_full,5,plusF_plusG1_plusG2,It is clear who the picture of might delight soon.,10,N/A,.,-10.42710200,15.04312835
+subject_pg_full,5,plusF_plusG1_minusG2,It is clear who the picture of might delight Leo soon.,0,N/A,It,-6.77742400,9.77775599
+subject_pg_full,5,plusF_plusG1_minusG2,It is clear who the picture of might delight Leo soon.,1,N/A,is,-3.01378200,4.34796835
+subject_pg_full,5,plusF_plusG1_minusG2,It is clear who the picture of might delight Leo soon.,2,N/A,clear,-6.49428600,9.36927421
+subject_pg_full,5,plusF_plusG1_minusG2,It is clear who the picture of might delight Leo soon.,3,N/A,who,-9.44811200,13.63074433
+subject_pg_full,5,plusF_plusG1_minusG2,It is clear who the picture of might delight Leo soon.,4,N/A,the,-3.71462200,5.35906674
+subject_pg_full,5,plusF_plusG1_minusG2,It is clear who the picture of might delight Leo soon.,5,N/A,picture,-13.27986600,19.15879682
+subject_pg_full,5,plusF_plusG1_minusG2,It is clear who the picture of might delight Leo soon.,6,N/A,of,-2.39177000,3.45059472
+subject_pg_full,5,plusF_plusG1_minusG2,It is clear who the picture of might delight Leo soon.,7,N/A,might,-17.34734500,25.02692860
+subject_pg_full,5,plusF_plusG1_minusG2,It is clear who the picture of might delight Leo soon.,8,N/A,delight,-17.19333100,24.80473337
+subject_pg_full,5,plusF_plusG1_minusG2,It is clear who the picture of might delight Leo soon.,9,N/A,Leo,-16.49818400,23.80184824
+subject_pg_full,5,plusF_plusG1_minusG2,It is clear who the picture of might delight Leo soon.,10,N/A,soon,-14.71961500,21.23591556
+subject_pg_full,5,plusF_plusG1_minusG2,It is clear who the picture of might delight Leo soon.,11,N/A,.,-12.66787300,18.27587756
+subject_pg_full,5,plusF_minusG1_plusG2,It is clear who the picture of the artist might delight soon.,0,N/A,It,-6.77742400,9.77775599
+subject_pg_full,5,plusF_minusG1_plusG2,It is clear who the picture of the artist might delight soon.,1,N/A,is,-3.01378200,4.34796835
+subject_pg_full,5,plusF_minusG1_plusG2,It is clear who the picture of the artist might delight soon.,2,N/A,clear,-6.49428600,9.36927421
+subject_pg_full,5,plusF_minusG1_plusG2,It is clear who the picture of the artist might delight soon.,3,N/A,who,-9.44811200,13.63074433
+subject_pg_full,5,plusF_minusG1_plusG2,It is clear who the picture of the artist might delight soon.,4,N/A,the,-3.71462200,5.35906674
+subject_pg_full,5,plusF_minusG1_plusG2,It is clear who the picture of the artist might delight soon.,5,N/A,picture,-13.27986600,19.15879682
+subject_pg_full,5,plusF_minusG1_plusG2,It is clear who the picture of the artist might delight soon.,6,N/A,of,-2.39177000,3.45059472
+subject_pg_full,5,plusF_minusG1_plusG2,It is clear who the picture of the artist might delight soon.,7,N/A,the,-1.81508200,2.61860980
+subject_pg_full,5,plusF_minusG1_plusG2,It is clear who the picture of the artist might delight soon.,8,N/A,artist,-8.94140600,12.89972209
+subject_pg_full,5,plusF_minusG1_plusG2,It is clear who the picture of the artist might delight soon.,9,N/A,might,-9.06162100,13.07315568
+subject_pg_full,5,plusF_minusG1_plusG2,It is clear who the picture of the artist might delight soon.,10,N/A,delight,-16.46891100,23.75961623
+subject_pg_full,5,plusF_minusG1_plusG2,It is clear who the picture of the artist might delight soon.,11,N/A,soon,-14.69301300,21.19753699
+subject_pg_full,5,plusF_minusG1_plusG2,It is clear who the picture of the artist might delight soon.,12,N/A,.,-10.50619200,15.15723110
+subject_pg_full,5,plusF_minusG1_minusG2,It is clear who the picture of the artist might delight Leo soon.,0,N/A,It,-6.77742400,9.77775599
+subject_pg_full,5,plusF_minusG1_minusG2,It is clear who the picture of the artist might delight Leo soon.,1,N/A,is,-3.01378200,4.34796835
+subject_pg_full,5,plusF_minusG1_minusG2,It is clear who the picture of the artist might delight Leo soon.,2,N/A,clear,-6.49428600,9.36927421
+subject_pg_full,5,plusF_minusG1_minusG2,It is clear who the picture of the artist might delight Leo soon.,3,N/A,who,-9.44811200,13.63074433
+subject_pg_full,5,plusF_minusG1_minusG2,It is clear who the picture of the artist might delight Leo soon.,4,N/A,the,-3.71462200,5.35906674
+subject_pg_full,5,plusF_minusG1_minusG2,It is clear who the picture of the artist might delight Leo soon.,5,N/A,picture,-13.27986600,19.15879682
+subject_pg_full,5,plusF_minusG1_minusG2,It is clear who the picture of the artist might delight Leo soon.,6,N/A,of,-2.39177000,3.45059472
+subject_pg_full,5,plusF_minusG1_minusG2,It is clear who the picture of the artist might delight Leo soon.,7,N/A,the,-1.81508200,2.61860980
+subject_pg_full,5,plusF_minusG1_minusG2,It is clear who the picture of the artist might delight Leo soon.,8,N/A,artist,-8.94140600,12.89972209
+subject_pg_full,5,plusF_minusG1_minusG2,It is clear who the picture of the artist might delight Leo soon.,9,N/A,might,-9.06162100,13.07315568
+subject_pg_full,5,plusF_minusG1_minusG2,It is clear who the picture of the artist might delight Leo soon.,10,N/A,delight,-16.46891100,23.75961623
+subject_pg_full,5,plusF_minusG1_minusG2,It is clear who the picture of the artist might delight Leo soon.,11,N/A,Leo,-20.67402500,29.82631334
+subject_pg_full,5,plusF_minusG1_minusG2,It is clear who the picture of the artist might delight Leo soon.,12,N/A,soon,-15.60509200,22.51338884
+subject_pg_full,5,plusF_minusG1_minusG2,It is clear who the picture of the artist might delight Leo soon.,13,N/A,.,-11.86748500,17.12116176
+subject_pg_full,5,minusF_plusG1_plusG2,It is clear that the picture of might delight soon.,0,N/A,It,-6.77742400,9.77775599
+subject_pg_full,5,minusF_plusG1_plusG2,It is clear that the picture of might delight soon.,1,N/A,is,-3.01378200,4.34796835
+subject_pg_full,5,minusF_plusG1_plusG2,It is clear that the picture of might delight soon.,2,N/A,clear,-6.49428600,9.36927421
+subject_pg_full,5,minusF_plusG1_plusG2,It is clear that the picture of might delight soon.,3,N/A,that,-0.79152900,1.14193496
+subject_pg_full,5,minusF_plusG1_plusG2,It is clear that the picture of might delight soon.,4,N/A,the,-2.36033500,3.40524360
+subject_pg_full,5,minusF_plusG1_plusG2,It is clear that the picture of might delight soon.,5,N/A,picture,-12.34483500,17.80983224
+subject_pg_full,5,minusF_plusG1_plusG2,It is clear that the picture of might delight soon.,6,N/A,of,-1.58865300,2.29194180
+subject_pg_full,5,minusF_plusG1_plusG2,It is clear that the picture of might delight soon.,7,N/A,might,-18.01511000,25.99030986
+subject_pg_full,5,minusF_plusG1_plusG2,It is clear that the picture of might delight soon.,8,N/A,delight,-17.00009400,24.52595131
+subject_pg_full,5,minusF_plusG1_plusG2,It is clear that the picture of might delight soon.,9,N/A,soon,-15.27679200,22.03975206
+subject_pg_full,5,minusF_plusG1_plusG2,It is clear that the picture of might delight soon.,10,N/A,.,-11.13511900,16.06458096
+subject_pg_full,5,minusF_plusG1_minusG2,It is clear that the picture of might delight Leo soon.,0,N/A,It,-6.77742400,9.77775599
+subject_pg_full,5,minusF_plusG1_minusG2,It is clear that the picture of might delight Leo soon.,1,N/A,is,-3.01378200,4.34796835
+subject_pg_full,5,minusF_plusG1_minusG2,It is clear that the picture of might delight Leo soon.,2,N/A,clear,-6.49428600,9.36927421
+subject_pg_full,5,minusF_plusG1_minusG2,It is clear that the picture of might delight Leo soon.,3,N/A,that,-0.79152900,1.14193496
+subject_pg_full,5,minusF_plusG1_minusG2,It is clear that the picture of might delight Leo soon.,4,N/A,the,-2.36033500,3.40524360
+subject_pg_full,5,minusF_plusG1_minusG2,It is clear that the picture of might delight Leo soon.,5,N/A,picture,-12.34483500,17.80983224
+subject_pg_full,5,minusF_plusG1_minusG2,It is clear that the picture of might delight Leo soon.,6,N/A,of,-1.58865300,2.29194180
+subject_pg_full,5,minusF_plusG1_minusG2,It is clear that the picture of might delight Leo soon.,7,N/A,might,-18.01511000,25.99030986
+subject_pg_full,5,minusF_plusG1_minusG2,It is clear that the picture of might delight Leo soon.,8,N/A,delight,-17.00009400,24.52595131
+subject_pg_full,5,minusF_plusG1_minusG2,It is clear that the picture of might delight Leo soon.,9,N/A,Leo,-15.78928400,22.77912173
+subject_pg_full,5,minusF_plusG1_minusG2,It is clear that the picture of might delight Leo soon.,10,N/A,soon,-14.53932100,20.97580630
+subject_pg_full,5,minusF_plusG1_minusG2,It is clear that the picture of might delight Leo soon.,11,N/A,.,-10.84414500,15.64479421
+subject_pg_full,5,minusF_minusG1_plusG2,It is clear that the picture of the artist might delight soon.,0,N/A,It,-6.77742400,9.77775599
+subject_pg_full,5,minusF_minusG1_plusG2,It is clear that the picture of the artist might delight soon.,1,N/A,is,-3.01378200,4.34796835
+subject_pg_full,5,minusF_minusG1_plusG2,It is clear that the picture of the artist might delight soon.,2,N/A,clear,-6.49428600,9.36927421
+subject_pg_full,5,minusF_minusG1_plusG2,It is clear that the picture of the artist might delight soon.,3,N/A,that,-0.79152900,1.14193496
+subject_pg_full,5,minusF_minusG1_plusG2,It is clear that the picture of the artist might delight soon.,4,N/A,the,-2.36033500,3.40524360
+subject_pg_full,5,minusF_minusG1_plusG2,It is clear that the picture of the artist might delight soon.,5,N/A,picture,-12.34483500,17.80983224
+subject_pg_full,5,minusF_minusG1_plusG2,It is clear that the picture of the artist might delight soon.,6,N/A,of,-1.58865300,2.29194180
+subject_pg_full,5,minusF_minusG1_plusG2,It is clear that the picture of the artist might delight soon.,7,N/A,the,-2.20447300,3.18038226
+subject_pg_full,5,minusF_minusG1_plusG2,It is clear that the picture of the artist might delight soon.,8,N/A,artist,-10.22274100,14.74829774
+subject_pg_full,5,minusF_minusG1_plusG2,It is clear that the picture of the artist might delight soon.,9,N/A,might,-10.79061500,15.56756675
+subject_pg_full,5,minusF_minusG1_plusG2,It is clear that the picture of the artist might delight soon.,10,N/A,delight,-14.26840700,20.58496002
+subject_pg_full,5,minusF_minusG1_plusG2,It is clear that the picture of the artist might delight soon.,11,N/A,soon,-15.23478700,21.97915165
+subject_pg_full,5,minusF_minusG1_plusG2,It is clear that the picture of the artist might delight soon.,12,N/A,.,-11.76146600,16.96820867
+subject_pg_full,5,minusF_minusG1_minusG2,It is clear that the picture of the artist might delight Leo soon.,0,N/A,It,-6.77742400,9.77775599
+subject_pg_full,5,minusF_minusG1_minusG2,It is clear that the picture of the artist might delight Leo soon.,1,N/A,is,-3.01378200,4.34796835
+subject_pg_full,5,minusF_minusG1_minusG2,It is clear that the picture of the artist might delight Leo soon.,2,N/A,clear,-6.49428600,9.36927421
+subject_pg_full,5,minusF_minusG1_minusG2,It is clear that the picture of the artist might delight Leo soon.,3,N/A,that,-0.79152900,1.14193496
+subject_pg_full,5,minusF_minusG1_minusG2,It is clear that the picture of the artist might delight Leo soon.,4,N/A,the,-2.36033500,3.40524360
+subject_pg_full,5,minusF_minusG1_minusG2,It is clear that the picture of the artist might delight Leo soon.,5,N/A,picture,-12.34483500,17.80983224
+subject_pg_full,5,minusF_minusG1_minusG2,It is clear that the picture of the artist might delight Leo soon.,6,N/A,of,-1.58865300,2.29194180
+subject_pg_full,5,minusF_minusG1_minusG2,It is clear that the picture of the artist might delight Leo soon.,7,N/A,the,-2.20447300,3.18038226
+subject_pg_full,5,minusF_minusG1_minusG2,It is clear that the picture of the artist might delight Leo soon.,8,N/A,artist,-10.22274100,14.74829774
+subject_pg_full,5,minusF_minusG1_minusG2,It is clear that the picture of the artist might delight Leo soon.,9,N/A,might,-10.79061500,15.56756675
+subject_pg_full,5,minusF_minusG1_minusG2,It is clear that the picture of the artist might delight Leo soon.,10,N/A,delight,-14.26840700,20.58496002
+subject_pg_full,5,minusF_minusG1_minusG2,It is clear that the picture of the artist might delight Leo soon.,11,N/A,Leo,-18.28496200,26.37962400
+subject_pg_full,5,minusF_minusG1_minusG2,It is clear that the picture of the artist might delight Leo soon.,12,N/A,soon,-15.33657800,22.12600502
+subject_pg_full,5,minusF_minusG1_minusG2,It is clear that the picture of the artist might delight Leo soon.,13,N/A,.,-10.95572300,15.80576724
+subject_pg_full,6,plusF_plusG1_plusG2,I know who the critique of is likely to anger eventually.,0,N/A,I,-5.77036000,8.32486976
+subject_pg_full,6,plusF_plusG1_plusG2,I know who the critique of is likely to anger eventually.,1,N/A,know,-5.54568300,8.00072936
+subject_pg_full,6,plusF_plusG1_plusG2,I know who the critique of is likely to anger eventually.,2,N/A,who,-8.36655500,12.07038741
+subject_pg_full,6,plusF_plusG1_plusG2,I know who the critique of is likely to anger eventually.,3,N/A,the,-5.84413700,8.43130747
+subject_pg_full,6,plusF_plusG1_plusG2,I know who the critique of is likely to anger eventually.,4,N/A,critique,-17.14598900,24.73643330
+subject_pg_full,6,plusF_plusG1_plusG2,I know who the critique of is likely to anger eventually.,5,N/A,of,-2.80418600,4.04558524
+subject_pg_full,6,plusF_plusG1_plusG2,I know who the critique of is likely to anger eventually.,6,N/A,is,-13.22924900,19.08577193
+subject_pg_full,6,plusF_plusG1_plusG2,I know who the critique of is likely to anger eventually.,7,N/A,likely,-10.78743300,15.56297609
+subject_pg_full,6,plusF_plusG1_plusG2,I know who the critique of is likely to anger eventually.,8,N/A,to,-0.17099300,0.24669075
+subject_pg_full,6,plusF_plusG1_plusG2,I know who the critique of is likely to anger eventually.,9,N/A,anger,-13.05570900,18.83540663
+subject_pg_full,6,plusF_plusG1_plusG2,I know who the critique of is likely to anger eventually.,10,N/A,eventually,-13.43587400,19.38386879
+subject_pg_full,6,plusF_plusG1_plusG2,I know who the critique of is likely to anger eventually.,11,N/A,.,-9.49294200,13.69542035
+subject_pg_full,6,plusF_plusG1_minusG2,I know who the critique of is likely to anger Sara eventually.,0,N/A,I,-5.77036000,8.32486976
+subject_pg_full,6,plusF_plusG1_minusG2,I know who the critique of is likely to anger Sara eventually.,1,N/A,know,-5.54568300,8.00072936
+subject_pg_full,6,plusF_plusG1_minusG2,I know who the critique of is likely to anger Sara eventually.,2,N/A,who,-8.36655500,12.07038741
+subject_pg_full,6,plusF_plusG1_minusG2,I know who the critique of is likely to anger Sara eventually.,3,N/A,the,-5.84413700,8.43130747
+subject_pg_full,6,plusF_plusG1_minusG2,I know who the critique of is likely to anger Sara eventually.,4,N/A,critique,-17.14598900,24.73643330
+subject_pg_full,6,plusF_plusG1_minusG2,I know who the critique of is likely to anger Sara eventually.,5,N/A,of,-2.80418600,4.04558524
+subject_pg_full,6,plusF_plusG1_minusG2,I know who the critique of is likely to anger Sara eventually.,6,N/A,is,-13.22924900,19.08577193
+subject_pg_full,6,plusF_plusG1_minusG2,I know who the critique of is likely to anger Sara eventually.,7,N/A,likely,-10.78743300,15.56297609
+subject_pg_full,6,plusF_plusG1_minusG2,I know who the critique of is likely to anger Sara eventually.,8,N/A,to,-0.17099300,0.24669075
+subject_pg_full,6,plusF_plusG1_minusG2,I know who the critique of is likely to anger Sara eventually.,9,N/A,anger,-13.05570900,18.83540663
+subject_pg_full,6,plusF_plusG1_minusG2,I know who the critique of is likely to anger Sara eventually.,10,N/A,Sara,-18.17874200,26.22638093
+subject_pg_full,6,plusF_plusG1_minusG2,I know who the critique of is likely to anger Sara eventually.,11,N/A,eventually,-15.62920000,22.54816933
+subject_pg_full,6,plusF_plusG1_minusG2,I know who the critique of is likely to anger Sara eventually.,12,N/A,.,-9.45614700,13.64233638
+subject_pg_full,6,plusF_minusG1_plusG2,I know who the critique of the writer is likely to anger eventually.,0,N/A,I,-5.77036000,8.32486976
+subject_pg_full,6,plusF_minusG1_plusG2,I know who the critique of the writer is likely to anger eventually.,1,N/A,know,-5.54568300,8.00072936
+subject_pg_full,6,plusF_minusG1_plusG2,I know who the critique of the writer is likely to anger eventually.,2,N/A,who,-8.36655500,12.07038741
+subject_pg_full,6,plusF_minusG1_plusG2,I know who the critique of the writer is likely to anger eventually.,3,N/A,the,-5.84413700,8.43130747
+subject_pg_full,6,plusF_minusG1_plusG2,I know who the critique of the writer is likely to anger eventually.,4,N/A,critique,-17.14598900,24.73643330
+subject_pg_full,6,plusF_minusG1_plusG2,I know who the critique of the writer is likely to anger eventually.,5,N/A,of,-2.80418600,4.04558524
+subject_pg_full,6,plusF_minusG1_plusG2,I know who the critique of the writer is likely to anger eventually.,6,N/A,the,-3.04388000,4.39139058
+subject_pg_full,6,plusF_minusG1_plusG2,I know who the critique of the writer is likely to anger eventually.,7,N/A,writer,-10.91031200,15.74025302
+subject_pg_full,6,plusF_minusG1_plusG2,I know who the critique of the writer is likely to anger eventually.,8,N/A,is,-0.93699000,1.35179083
+subject_pg_full,6,plusF_minusG1_plusG2,I know who the critique of the writer is likely to anger eventually.,9,N/A,likely,-12.65816500,18.26187187
+subject_pg_full,6,plusF_minusG1_plusG2,I know who the critique of the writer is likely to anger eventually.,10,N/A,to,-0.03873400,0.05588135
+subject_pg_full,6,plusF_minusG1_plusG2,I know who the critique of the writer is likely to anger eventually.,11,N/A,anger,-14.67569900,21.17255817
+subject_pg_full,6,plusF_minusG1_plusG2,I know who the critique of the writer is likely to anger eventually.,12,N/A,eventually,-14.14490700,20.40678718
+subject_pg_full,6,plusF_minusG1_plusG2,I know who the critique of the writer is likely to anger eventually.,13,N/A,.,-9.34356100,13.47990912
+subject_pg_full,6,plusF_minusG1_minusG2,I know who the critique of the writer is likely to anger Sara eventually.,0,N/A,I,-5.77036000,8.32486976
+subject_pg_full,6,plusF_minusG1_minusG2,I know who the critique of the writer is likely to anger Sara eventually.,1,N/A,know,-5.54568300,8.00072936
+subject_pg_full,6,plusF_minusG1_minusG2,I know who the critique of the writer is likely to anger Sara eventually.,2,N/A,who,-8.36655500,12.07038741
+subject_pg_full,6,plusF_minusG1_minusG2,I know who the critique of the writer is likely to anger Sara eventually.,3,N/A,the,-5.84413700,8.43130747
+subject_pg_full,6,plusF_minusG1_minusG2,I know who the critique of the writer is likely to anger Sara eventually.,4,N/A,critique,-17.14598900,24.73643330
+subject_pg_full,6,plusF_minusG1_minusG2,I know who the critique of the writer is likely to anger Sara eventually.,5,N/A,of,-2.80418600,4.04558524
+subject_pg_full,6,plusF_minusG1_minusG2,I know who the critique of the writer is likely to anger Sara eventually.,6,N/A,the,-3.04388000,4.39139058
+subject_pg_full,6,plusF_minusG1_minusG2,I know who the critique of the writer is likely to anger Sara eventually.,7,N/A,writer,-10.91031200,15.74025302
+subject_pg_full,6,plusF_minusG1_minusG2,I know who the critique of the writer is likely to anger Sara eventually.,8,N/A,is,-0.93699000,1.35179083
+subject_pg_full,6,plusF_minusG1_minusG2,I know who the critique of the writer is likely to anger Sara eventually.,9,N/A,likely,-12.65816500,18.26187187
+subject_pg_full,6,plusF_minusG1_minusG2,I know who the critique of the writer is likely to anger Sara eventually.,10,N/A,to,-0.03873400,0.05588135
+subject_pg_full,6,plusF_minusG1_minusG2,I know who the critique of the writer is likely to anger Sara eventually.,11,N/A,anger,-14.67569900,21.17255817
+subject_pg_full,6,plusF_minusG1_minusG2,I know who the critique of the writer is likely to anger Sara eventually.,12,N/A,Sara,-19.63687200,28.33001785
+subject_pg_full,6,plusF_minusG1_minusG2,I know who the critique of the writer is likely to anger Sara eventually.,13,N/A,eventually,-17.24156100,24.87431455
+subject_pg_full,6,plusF_minusG1_minusG2,I know who the critique of the writer is likely to anger Sara eventually.,14,N/A,.,-9.46812500,13.65961698
+subject_pg_full,6,minusF_plusG1_plusG2,I know that the critique of is likely to anger eventually.,0,N/A,I,-5.77036000,8.32486976
+subject_pg_full,6,minusF_plusG1_plusG2,I know that the critique of is likely to anger eventually.,1,N/A,know,-5.54568300,8.00072936
+subject_pg_full,6,minusF_plusG1_plusG2,I know that the critique of is likely to anger eventually.,2,N/A,that,-2.74970600,3.96698721
+subject_pg_full,6,minusF_plusG1_plusG2,I know that the critique of is likely to anger eventually.,3,N/A,the,-4.42428300,6.38289114
+subject_pg_full,6,minusF_plusG1_plusG2,I know that the critique of is likely to anger eventually.,4,N/A,critique,-14.70628300,21.21668155
+subject_pg_full,6,minusF_plusG1_plusG2,I know that the critique of is likely to anger eventually.,5,N/A,of,-1.00296300,1.44696975
+subject_pg_full,6,minusF_plusG1_plusG2,I know that the critique of is likely to anger eventually.,6,N/A,is,-13.77245900,19.86945830
+subject_pg_full,6,minusF_plusG1_plusG2,I know that the critique of is likely to anger eventually.,7,N/A,likely,-10.24106300,14.77473080
+subject_pg_full,6,minusF_plusG1_plusG2,I know that the critique of is likely to anger eventually.,8,N/A,to,-0.88043700,1.27020209
+subject_pg_full,6,minusF_plusG1_plusG2,I know that the critique of is likely to anger eventually.,9,N/A,anger,-10.03211700,14.47328545
+subject_pg_full,6,minusF_plusG1_plusG2,I know that the critique of is likely to anger eventually.,10,N/A,eventually,-15.49606100,22.35609036
+subject_pg_full,6,minusF_plusG1_plusG2,I know that the critique of is likely to anger eventually.,11,N/A,.,-10.86525400,15.67524806
+subject_pg_full,6,minusF_plusG1_minusG2,I know that the critique of is likely to anger Sara eventually.,0,N/A,I,-5.77036000,8.32486976
+subject_pg_full,6,minusF_plusG1_minusG2,I know that the critique of is likely to anger Sara eventually.,1,N/A,know,-5.54568300,8.00072936
+subject_pg_full,6,minusF_plusG1_minusG2,I know that the critique of is likely to anger Sara eventually.,2,N/A,that,-2.74970600,3.96698721
+subject_pg_full,6,minusF_plusG1_minusG2,I know that the critique of is likely to anger Sara eventually.,3,N/A,the,-4.42428300,6.38289114
+subject_pg_full,6,minusF_plusG1_minusG2,I know that the critique of is likely to anger Sara eventually.,4,N/A,critique,-14.70628300,21.21668155
+subject_pg_full,6,minusF_plusG1_minusG2,I know that the critique of is likely to anger Sara eventually.,5,N/A,of,-1.00296300,1.44696975
+subject_pg_full,6,minusF_plusG1_minusG2,I know that the critique of is likely to anger Sara eventually.,6,N/A,is,-13.77245900,19.86945830
+subject_pg_full,6,minusF_plusG1_minusG2,I know that the critique of is likely to anger Sara eventually.,7,N/A,likely,-10.24106300,14.77473080
+subject_pg_full,6,minusF_plusG1_minusG2,I know that the critique of is likely to anger Sara eventually.,8,N/A,to,-0.88043700,1.27020209
+subject_pg_full,6,minusF_plusG1_minusG2,I know that the critique of is likely to anger Sara eventually.,9,N/A,anger,-10.03211700,14.47328545
+subject_pg_full,6,minusF_plusG1_minusG2,I know that the critique of is likely to anger Sara eventually.,10,N/A,Sara,-19.02857900,27.45243656
+subject_pg_full,6,minusF_plusG1_minusG2,I know that the critique of is likely to anger Sara eventually.,11,N/A,eventually,-15.44148800,22.27735816
+subject_pg_full,6,minusF_plusG1_minusG2,I know that the critique of is likely to anger Sara eventually.,12,N/A,.,-9.92551500,14.31949127
+subject_pg_full,6,minusF_minusG1_plusG2,I know that the critique of the writer is likely to anger eventually.,0,N/A,I,-5.77036000,8.32486976
+subject_pg_full,6,minusF_minusG1_plusG2,I know that the critique of the writer is likely to anger eventually.,1,N/A,know,-5.54568300,8.00072936
+subject_pg_full,6,minusF_minusG1_plusG2,I know that the critique of the writer is likely to anger eventually.,2,N/A,that,-2.74970600,3.96698721
+subject_pg_full,6,minusF_minusG1_plusG2,I know that the critique of the writer is likely to anger eventually.,3,N/A,the,-4.42428300,6.38289114
+subject_pg_full,6,minusF_minusG1_plusG2,I know that the critique of the writer is likely to anger eventually.,4,N/A,critique,-14.70628300,21.21668155
+subject_pg_full,6,minusF_minusG1_plusG2,I know that the critique of the writer is likely to anger eventually.,5,N/A,of,-1.00296300,1.44696975
+subject_pg_full,6,minusF_minusG1_plusG2,I know that the critique of the writer is likely to anger eventually.,6,N/A,the,-2.96284500,4.27448179
+subject_pg_full,6,minusF_minusG1_plusG2,I know that the critique of the writer is likely to anger eventually.,7,N/A,writer,-11.88799400,17.15074999
+subject_pg_full,6,minusF_minusG1_plusG2,I know that the critique of the writer is likely to anger eventually.,8,N/A,is,-2.48746100,3.58864765
+subject_pg_full,6,minusF_minusG1_plusG2,I know that the critique of the writer is likely to anger eventually.,9,N/A,likely,-9.78386700,14.11513640
+subject_pg_full,6,minusF_minusG1_plusG2,I know that the critique of the writer is likely to anger eventually.,10,N/A,to,-0.75994000,1.09636167
+subject_pg_full,6,minusF_minusG1_plusG2,I know that the critique of the writer is likely to anger eventually.,11,N/A,anger,-9.74750800,14.06268145
+subject_pg_full,6,minusF_minusG1_plusG2,I know that the critique of the writer is likely to anger eventually.,12,N/A,eventually,-16.23128500,23.41679438
+subject_pg_full,6,minusF_minusG1_plusG2,I know that the critique of the writer is likely to anger eventually.,13,N/A,.,-11.20580900,16.16656507
+subject_pg_full,6,minusF_minusG1_minusG2,I know that the critique of the writer is likely to anger Sara eventually.,0,N/A,I,-5.77036000,8.32486976
+subject_pg_full,6,minusF_minusG1_minusG2,I know that the critique of the writer is likely to anger Sara eventually.,1,N/A,know,-5.54568300,8.00072936
+subject_pg_full,6,minusF_minusG1_minusG2,I know that the critique of the writer is likely to anger Sara eventually.,2,N/A,that,-2.74970600,3.96698721
+subject_pg_full,6,minusF_minusG1_minusG2,I know that the critique of the writer is likely to anger Sara eventually.,3,N/A,the,-4.42428300,6.38289114
+subject_pg_full,6,minusF_minusG1_minusG2,I know that the critique of the writer is likely to anger Sara eventually.,4,N/A,critique,-14.70628300,21.21668155
+subject_pg_full,6,minusF_minusG1_minusG2,I know that the critique of the writer is likely to anger Sara eventually.,5,N/A,of,-1.00296300,1.44696975
+subject_pg_full,6,minusF_minusG1_minusG2,I know that the critique of the writer is likely to anger Sara eventually.,6,N/A,the,-2.96284500,4.27448179
+subject_pg_full,6,minusF_minusG1_minusG2,I know that the critique of the writer is likely to anger Sara eventually.,7,N/A,writer,-11.88799400,17.15074999
+subject_pg_full,6,minusF_minusG1_minusG2,I know that the critique of the writer is likely to anger Sara eventually.,8,N/A,is,-2.48746100,3.58864765
+subject_pg_full,6,minusF_minusG1_minusG2,I know that the critique of the writer is likely to anger Sara eventually.,9,N/A,likely,-9.78386700,14.11513640
+subject_pg_full,6,minusF_minusG1_minusG2,I know that the critique of the writer is likely to anger Sara eventually.,10,N/A,to,-0.75994000,1.09636167
+subject_pg_full,6,minusF_minusG1_minusG2,I know that the critique of the writer is likely to anger Sara eventually.,11,N/A,anger,-9.74750800,14.06268145
+subject_pg_full,6,minusF_minusG1_minusG2,I know that the critique of the writer is likely to anger Sara eventually.,12,N/A,Sara,-18.80344100,27.12763108
+subject_pg_full,6,minusF_minusG1_minusG2,I know that the critique of the writer is likely to anger Sara eventually.,13,N/A,eventually,-16.46928200,23.76015147
+subject_pg_full,6,minusF_minusG1_minusG2,I know that the critique of the writer is likely to anger Sara eventually.,14,N/A,.,-9.98479900,14.40502000
+subject_pg_full,7,plusF_plusG1_plusG2,She heard who the rumor about is going to please soon.,0,N/A,She,-9.58838000,13.83310828
+subject_pg_full,7,plusF_plusG1_plusG2,She heard who the rumor about is going to please soon.,1,N/A,heard,-10.31370900,14.87953683
+subject_pg_full,7,plusF_plusG1_plusG2,She heard who the rumor about is going to please soon.,2,N/A,who,-12.28482500,17.72325611
+subject_pg_full,7,plusF_plusG1_plusG2,She heard who the rumor about is going to please soon.,3,N/A,the,-5.06059600,7.30089675
+subject_pg_full,7,plusF_plusG1_plusG2,She heard who the rumor about is going to please soon.,4,N/A,rumor,-12.59213400,18.16660928
+subject_pg_full,7,plusF_plusG1_plusG2,She heard who the rumor about is going to please soon.,5,N/A,about,-9.39675100,13.55664607
+subject_pg_full,7,plusF_plusG1_plusG2,She heard who the rumor about is going to please soon.,6,N/A,is,-6.41441100,9.25403894
+subject_pg_full,7,plusF_plusG1_plusG2,She heard who the rumor about is going to please soon.,7,N/A,going,-8.18624300,11.81025218
+subject_pg_full,7,plusF_plusG1_plusG2,She heard who the rumor about is going to please soon.,8,N/A,to,-0.18346400,0.26468260
+subject_pg_full,7,plusF_plusG1_plusG2,She heard who the rumor about is going to please soon.,9,N/A,please,-14.39470200,20.76716519
+subject_pg_full,7,plusF_plusG1_plusG2,She heard who the rumor about is going to please soon.,10,N/A,soon,-12.07899200,17.42630186
+subject_pg_full,7,plusF_plusG1_plusG2,She heard who the rumor about is going to please soon.,11,N/A,.,-9.83729800,14.19222104
+subject_pg_full,7,plusF_plusG1_minusG2,She heard who the rumor about is going to please Tom soon.,0,N/A,She,-9.58838000,13.83310828
+subject_pg_full,7,plusF_plusG1_minusG2,She heard who the rumor about is going to please Tom soon.,1,N/A,heard,-10.31370900,14.87953683
+subject_pg_full,7,plusF_plusG1_minusG2,She heard who the rumor about is going to please Tom soon.,2,N/A,who,-12.28482500,17.72325611
+subject_pg_full,7,plusF_plusG1_minusG2,She heard who the rumor about is going to please Tom soon.,3,N/A,the,-5.06059600,7.30089675
+subject_pg_full,7,plusF_plusG1_minusG2,She heard who the rumor about is going to please Tom soon.,4,N/A,rumor,-12.59213400,18.16660928
+subject_pg_full,7,plusF_plusG1_minusG2,She heard who the rumor about is going to please Tom soon.,5,N/A,about,-9.39675100,13.55664607
+subject_pg_full,7,plusF_plusG1_minusG2,She heard who the rumor about is going to please Tom soon.,6,N/A,is,-6.41441100,9.25403894
+subject_pg_full,7,plusF_plusG1_minusG2,She heard who the rumor about is going to please Tom soon.,7,N/A,going,-8.18624300,11.81025218
+subject_pg_full,7,plusF_plusG1_minusG2,She heard who the rumor about is going to please Tom soon.,8,N/A,to,-0.18346400,0.26468260
+subject_pg_full,7,plusF_plusG1_minusG2,She heard who the rumor about is going to please Tom soon.,9,N/A,please,-14.39470200,20.76716519
+subject_pg_full,7,plusF_plusG1_minusG2,She heard who the rumor about is going to please Tom soon.,10,N/A,Tom,-11.53115700,16.63594302
+subject_pg_full,7,plusF_plusG1_minusG2,She heard who the rumor about is going to please Tom soon.,11,N/A,soon,-13.58682300,19.60164216
+subject_pg_full,7,plusF_plusG1_minusG2,She heard who the rumor about is going to please Tom soon.,12,N/A,.,-9.98396200,14.40381247
+subject_pg_full,7,plusF_minusG1_plusG2,She heard who the rumor about the director is going to please soon.,0,N/A,She,-9.58838000,13.83310828
+subject_pg_full,7,plusF_minusG1_plusG2,She heard who the rumor about the director is going to please soon.,1,N/A,heard,-10.31370900,14.87953683
+subject_pg_full,7,plusF_minusG1_plusG2,She heard who the rumor about the director is going to please soon.,2,N/A,who,-12.28482500,17.72325611
+subject_pg_full,7,plusF_minusG1_plusG2,She heard who the rumor about the director is going to please soon.,3,N/A,the,-5.06059600,7.30089675
+subject_pg_full,7,plusF_minusG1_plusG2,She heard who the rumor about the director is going to please soon.,4,N/A,rumor,-12.59213400,18.16660928
+subject_pg_full,7,plusF_minusG1_plusG2,She heard who the rumor about the director is going to please soon.,5,N/A,about,-9.39675100,13.55664607
+subject_pg_full,7,plusF_minusG1_plusG2,She heard who the rumor about the director is going to please soon.,6,N/A,the,-2.80652900,4.04896547
+subject_pg_full,7,plusF_minusG1_plusG2,She heard who the rumor about the director is going to please soon.,7,N/A,director,-11.45318200,16.52344887
+subject_pg_full,7,plusF_minusG1_plusG2,She heard who the rumor about the director is going to please soon.,8,N/A,is,-5.72926100,8.26557643
+subject_pg_full,7,plusF_minusG1_plusG2,She heard who the rumor about the director is going to please soon.,9,N/A,going,-9.70878200,14.00681164
+subject_pg_full,7,plusF_minusG1_plusG2,She heard who the rumor about the director is going to please soon.,10,N/A,to,-0.14085400,0.20320937
+subject_pg_full,7,plusF_minusG1_plusG2,She heard who the rumor about the director is going to please soon.,11,N/A,please,-16.23462400,23.42161154
+subject_pg_full,7,plusF_minusG1_plusG2,She heard who the rumor about the director is going to please soon.,12,N/A,soon,-11.06209700,15.95923248
+subject_pg_full,7,plusF_minusG1_plusG2,She heard who the rumor about the director is going to please soon.,13,N/A,.,-10.10480600,14.57815351
+subject_pg_full,7,plusF_minusG1_minusG2,She heard who the rumor about the director is going to please Tom soon.,0,N/A,She,-9.58838000,13.83310828
+subject_pg_full,7,plusF_minusG1_minusG2,She heard who the rumor about the director is going to please Tom soon.,1,N/A,heard,-10.31370900,14.87953683
+subject_pg_full,7,plusF_minusG1_minusG2,She heard who the rumor about the director is going to please Tom soon.,2,N/A,who,-12.28482500,17.72325611
+subject_pg_full,7,plusF_minusG1_minusG2,She heard who the rumor about the director is going to please Tom soon.,3,N/A,the,-5.06059600,7.30089675
+subject_pg_full,7,plusF_minusG1_minusG2,She heard who the rumor about the director is going to please Tom soon.,4,N/A,rumor,-12.59213400,18.16660928
+subject_pg_full,7,plusF_minusG1_minusG2,She heard who the rumor about the director is going to please Tom soon.,5,N/A,about,-9.39675100,13.55664607
+subject_pg_full,7,plusF_minusG1_minusG2,She heard who the rumor about the director is going to please Tom soon.,6,N/A,the,-2.80652900,4.04896547
+subject_pg_full,7,plusF_minusG1_minusG2,She heard who the rumor about the director is going to please Tom soon.,7,N/A,director,-11.45318200,16.52344887
+subject_pg_full,7,plusF_minusG1_minusG2,She heard who the rumor about the director is going to please Tom soon.,8,N/A,is,-5.72926100,8.26557643
+subject_pg_full,7,plusF_minusG1_minusG2,She heard who the rumor about the director is going to please Tom soon.,9,N/A,going,-9.70878200,14.00681164
+subject_pg_full,7,plusF_minusG1_minusG2,She heard who the rumor about the director is going to please Tom soon.,10,N/A,to,-0.14085400,0.20320937
+subject_pg_full,7,plusF_minusG1_minusG2,She heard who the rumor about the director is going to please Tom soon.,11,N/A,please,-16.23462400,23.42161154
+subject_pg_full,7,plusF_minusG1_minusG2,She heard who the rumor about the director is going to please Tom soon.,12,N/A,Tom,-14.52853000,20.96023818
+subject_pg_full,7,plusF_minusG1_minusG2,She heard who the rumor about the director is going to please Tom soon.,13,N/A,soon,-17.59354200,25.38211580
+subject_pg_full,7,plusF_minusG1_minusG2,She heard who the rumor about the director is going to please Tom soon.,14,N/A,.,-10.29743300,14.85605552
+subject_pg_full,7,minusF_plusG1_plusG2,She heard that the rumor about is going to please soon.,0,N/A,She,-9.58838000,13.83310828
+subject_pg_full,7,minusF_plusG1_plusG2,She heard that the rumor about is going to please soon.,1,N/A,heard,-10.31370900,14.87953683
+subject_pg_full,7,minusF_plusG1_plusG2,She heard that the rumor about is going to please soon.,2,N/A,that,-5.39595500,7.78471752
+subject_pg_full,7,minusF_plusG1_plusG2,She heard that the rumor about is going to please soon.,3,N/A,the,-3.15635100,4.55365194
+subject_pg_full,7,minusF_plusG1_plusG2,She heard that the rumor about is going to please soon.,4,N/A,rumor,-11.11458900,16.03496243
+subject_pg_full,7,minusF_plusG1_plusG2,She heard that the rumor about is going to please soon.,5,N/A,about,-4.28672600,6.18443834
+subject_pg_full,7,minusF_plusG1_plusG2,She heard that the rumor about is going to please soon.,6,N/A,is,-13.69373600,19.75588502
+subject_pg_full,7,minusF_plusG1_plusG2,She heard that the rumor about is going to please soon.,7,N/A,going,-5.77095100,8.32572239
+subject_pg_full,7,minusF_plusG1_plusG2,She heard that the rumor about is going to please soon.,8,N/A,to,-0.93654300,1.35114594
+subject_pg_full,7,minusF_plusG1_plusG2,She heard that the rumor about is going to please soon.,9,N/A,please,-12.37985300,17.86035253
+subject_pg_full,7,minusF_plusG1_plusG2,She heard that the rumor about is going to please soon.,10,N/A,soon,-14.05644600,20.27916494
+subject_pg_full,7,minusF_plusG1_plusG2,She heard that the rumor about is going to please soon.,11,N/A,.,-10.28338800,14.83579287
+subject_pg_full,7,minusF_plusG1_minusG2,She heard that the rumor about is going to please Tom soon.,0,N/A,She,-9.58838000,13.83310828
+subject_pg_full,7,minusF_plusG1_minusG2,She heard that the rumor about is going to please Tom soon.,1,N/A,heard,-10.31370900,14.87953683
+subject_pg_full,7,minusF_plusG1_minusG2,She heard that the rumor about is going to please Tom soon.,2,N/A,that,-5.39595500,7.78471752
+subject_pg_full,7,minusF_plusG1_minusG2,She heard that the rumor about is going to please Tom soon.,3,N/A,the,-3.15635100,4.55365194
+subject_pg_full,7,minusF_plusG1_minusG2,She heard that the rumor about is going to please Tom soon.,4,N/A,rumor,-11.11458900,16.03496243
+subject_pg_full,7,minusF_plusG1_minusG2,She heard that the rumor about is going to please Tom soon.,5,N/A,about,-4.28672600,6.18443834
+subject_pg_full,7,minusF_plusG1_minusG2,She heard that the rumor about is going to please Tom soon.,6,N/A,is,-13.69373600,19.75588502
+subject_pg_full,7,minusF_plusG1_minusG2,She heard that the rumor about is going to please Tom soon.,7,N/A,going,-5.77095100,8.32572239
+subject_pg_full,7,minusF_plusG1_minusG2,She heard that the rumor about is going to please Tom soon.,8,N/A,to,-0.93654300,1.35114594
+subject_pg_full,7,minusF_plusG1_minusG2,She heard that the rumor about is going to please Tom soon.,9,N/A,please,-12.37985300,17.86035253
+subject_pg_full,7,minusF_plusG1_minusG2,She heard that the rumor about is going to please Tom soon.,10,N/A,Tom,-10.39890100,15.00244290
+subject_pg_full,7,minusF_plusG1_minusG2,She heard that the rumor about is going to please Tom soon.,11,N/A,soon,-14.61286500,21.08190787
+subject_pg_full,7,minusF_plusG1_minusG2,She heard that the rumor about is going to please Tom soon.,12,N/A,.,-10.11317600,14.59022886
+subject_pg_full,7,minusF_minusG1_plusG2,She heard that the rumor about the director is going to please soon.,0,N/A,She,-9.58838000,13.83310828
+subject_pg_full,7,minusF_minusG1_plusG2,She heard that the rumor about the director is going to please soon.,1,N/A,heard,-10.31370900,14.87953683
+subject_pg_full,7,minusF_minusG1_plusG2,She heard that the rumor about the director is going to please soon.,2,N/A,that,-5.39595500,7.78471752
+subject_pg_full,7,minusF_minusG1_plusG2,She heard that the rumor about the director is going to please soon.,3,N/A,the,-3.15635100,4.55365194
+subject_pg_full,7,minusF_minusG1_plusG2,She heard that the rumor about the director is going to please soon.,4,N/A,rumor,-11.11458900,16.03496243
+subject_pg_full,7,minusF_minusG1_plusG2,She heard that the rumor about the director is going to please soon.,5,N/A,about,-4.28672600,6.18443834
+subject_pg_full,7,minusF_minusG1_plusG2,She heard that the rumor about the director is going to please soon.,6,N/A,the,-2.57246800,3.71128683
+subject_pg_full,7,minusF_minusG1_plusG2,She heard that the rumor about the director is going to please soon.,7,N/A,director,-11.67752700,16.84711029
+subject_pg_full,7,minusF_minusG1_plusG2,She heard that the rumor about the director is going to please soon.,8,N/A,is,-8.50579400,12.27126682
+subject_pg_full,7,minusF_minusG1_plusG2,She heard that the rumor about the director is going to please soon.,9,N/A,going,-6.12347100,8.83430124
+subject_pg_full,7,minusF_minusG1_plusG2,She heard that the rumor about the director is going to please soon.,10,N/A,to,-1.10387500,1.59255499
+subject_pg_full,7,minusF_minusG1_plusG2,She heard that the rumor about the director is going to please soon.,11,N/A,please,-13.10766000,18.91035608
+subject_pg_full,7,minusF_minusG1_plusG2,She heard that the rumor about the director is going to please soon.,12,N/A,soon,-14.48564500,20.89836821
+subject_pg_full,7,minusF_minusG1_plusG2,She heard that the rumor about the director is going to please soon.,13,N/A,.,-10.64218300,15.35342464
+subject_pg_full,7,minusF_minusG1_minusG2,She heard that the rumor about the director is going to please Tom soon.,0,N/A,She,-9.58838000,13.83310828
+subject_pg_full,7,minusF_minusG1_minusG2,She heard that the rumor about the director is going to please Tom soon.,1,N/A,heard,-10.31370900,14.87953683
+subject_pg_full,7,minusF_minusG1_minusG2,She heard that the rumor about the director is going to please Tom soon.,2,N/A,that,-5.39595500,7.78471752
+subject_pg_full,7,minusF_minusG1_minusG2,She heard that the rumor about the director is going to please Tom soon.,3,N/A,the,-3.15635100,4.55365194
+subject_pg_full,7,minusF_minusG1_minusG2,She heard that the rumor about the director is going to please Tom soon.,4,N/A,rumor,-11.11458900,16.03496243
+subject_pg_full,7,minusF_minusG1_minusG2,She heard that the rumor about the director is going to please Tom soon.,5,N/A,about,-4.28672600,6.18443834
+subject_pg_full,7,minusF_minusG1_minusG2,She heard that the rumor about the director is going to please Tom soon.,6,N/A,the,-2.57246800,3.71128683
+subject_pg_full,7,minusF_minusG1_minusG2,She heard that the rumor about the director is going to please Tom soon.,7,N/A,director,-11.67752700,16.84711029
+subject_pg_full,7,minusF_minusG1_minusG2,She heard that the rumor about the director is going to please Tom soon.,8,N/A,is,-8.50579400,12.27126682
+subject_pg_full,7,minusF_minusG1_minusG2,She heard that the rumor about the director is going to please Tom soon.,9,N/A,going,-6.12347100,8.83430124
+subject_pg_full,7,minusF_minusG1_minusG2,She heard that the rumor about the director is going to please Tom soon.,10,N/A,to,-1.10387500,1.59255499
+subject_pg_full,7,minusF_minusG1_minusG2,She heard that the rumor about the director is going to please Tom soon.,11,N/A,please,-13.10766000,18.91035608
+subject_pg_full,7,minusF_minusG1_minusG2,She heard that the rumor about the director is going to please Tom soon.,12,N/A,Tom,-9.31354000,13.43659797
+subject_pg_full,7,minusF_minusG1_minusG2,She heard that the rumor about the director is going to please Tom soon.,13,N/A,soon,-19.13874100,27.61136673
+subject_pg_full,7,minusF_minusG1_minusG2,She heard that the rumor about the director is going to please Tom soon.,14,N/A,.,-10.53534600,15.19929143
+subject_pg_full,8,plusF_plusG1_plusG2,They believe who the discussion about is expected to concern eventually.,0,N/A,They,-9.39694800,13.55693028
+subject_pg_full,8,plusF_plusG1_plusG2,They believe who the discussion about is expected to concern eventually.,1,N/A,believe,-8.33099600,12.01908661
+subject_pg_full,8,plusF_plusG1_plusG2,They believe who the discussion about is expected to concern eventually.,2,N/A,who,-12.36108100,17.83327026
+subject_pg_full,8,plusF_plusG1_plusG2,They believe who the discussion about is expected to concern eventually.,3,N/A,the,-5.17708200,7.46895053
+subject_pg_full,8,plusF_plusG1_plusG2,They believe who the discussion about is expected to concern eventually.,4,N/A,discussion,-16.81211200,24.25475061
+subject_pg_full,8,plusF_plusG1_plusG2,They believe who the discussion about is expected to concern eventually.,5,N/A,about,-6.18105300,8.91737451
+subject_pg_full,8,plusF_plusG1_plusG2,They believe who the discussion about is expected to concern eventually.,6,N/A,is,-10.41202400,15.02137539
+subject_pg_full,8,plusF_plusG1_plusG2,They believe who the discussion about is expected to concern eventually.,7,N/A,expected,-12.67449400,18.28542964
+subject_pg_full,8,plusF_plusG1_plusG2,They believe who the discussion about is expected to concern eventually.,8,N/A,to,-0.22523100,0.32493965
+subject_pg_full,8,plusF_plusG1_plusG2,They believe who the discussion about is expected to concern eventually.,9,N/A,concern,-15.45281700,22.29370245
+subject_pg_full,8,plusF_plusG1_plusG2,They believe who the discussion about is expected to concern eventually.,10,N/A,eventually,-15.14216600,21.84552780
+subject_pg_full,8,plusF_plusG1_plusG2,They believe who the discussion about is expected to concern eventually.,11,N/A,.,-11.68019600,16.85096085
+subject_pg_full,8,plusF_plusG1_minusG2,They believe who the discussion about is expected to concern Paul eventually.,0,N/A,They,-9.39694800,13.55693028
+subject_pg_full,8,plusF_plusG1_minusG2,They believe who the discussion about is expected to concern Paul eventually.,1,N/A,believe,-8.33099600,12.01908661
+subject_pg_full,8,plusF_plusG1_minusG2,They believe who the discussion about is expected to concern Paul eventually.,2,N/A,who,-12.36108100,17.83327026
+subject_pg_full,8,plusF_plusG1_minusG2,They believe who the discussion about is expected to concern Paul eventually.,3,N/A,the,-5.17708200,7.46895053
+subject_pg_full,8,plusF_plusG1_minusG2,They believe who the discussion about is expected to concern Paul eventually.,4,N/A,discussion,-16.81211200,24.25475061
+subject_pg_full,8,plusF_plusG1_minusG2,They believe who the discussion about is expected to concern Paul eventually.,5,N/A,about,-6.18105300,8.91737451
+subject_pg_full,8,plusF_plusG1_minusG2,They believe who the discussion about is expected to concern Paul eventually.,6,N/A,is,-10.41202400,15.02137539
+subject_pg_full,8,plusF_plusG1_minusG2,They believe who the discussion about is expected to concern Paul eventually.,7,N/A,expected,-12.67449400,18.28542964
+subject_pg_full,8,plusF_plusG1_minusG2,They believe who the discussion about is expected to concern Paul eventually.,8,N/A,to,-0.22523100,0.32493965
+subject_pg_full,8,plusF_plusG1_minusG2,They believe who the discussion about is expected to concern Paul eventually.,9,N/A,concern,-15.45281700,22.29370245
+subject_pg_full,8,plusF_plusG1_minusG2,They believe who the discussion about is expected to concern Paul eventually.,10,N/A,Paul,-13.39700100,19.32778691
+subject_pg_full,8,plusF_plusG1_minusG2,They believe who the discussion about is expected to concern Paul eventually.,11,N/A,eventually,-12.18506600,17.57933429
+subject_pg_full,8,plusF_plusG1_minusG2,They believe who the discussion about is expected to concern Paul eventually.,12,N/A,.,-11.59637200,16.73002838
+subject_pg_full,8,plusF_minusG1_plusG2,They believe who the discussion about the critic is expected to concern eventually.,0,N/A,They,-9.39694800,13.55693028
+subject_pg_full,8,plusF_minusG1_plusG2,They believe who the discussion about the critic is expected to concern eventually.,1,N/A,believe,-8.33099600,12.01908661
+subject_pg_full,8,plusF_minusG1_plusG2,They believe who the discussion about the critic is expected to concern eventually.,2,N/A,who,-12.36108100,17.83327026
+subject_pg_full,8,plusF_minusG1_plusG2,They believe who the discussion about the critic is expected to concern eventually.,3,N/A,the,-5.17708200,7.46895053
+subject_pg_full,8,plusF_minusG1_plusG2,They believe who the discussion about the critic is expected to concern eventually.,4,N/A,discussion,-16.81211200,24.25475061
+subject_pg_full,8,plusF_minusG1_plusG2,They believe who the discussion about the critic is expected to concern eventually.,5,N/A,about,-6.18105300,8.91737451
+subject_pg_full,8,plusF_minusG1_plusG2,They believe who the discussion about the critic is expected to concern eventually.,6,N/A,the,-3.29379100,4.75193594
+subject_pg_full,8,plusF_minusG1_plusG2,They believe who the discussion about the critic is expected to concern eventually.,7,N/A,critic,-16.13235800,23.27407288
+subject_pg_full,8,plusF_minusG1_plusG2,They believe who the discussion about the critic is expected to concern eventually.,8,N/A,is,-1.95107100,2.81480046
+subject_pg_full,8,plusF_minusG1_plusG2,They believe who the discussion about the critic is expected to concern eventually.,9,N/A,expected,-14.20123100,20.48804554
+subject_pg_full,8,plusF_minusG1_plusG2,They believe who the discussion about the critic is expected to concern eventually.,10,N/A,to,-0.01592800,0.02297925
+subject_pg_full,8,plusF_minusG1_plusG2,They believe who the discussion about the critic is expected to concern eventually.,11,N/A,concern,-15.17282700,21.88976227
+subject_pg_full,8,plusF_minusG1_plusG2,They believe who the discussion about the critic is expected to concern eventually.,12,N/A,eventually,-15.15422500,21.86292526
+subject_pg_full,8,plusF_minusG1_plusG2,They believe who the discussion about the critic is expected to concern eventually.,13,N/A,.,-11.37300900,16.40778368
+subject_pg_full,8,plusF_minusG1_minusG2,They believe who the discussion about the critic is expected to concern Paul eventually.,0,N/A,They,-9.39694800,13.55693028
+subject_pg_full,8,plusF_minusG1_minusG2,They believe who the discussion about the critic is expected to concern Paul eventually.,1,N/A,believe,-8.33099600,12.01908661
+subject_pg_full,8,plusF_minusG1_minusG2,They believe who the discussion about the critic is expected to concern Paul eventually.,2,N/A,who,-12.36108100,17.83327026
+subject_pg_full,8,plusF_minusG1_minusG2,They believe who the discussion about the critic is expected to concern Paul eventually.,3,N/A,the,-5.17708200,7.46895053
+subject_pg_full,8,plusF_minusG1_minusG2,They believe who the discussion about the critic is expected to concern Paul eventually.,4,N/A,discussion,-16.81211200,24.25475061
+subject_pg_full,8,plusF_minusG1_minusG2,They believe who the discussion about the critic is expected to concern Paul eventually.,5,N/A,about,-6.18105300,8.91737451
+subject_pg_full,8,plusF_minusG1_minusG2,They believe who the discussion about the critic is expected to concern Paul eventually.,6,N/A,the,-3.29379100,4.75193594
+subject_pg_full,8,plusF_minusG1_minusG2,They believe who the discussion about the critic is expected to concern Paul eventually.,7,N/A,critic,-16.13235800,23.27407288
+subject_pg_full,8,plusF_minusG1_minusG2,They believe who the discussion about the critic is expected to concern Paul eventually.,8,N/A,is,-1.95107100,2.81480046
+subject_pg_full,8,plusF_minusG1_minusG2,They believe who the discussion about the critic is expected to concern Paul eventually.,9,N/A,expected,-14.20123100,20.48804554
+subject_pg_full,8,plusF_minusG1_minusG2,They believe who the discussion about the critic is expected to concern Paul eventually.,10,N/A,to,-0.01592800,0.02297925
+subject_pg_full,8,plusF_minusG1_minusG2,They believe who the discussion about the critic is expected to concern Paul eventually.,11,N/A,concern,-15.17282700,21.88976227
+subject_pg_full,8,plusF_minusG1_minusG2,They believe who the discussion about the critic is expected to concern Paul eventually.,12,N/A,Paul,-14.43473800,20.82492493
+subject_pg_full,8,plusF_minusG1_minusG2,They believe who the discussion about the critic is expected to concern Paul eventually.,13,N/A,eventually,-13.94509200,20.11851507
+subject_pg_full,8,plusF_minusG1_minusG2,They believe who the discussion about the critic is expected to concern Paul eventually.,14,N/A,.,-11.20320600,16.16280974
+subject_pg_full,8,minusF_plusG1_plusG2,They believe that the discussion about is expected to concern eventually.,0,N/A,They,-9.39694800,13.55693028
+subject_pg_full,8,minusF_plusG1_plusG2,They believe that the discussion about is expected to concern eventually.,1,N/A,believe,-8.33099600,12.01908661
+subject_pg_full,8,minusF_plusG1_plusG2,They believe that the discussion about is expected to concern eventually.,2,N/A,that,-1.98741800,2.86723809
+subject_pg_full,8,minusF_plusG1_plusG2,They believe that the discussion about is expected to concern eventually.,3,N/A,the,-2.88684300,4.16483408
+subject_pg_full,8,minusF_plusG1_plusG2,They believe that the discussion about is expected to concern eventually.,4,N/A,discussion,-13.31223200,19.20549109
+subject_pg_full,8,minusF_plusG1_plusG2,They believe that the discussion about is expected to concern eventually.,5,N/A,about,-2.45520900,3.54211785
+subject_pg_full,8,minusF_plusG1_plusG2,They believe that the discussion about is expected to concern eventually.,6,N/A,is,-13.63063500,19.66484952
+subject_pg_full,8,minusF_plusG1_plusG2,They believe that the discussion about is expected to concern eventually.,7,N/A,expected,-10.20601200,14.72416290
+subject_pg_full,8,minusF_plusG1_plusG2,They believe that the discussion about is expected to concern eventually.,8,N/A,to,-0.20843600,0.30070958
+subject_pg_full,8,minusF_plusG1_plusG2,They believe that the discussion about is expected to concern eventually.,9,N/A,concern,-11.73251600,16.92644265
+subject_pg_full,8,minusF_plusG1_plusG2,They believe that the discussion about is expected to concern eventually.,10,N/A,eventually,-17.43993100,25.16050197
+subject_pg_full,8,minusF_plusG1_plusG2,They believe that the discussion about is expected to concern eventually.,11,N/A,.,-13.61920600,19.64836096
+subject_pg_full,8,minusF_plusG1_minusG2,They believe that the discussion about is expected to concern Paul eventually.,0,N/A,They,-9.39694800,13.55693028
+subject_pg_full,8,minusF_plusG1_minusG2,They believe that the discussion about is expected to concern Paul eventually.,1,N/A,believe,-8.33099600,12.01908661
+subject_pg_full,8,minusF_plusG1_minusG2,They believe that the discussion about is expected to concern Paul eventually.,2,N/A,that,-1.98741800,2.86723809
+subject_pg_full,8,minusF_plusG1_minusG2,They believe that the discussion about is expected to concern Paul eventually.,3,N/A,the,-2.88684300,4.16483408
+subject_pg_full,8,minusF_plusG1_minusG2,They believe that the discussion about is expected to concern Paul eventually.,4,N/A,discussion,-13.31223200,19.20549109
+subject_pg_full,8,minusF_plusG1_minusG2,They believe that the discussion about is expected to concern Paul eventually.,5,N/A,about,-2.45520900,3.54211785
+subject_pg_full,8,minusF_plusG1_minusG2,They believe that the discussion about is expected to concern Paul eventually.,6,N/A,is,-13.63063500,19.66484952
+subject_pg_full,8,minusF_plusG1_minusG2,They believe that the discussion about is expected to concern Paul eventually.,7,N/A,expected,-10.20601200,14.72416290
+subject_pg_full,8,minusF_plusG1_minusG2,They believe that the discussion about is expected to concern Paul eventually.,8,N/A,to,-0.20843600,0.30070958
+subject_pg_full,8,minusF_plusG1_minusG2,They believe that the discussion about is expected to concern Paul eventually.,9,N/A,concern,-11.73251600,16.92644265
+subject_pg_full,8,minusF_plusG1_minusG2,They believe that the discussion about is expected to concern Paul eventually.,10,N/A,Paul,-12.67237400,18.28237113
+subject_pg_full,8,minusF_plusG1_minusG2,They believe that the discussion about is expected to concern Paul eventually.,11,N/A,eventually,-13.40951600,19.34584223
+subject_pg_full,8,minusF_plusG1_minusG2,They believe that the discussion about is expected to concern Paul eventually.,12,N/A,.,-12.28993400,17.73062683
+subject_pg_full,8,minusF_minusG1_plusG2,They believe that the discussion about the critic is expected to concern eventually.,0,N/A,They,-9.39694800,13.55693028
+subject_pg_full,8,minusF_minusG1_plusG2,They believe that the discussion about the critic is expected to concern eventually.,1,N/A,believe,-8.33099600,12.01908661
+subject_pg_full,8,minusF_minusG1_plusG2,They believe that the discussion about the critic is expected to concern eventually.,2,N/A,that,-1.98741800,2.86723809
+subject_pg_full,8,minusF_minusG1_plusG2,They believe that the discussion about the critic is expected to concern eventually.,3,N/A,the,-2.88684300,4.16483408
+subject_pg_full,8,minusF_minusG1_plusG2,They believe that the discussion about the critic is expected to concern eventually.,4,N/A,discussion,-13.31223200,19.20549109
+subject_pg_full,8,minusF_minusG1_plusG2,They believe that the discussion about the critic is expected to concern eventually.,5,N/A,about,-2.45520900,3.54211785
+subject_pg_full,8,minusF_minusG1_plusG2,They believe that the discussion about the critic is expected to concern eventually.,6,N/A,the,-2.94174500,4.24404092
+subject_pg_full,8,minusF_minusG1_plusG2,They believe that the discussion about the critic is expected to concern eventually.,7,N/A,critic,-17.33399800,25.00767295
+subject_pg_full,8,minusF_minusG1_plusG2,They believe that the discussion about the critic is expected to concern eventually.,8,N/A,is,-3.80464800,5.48894680
+subject_pg_full,8,minusF_minusG1_plusG2,They believe that the discussion about the critic is expected to concern eventually.,9,N/A,expected,-14.50197600,20.92192886
+subject_pg_full,8,minusF_minusG1_plusG2,They believe that the discussion about the critic is expected to concern eventually.,10,N/A,to,-0.19451200,0.28062150
+subject_pg_full,8,minusF_minusG1_plusG2,They believe that the discussion about the critic is expected to concern eventually.,11,N/A,concern,-11.33782300,16.35702102
+subject_pg_full,8,minusF_minusG1_plusG2,They believe that the discussion about the critic is expected to concern eventually.,12,N/A,eventually,-18.25996800,26.34356528
+subject_pg_full,8,minusF_minusG1_plusG2,They believe that the discussion about the critic is expected to concern eventually.,13,N/A,.,-13.95265000,20.12941896
+subject_pg_full,8,minusF_minusG1_minusG2,They believe that the discussion about the critic is expected to concern Paul eventually.,0,N/A,They,-9.39694800,13.55693028
+subject_pg_full,8,minusF_minusG1_minusG2,They believe that the discussion about the critic is expected to concern Paul eventually.,1,N/A,believe,-8.33099600,12.01908661
+subject_pg_full,8,minusF_minusG1_minusG2,They believe that the discussion about the critic is expected to concern Paul eventually.,2,N/A,that,-1.98741800,2.86723809
+subject_pg_full,8,minusF_minusG1_minusG2,They believe that the discussion about the critic is expected to concern Paul eventually.,3,N/A,the,-2.88684300,4.16483408
+subject_pg_full,8,minusF_minusG1_minusG2,They believe that the discussion about the critic is expected to concern Paul eventually.,4,N/A,discussion,-13.31223200,19.20549109
+subject_pg_full,8,minusF_minusG1_minusG2,They believe that the discussion about the critic is expected to concern Paul eventually.,5,N/A,about,-2.45520900,3.54211785
+subject_pg_full,8,minusF_minusG1_minusG2,They believe that the discussion about the critic is expected to concern Paul eventually.,6,N/A,the,-2.94174500,4.24404092
+subject_pg_full,8,minusF_minusG1_minusG2,They believe that the discussion about the critic is expected to concern Paul eventually.,7,N/A,critic,-17.33399800,25.00767295
+subject_pg_full,8,minusF_minusG1_minusG2,They believe that the discussion about the critic is expected to concern Paul eventually.,8,N/A,is,-3.80464800,5.48894680
+subject_pg_full,8,minusF_minusG1_minusG2,They believe that the discussion about the critic is expected to concern Paul eventually.,9,N/A,expected,-14.50197600,20.92192886
+subject_pg_full,8,minusF_minusG1_minusG2,They believe that the discussion about the critic is expected to concern Paul eventually.,10,N/A,to,-0.19451200,0.28062150
+subject_pg_full,8,minusF_minusG1_minusG2,They believe that the discussion about the critic is expected to concern Paul eventually.,11,N/A,concern,-11.33782300,16.35702102
+subject_pg_full,8,minusF_minusG1_minusG2,They believe that the discussion about the critic is expected to concern Paul eventually.,12,N/A,Paul,-12.30770600,17.75626641
+subject_pg_full,8,minusF_minusG1_minusG2,They believe that the discussion about the critic is expected to concern Paul eventually.,13,N/A,eventually,-14.63503700,21.11389530
+subject_pg_full,8,minusF_minusG1_minusG2,They believe that the discussion about the critic is expected to concern Paul eventually.,14,N/A,.,-11.98722400,17.29390862
+subject_pg_full,9,plusF_plusG1_plusG2,The report suggested who the painting of will probably fascinate soon.,0,N/A,The,-4.72930100,6.82293910
+subject_pg_full,9,plusF_plusG1_plusG2,The report suggested who the painting of will probably fascinate soon.,1,N/A,report,-9.78094000,14.11091363
+subject_pg_full,9,plusF_plusG1_plusG2,The report suggested who the painting of will probably fascinate soon.,2,N/A,suggested,-8.99788900,12.98120984
+subject_pg_full,9,plusF_plusG1_plusG2,The report suggested who the painting of will probably fascinate soon.,3,N/A,who,-14.21909600,20.51381929
+subject_pg_full,9,plusF_plusG1_plusG2,The report suggested who the painting of will probably fascinate soon.,4,N/A,the,-5.57561600,8.04391355
+subject_pg_full,9,plusF_plusG1_plusG2,The report suggested who the painting of will probably fascinate soon.,5,N/A,painting,-18.46560900,26.64024253
+subject_pg_full,9,plusF_plusG1_plusG2,The report suggested who the painting of will probably fascinate soon.,6,N/A,of,-4.96005000,7.15583954
+subject_pg_full,9,plusF_plusG1_plusG2,The report suggested who the painting of will probably fascinate soon.,7,N/A,will,-15.80536900,22.80232748
+subject_pg_full,9,plusF_plusG1_plusG2,The report suggested who the painting of will probably fascinate soon.,8,N/A,probably,-10.01598600,14.45001333
+subject_pg_full,9,plusF_plusG1_plusG2,The report suggested who the painting of will probably fascinate soon.,9,N/A,fasc,-18.35647600,26.48279689
+subject_pg_full,9,plusF_plusG1_plusG2,The report suggested who the painting of will probably fascinate soon.,10,N/A,inate,-0.27328400,0.39426547
+subject_pg_full,9,plusF_plusG1_plusG2,The report suggested who the painting of will probably fascinate soon.,11,N/A,soon,-12.51468400,18.05487255
+subject_pg_full,9,plusF_plusG1_plusG2,The report suggested who the painting of will probably fascinate soon.,12,N/A,.,-11.39175400,16.43482700
+subject_pg_full,9,plusF_plusG1_minusG2,The report suggested who the painting of will probably fascinate Nina soon.,0,N/A,The,-4.72930100,6.82293910
+subject_pg_full,9,plusF_plusG1_minusG2,The report suggested who the painting of will probably fascinate Nina soon.,1,N/A,report,-9.78094000,14.11091363
+subject_pg_full,9,plusF_plusG1_minusG2,The report suggested who the painting of will probably fascinate Nina soon.,2,N/A,suggested,-8.99788900,12.98120984
+subject_pg_full,9,plusF_plusG1_minusG2,The report suggested who the painting of will probably fascinate Nina soon.,3,N/A,who,-14.21909600,20.51381929
+subject_pg_full,9,plusF_plusG1_minusG2,The report suggested who the painting of will probably fascinate Nina soon.,4,N/A,the,-5.57561600,8.04391355
+subject_pg_full,9,plusF_plusG1_minusG2,The report suggested who the painting of will probably fascinate Nina soon.,5,N/A,painting,-18.46560900,26.64024253
+subject_pg_full,9,plusF_plusG1_minusG2,The report suggested who the painting of will probably fascinate Nina soon.,6,N/A,of,-4.96005000,7.15583954
+subject_pg_full,9,plusF_plusG1_minusG2,The report suggested who the painting of will probably fascinate Nina soon.,7,N/A,will,-15.80536900,22.80232748
+subject_pg_full,9,plusF_plusG1_minusG2,The report suggested who the painting of will probably fascinate Nina soon.,8,N/A,probably,-10.01598600,14.45001333
+subject_pg_full,9,plusF_plusG1_minusG2,The report suggested who the painting of will probably fascinate Nina soon.,9,N/A,fasc,-18.35647600,26.48279689
+subject_pg_full,9,plusF_plusG1_minusG2,The report suggested who the painting of will probably fascinate Nina soon.,10,N/A,inate,-0.27328400,0.39426547
+subject_pg_full,9,plusF_plusG1_minusG2,The report suggested who the painting of will probably fascinate Nina soon.,11,N/A,Nina,-19.21388400,27.71977516
+subject_pg_full,9,plusF_plusG1_minusG2,The report suggested who the painting of will probably fascinate Nina soon.,12,N/A,soon,-17.69382600,25.52679502
+subject_pg_full,9,plusF_plusG1_minusG2,The report suggested who the painting of will probably fascinate Nina soon.,13,N/A,.,-11.66805400,16.83344364
+subject_pg_full,9,plusF_minusG1_plusG2,The report suggested who the painting of the professor will probably fascinate soon.,0,N/A,The,-4.72930100,6.82293910
+subject_pg_full,9,plusF_minusG1_plusG2,The report suggested who the painting of the professor will probably fascinate soon.,1,N/A,report,-9.78094000,14.11091363
+subject_pg_full,9,plusF_minusG1_plusG2,The report suggested who the painting of the professor will probably fascinate soon.,2,N/A,suggested,-8.99788900,12.98120984
+subject_pg_full,9,plusF_minusG1_plusG2,The report suggested who the painting of the professor will probably fascinate soon.,3,N/A,who,-14.21909600,20.51381929
+subject_pg_full,9,plusF_minusG1_plusG2,The report suggested who the painting of the professor will probably fascinate soon.,4,N/A,the,-5.57561600,8.04391355
+subject_pg_full,9,plusF_minusG1_plusG2,The report suggested who the painting of the professor will probably fascinate soon.,5,N/A,painting,-18.46560900,26.64024253
+subject_pg_full,9,plusF_minusG1_plusG2,The report suggested who the painting of the professor will probably fascinate soon.,6,N/A,of,-4.96005000,7.15583954
+subject_pg_full,9,plusF_minusG1_plusG2,The report suggested who the painting of the professor will probably fascinate soon.,7,N/A,the,-2.30292100,3.32241271
+subject_pg_full,9,plusF_minusG1_plusG2,The report suggested who the painting of the professor will probably fascinate soon.,8,N/A,professor,-14.83002000,21.39519631
+subject_pg_full,9,plusF_minusG1_plusG2,The report suggested who the painting of the professor will probably fascinate soon.,9,N/A,will,-8.12561600,11.72278591
+subject_pg_full,9,plusF_minusG1_plusG2,The report suggested who the painting of the professor will probably fascinate soon.,10,N/A,probably,-9.18027400,13.24433577
+subject_pg_full,9,plusF_minusG1_plusG2,The report suggested who the painting of the professor will probably fascinate soon.,11,N/A,fasc,-18.61002800,26.84859511
+subject_pg_full,9,plusF_minusG1_plusG2,The report suggested who the painting of the professor will probably fascinate soon.,12,N/A,inate,-0.00074700,0.00107769
+subject_pg_full,9,plusF_minusG1_plusG2,The report suggested who the painting of the professor will probably fascinate soon.,13,N/A,soon,-11.69181100,16.86771775
+subject_pg_full,9,plusF_minusG1_plusG2,The report suggested who the painting of the professor will probably fascinate soon.,14,N/A,.,-10.82015700,15.61018685
+subject_pg_full,9,plusF_minusG1_minusG2,The report suggested who the painting of the professor will probably fascinate Nina soon.,0,N/A,The,-4.72930100,6.82293910
+subject_pg_full,9,plusF_minusG1_minusG2,The report suggested who the painting of the professor will probably fascinate Nina soon.,1,N/A,report,-9.78094000,14.11091363
+subject_pg_full,9,plusF_minusG1_minusG2,The report suggested who the painting of the professor will probably fascinate Nina soon.,2,N/A,suggested,-8.99788900,12.98120984
+subject_pg_full,9,plusF_minusG1_minusG2,The report suggested who the painting of the professor will probably fascinate Nina soon.,3,N/A,who,-14.21909600,20.51381929
+subject_pg_full,9,plusF_minusG1_minusG2,The report suggested who the painting of the professor will probably fascinate Nina soon.,4,N/A,the,-5.57561600,8.04391355
+subject_pg_full,9,plusF_minusG1_minusG2,The report suggested who the painting of the professor will probably fascinate Nina soon.,5,N/A,painting,-18.46560900,26.64024253
+subject_pg_full,9,plusF_minusG1_minusG2,The report suggested who the painting of the professor will probably fascinate Nina soon.,6,N/A,of,-4.96005000,7.15583954
+subject_pg_full,9,plusF_minusG1_minusG2,The report suggested who the painting of the professor will probably fascinate Nina soon.,7,N/A,the,-2.30292100,3.32241271
+subject_pg_full,9,plusF_minusG1_minusG2,The report suggested who the painting of the professor will probably fascinate Nina soon.,8,N/A,professor,-14.83002000,21.39519631
+subject_pg_full,9,plusF_minusG1_minusG2,The report suggested who the painting of the professor will probably fascinate Nina soon.,9,N/A,will,-8.12561600,11.72278591
+subject_pg_full,9,plusF_minusG1_minusG2,The report suggested who the painting of the professor will probably fascinate Nina soon.,10,N/A,probably,-9.18027400,13.24433577
+subject_pg_full,9,plusF_minusG1_minusG2,The report suggested who the painting of the professor will probably fascinate Nina soon.,11,N/A,fasc,-18.61002800,26.84859511
+subject_pg_full,9,plusF_minusG1_minusG2,The report suggested who the painting of the professor will probably fascinate Nina soon.,12,N/A,inate,-0.00074700,0.00107769
+subject_pg_full,9,plusF_minusG1_minusG2,The report suggested who the painting of the professor will probably fascinate Nina soon.,13,N/A,Nina,-20.38201500,29.40503196
+subject_pg_full,9,plusF_minusG1_minusG2,The report suggested who the painting of the professor will probably fascinate Nina soon.,14,N/A,soon,-18.12697700,26.15169982
+subject_pg_full,9,plusF_minusG1_minusG2,The report suggested who the painting of the professor will probably fascinate Nina soon.,15,N/A,.,-11.15927300,16.09942782
+subject_pg_full,9,minusF_plusG1_plusG2,The report suggested that the painting of will probably fascinate soon.,0,N/A,The,-4.72930100,6.82293910
+subject_pg_full,9,minusF_plusG1_plusG2,The report suggested that the painting of will probably fascinate soon.,1,N/A,report,-9.78094000,14.11091363
+subject_pg_full,9,minusF_plusG1_plusG2,The report suggested that the painting of will probably fascinate soon.,2,N/A,suggested,-8.99788900,12.98120984
+subject_pg_full,9,minusF_plusG1_plusG2,The report suggested that the painting of will probably fascinate soon.,3,N/A,that,-0.71451200,1.03082292
+subject_pg_full,9,minusF_plusG1_plusG2,The report suggested that the painting of will probably fascinate soon.,4,N/A,the,-2.56894800,3.70620854
+subject_pg_full,9,minusF_plusG1_plusG2,The report suggested that the painting of will probably fascinate soon.,5,N/A,painting,-17.59912500,25.39017036
+subject_pg_full,9,minusF_plusG1_plusG2,The report suggested that the painting of will probably fascinate soon.,6,N/A,of,-3.17083800,4.57455226
+subject_pg_full,9,minusF_plusG1_plusG2,The report suggested that the painting of will probably fascinate soon.,7,N/A,will,-16.58389500,23.92550308
+subject_pg_full,9,minusF_plusG1_plusG2,The report suggested that the painting of will probably fascinate soon.,8,N/A,probably,-12.69688600,18.31773447
+subject_pg_full,9,minusF_plusG1_plusG2,The report suggested that the painting of will probably fascinate soon.,9,N/A,fasc,-14.16865000,20.44104109
+subject_pg_full,9,minusF_plusG1_plusG2,The report suggested that the painting of will probably fascinate soon.,10,N/A,inate,-0.00571300,0.00824212
+subject_pg_full,9,minusF_plusG1_plusG2,The report suggested that the painting of will probably fascinate soon.,11,N/A,soon,-14.53495600,20.96950894
+subject_pg_full,9,minusF_plusG1_plusG2,The report suggested that the painting of will probably fascinate soon.,12,N/A,.,-14.71229600,21.22535648
+subject_pg_full,9,minusF_plusG1_minusG2,The report suggested that the painting of will probably fascinate Nina soon.,0,N/A,The,-4.72930100,6.82293910
+subject_pg_full,9,minusF_plusG1_minusG2,The report suggested that the painting of will probably fascinate Nina soon.,1,N/A,report,-9.78094000,14.11091363
+subject_pg_full,9,minusF_plusG1_minusG2,The report suggested that the painting of will probably fascinate Nina soon.,2,N/A,suggested,-8.99788900,12.98120984
+subject_pg_full,9,minusF_plusG1_minusG2,The report suggested that the painting of will probably fascinate Nina soon.,3,N/A,that,-0.71451200,1.03082292
+subject_pg_full,9,minusF_plusG1_minusG2,The report suggested that the painting of will probably fascinate Nina soon.,4,N/A,the,-2.56894800,3.70620854
+subject_pg_full,9,minusF_plusG1_minusG2,The report suggested that the painting of will probably fascinate Nina soon.,5,N/A,painting,-17.59912500,25.39017036
+subject_pg_full,9,minusF_plusG1_minusG2,The report suggested that the painting of will probably fascinate Nina soon.,6,N/A,of,-3.17083800,4.57455226
+subject_pg_full,9,minusF_plusG1_minusG2,The report suggested that the painting of will probably fascinate Nina soon.,7,N/A,will,-16.58389500,23.92550308
+subject_pg_full,9,minusF_plusG1_minusG2,The report suggested that the painting of will probably fascinate Nina soon.,8,N/A,probably,-12.69688600,18.31773447
+subject_pg_full,9,minusF_plusG1_minusG2,The report suggested that the painting of will probably fascinate Nina soon.,9,N/A,fasc,-14.16865000,20.44104109
+subject_pg_full,9,minusF_plusG1_minusG2,The report suggested that the painting of will probably fascinate Nina soon.,10,N/A,inate,-0.00571300,0.00824212
+subject_pg_full,9,minusF_plusG1_minusG2,The report suggested that the painting of will probably fascinate Nina soon.,11,N/A,Nina,-19.64748000,28.34532196
+subject_pg_full,9,minusF_plusG1_minusG2,The report suggested that the painting of will probably fascinate Nina soon.,12,N/A,soon,-18.59341000,26.82462040
+subject_pg_full,9,minusF_plusG1_minusG2,The report suggested that the painting of will probably fascinate Nina soon.,13,N/A,.,-11.16458200,16.10708708
+subject_pg_full,9,minusF_minusG1_plusG2,The report suggested that the painting of the professor will probably fascinate soon.,0,N/A,The,-4.72930100,6.82293910
+subject_pg_full,9,minusF_minusG1_plusG2,The report suggested that the painting of the professor will probably fascinate soon.,1,N/A,report,-9.78094000,14.11091363
+subject_pg_full,9,minusF_minusG1_plusG2,The report suggested that the painting of the professor will probably fascinate soon.,2,N/A,suggested,-8.99788900,12.98120984
+subject_pg_full,9,minusF_minusG1_plusG2,The report suggested that the painting of the professor will probably fascinate soon.,3,N/A,that,-0.71451200,1.03082292
+subject_pg_full,9,minusF_minusG1_plusG2,The report suggested that the painting of the professor will probably fascinate soon.,4,N/A,the,-2.56894800,3.70620854
+subject_pg_full,9,minusF_minusG1_plusG2,The report suggested that the painting of the professor will probably fascinate soon.,5,N/A,painting,-17.59912500,25.39017036
+subject_pg_full,9,minusF_minusG1_plusG2,The report suggested that the painting of the professor will probably fascinate soon.,6,N/A,of,-3.17083800,4.57455226
+subject_pg_full,9,minusF_minusG1_plusG2,The report suggested that the painting of the professor will probably fascinate soon.,7,N/A,the,-1.82753000,2.63656847
+subject_pg_full,9,minusF_minusG1_plusG2,The report suggested that the painting of the professor will probably fascinate soon.,8,N/A,professor,-15.65153600,22.58039337
+subject_pg_full,9,minusF_minusG1_plusG2,The report suggested that the painting of the professor will probably fascinate soon.,9,N/A,will,-9.58608800,13.82980162
+subject_pg_full,9,minusF_minusG1_plusG2,The report suggested that the painting of the professor will probably fascinate soon.,10,N/A,probably,-7.12303600,10.27636871
+subject_pg_full,9,minusF_minusG1_plusG2,The report suggested that the painting of the professor will probably fascinate soon.,11,N/A,fasc,-13.78768400,19.89142333
+subject_pg_full,9,minusF_minusG1_plusG2,The report suggested that the painting of the professor will probably fascinate soon.,12,N/A,inate,-0.00015100,0.00021785
+subject_pg_full,9,minusF_minusG1_plusG2,The report suggested that the painting of the professor will probably fascinate soon.,13,N/A,soon,-14.33427800,20.67999179
+subject_pg_full,9,minusF_minusG1_plusG2,The report suggested that the painting of the professor will probably fascinate soon.,14,N/A,.,-14.17928700,20.45638704
+subject_pg_full,9,minusF_minusG1_minusG2,The report suggested that the painting of the professor will probably fascinate Nina soon.,0,N/A,The,-4.72930100,6.82293910
+subject_pg_full,9,minusF_minusG1_minusG2,The report suggested that the painting of the professor will probably fascinate Nina soon.,1,N/A,report,-9.78094000,14.11091363
+subject_pg_full,9,minusF_minusG1_minusG2,The report suggested that the painting of the professor will probably fascinate Nina soon.,2,N/A,suggested,-8.99788900,12.98120984
+subject_pg_full,9,minusF_minusG1_minusG2,The report suggested that the painting of the professor will probably fascinate Nina soon.,3,N/A,that,-0.71451200,1.03082292
+subject_pg_full,9,minusF_minusG1_minusG2,The report suggested that the painting of the professor will probably fascinate Nina soon.,4,N/A,the,-2.56894800,3.70620854
+subject_pg_full,9,minusF_minusG1_minusG2,The report suggested that the painting of the professor will probably fascinate Nina soon.,5,N/A,painting,-17.59912500,25.39017036
+subject_pg_full,9,minusF_minusG1_minusG2,The report suggested that the painting of the professor will probably fascinate Nina soon.,6,N/A,of,-3.17083800,4.57455226
+subject_pg_full,9,minusF_minusG1_minusG2,The report suggested that the painting of the professor will probably fascinate Nina soon.,7,N/A,the,-1.82753000,2.63656847
+subject_pg_full,9,minusF_minusG1_minusG2,The report suggested that the painting of the professor will probably fascinate Nina soon.,8,N/A,professor,-15.65153600,22.58039337
+subject_pg_full,9,minusF_minusG1_minusG2,The report suggested that the painting of the professor will probably fascinate Nina soon.,9,N/A,will,-9.58608800,13.82980162
+subject_pg_full,9,minusF_minusG1_minusG2,The report suggested that the painting of the professor will probably fascinate Nina soon.,10,N/A,probably,-7.12303600,10.27636871
+subject_pg_full,9,minusF_minusG1_minusG2,The report suggested that the painting of the professor will probably fascinate Nina soon.,11,N/A,fasc,-13.78768400,19.89142333
+subject_pg_full,9,minusF_minusG1_minusG2,The report suggested that the painting of the professor will probably fascinate Nina soon.,12,N/A,inate,-0.00015100,0.00021785
+subject_pg_full,9,minusF_minusG1_minusG2,The report suggested that the painting of the professor will probably fascinate Nina soon.,13,N/A,Nina,-20.51875200,29.60230176
+subject_pg_full,9,minusF_minusG1_minusG2,The report suggested that the painting of the professor will probably fascinate Nina soon.,14,N/A,soon,-18.67564300,26.94325754
+subject_pg_full,9,minusF_minusG1_minusG2,The report suggested that the painting of the professor will probably fascinate Nina soon.,15,N/A,.,-11.28088000,16.27486963
+subject_pg_full,10,plusF_plusG1_plusG2,It is clear who the description of might disturb eventually.,0,N/A,It,-6.77742400,9.77775599
+subject_pg_full,10,plusF_plusG1_plusG2,It is clear who the description of might disturb eventually.,1,N/A,is,-3.01378200,4.34796835
+subject_pg_full,10,plusF_plusG1_plusG2,It is clear who the description of might disturb eventually.,2,N/A,clear,-6.49428600,9.36927421
+subject_pg_full,10,plusF_plusG1_plusG2,It is clear who the description of might disturb eventually.,3,N/A,who,-9.44811200,13.63074433
+subject_pg_full,10,plusF_plusG1_plusG2,It is clear who the description of might disturb eventually.,4,N/A,the,-3.71462200,5.35906674
+subject_pg_full,10,plusF_plusG1_plusG2,It is clear who the description of might disturb eventually.,5,N/A,description,-17.97521800,25.93275787
+subject_pg_full,10,plusF_plusG1_plusG2,It is clear who the description of might disturb eventually.,6,N/A,of,-0.93874400,1.35432131
+subject_pg_full,10,plusF_plusG1_plusG2,It is clear who the description of might disturb eventually.,7,N/A,might,-16.18764400,23.35383372
+subject_pg_full,10,plusF_plusG1_plusG2,It is clear who the description of might disturb eventually.,8,N/A,disturb,-17.09779100,24.66689829
+subject_pg_full,10,plusF_plusG1_plusG2,It is clear who the description of might disturb eventually.,9,N/A,eventually,-16.61063900,23.96408651
+subject_pg_full,10,plusF_plusG1_plusG2,It is clear who the description of might disturb eventually.,10,N/A,.,-9.94401400,14.34617968
+subject_pg_full,10,plusF_plusG1_minusG2,It is clear who the description of might disturb Ben eventually.,0,N/A,It,-6.77742400,9.77775599
+subject_pg_full,10,plusF_plusG1_minusG2,It is clear who the description of might disturb Ben eventually.,1,N/A,is,-3.01378200,4.34796835
+subject_pg_full,10,plusF_plusG1_minusG2,It is clear who the description of might disturb Ben eventually.,2,N/A,clear,-6.49428600,9.36927421
+subject_pg_full,10,plusF_plusG1_minusG2,It is clear who the description of might disturb Ben eventually.,3,N/A,who,-9.44811200,13.63074433
+subject_pg_full,10,plusF_plusG1_minusG2,It is clear who the description of might disturb Ben eventually.,4,N/A,the,-3.71462200,5.35906674
+subject_pg_full,10,plusF_plusG1_minusG2,It is clear who the description of might disturb Ben eventually.,5,N/A,description,-17.97521800,25.93275787
+subject_pg_full,10,plusF_plusG1_minusG2,It is clear who the description of might disturb Ben eventually.,6,N/A,of,-0.93874400,1.35432131
+subject_pg_full,10,plusF_plusG1_minusG2,It is clear who the description of might disturb Ben eventually.,7,N/A,might,-16.18764400,23.35383372
+subject_pg_full,10,plusF_plusG1_minusG2,It is clear who the description of might disturb Ben eventually.,8,N/A,disturb,-17.09779100,24.66689829
+subject_pg_full,10,plusF_plusG1_minusG2,It is clear who the description of might disturb Ben eventually.,9,N/A,Ben,-13.40182200,19.33474214
+subject_pg_full,10,plusF_plusG1_minusG2,It is clear who the description of might disturb Ben eventually.,10,N/A,eventually,-17.16428400,24.76282741
+subject_pg_full,10,plusF_plusG1_minusG2,It is clear who the description of might disturb Ben eventually.,11,N/A,.,-11.12889600,16.05560307
+subject_pg_full,10,plusF_minusG1_plusG2,It is clear who the description of the consultant might disturb eventually.,0,N/A,It,-6.77742400,9.77775599
+subject_pg_full,10,plusF_minusG1_plusG2,It is clear who the description of the consultant might disturb eventually.,1,N/A,is,-3.01378200,4.34796835
+subject_pg_full,10,plusF_minusG1_plusG2,It is clear who the description of the consultant might disturb eventually.,2,N/A,clear,-6.49428600,9.36927421
+subject_pg_full,10,plusF_minusG1_plusG2,It is clear who the description of the consultant might disturb eventually.,3,N/A,who,-9.44811200,13.63074433
+subject_pg_full,10,plusF_minusG1_plusG2,It is clear who the description of the consultant might disturb eventually.,4,N/A,the,-3.71462200,5.35906674
+subject_pg_full,10,plusF_minusG1_plusG2,It is clear who the description of the consultant might disturb eventually.,5,N/A,description,-17.97521800,25.93275787
+subject_pg_full,10,plusF_minusG1_plusG2,It is clear who the description of the consultant might disturb eventually.,6,N/A,of,-0.93874400,1.35432131
+subject_pg_full,10,plusF_minusG1_plusG2,It is clear who the description of the consultant might disturb eventually.,7,N/A,the,-1.77254200,2.55723755
+subject_pg_full,10,plusF_minusG1_plusG2,It is clear who the description of the consultant might disturb eventually.,8,N/A,consultant,-15.91510500,22.96064306
+subject_pg_full,10,plusF_minusG1_plusG2,It is clear who the description of the consultant might disturb eventually.,9,N/A,might,-8.57090000,12.36519493
+subject_pg_full,10,plusF_minusG1_plusG2,It is clear who the description of the consultant might disturb eventually.,10,N/A,disturb,-20.38811400,29.41383096
+subject_pg_full,10,plusF_minusG1_plusG2,It is clear who the description of the consultant might disturb eventually.,11,N/A,eventually,-16.91620000,24.40491785
+subject_pg_full,10,plusF_minusG1_plusG2,It is clear who the description of the consultant might disturb eventually.,12,N/A,.,-10.15705300,14.65352999
+subject_pg_full,10,plusF_minusG1_minusG2,It is clear who the description of the consultant might disturb Ben eventually.,0,N/A,It,-6.77742400,9.77775599
+subject_pg_full,10,plusF_minusG1_minusG2,It is clear who the description of the consultant might disturb Ben eventually.,1,N/A,is,-3.01378200,4.34796835
+subject_pg_full,10,plusF_minusG1_minusG2,It is clear who the description of the consultant might disturb Ben eventually.,2,N/A,clear,-6.49428600,9.36927421
+subject_pg_full,10,plusF_minusG1_minusG2,It is clear who the description of the consultant might disturb Ben eventually.,3,N/A,who,-9.44811200,13.63074433
+subject_pg_full,10,plusF_minusG1_minusG2,It is clear who the description of the consultant might disturb Ben eventually.,4,N/A,the,-3.71462200,5.35906674
+subject_pg_full,10,plusF_minusG1_minusG2,It is clear who the description of the consultant might disturb Ben eventually.,5,N/A,description,-17.97521800,25.93275787
+subject_pg_full,10,plusF_minusG1_minusG2,It is clear who the description of the consultant might disturb Ben eventually.,6,N/A,of,-0.93874400,1.35432131
+subject_pg_full,10,plusF_minusG1_minusG2,It is clear who the description of the consultant might disturb Ben eventually.,7,N/A,the,-1.77254200,2.55723755
+subject_pg_full,10,plusF_minusG1_minusG2,It is clear who the description of the consultant might disturb Ben eventually.,8,N/A,consultant,-15.91510500,22.96064306
+subject_pg_full,10,plusF_minusG1_minusG2,It is clear who the description of the consultant might disturb Ben eventually.,9,N/A,might,-8.57090000,12.36519493
+subject_pg_full,10,plusF_minusG1_minusG2,It is clear who the description of the consultant might disturb Ben eventually.,10,N/A,disturb,-20.38811400,29.41383096
+subject_pg_full,10,plusF_minusG1_minusG2,It is clear who the description of the consultant might disturb Ben eventually.,11,N/A,Ben,-15.17675900,21.89543495
+subject_pg_full,10,plusF_minusG1_minusG2,It is clear who the description of the consultant might disturb Ben eventually.,12,N/A,eventually,-17.91129400,25.84053503
+subject_pg_full,10,plusF_minusG1_minusG2,It is clear who the description of the consultant might disturb Ben eventually.,13,N/A,.,-10.72797100,15.47719056
+subject_pg_full,10,minusF_plusG1_plusG2,It is clear that the description of might disturb eventually.,0,N/A,It,-6.77742400,9.77775599
+subject_pg_full,10,minusF_plusG1_plusG2,It is clear that the description of might disturb eventually.,1,N/A,is,-3.01378200,4.34796835
+subject_pg_full,10,minusF_plusG1_plusG2,It is clear that the description of might disturb eventually.,2,N/A,clear,-6.49428600,9.36927421
+subject_pg_full,10,minusF_plusG1_plusG2,It is clear that the description of might disturb eventually.,3,N/A,that,-0.79152900,1.14193496
+subject_pg_full,10,minusF_plusG1_plusG2,It is clear that the description of might disturb eventually.,4,N/A,the,-2.36033500,3.40524360
+subject_pg_full,10,minusF_plusG1_plusG2,It is clear that the description of might disturb eventually.,5,N/A,description,-14.81502300,21.37356021
+subject_pg_full,10,minusF_plusG1_plusG2,It is clear that the description of might disturb eventually.,6,N/A,of,-0.50261400,0.72511873
+subject_pg_full,10,minusF_plusG1_plusG2,It is clear that the description of might disturb eventually.,7,N/A,might,-17.01786800,24.55159377
+subject_pg_full,10,minusF_plusG1_plusG2,It is clear that the description of might disturb eventually.,8,N/A,disturb,-14.00583800,20.20615303
+subject_pg_full,10,minusF_plusG1_plusG2,It is clear that the description of might disturb eventually.,9,N/A,eventually,-17.23301100,24.86197951
+subject_pg_full,10,minusF_plusG1_plusG2,It is clear that the description of might disturb eventually.,10,N/A,.,-11.12665800,16.05237432
+subject_pg_full,10,minusF_plusG1_minusG2,It is clear that the description of might disturb Ben eventually.,0,N/A,It,-6.77742400,9.77775599
+subject_pg_full,10,minusF_plusG1_minusG2,It is clear that the description of might disturb Ben eventually.,1,N/A,is,-3.01378200,4.34796835
+subject_pg_full,10,minusF_plusG1_minusG2,It is clear that the description of might disturb Ben eventually.,2,N/A,clear,-6.49428600,9.36927421
+subject_pg_full,10,minusF_plusG1_minusG2,It is clear that the description of might disturb Ben eventually.,3,N/A,that,-0.79152900,1.14193496
+subject_pg_full,10,minusF_plusG1_minusG2,It is clear that the description of might disturb Ben eventually.,4,N/A,the,-2.36033500,3.40524360
+subject_pg_full,10,minusF_plusG1_minusG2,It is clear that the description of might disturb Ben eventually.,5,N/A,description,-14.81502300,21.37356021
+subject_pg_full,10,minusF_plusG1_minusG2,It is clear that the description of might disturb Ben eventually.,6,N/A,of,-0.50261400,0.72511873
+subject_pg_full,10,minusF_plusG1_minusG2,It is clear that the description of might disturb Ben eventually.,7,N/A,might,-17.01786800,24.55159377
+subject_pg_full,10,minusF_plusG1_minusG2,It is clear that the description of might disturb Ben eventually.,8,N/A,disturb,-14.00583800,20.20615303
+subject_pg_full,10,minusF_plusG1_minusG2,It is clear that the description of might disturb Ben eventually.,9,N/A,Ben,-14.84592500,21.41814237
+subject_pg_full,10,minusF_plusG1_minusG2,It is clear that the description of might disturb Ben eventually.,10,N/A,eventually,-17.11911000,24.69765510
+subject_pg_full,10,minusF_plusG1_minusG2,It is clear that the description of might disturb Ben eventually.,11,N/A,.,-10.94886200,15.79586891
+subject_pg_full,10,minusF_minusG1_plusG2,It is clear that the description of the consultant might disturb eventually.,0,N/A,It,-6.77742400,9.77775599
+subject_pg_full,10,minusF_minusG1_plusG2,It is clear that the description of the consultant might disturb eventually.,1,N/A,is,-3.01378200,4.34796835
+subject_pg_full,10,minusF_minusG1_plusG2,It is clear that the description of the consultant might disturb eventually.,2,N/A,clear,-6.49428600,9.36927421
+subject_pg_full,10,minusF_minusG1_plusG2,It is clear that the description of the consultant might disturb eventually.,3,N/A,that,-0.79152900,1.14193496
+subject_pg_full,10,minusF_minusG1_plusG2,It is clear that the description of the consultant might disturb eventually.,4,N/A,the,-2.36033500,3.40524360
+subject_pg_full,10,minusF_minusG1_plusG2,It is clear that the description of the consultant might disturb eventually.,5,N/A,description,-14.81502300,21.37356021
+subject_pg_full,10,minusF_minusG1_plusG2,It is clear that the description of the consultant might disturb eventually.,6,N/A,of,-0.50261400,0.72511873
+subject_pg_full,10,minusF_minusG1_plusG2,It is clear that the description of the consultant might disturb eventually.,7,N/A,the,-1.78332000,2.57278692
+subject_pg_full,10,minusF_minusG1_plusG2,It is clear that the description of the consultant might disturb eventually.,8,N/A,consultant,-16.99749900,24.52220751
+subject_pg_full,10,minusF_minusG1_plusG2,It is clear that the description of the consultant might disturb eventually.,9,N/A,might,-10.66192100,15.38190055
+subject_pg_full,10,minusF_minusG1_plusG2,It is clear that the description of the consultant might disturb eventually.,10,N/A,disturb,-12.49980600,18.03340813
+subject_pg_full,10,minusF_minusG1_plusG2,It is clear that the description of the consultant might disturb eventually.,11,N/A,eventually,-18.27166000,26.36043327
+subject_pg_full,10,minusF_minusG1_plusG2,It is clear that the description of the consultant might disturb eventually.,12,N/A,.,-11.88714800,17.14952947
+subject_pg_full,10,minusF_minusG1_minusG2,It is clear that the description of the consultant might disturb Ben eventually.,0,N/A,It,-6.77742400,9.77775599
+subject_pg_full,10,minusF_minusG1_minusG2,It is clear that the description of the consultant might disturb Ben eventually.,1,N/A,is,-3.01378200,4.34796835
+subject_pg_full,10,minusF_minusG1_minusG2,It is clear that the description of the consultant might disturb Ben eventually.,2,N/A,clear,-6.49428600,9.36927421
+subject_pg_full,10,minusF_minusG1_minusG2,It is clear that the description of the consultant might disturb Ben eventually.,3,N/A,that,-0.79152900,1.14193496
+subject_pg_full,10,minusF_minusG1_minusG2,It is clear that the description of the consultant might disturb Ben eventually.,4,N/A,the,-2.36033500,3.40524360
+subject_pg_full,10,minusF_minusG1_minusG2,It is clear that the description of the consultant might disturb Ben eventually.,5,N/A,description,-14.81502300,21.37356021
+subject_pg_full,10,minusF_minusG1_minusG2,It is clear that the description of the consultant might disturb Ben eventually.,6,N/A,of,-0.50261400,0.72511873
+subject_pg_full,10,minusF_minusG1_minusG2,It is clear that the description of the consultant might disturb Ben eventually.,7,N/A,the,-1.78332000,2.57278692
+subject_pg_full,10,minusF_minusG1_minusG2,It is clear that the description of the consultant might disturb Ben eventually.,8,N/A,consultant,-16.99749900,24.52220751
+subject_pg_full,10,minusF_minusG1_minusG2,It is clear that the description of the consultant might disturb Ben eventually.,9,N/A,might,-10.66192100,15.38190055
+subject_pg_full,10,minusF_minusG1_minusG2,It is clear that the description of the consultant might disturb Ben eventually.,10,N/A,disturb,-12.49980600,18.03340813
+subject_pg_full,10,minusF_minusG1_minusG2,It is clear that the description of the consultant might disturb Ben eventually.,11,N/A,Ben,-16.05281400,23.15931515
+subject_pg_full,10,minusF_minusG1_minusG2,It is clear that the description of the consultant might disturb Ben eventually.,12,N/A,eventually,-17.74556800,25.60144295
+subject_pg_full,10,minusF_minusG1_minusG2,It is clear that the description of the consultant might disturb Ben eventually.,13,N/A,.,-10.97379700,15.83184251

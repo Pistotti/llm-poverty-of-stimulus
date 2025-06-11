@@ -1,1 +1,104 @@
 source_doc_name,item,condition,full_sentence_text,bpe_token_index,bpe_token_id,bpe_token_str,log_prob_gpt2,surprisal_bits_gpt2
+subject_pg_full,1,plusF_plusG1_plusG2,The investigators know who the story about is likely to damage severely.,0,N/A,The,-4.72930100,6.82293910
+subject_pg_full,1,plusF_plusG1_plusG2,The investigators know who the story about is likely to damage severely.,1,N/A,investigators,-14.26418900,20.57887473
+subject_pg_full,1,plusF_plusG1_plusG2,The investigators know who the story about is likely to damage severely.,2,N/A,know,-10.53838400,15.20367434
+subject_pg_full,1,plusF_plusG1_plusG2,The investigators know who the story about is likely to damage severely.,3,N/A,who,-5.29779500,7.64310257
+subject_pg_full,1,plusF_plusG1_plusG2,The investigators know who the story about is likely to damage severely.,4,N/A,the,-3.26508100,4.71051617
+subject_pg_full,1,plusF_plusG1_plusG2,The investigators know who the story about is likely to damage severely.,5,N/A,story,-12.58247400,18.15267284
+subject_pg_full,1,plusF_plusG1_plusG2,The investigators know who the story about is likely to damage severely.,6,N/A,about,-8.60263800,12.41098318
+subject_pg_full,1,plusF_plusG1_plusG2,The investigators know who the story about is likely to damage severely.,7,N/A,is,-10.68289400,15.41215820
+subject_pg_full,1,plusF_plusG1_plusG2,The investigators know who the story about is likely to damage severely.,8,N/A,likely,-10.03896400,14.48316358
+subject_pg_full,1,plusF_plusG1_plusG2,The investigators know who the story about is likely to damage severely.,9,N/A,to,-1.45458400,2.09852112
+subject_pg_full,1,plusF_plusG1_plusG2,The investigators know who the story about is likely to damage severely.,10,N/A,damage,-13.41873900,19.35914821
+subject_pg_full,1,plusF_plusG1_plusG2,The investigators know who the story about is likely to damage severely.,11,N/A,severely,-18.29800200,26.39843674
+subject_pg_full,1,plusF_plusG1_plusG2,The investigators know who the story about is likely to damage severely.,12,N/A,.,-12.35238300,17.82072170
+subject_pg_full,1,plusF_plusG1_minusG2,The investigators know who the story about is likely to damage the campaign severely.,0,N/A,The,-4.72930100,6.82293910
+subject_pg_full,1,plusF_plusG1_minusG2,The investigators know who the story about is likely to damage the campaign severely.,1,N/A,investigators,-14.26418900,20.57887473
+subject_pg_full,1,plusF_plusG1_minusG2,The investigators know who the story about is likely to damage the campaign severely.,2,N/A,know,-10.53838400,15.20367434
+subject_pg_full,1,plusF_plusG1_minusG2,The investigators know who the story about is likely to damage the campaign severely.,3,N/A,who,-5.29779500,7.64310257
+subject_pg_full,1,plusF_plusG1_minusG2,The investigators know who the story about is likely to damage the campaign severely.,4,N/A,the,-3.26508100,4.71051617
+subject_pg_full,1,plusF_plusG1_minusG2,The investigators know who the story about is likely to damage the campaign severely.,5,N/A,story,-12.58247400,18.15267284
+subject_pg_full,1,plusF_plusG1_minusG2,The investigators know who the story about is likely to damage the campaign severely.,6,N/A,about,-8.60263800,12.41098318
+subject_pg_full,1,plusF_plusG1_minusG2,The investigators know who the story about is likely to damage the campaign severely.,7,N/A,is,-10.68289400,15.41215820
+subject_pg_full,1,plusF_plusG1_minusG2,The investigators know who the story about is likely to damage the campaign severely.,8,N/A,likely,-10.03896400,14.48316358
+subject_pg_full,1,plusF_plusG1_minusG2,The investigators know who the story about is likely to damage the campaign severely.,9,N/A,to,-1.45458400,2.09852112
+subject_pg_full,1,plusF_plusG1_minusG2,The investigators know who the story about is likely to damage the campaign severely.,10,N/A,damage,-13.41873900,19.35914821
+subject_pg_full,1,plusF_plusG1_minusG2,The investigators know who the story about is likely to damage the campaign severely.,11,N/A,the,-1.80155900,2.59910024
+subject_pg_full,1,plusF_plusG1_minusG2,The investigators know who the story about is likely to damage the campaign severely.,12,N/A,campaign,-6.13396800,8.84944521
+subject_pg_full,1,plusF_plusG1_minusG2,The investigators know who the story about is likely to damage the campaign severely.,13,N/A,severely,-18.34881900,26.47175018
+subject_pg_full,1,plusF_plusG1_minusG2,The investigators know who the story about is likely to damage the campaign severely.,14,N/A,.,-10.97948500,15.84004856
+subject_pg_full,1,plusF_minusG1_plusG2,The investigators know who the story about the politician is likely to damage severely.,0,N/A,The,-4.72930100,6.82293910
+subject_pg_full,1,plusF_minusG1_plusG2,The investigators know who the story about the politician is likely to damage severely.,1,N/A,investigators,-14.26418900,20.57887473
+subject_pg_full,1,plusF_minusG1_plusG2,The investigators know who the story about the politician is likely to damage severely.,2,N/A,know,-10.53838400,15.20367434
+subject_pg_full,1,plusF_minusG1_plusG2,The investigators know who the story about the politician is likely to damage severely.,3,N/A,who,-5.29779500,7.64310257
+subject_pg_full,1,plusF_minusG1_plusG2,The investigators know who the story about the politician is likely to damage severely.,4,N/A,the,-3.26508100,4.71051617
+subject_pg_full,1,plusF_minusG1_plusG2,The investigators know who the story about the politician is likely to damage severely.,5,N/A,story,-12.58247400,18.15267284
+subject_pg_full,1,plusF_minusG1_plusG2,The investigators know who the story about the politician is likely to damage severely.,6,N/A,about,-8.60263800,12.41098318
+subject_pg_full,1,plusF_minusG1_plusG2,The investigators know who the story about the politician is likely to damage severely.,7,N/A,the,-1.87346400,2.70283722
+subject_pg_full,1,plusF_minusG1_plusG2,The investigators know who the story about the politician is likely to damage severely.,8,N/A,politician,-13.54472300,19.54090470
+subject_pg_full,1,plusF_minusG1_plusG2,The investigators know who the story about the politician is likely to damage severely.,9,N/A,is,-2.33584900,3.36991777
+subject_pg_full,1,plusF_minusG1_plusG2,The investigators know who the story about the politician is likely to damage severely.,10,N/A,likely,-12.46394500,17.98167164
+subject_pg_full,1,plusF_minusG1_plusG2,The investigators know who the story about the politician is likely to damage severely.,11,N/A,to,-0.14342000,0.20691132
+subject_pg_full,1,plusF_minusG1_plusG2,The investigators know who the story about the politician is likely to damage severely.,12,N/A,damage,-16.63532000,23.99969367
+subject_pg_full,1,plusF_minusG1_plusG2,The investigators know who the story about the politician is likely to damage severely.,13,N/A,severely,-16.07297800,23.18840565
+subject_pg_full,1,plusF_minusG1_plusG2,The investigators know who the story about the politician is likely to damage severely.,14,N/A,.,-11.83878600,17.07975785
+subject_pg_full,1,plusF_minusG1_minusG2,The investigators know who the story about the politician is likely to damage the campaign severely.,0,N/A,The,-4.72930100,6.82293910
+subject_pg_full,1,plusF_minusG1_minusG2,The investigators know who the story about the politician is likely to damage the campaign severely.,1,N/A,investigators,-14.26418900,20.57887473
+subject_pg_full,1,plusF_minusG1_minusG2,The investigators know who the story about the politician is likely to damage the campaign severely.,2,N/A,know,-10.53838400,15.20367434
+subject_pg_full,1,plusF_minusG1_minusG2,The investigators know who the story about the politician is likely to damage the campaign severely.,3,N/A,who,-5.29779500,7.64310257
+subject_pg_full,1,plusF_minusG1_minusG2,The investigators know who the story about the politician is likely to damage the campaign severely.,4,N/A,the,-3.26508100,4.71051617
+subject_pg_full,1,plusF_minusG1_minusG2,The investigators know who the story about the politician is likely to damage the campaign severely.,5,N/A,story,-12.58247400,18.15267284
+subject_pg_full,1,plusF_minusG1_minusG2,The investigators know who the story about the politician is likely to damage the campaign severely.,6,N/A,about,-8.60263800,12.41098318
+subject_pg_full,1,plusF_minusG1_minusG2,The investigators know who the story about the politician is likely to damage the campaign severely.,7,N/A,the,-1.87346400,2.70283722
+subject_pg_full,1,plusF_minusG1_minusG2,The investigators know who the story about the politician is likely to damage the campaign severely.,8,N/A,politician,-13.54472300,19.54090470
+subject_pg_full,1,plusF_minusG1_minusG2,The investigators know who the story about the politician is likely to damage the campaign severely.,9,N/A,is,-2.33584900,3.36991777
+subject_pg_full,1,plusF_minusG1_minusG2,The investigators know who the story about the politician is likely to damage the campaign severely.,10,N/A,likely,-12.46394500,17.98167164
+subject_pg_full,1,plusF_minusG1_minusG2,The investigators know who the story about the politician is likely to damage the campaign severely.,11,N/A,to,-0.14342000,0.20691132
+subject_pg_full,1,plusF_minusG1_minusG2,The investigators know who the story about the politician is likely to damage the campaign severely.,12,N/A,damage,-16.63532000,23.99969367
+subject_pg_full,1,plusF_minusG1_minusG2,The investigators know who the story about the politician is likely to damage the campaign severely.,13,N/A,the,-3.20737800,4.62726833
+subject_pg_full,1,plusF_minusG1_minusG2,The investigators know who the story about the politician is likely to damage the campaign severely.,14,N/A,campaign,-4.00958100,5.78460262
+subject_pg_full,1,plusF_minusG1_minusG2,The investigators know who the story about the politician is likely to damage the campaign severely.,15,N/A,severely,-17.60727700,25.40193121
+subject_pg_full,1,plusF_minusG1_minusG2,The investigators know who the story about the politician is likely to damage the campaign severely.,16,N/A,.,-11.01276700,15.88806434
+subject_pg_full,1,minusF_plusG1_plusG2,The investigators know that the story about is likely to damage severely.,0,N/A,The,-4.72930100,6.82293910
+subject_pg_full,1,minusF_plusG1_plusG2,The investigators know that the story about is likely to damage severely.,1,N/A,investigators,-14.26418900,20.57887473
+subject_pg_full,1,minusF_plusG1_plusG2,The investigators know that the story about is likely to damage severely.,2,N/A,know,-10.53838400,15.20367434
+subject_pg_full,1,minusF_plusG1_plusG2,The investigators know that the story about is likely to damage severely.,3,N/A,that,-2.01317400,2.90439615
+subject_pg_full,1,minusF_plusG1_plusG2,The investigators know that the story about is likely to damage severely.,4,N/A,the,-2.79168700,4.02755299
+subject_pg_full,1,minusF_plusG1_plusG2,The investigators know that the story about is likely to damage severely.,5,N/A,story,-9.51370200,13.72537070
+subject_pg_full,1,minusF_plusG1_plusG2,The investigators know that the story about is likely to damage severely.,6,N/A,about,-4.39669700,6.34309296
+subject_pg_full,1,minusF_plusG1_plusG2,The investigators know that the story about is likely to damage severely.,7,N/A,is,-14.26636800,20.58201837
+subject_pg_full,1,minusF_plusG1_plusG2,The investigators know that the story about is likely to damage severely.,8,N/A,likely,-8.60153800,12.40939622
+subject_pg_full,1,minusF_plusG1_plusG2,The investigators know that the story about is likely to damage severely.,9,N/A,to,-1.89574800,2.73498624
+subject_pg_full,1,minusF_plusG1_plusG2,The investigators know that the story about is likely to damage severely.,10,N/A,damage,-10.49336200,15.13872132
+subject_pg_full,1,minusF_plusG1_plusG2,The investigators know that the story about is likely to damage severely.,11,N/A,severely,-17.07619900,24.63574761
+subject_pg_full,1,minusF_plusG1_plusG2,The investigators know that the story about is likely to damage severely.,12,N/A,.,-13.35220900,19.26316571
+subject_pg_full,1,minusF_plusG1_minusG2,The investigators know that the story about is likely to damage the campaign severely.,0,N/A,The,-4.72930100,6.82293910
+subject_pg_full,1,minusF_plusG1_minusG2,The investigators know that the story about is likely to damage the campaign severely.,1,N/A,investigators,-14.26418900,20.57887473
+subject_pg_full,1,minusF_plusG1_minusG2,The investigators know that the story about is likely to damage the campaign severely.,2,N/A,know,-10.53838400,15.20367434
+subject_pg_full,1,minusF_plusG1_minusG2,The investigators know that the story about is likely to damage the campaign severely.,3,N/A,that,-2.01317400,2.90439615
+subject_pg_full,1,minusF_plusG1_minusG2,The investigators know that the story about is likely to damage the campaign severely.,4,N/A,the,-2.79168700,4.02755299
+subject_pg_full,1,minusF_plusG1_minusG2,The investigators know that the story about is likely to damage the campaign severely.,5,N/A,story,-9.51370200,13.72537070
+subject_pg_full,1,minusF_plusG1_minusG2,The investigators know that the story about is likely to damage the campaign severely.,6,N/A,about,-4.39669700,6.34309296
+subject_pg_full,1,minusF_plusG1_minusG2,The investigators know that the story about is likely to damage the campaign severely.,7,N/A,is,-14.26636800,20.58201837
+subject_pg_full,1,minusF_plusG1_minusG2,The investigators know that the story about is likely to damage the campaign severely.,8,N/A,likely,-8.60153800,12.40939622
+subject_pg_full,1,minusF_plusG1_minusG2,The investigators know that the story about is likely to damage the campaign severely.,9,N/A,to,-1.89574800,2.73498624
+subject_pg_full,1,minusF_plusG1_minusG2,The investigators know that the story about is likely to damage the campaign severely.,10,N/A,damage,-10.49336200,15.13872132
+subject_pg_full,1,minusF_plusG1_minusG2,The investigators know that the story about is likely to damage the campaign severely.,11,N/A,the,-1.70350400,2.45763677
+subject_pg_full,1,minusF_plusG1_minusG2,The investigators know that the story about is likely to damage the campaign severely.,12,N/A,campaign,-5.98408700,8.63321264
+subject_pg_full,1,minusF_plusG1_minusG2,The investigators know that the story about is likely to damage the campaign severely.,13,N/A,severely,-16.53075500,23.84883826
+subject_pg_full,1,minusF_plusG1_minusG2,The investigators know that the story about is likely to damage the campaign severely.,14,N/A,.,-10.62893900,15.33431759
+subject_pg_full,1,minusF_minusG1_plusG2,The investigators know that the story about the politician is likely to damage severely.,0,N/A,The,-4.72930100,6.82293910
+subject_pg_full,1,minusF_minusG1_plusG2,The investigators know that the story about the politician is likely to damage severely.,1,N/A,investigators,-14.26418900,20.57887473
+subject_pg_full,1,minusF_minusG1_plusG2,The investigators know that the story about the politician is likely to damage severely.,2,N/A,know,-10.53838400,15.20367434
+subject_pg_full,1,minusF_minusG1_plusG2,The investigators know that the story about the politician is likely to damage severely.,3,N/A,that,-2.01317400,2.90439615
+subject_pg_full,1,minusF_minusG1_plusG2,The investigators know that the story about the politician is likely to damage severely.,4,N/A,the,-2.79168700,4.02755299
+subject_pg_full,1,minusF_minusG1_plusG2,The investigators know that the story about the politician is likely to damage severely.,5,N/A,story,-9.51370200,13.72537070
+subject_pg_full,1,minusF_minusG1_plusG2,The investigators know that the story about the politician is likely to damage severely.,6,N/A,about,-4.39669700,6.34309296
+subject_pg_full,1,minusF_minusG1_plusG2,The investigators know that the story about the politician is likely to damage severely.,7,N/A,the,-1.94208600,2.80183784
+subject_pg_full,1,minusF_minusG1_plusG2,The investigators know that the story about the politician is likely to damage severely.,8,N/A,politician,-13.84377000,19.97233833
+subject_pg_full,1,minusF_minusG1_plusG2,The investigators know that the story about the politician is likely to damage severely.,9,N/A,is,-3.96434800,5.71934520
+subject_pg_full,1,minusF_minusG1_plusG2,The investigators know that the story about the politician is likely to damage severely.,10,N/A,likely,-8.38260600,12.09354411
+subject_pg_full,1,minusF_minusG1_plusG2,The investigators know that the story about the politician is likely to damage severely.,11,N/A,to,-1.18568700,1.71058475
+subject_pg_full,1,minusF_minusG1_plusG2,The investigators know that the story about the politician is likely to damage severely.,12,N/A,damage,-10.06769000,14.52460644
+subject_pg_full,1,minusF_minusG1_plusG2,The investigators know that the story about the politician is likely to damage severely.,13,N/A,severely,-17.69445000,25.52769527
+subject_pg_full,1,minusF_minusG1_plusG2,The investigators know that the story about the politician is likely to damage severely.,14,N/A,.,-14.65604400,21.14420200

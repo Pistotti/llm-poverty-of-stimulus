@@ -1,0 +1,321 @@
+item_id,condition,critical_region_text
+1,plusF_plusG1_plusG2,severely
+1,plusF_plusG1_minusG2,the campaign
+1,plusF_minusG1_plusG2,severely
+1,plusF_minusG1_minusG2,the campaign
+1,minusF_plusG1_plusG2,severely
+1,minusF_plusG1_minusG2,the campaign
+1,minusF_minusG1_plusG2,severely
+1,minusF_minusG1_minusG2,the campaign
+2,plusF_plusG1_plusG2,greatly
+2,plusF_plusG1_minusG2,the director
+2,plusF_minusG1_plusG2,greatly
+2,plusF_minusG1_minusG2,the director
+2,minusF_plusG1_plusG2,greatly
+2,minusF_plusG1_minusG2,the director
+2,minusF_minusG1_plusG2,greatly
+2,minusF_minusG1_minusG2,the director
+3,plusF_plusG1_plusG2,immensely
+3,plusF_plusG1_minusG2,the CEO
+3,plusF_minusG1_plusG2,immensely
+3,plusF_minusG1_minusG2,the CEO
+3,minusF_plusG1_plusG2,immensely
+3,minusF_plusG1_minusG2,the CEO
+3,minusF_minusG1_plusG2,immensely
+3,minusF_minusG1_minusG2,the CEO
+4,plusF_plusG1_plusG2,deeply
+4,plusF_plusG1_minusG2,the lawyer
+4,plusF_minusG1_plusG2,deeply
+4,plusF_minusG1_minusG2,the lawyer
+4,minusF_plusG1_plusG2,deeply
+4,minusF_plusG1_minusG2,the lawyer
+4,minusF_minusG1_plusG2,deeply
+4,minusF_minusG1_minusG2,the lawyer
+5,plusF_plusG1_plusG2,soon
+5,plusF_plusG1_minusG2,Leo
+5,plusF_minusG1_plusG2,soon
+5,plusF_minusG1_minusG2,Leo
+5,minusF_plusG1_plusG2,soon
+5,minusF_plusG1_minusG2,Leo
+5,minusF_minusG1_plusG2,soon
+5,minusF_minusG1_minusG2,Leo
+6,plusF_plusG1_plusG2,eventually
+6,plusF_plusG1_minusG2,Sara
+6,plusF_minusG1_plusG2,eventually
+6,plusF_minusG1_minusG2,Sara
+6,minusF_plusG1_plusG2,eventually
+6,minusF_plusG1_minusG2,Sara
+6,minusF_minusG1_plusG2,eventually
+6,minusF_minusG1_minusG2,Sara
+7,plusF_plusG1_plusG2,soon
+7,plusF_plusG1_minusG2,Tom
+7,plusF_minusG1_plusG2,soon
+7,plusF_minusG1_minusG2,Tom
+7,minusF_plusG1_plusG2,soon
+7,minusF_plusG1_minusG2,Tom
+7,minusF_minusG1_plusG2,soon
+7,minusF_minusG1_minusG2,Tom
+8,plusF_plusG1_plusG2,eventually
+8,plusF_plusG1_minusG2,Paul
+8,plusF_minusG1_plusG2,eventually
+8,plusF_minusG1_minusG2,Paul
+8,minusF_plusG1_plusG2,eventually
+8,minusF_plusG1_minusG2,Paul
+8,minusF_minusG1_plusG2,eventually
+8,minusF_minusG1_minusG2,Paul
+9,plusF_plusG1_plusG2,soon
+9,plusF_plusG1_minusG2,Nina
+9,plusF_minusG1_plusG2,soon
+9,plusF_minusG1_minusG2,Nina
+9,minusF_plusG1_plusG2,soon
+9,minusF_plusG1_minusG2,Nina
+9,minusF_minusG1_plusG2,soon
+9,minusF_minusG1_minusG2,Nina
+10,plusF_plusG1_plusG2,eventually
+10,plusF_plusG1_minusG2,Ben
+10,plusF_minusG1_plusG2,eventually
+10,plusF_minusG1_minusG2,Ben
+10,minusF_plusG1_plusG2,eventually
+10,minusF_plusG1_minusG2,Ben
+10,minusF_minusG1_plusG2,eventually
+10,minusF_minusG1_minusG2,Ben
+11,plusF_plusG1_plusG2,eventually
+11,plusF_plusG1_minusG2,the judges
+11,plusF_minusG1_plusG2,eventually
+11,plusF_minusG1_minusG2,the judges
+11,minusF_plusG1_plusG2,eventually
+11,minusF_plusG1_minusG2,the judges
+11,minusF_minusG1_plusG2,eventually
+11,minusF_minusG1_minusG2,the judges
+12,plusF_plusG1_plusG2,yesterday
+12,plusF_plusG1_minusG2,the new hire
+12,plusF_minusG1_plusG2,yesterday
+12,plusF_minusG1_minusG2,the new hire
+12,minusF_plusG1_plusG2,yesterday
+12,minusF_plusG1_minusG2,the new hire
+12,minusF_minusG1_plusG2,yesterday
+12,minusF_minusG1_minusG2,the new hire
+13,plusF_plusG1_plusG2,greatly
+13,plusF_plusG1_minusG2,the board
+13,plusF_minusG1_plusG2,greatly
+13,plusF_minusG1_minusG2,the board
+13,minusF_plusG1_plusG2,greatly
+13,minusF_plusG1_minusG2,the board
+13,minusF_minusG1_plusG2,greatly
+13,minusF_minusG1_minusG2,the board
+14,plusF_plusG1_plusG2,soon
+14,plusF_plusG1_minusG2,the defendant
+14,plusF_minusG1_plusG2,soon
+14,plusF_minusG1_minusG2,the defendant
+14,minusF_plusG1_plusG2,soon
+14,minusF_plusG1_minusG2,the defendant
+14,minusF_minusG1_plusG2,soon
+14,minusF_minusG1_minusG2,the defendant
+15,plusF_plusG1_plusG2,eventually
+15,plusF_plusG1_minusG2,the general
+15,plusF_minusG1_plusG2,eventually
+15,plusF_minusG1_minusG2,the general
+15,minusF_plusG1_plusG2,eventually
+15,minusF_plusG1_minusG2,the general
+15,minusF_minusG1_plusG2,eventually
+15,minusF_minusG1_minusG2,the general
+16,plusF_plusG1_plusG2,immensely
+16,plusF_plusG1_minusG2,the freshmen
+16,plusF_minusG1_plusG2,immensely
+16,plusF_minusG1_minusG2,the freshmen
+16,minusF_plusG1_plusG2,immensely
+16,minusF_plusG1_minusG2,the freshmen
+16,minusF_minusG1_plusG2,immensely
+16,minusF_minusG1_minusG2,the freshmen
+17,plusF_plusG1_plusG2,today
+17,plusF_plusG1_minusG2,the team
+17,plusF_minusG1_plusG2,today
+17,plusF_minusG1_minusG2,the team
+17,minusF_plusG1_plusG2,today
+17,minusF_plusG1_minusG2,the team
+17,minusF_minusG1_plusG2,today
+17,minusF_minusG1_minusG2,the team
+18,plusF_plusG1_plusG2,greatly
+18,plusF_plusG1_minusG2,the celebrity
+18,plusF_minusG1_plusG2,greatly
+18,plusF_minusG1_minusG2,the celebrity
+18,minusF_plusG1_plusG2,greatly
+18,minusF_plusG1_minusG2,the celebrity
+18,minusF_minusG1_plusG2,greatly
+18,minusF_minusG1_minusG2,the celebrity
+19,plusF_plusG1_plusG2,soon
+19,plusF_plusG1_minusG2,the suspect
+19,plusF_minusG1_plusG2,soon
+19,plusF_minusG1_minusG2,the suspect
+19,minusF_plusG1_plusG2,soon
+19,minusF_plusG1_minusG2,the suspect
+19,minusF_minusG1_plusG2,soon
+19,minusF_minusG1_minusG2,the suspect
+20,plusF_plusG1_plusG2,eventually
+20,plusF_plusG1_minusG2,the new actor
+20,plusF_minusG1_plusG2,eventually
+20,plusF_minusG1_minusG2,the new actor
+20,minusF_plusG1_plusG2,eventually
+20,minusF_plusG1_minusG2,the new actor
+20,minusF_minusG1_plusG2,eventually
+20,minusF_minusG1_minusG2,the new actor
+21,plusF_plusG1_plusG2,highly
+21,plusF_plusG1_minusG2,the lead actress
+21,plusF_minusG1_plusG2,highly
+21,plusF_minusG1_minusG2,the lead actress
+21,minusF_plusG1_plusG2,highly
+21,minusF_plusG1_minusG2,the lead actress
+21,minusF_minusG1_plusG2,highly
+21,minusF_minusG1_minusG2,the lead actress
+22,plusF_plusG1_plusG2,directly
+22,plusF_plusG1_minusG2,the shopkeepers
+22,plusF_minusG1_plusG2,directly
+22,plusF_minusG1_minusG2,the shopkeepers
+22,minusF_plusG1_plusG2,directly
+22,minusF_plusG1_minusG2,the shopkeepers
+22,minusF_minusG1_plusG2,directly
+22,minusF_minusG1_minusG2,the shopkeepers
+23,plusF_plusG1_plusG2,accurately
+23,plusF_plusG1_minusG2,the patriarch
+23,plusF_minusG1_plusG2,accurately
+23,plusF_minusG1_minusG2,the patriarch
+23,minusF_plusG1_plusG2,accurately
+23,minusF_plusG1_minusG2,the patriarch
+23,minusF_minusG1_plusG2,accurately
+23,minusF_minusG1_minusG2,the patriarch
+24,plusF_plusG1_plusG2,soon
+24,plusF_plusG1_minusG2,the establishment
+24,plusF_minusG1_plusG2,soon
+24,plusF_minusG1_minusG2,the establishment
+24,minusF_plusG1_plusG2,soon
+24,minusF_plusG1_minusG2,the establishment
+24,minusF_minusG1_plusG2,soon
+24,minusF_minusG1_minusG2,the establishment
+25,plusF_plusG1_plusG2,this week
+25,plusF_plusG1_minusG2,the director
+25,plusF_minusG1_plusG2,this week
+25,plusF_minusG1_minusG2,the director
+25,minusF_plusG1_plusG2,this week
+25,minusF_plusG1_minusG2,the director
+25,minusF_minusG1_plusG2,this week
+25,minusF_minusG1_minusG2,the director
+26,plusF_plusG1_plusG2,immediately
+26,plusF_plusG1_minusG2,the witness
+26,plusF_minusG1_plusG2,immediately
+26,plusF_minusG1_minusG2,the witness
+26,minusF_plusG1_plusG2,immediately
+26,minusF_plusG1_minusG2,the witness
+26,minusF_minusG1_plusG2,immediately
+26,minusF_minusG1_minusG2,the witness
+27,plusF_plusG1_plusG2,yesterday
+27,plusF_plusG1_minusG2,the students
+27,plusF_minusG1_plusG2,yesterday
+27,plusF_minusG1_minusG2,the students
+27,minusF_plusG1_plusG2,yesterday
+27,minusF_plusG1_minusG2,the students
+27,minusF_minusG1_plusG2,yesterday
+27,minusF_minusG1_minusG2,the students
+28,plusF_plusG1_plusG2,soon
+28,plusF_plusG1_minusG2,the president
+28,plusF_minusG1_plusG2,soon
+28,plusF_minusG1_minusG2,the president
+28,minusF_plusG1_plusG2,soon
+28,minusF_plusG1_minusG2,the president
+28,minusF_minusG1_plusG2,soon
+28,minusF_minusG1_minusG2,the president
+29,plusF_plusG1_plusG2,eventually
+29,plusF_plusG1_minusG2,the guests
+29,plusF_minusG1_plusG2,eventually
+29,plusF_minusG1_minusG2,the guests
+29,minusF_plusG1_plusG2,eventually
+29,minusF_plusG1_minusG2,the guests
+29,minusF_minusG1_plusG2,eventually
+29,minusF_minusG1_minusG2,the guests
+30,plusF_plusG1_plusG2,most
+30,plusF_plusG1_minusG2,the CEO
+30,plusF_minusG1_plusG2,most
+30,plusF_minusG1_minusG2,the CEO
+30,minusF_plusG1_plusG2,most
+30,minusF_plusG1_minusG2,the CEO
+30,minusF_minusG1_plusG2,most
+30,minusF_minusG1_minusG2,the CEO
+31,plusF_plusG1_plusG2,yesterday
+31,plusF_plusG1_minusG2,the student
+31,plusF_minusG1_plusG2,yesterday
+31,plusF_minusG1_minusG2,the student
+31,minusF_plusG1_plusG2,yesterday
+31,minusF_plusG1_minusG2,the student
+31,minusF_minusG1_plusG2,yesterday
+31,minusF_minusG1_minusG2,the student
+32,plusF_plusG1_plusG2,eventually
+32,plusF_plusG1_minusG2,the readers
+32,plusF_minusG1_plusG2,eventually
+32,plusF_minusG1_minusG2,the readers
+32,minusF_plusG1_plusG2,eventually
+32,minusF_plusG1_minusG2,the readers
+32,minusF_minusG1_plusG2,eventually
+32,minusF_minusG1_minusG2,the readers
+33,plusF_plusG1_plusG2,completely
+33,plusF_plusG1_minusG2,the new manager
+33,plusF_minusG1_plusG2,completely
+33,plusF_minusG1_minusG2,the new manager
+33,minusF_plusG1_plusG2,completely
+33,minusF_plusG1_minusG2,the new manager
+33,minusF_minusG1_plusG2,completely
+33,minusF_minusG1_minusG2,the new manager
+34,plusF_plusG1_plusG2,soon
+34,plusF_plusG1_minusG2,the official
+34,plusF_minusG1_plusG2,soon
+34,plusF_minusG1_minusG2,the official
+34,minusF_plusG1_plusG2,soon
+34,minusF_plusG1_minusG2,the official
+34,minusF_minusG1_plusG2,soon
+34,minusF_minusG1_minusG2,the official
+35,plusF_plusG1_plusG2,eventually
+35,plusF_plusG1_minusG2,the interns
+35,plusF_minusG1_plusG2,eventually
+35,plusF_minusG1_minusG2,the interns
+35,minusF_plusG1_plusG2,eventually
+35,minusF_plusG1_minusG2,the interns
+35,minusF_minusG1_plusG2,eventually
+35,minusF_minusG1_minusG2,the interns
+36,plusF_plusG1_plusG2,today
+36,plusF_plusG1_minusG2,the quiet student
+36,plusF_minusG1_plusG2,today
+36,plusF_minusG1_minusG2,the quiet student
+36,minusF_plusG1_plusG2,today
+36,minusF_plusG1_minusG2,the quiet student
+36,minusF_minusG1_plusG2,today
+36,minusF_minusG1_minusG2,the quiet student
+37,plusF_plusG1_plusG2,perfectly
+37,plusF_plusG1_minusG2,the queen
+37,plusF_minusG1_plusG2,perfectly
+37,plusF_minusG1_minusG2,the queen
+37,minusF_plusG1_plusG2,perfectly
+37,minusF_plusG1_minusG2,the queen
+37,minusF_minusG1_plusG2,perfectly
+37,minusF_minusG1_minusG2,the queen
+38,plusF_plusG1_plusG2,soon
+38,plusF_plusG1_minusG2,the old guard
+38,plusF_minusG1_plusG2,soon
+38,plusF_minusG1_minusG2,the old guard
+38,minusF_plusG1_plusG2,soon
+38,minusF_plusG1_minusG2,the old guard
+38,minusF_minusG1_plusG2,soon
+38,minusF_minusG1_minusG2,the old guard
+39,plusF_plusG1_plusG2,eventually
+39,plusF_plusG1_minusG2,the songwriter
+39,plusF_minusG1_plusG2,eventually
+39,plusF_minusG1_minusG2,the songwriter
+39,minusF_plusG1_plusG2,eventually
+39,minusF_plusG1_minusG2,the songwriter
+39,minusF_minusG1_plusG2,eventually
+39,minusF_minusG1_minusG2,the songwriter
+40,plusF_plusG1_plusG2,this week
+40,plusF_plusG1_minusG2,the defendant
+40,plusF_minusG1_plusG2,this week
+40,plusF_minusG1_minusG2,the defendant
+40,minusF_plusG1_plusG2,this week
+40,minusF_plusG1_minusG2,the defendant
+40,minusF_minusG1_plusG2,this week
+40,minusF_minusG1_minusG2,the defendant
