@@ -1,0 +1,28 @@
+Statistical Summary for Fine-Grained PG Analysis (novel_pg_full_paradigm_aggregated_surprisals.csv)
+
+Model: gpt2
+
+NOTE: Analysis run on a filtered dataset excluding items: ['30', '35', '38', '39']
+
+============================================================
+
+--- One-Sample T-test for 'P1: S(Ungrammatical) - S(Grammatical)' (H0: mean=0, HA: mean > 0) ---
+  N: 36, Mean: 3.6888, SD: 9.0126
+  95% CI: [0.6393, 6.7382]
+  t(35) = 2.4557, p = 0.0096
+
+--- One-Sample T-test for 'P2: S(PG) - S(Simple Extraction)' (H0: mean=0, HA: mean > 0) ---
+  N: 36, Mean: 0.3506, SD: 1.3001
+  95% CI: [-0.0893, 0.7904]
+  t(35) = 1.6179, p = 0.0573
+
+--- One-Sample T-test for 'P3: S(Ungrammatical) - S(Grammatical)' (H0: mean=0, HA: mean > 0) ---
+  N: 36, Mean: 2.4841, SD: 2.4913
+  95% CI: [1.6412, 3.3271]
+  t(35) = 5.9827, p = < .0001
+
+--- One-Sample T-test for 'P4: S(Ungrammatical) - S(Grammatical)' (H0: mean=0, HA: mean > 0) ---
+  N: 36, Mean: 1.7144, SD: 8.2325
+  95% CI: [-1.0711, 4.4999]
+  t(35) = 1.2495, p = 0.1099
+

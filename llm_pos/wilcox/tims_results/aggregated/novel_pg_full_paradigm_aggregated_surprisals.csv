@@ -15,6 +15,78 @@ subject_pg_full,10,plusF_minusG1_minusG2,Ben,21.89543495,It is clear who the des
 subject_pg_full,10,plusF_minusG1_plusG2,eventually,24.40491785,It is clear who the description of the consultant might disturb eventually.
 subject_pg_full,10,plusF_plusG1_minusG2,Ben,19.33474214,It is clear who the description of might disturb Ben eventually.
 subject_pg_full,10,plusF_plusG1_plusG2,eventually,23.96408651,It is clear who the description of might disturb eventually.
+subject_pg_full,11,minusF_minusG1_minusG2,the judges,9.14262393,We heard that the summary of the trial might impress the judges eventually.
+subject_pg_full,11,minusF_minusG1_plusG2,eventually,22.88438364,We heard that the summary of the trial might impress eventually.
+subject_pg_full,11,minusF_plusG1_minusG2,the judges,15.73578499,We heard that the summary of might impress the judges eventually.
+subject_pg_full,11,minusF_plusG1_plusG2,eventually,21.78841006,We heard that the summary of might impress eventually.
+subject_pg_full,11,plusF_minusG1_minusG2,the judges,13.37081973,We heard who the summary of the trial might impress the judges eventually.
+subject_pg_full,11,plusF_minusG1_plusG2,eventually,22.93104184,We heard who the summary of the trial might impress eventually.
+subject_pg_full,11,plusF_plusG1_minusG2,the judges,16.24843080,We heard who the summary of might impress the judges eventually.
+subject_pg_full,11,plusF_plusG1_plusG2,eventually,21.80734687,We heard who the summary of might impress eventually.
+subject_pg_full,12,minusF_minusG1_minusG2,the new hire,36.39407143,The intern saw that the diagram of the device could have confused the new hire yesterday.
+subject_pg_full,12,minusF_minusG1_plusG2,yesterday,24.68279823,The intern saw that the diagram of the device could have confused yesterday.
+subject_pg_full,12,minusF_plusG1_minusG2,the new hire,34.55875992,The intern saw that the diagram of could have confused the new hire yesterday.
+subject_pg_full,12,minusF_plusG1_plusG2,yesterday,23.43329304,The intern saw that the diagram of could have confused yesterday.
+subject_pg_full,12,plusF_minusG1_minusG2,the new hire,38.41060708,The intern saw who the diagram of the device could have confused the new hire yesterday.
+subject_pg_full,12,plusF_minusG1_plusG2,yesterday,21.14260782,The intern saw who the diagram of the device could have confused yesterday.
+subject_pg_full,12,plusF_plusG1_minusG2,the new hire,34.49158947,The intern saw who the diagram of could have confused the new hire yesterday.
+subject_pg_full,12,plusF_plusG1_plusG2,yesterday,18.85146527,The intern saw who the diagram of could have confused yesterday.
+subject_pg_full,13,minusF_minusG1_minusG2,the board,14.53101201,The committee read that the complaint about the director would likely anger the board greatly.
+subject_pg_full,13,minusF_minusG1_plusG2,greatly,25.33488917,The committee read that the complaint about the director would likely anger greatly.
+subject_pg_full,13,minusF_plusG1_minusG2,the board,18.49785928,The committee read that the complaint about would likely anger the board greatly.
+subject_pg_full,13,minusF_plusG1_plusG2,greatly,25.00922674,The committee read that the complaint about would likely anger greatly.
+subject_pg_full,13,plusF_minusG1_minusG2,the board,18.68480225,The committee read who the complaint about the director would likely anger the board greatly.
+subject_pg_full,13,plusF_minusG1_plusG2,greatly,25.46615422,The committee read who the complaint about the director would likely anger greatly.
+subject_pg_full,13,plusF_plusG1_minusG2,the board,17.99442218,The committee read who the complaint about would likely anger the board greatly.
+subject_pg_full,13,plusF_plusG1_plusG2,greatly,24.42480684,The committee read who the complaint about would likely anger greatly.
+subject_pg_full,14,minusF_minusG1_minusG2,the defendant,13.03612603,It is obvious that the testimony about the incident is going to vindicate the defendant soon.
+subject_pg_full,14,minusF_minusG1_plusG2,soon,26.27391918,It is obvious that the testimony about the incident is going to vindicate soon.
+subject_pg_full,14,minusF_plusG1_minusG2,the defendant,13.62854566,It is obvious that the testimony about is going to vindicate the defendant soon.
+subject_pg_full,14,minusF_plusG1_plusG2,soon,25.60541036,It is obvious that the testimony about is going to vindicate soon.
+subject_pg_full,14,plusF_minusG1_minusG2,the defendant,17.40891017,It is obvious who the testimony about the incident is going to vindicate the defendant soon.
+subject_pg_full,14,plusF_minusG1_plusG2,soon,18.81142038,It is obvious who the testimony about the incident is going to vindicate soon.
+subject_pg_full,14,plusF_plusG1_minusG2,the defendant,14.45236348,It is obvious who the testimony about is going to vindicate the defendant soon.
+subject_pg_full,14,plusF_plusG1_plusG2,soon,21.79642134,It is obvious who the testimony about is going to vindicate soon.
+subject_pg_full,15,minusF_minusG1_minusG2,the general,20.40706995,She knows that the biography of the war hero will probably feature the general eventually.
+subject_pg_full,15,minusF_minusG1_plusG2,eventually,20.85459972,She knows that the biography of the war hero will probably feature eventually.
+subject_pg_full,15,minusF_plusG1_minusG2,the general,21.83909049,She knows that the biography of will probably feature the general eventually.
+subject_pg_full,15,minusF_plusG1_plusG2,eventually,20.18842663,She knows that the biography of will probably feature eventually.
+subject_pg_full,15,plusF_minusG1_minusG2,the general,28.92497086,She knows who the biography of the war hero will probably feature the general eventually.
+subject_pg_full,15,plusF_minusG1_plusG2,eventually,14.56192463,She knows who the biography of the war hero will probably feature eventually.
+subject_pg_full,15,plusF_plusG1_minusG2,the general,26.25864392,She knows who the biography of will probably feature the general eventually.
+subject_pg_full,15,plusF_plusG1_plusG2,eventually,14.60514489,She knows who the biography of will probably feature eventually.
+subject_pg_full,16,minusF_minusG1_minusG2,the freshmen,27.16928602,The students believed that the lecture about linguistics could bore the freshmen immensely.
+subject_pg_full,16,minusF_minusG1_plusG2,immensely,28.57823498,The students believed that the lecture about linguistics could bore immensely.
+subject_pg_full,16,minusF_plusG1_minusG2,the freshmen,27.73794880,The students believed that the lecture about could bore the freshmen immensely.
+subject_pg_full,16,minusF_plusG1_plusG2,immensely,27.10483794,The students believed that the lecture about could bore immensely.
+subject_pg_full,16,plusF_minusG1_minusG2,the freshmen,28.30840773,The students believed who the lecture about linguistics could bore the freshmen immensely.
+subject_pg_full,16,plusF_minusG1_plusG2,immensely,27.57248321,The students believed who the lecture about linguistics could bore immensely.
+subject_pg_full,16,plusF_plusG1_minusG2,the freshmen,29.56223090,The students believed who the lecture about could bore the freshmen immensely.
+subject_pg_full,16,plusF_plusG1_plusG2,immensely,27.44532551,The students believed who the lecture about could bore immensely.
+subject_pg_full,17,minusF_minusG1_minusG2,the team,15.49491551,I understand that the review of the proposal is going to help the team today.
+subject_pg_full,17,minusF_minusG1_plusG2,today,18.62016519,I understand that the review of the proposal is going to help today.
+subject_pg_full,17,minusF_plusG1_minusG2,the team,15.96878457,I understand that the review of is going to help the team today.
+subject_pg_full,17,minusF_plusG1_plusG2,today,18.87917078,I understand that the review of is going to help today.
+subject_pg_full,17,plusF_minusG1_minusG2,the team,17.89624389,I understand who the review of the proposal is going to help the team today.
+subject_pg_full,17,plusF_minusG1_plusG2,today,16.09492661,I understand who the review of the proposal is going to help today.
+subject_pg_full,17,plusF_plusG1_minusG2,the team,17.39700505,I understand who the review of is going to help the team today.
+subject_pg_full,17,plusF_plusG1_plusG2,today,15.61070766,I understand who the review of is going to help today.
+subject_pg_full,18,minusF_minusG1_minusG2,the celebrity,26.06141453,He saw that the caricature of the politician was likely to offend the celebrity greatly.
+subject_pg_full,18,minusF_minusG1_plusG2,greatly,19.78375789,He saw that the caricature of the politician was likely to offend greatly.
+subject_pg_full,18,minusF_plusG1_minusG2,the celebrity,26.35304379,He saw that the caricature of was likely to offend the celebrity greatly.
+subject_pg_full,18,minusF_plusG1_plusG2,greatly,18.54288290,He saw that the caricature of was likely to offend greatly.
+subject_pg_full,18,plusF_minusG1_minusG2,the celebrity,28.04849178,He saw who the caricature of the politician was likely to offend the celebrity greatly.
+subject_pg_full,18,plusF_minusG1_plusG2,greatly,22.15778183,He saw who the caricature of the politician was likely to offend greatly.
+subject_pg_full,18,plusF_plusG1_minusG2,the celebrity,25.45906770,He saw who the caricature of was likely to offend the celebrity greatly.
+subject_pg_full,18,plusF_plusG1_plusG2,greatly,21.54774688,He saw who the caricature of was likely to offend greatly.
+subject_pg_full,19,minusF_minusG1_minusG2,the suspect,27.66000286,They know that the statement about the company is expected to clear the suspect soon.
+subject_pg_full,19,minusF_minusG1_plusG2,soon,10.59224102,They know that the statement about the company is expected to clear soon.
+subject_pg_full,19,minusF_plusG1_minusG2,the suspect,26.50412570,They know that the statement about is expected to clear the suspect soon.
+subject_pg_full,19,minusF_plusG1_plusG2,soon,12.12951626,They know that the statement about is expected to clear soon.
+subject_pg_full,19,plusF_minusG1_minusG2,the suspect,31.55795279,They know who the statement about the company is expected to clear the suspect soon.
+subject_pg_full,19,plusF_minusG1_plusG2,soon,9.84484708,They know who the statement about the company is expected to clear soon.
+subject_pg_full,19,plusF_plusG1_minusG2,the suspect,28.17288672,They know who the statement about is expected to clear the suspect soon.
+subject_pg_full,19,plusF_plusG1_plusG2,soon,9.61353402,They know who the statement about is expected to clear soon.
 subject_pg_full,2,minusF_minusG1_minusG2,the director,12.10602342,The audience believed that the picture of the actor might have flattered the director greatly.
 subject_pg_full,2,minusF_minusG1_plusG2,greatly,27.30544325,The audience believed that the picture of the actor might have flattered greatly.
 subject_pg_full,2,minusF_plusG1_minusG2,the director,15.07660464,The audience believed that the picture of might have flattered the director greatly.
@@ -23,6 +95,86 @@ subject_pg_full,2,plusF_minusG1_minusG2,the director,13.54812551,The audience be
 subject_pg_full,2,plusF_minusG1_plusG2,greatly,23.50059909,The audience believed who the picture of the actor might have flattered greatly.
 subject_pg_full,2,plusF_plusG1_minusG2,the director,16.06683301,The audience believed who the picture of might have flattered the director greatly.
 subject_pg_full,2,plusF_plusG1_plusG2,greatly,25.50369315,The audience believed who the picture of might have flattered greatly.
+subject_pg_full,20,minusF_minusG1_minusG2,the new actor,30.26144748,The producers heard that the script about the war might feature the new actor eventually.
+subject_pg_full,20,minusF_minusG1_plusG2,eventually,24.51715664,The producers heard that the script about the war might feature eventually.
+subject_pg_full,20,minusF_plusG1_minusG2,the new actor,28.77576589,The producers heard that the script about might feature the new actor eventually.
+subject_pg_full,20,minusF_plusG1_plusG2,eventually,24.31085846,The producers heard that the script about might feature eventually.
+subject_pg_full,20,plusF_minusG1_minusG2,the new actor,32.61641919,The producers heard who the script about the war might feature the new actor eventually.
+subject_pg_full,20,plusF_minusG1_plusG2,eventually,17.45357745,The producers heard who the script about the war might feature eventually.
+subject_pg_full,20,plusF_plusG1_minusG2,the new actor,29.47694888,The producers heard who the script about might feature the new actor eventually.
+subject_pg_full,20,plusF_plusG1_plusG2,eventually,16.60077300,The producers heard who the script about might feature eventually.
+subject_pg_full,21,minusF_minusG1_minusG2,the lead actress,21.25087198,The critics saw that the review of the film seemed to praise the lead actress highly.
+subject_pg_full,21,minusF_minusG1_plusG2,highly,20.04846790,The critics saw that the review of the film seemed to praise highly.
+subject_pg_full,21,minusF_plusG1_minusG2,the lead actress,29.07693281,The critics saw that the review of seemed to praise the lead actress highly.
+subject_pg_full,21,minusF_plusG1_plusG2,highly,18.14597441,The critics saw that the review of seemed to praise highly.
+subject_pg_full,21,plusF_minusG1_minusG2,the lead actress,26.69819703,The critics saw who the review of the film seemed to praise the lead actress highly.
+subject_pg_full,21,plusF_minusG1_plusG2,highly,17.61950181,The critics saw who the review of the film seemed to praise highly.
+subject_pg_full,21,plusF_plusG1_minusG2,the lead actress,27.98607936,The critics saw who the review of seemed to praise the lead actress highly.
+subject_pg_full,21,plusF_plusG1_plusG2,highly,16.73341438,The critics saw who the review of seemed to praise highly.
+subject_pg_full,22,minusF_minusG1_minusG2,the shopkeepers,26.92570282,The town heard that the ordinance about zoning was going to affect the shopkeepers directly.
+subject_pg_full,22,minusF_minusG1_plusG2,directly,22.19126966,The town heard that the ordinance about zoning was going to affect directly.
+subject_pg_full,22,minusF_plusG1_minusG2,the shopkeepers,24.24173317,The town heard that the ordinance about was going to affect the shopkeepers directly.
+subject_pg_full,22,minusF_plusG1_plusG2,directly,22.29498357,The town heard that the ordinance about was going to affect directly.
+subject_pg_full,22,plusF_minusG1_minusG2,the shopkeepers,32.84286893,The town heard who the ordinance about zoning was going to affect the shopkeepers directly.
+subject_pg_full,22,plusF_minusG1_plusG2,directly,17.87285060,The town heard who the ordinance about zoning was going to affect directly.
+subject_pg_full,22,plusF_plusG1_minusG2,the shopkeepers,28.45303934,The town heard who the ordinance about was going to affect the shopkeepers directly.
+subject_pg_full,22,plusF_plusG1_plusG2,directly,18.51130086,The town heard who the ordinance about was going to affect directly.
+subject_pg_full,23,minusF_minusG1_minusG2,the patriarch,18.87430169,The family knew that the portrait of their ancestor might have depicted the patriarch accurately.
+subject_pg_full,23,minusF_minusG1_plusG2,accurately,25.63682793,The family knew that the portrait of their ancestor might have depicted accurately.
+subject_pg_full,23,minusF_plusG1_minusG2,the patriarch,19.23967430,The family knew that the portrait of might have depicted the patriarch accurately.
+subject_pg_full,23,minusF_plusG1_plusG2,accurately,26.38814023,The family knew that the portrait of might have depicted accurately.
+subject_pg_full,23,plusF_minusG1_minusG2,the patriarch,25.54998202,The family knew who the portrait of their ancestor might have depicted the patriarch accurately.
+subject_pg_full,23,plusF_minusG1_plusG2,accurately,19.14937025,The family knew who the portrait of their ancestor might have depicted accurately.
+subject_pg_full,23,plusF_plusG1_minusG2,the patriarch,21.38359849,The family knew who the portrait of might have depicted the patriarch accurately.
+subject_pg_full,23,plusF_plusG1_plusG2,accurately,21.15925796,The family knew who the portrait of might have depicted accurately.
+subject_pg_full,24,minusF_minusG1_minusG2,the establishment,17.55899806,The professor understood that the theory about evolution was likely to challenge the establishment soon.
+subject_pg_full,24,minusF_minusG1_plusG2,soon,23.76397028,The professor understood that the theory about evolution was likely to challenge soon.
+subject_pg_full,24,minusF_plusG1_minusG2,the establishment,17.21067666,The professor understood that the theory about was likely to challenge the establishment soon.
+subject_pg_full,24,minusF_plusG1_plusG2,soon,22.23878482,The professor understood that the theory about was likely to challenge soon.
+subject_pg_full,24,plusF_minusG1_minusG2,the establishment,23.04024087,The professor understood who the theory about evolution was likely to challenge the establishment soon.
+subject_pg_full,24,plusF_minusG1_plusG2,soon,18.87370008,The professor understood who the theory about evolution was likely to challenge soon.
+subject_pg_full,24,plusF_plusG1_minusG2,the establishment,18.59777888,The professor understood who the theory about was likely to challenge the establishment soon.
+subject_pg_full,24,plusF_plusG1_plusG2,soon,19.51586384,The professor understood who the theory about was likely to challenge soon.
+subject_pg_full,25,minusF_minusG1_minusG2,the director,16.82850962,The spy revealed that the memo about the operation could potentially expose the director this week.
+subject_pg_full,25,minusF_minusG1_plusG2,this week,20.88174115,The spy revealed that the memo about the operation could potentially expose this week.
+subject_pg_full,25,minusF_plusG1_minusG2,the director,17.34520796,The spy revealed that the memo about could potentially expose the director this week.
+subject_pg_full,25,minusF_plusG1_plusG2,this week,21.43986070,The spy revealed that the memo about could potentially expose this week.
+subject_pg_full,25,plusF_minusG1_minusG2,the director,24.51442851,The spy revealed who the memo about the operation could potentially expose the director this week.
+subject_pg_full,25,plusF_minusG1_plusG2,this week,15.44744075,The spy revealed who the memo about the operation could potentially expose this week.
+subject_pg_full,25,plusF_plusG1_minusG2,the director,20.60192178,The spy revealed who the memo about could potentially expose the director this week.
+subject_pg_full,25,plusF_plusG1_plusG2,this week,15.40084458,The spy revealed who the memo about could potentially expose this week.
+subject_pg_full,26,minusF_minusG1_minusG2,the witness,14.51521738,The jury saw that the evidence against the defendant seemed to implicate the witness immediately.
+subject_pg_full,26,minusF_minusG1_plusG2,immediately,23.33787752,The jury saw that the evidence against the defendant seemed to implicate immediately.
+subject_pg_full,26,minusF_plusG1_minusG2,the witness,17.24173932,The jury saw that the evidence against seemed to implicate the witness immediately.
+subject_pg_full,26,minusF_plusG1_plusG2,immediately,23.26514116,The jury saw that the evidence against seemed to implicate immediately.
+subject_pg_full,26,plusF_minusG1_minusG2,the witness,22.71237255,The jury saw who the evidence against the defendant seemed to implicate the witness immediately.
+subject_pg_full,26,plusF_minusG1_plusG2,immediately,17.50634979,The jury saw who the evidence against the defendant seemed to implicate immediately.
+subject_pg_full,26,plusF_plusG1_minusG2,the witness,23.20185878,The jury saw who the evidence against seemed to implicate the witness immediately.
+subject_pg_full,26,plusF_plusG1_plusG2,immediately,18.59033169,The jury saw who the evidence against seemed to implicate immediately.
+subject_pg_full,27,minusF_minusG1_minusG2,the students,14.94489524,The class learned that the biography of the inventor had greatly inspired the students yesterday.
+subject_pg_full,27,minusF_minusG1_plusG2,yesterday,24.19128790,The class learned that the biography of the inventor had greatly inspired yesterday.
+subject_pg_full,27,minusF_plusG1_minusG2,the students,13.88241960,The class learned that the biography of had greatly inspired the students yesterday.
+subject_pg_full,27,minusF_plusG1_plusG2,yesterday,24.68366240,The class learned that the biography of had greatly inspired yesterday.
+subject_pg_full,27,plusF_minusG1_minusG2,the students,20.02676832,The class learned who the biography of the inventor had greatly inspired the students yesterday.
+subject_pg_full,27,plusF_minusG1_plusG2,yesterday,21.48146370,The class learned who the biography of the inventor had greatly inspired yesterday.
+subject_pg_full,27,plusF_plusG1_minusG2,the students,16.10200014,The class learned who the biography of had greatly inspired the students yesterday.
+subject_pg_full,27,plusF_plusG1_plusG2,yesterday,22.76124962,The class learned who the biography of had greatly inspired yesterday.
+subject_pg_full,28,minusF_minusG1_minusG2,the president,11.14703228,The general knew that the report on the mission was going to enrage the president soon.
+subject_pg_full,28,minusF_minusG1_plusG2,soon,23.21825934,The general knew that the report on the mission was going to enrage soon.
+subject_pg_full,28,minusF_plusG1_minusG2,the president,12.23364423,The general knew that the report on was going to enrage the president soon.
+subject_pg_full,28,minusF_plusG1_plusG2,soon,23.29819186,The general knew that the report on was going to enrage soon.
+subject_pg_full,28,plusF_minusG1_minusG2,the president,15.03043551,The general knew who the report on the mission was going to enrage the president soon.
+subject_pg_full,28,plusF_minusG1_plusG2,soon,19.45058622,The general knew who the report on the mission was going to enrage soon.
+subject_pg_full,28,plusF_plusG1_minusG2,the president,13.52516213,The general knew who the report on was going to enrage the president soon.
+subject_pg_full,28,plusF_plusG1_plusG2,soon,20.30652709,The general knew who the report on was going to enrage soon.
+subject_pg_full,29,minusF_minusG1_minusG2,the guests,18.97616461,His friends heard that the joke about the manager might have offended the guests eventually.
+subject_pg_full,29,minusF_minusG1_plusG2,eventually,27.73888077,His friends heard that the joke about the manager might have offended eventually.
+subject_pg_full,29,minusF_plusG1_minusG2,the guests,18.47847810,His friends heard that the joke about might have offended the guests eventually.
+subject_pg_full,29,minusF_plusG1_plusG2,eventually,27.23809968,His friends heard that the joke about might have offended eventually.
+subject_pg_full,29,plusF_minusG1_minusG2,the guests,24.47444421,His friends heard who the joke about the manager might have offended the guests eventually.
+subject_pg_full,29,plusF_minusG1_plusG2,eventually,23.10110241,His friends heard who the joke about the manager might have offended eventually.
+subject_pg_full,29,plusF_plusG1_minusG2,the guests,20.80362642,His friends heard who the joke about might have offended the guests eventually.
+subject_pg_full,29,plusF_plusG1_plusG2,eventually,22.87113393,His friends heard who the joke about might have offended eventually.
 subject_pg_full,3,minusF_minusG1_minusG2,the CEO,18.86743878,The board understood that the critique of the new project would probably anger the CEO immensely.
 subject_pg_full,3,minusF_minusG1_plusG2,immensely,26.36907934,The board understood that the critique of the new project would probably anger immensely.
 subject_pg_full,3,minusF_plusG1_minusG2,the CEO,17.08559499,The board understood that the critique of would probably anger the CEO immensely.
@@ -31,6 +183,86 @@ subject_pg_full,3,plusF_minusG1_minusG2,the CEO,21.62094778,The board understood
 subject_pg_full,3,plusF_minusG1_plusG2,immensely,26.95995818,The board understood who the critique of the new project would probably anger immensely.
 subject_pg_full,3,plusF_plusG1_minusG2,the CEO,17.47871497,The board understood who the critique of would probably anger the CEO immensely.
 subject_pg_full,3,plusF_plusG1_plusG2,immensely,26.56651216,The board understood who the critique of would probably anger immensely.
+subject_pg_full,30,minusF_minusG1_minusG2,the CEO,15.24190143,The shareholders wondered that the speculation about the merger was likely to benefit the CEO most.
+subject_pg_full,30,minusF_minusG1_plusG2,most,13.50750499,The shareholders wondered that the speculation about the merger was likely to benefit most.
+subject_pg_full,30,minusF_plusG1_minusG2,the CEO,15.15164931,The shareholders wondered that the speculation about was likely to benefit the CEO most.
+subject_pg_full,30,minusF_plusG1_plusG2,most,13.11028344,The shareholders wondered that the speculation about was likely to benefit most.
+subject_pg_full,30,plusF_minusG1_minusG2,the CEO,21.78953103,The shareholders wondered who the speculation about the merger was likely to benefit the CEO most.
+subject_pg_full,30,plusF_minusG1_plusG2,most,7.54867241,The shareholders wondered who the speculation about the merger was likely to benefit most.
+subject_pg_full,30,plusF_plusG1_minusG2,the CEO,18.67185983,The shareholders wondered who the speculation about was likely to benefit the CEO most.
+subject_pg_full,30,plusF_plusG1_plusG2,most,6.63756433,The shareholders wondered who the speculation about was likely to benefit most.
+subject_pg_full,31,minusF_minusG1_minusG2,the student,14.78063864,The professor read that the critique of the thesis was meant to challenge the student yesterday.
+subject_pg_full,31,minusF_minusG1_plusG2,yesterday,22.65265364,The professor read that the critique of the thesis was meant to challenge yesterday.
+subject_pg_full,31,minusF_plusG1_minusG2,the student,16.17891166,The professor read that the critique of was meant to challenge the student yesterday.
+subject_pg_full,31,minusF_plusG1_plusG2,yesterday,21.93110702,The professor read that the critique of was meant to challenge yesterday.
+subject_pg_full,31,plusF_minusG1_minusG2,the student,19.56521700,The professor read who the critique of the thesis was meant to challenge the student yesterday.
+subject_pg_full,31,plusF_minusG1_plusG2,yesterday,20.80044239,The professor read who the critique of the thesis was meant to challenge yesterday.
+subject_pg_full,31,plusF_plusG1_minusG2,the student,17.93049347,The professor read who the critique of was meant to challenge the student yesterday.
+subject_pg_full,31,plusF_plusG1_plusG2,yesterday,19.44477793,The professor read who the critique of was meant to challenge yesterday.
+subject_pg_full,32,minusF_minusG1_minusG2,the readers,15.19946888,The publisher knew that the book about the explorer would surely inspire the readers eventually.
+subject_pg_full,32,minusF_minusG1_plusG2,eventually,23.28386878,The publisher knew that the book about the explorer would surely inspire eventually.
+subject_pg_full,32,minusF_plusG1_minusG2,the readers,16.29399545,The publisher knew that the book about would surely inspire the readers eventually.
+subject_pg_full,32,minusF_plusG1_plusG2,eventually,22.42669441,The publisher knew that the book about would surely inspire eventually.
+subject_pg_full,32,plusF_minusG1_minusG2,the readers,18.99957090,The publisher knew who the book about the explorer would surely inspire the readers eventually.
+subject_pg_full,32,plusF_minusG1_plusG2,eventually,17.63436445,The publisher knew who the book about the explorer would surely inspire eventually.
+subject_pg_full,32,plusF_plusG1_minusG2,the readers,17.48784290,The publisher knew who the book about would surely inspire the readers eventually.
+subject_pg_full,32,plusF_plusG1_plusG2,eventually,17.99515507,The publisher knew who the book about would surely inspire eventually.
+subject_pg_full,33,minusF_minusG1_minusG2,the new manager,26.64220027,The office understood that the rumor about the merger was intended to discredit the new manager completely.
+subject_pg_full,33,minusF_minusG1_plusG2,completely,26.59244172,The office understood that the rumor about the merger was intended to discredit completely.
+subject_pg_full,33,minusF_plusG1_minusG2,the new manager,26.40312550,The office understood that the rumor about was intended to discredit the new manager completely.
+subject_pg_full,33,minusF_plusG1_plusG2,completely,26.07074155,The office understood that the rumor about was intended to discredit completely.
+subject_pg_full,33,plusF_minusG1_minusG2,the new manager,35.32382975,The office understood who the rumor about the merger was intended to discredit the new manager completely.
+subject_pg_full,33,plusF_minusG1_plusG2,completely,22.68719753,The office understood who the rumor about the merger was intended to discredit completely.
+subject_pg_full,33,plusF_plusG1_minusG2,the new manager,31.01812372,The office understood who the rumor about was intended to discredit the new manager completely.
+subject_pg_full,33,plusF_plusG1_plusG2,completely,24.04782919,The office understood who the rumor about was intended to discredit completely.
+subject_pg_full,34,minusF_minusG1_minusG2,the official,17.69565302,The agency confirmed that the statement about the incident might exonerate the official soon.
+subject_pg_full,34,minusF_minusG1_plusG2,soon,25.08818976,The agency confirmed that the statement about the incident might exonerate soon.
+subject_pg_full,34,minusF_plusG1_minusG2,the official,20.12859230,The agency confirmed that the statement about might exonerate the official soon.
+subject_pg_full,34,minusF_plusG1_plusG2,soon,23.94565031,The agency confirmed that the statement about might exonerate soon.
+subject_pg_full,34,plusF_minusG1_minusG2,the official,23.85702844,The agency confirmed who the statement about the incident might exonerate the official soon.
+subject_pg_full,34,plusF_minusG1_plusG2,soon,18.01659207,The agency confirmed who the statement about the incident might exonerate soon.
+subject_pg_full,34,plusF_plusG1_minusG2,the official,22.29419730,The agency confirmed who the statement about might exonerate the official soon.
+subject_pg_full,34,plusF_plusG1_plusG2,soon,19.35754970,The agency confirmed who the statement about might exonerate soon.
+subject_pg_full,35,minusF_minusG1_minusG2,the interns,27.23650551,It seems that the discussion of the new policy is going to confuse the interns eventually.
+subject_pg_full,35,minusF_minusG1_plusG2,eventually,25.03738526,It seems that the discussion of the new policy is going to confuse eventually.
+subject_pg_full,35,minusF_plusG1_minusG2,the interns,27.04404566,It seems that the discussion of is going to confuse the interns eventually.
+subject_pg_full,35,minusF_plusG1_plusG2,eventually,23.64191972,It seems that the discussion of is going to confuse eventually.
+subject_pg_full,35,plusF_minusG1_minusG2,the interns,26.99679018,It seems who the discussion of the new policy is going to confuse the interns eventually.
+subject_pg_full,35,plusF_minusG1_plusG2,eventually,20.07348712,It seems who the discussion of the new policy is going to confuse eventually.
+subject_pg_full,35,plusF_plusG1_minusG2,the interns,25.88531052,It seems who the discussion of is going to confuse the interns eventually.
+subject_pg_full,35,plusF_plusG1_plusG2,eventually,21.99711176,It seems who the discussion of is going to confuse eventually.
+subject_pg_full,36,minusF_minusG1_minusG2,the quiet student,35.25667375,The teacher read that the report on the field trip was meant to praise the quiet student today.
+subject_pg_full,36,minusF_minusG1_plusG2,today,21.35424108,The teacher read that the report on the field trip was meant to praise today.
+subject_pg_full,36,minusF_plusG1_minusG2,the quiet student,34.51399309,The teacher read that the report on was meant to praise the quiet student today.
+subject_pg_full,36,minusF_plusG1_plusG2,today,20.67101245,The teacher read that the report on was meant to praise today.
+subject_pg_full,36,plusF_minusG1_minusG2,the quiet student,38.39440417,The teacher read who the report on the field trip was meant to praise the quiet student today.
+subject_pg_full,36,plusF_minusG1_plusG2,today,16.66758565,The teacher read who the report on the field trip was meant to praise today.
+subject_pg_full,36,plusF_plusG1_minusG2,the quiet student,37.05039236,The teacher read who the report on was meant to praise the quiet student today.
+subject_pg_full,36,plusF_plusG1_plusG2,today,16.40656461,The teacher read who the report on was meant to praise today.
+subject_pg_full,37,minusF_minusG1_minusG2,the queen,20.69256776,The historian saw that the painting of the king had captured the queen perfectly.
+subject_pg_full,37,minusF_minusG1_plusG2,perfectly,24.04902085,The historian saw that the painting of the king had captured perfectly.
+subject_pg_full,37,minusF_plusG1_minusG2,the queen,23.51026803,The historian saw that the painting of had captured the queen perfectly.
+subject_pg_full,37,minusF_plusG1_plusG2,perfectly,22.99907068,The historian saw that the painting of had captured perfectly.
+subject_pg_full,37,plusF_minusG1_minusG2,the queen,23.89718874,The historian saw who the painting of the king had captured the queen perfectly.
+subject_pg_full,37,plusF_minusG1_plusG2,perfectly,20.85822666,The historian saw who the painting of the king had captured perfectly.
+subject_pg_full,37,plusF_plusG1_minusG2,the queen,22.12090799,The historian saw who the painting of had captured the queen perfectly.
+subject_pg_full,37,plusF_plusG1_plusG2,perfectly,24.23825483,The historian saw who the painting of had captured perfectly.
+subject_pg_full,38,minusF_minusG1_minusG2,the old guard,29.43889779,The journal published that the theory about physics was intended to challenge the old guard soon.
+subject_pg_full,38,minusF_minusG1_plusG2,soon,25.32245747,The journal published that the theory about physics was intended to challenge soon.
+subject_pg_full,38,minusF_plusG1_minusG2,the old guard,28.61905603,The journal published that the theory about was intended to challenge the old guard soon.
+subject_pg_full,38,minusF_plusG1_plusG2,soon,25.73857111,The journal published that the theory about was intended to challenge soon.
+subject_pg_full,38,plusF_minusG1_minusG2,the old guard,38.44334039,The journal published who the theory about physics was intended to challenge the old guard soon.
+subject_pg_full,38,plusF_minusG1_plusG2,soon,18.85857487,The journal published who the theory about physics was intended to challenge soon.
+subject_pg_full,38,plusF_plusG1_minusG2,the old guard,34.07229613,The journal published who the theory about was intended to challenge the old guard soon.
+subject_pg_full,38,plusF_plusG1_plusG2,soon,20.00540922,The journal published who the theory about was intended to challenge soon.
+subject_pg_full,39,minusF_minusG1_minusG2,the songwriter,26.85706662,The radio played that the song about the revolution would surely celebrate the songwriter eventually.
+subject_pg_full,39,minusF_minusG1_plusG2,eventually,20.64285104,The radio played that the song about the revolution would surely celebrate eventually.
+subject_pg_full,39,minusF_plusG1_minusG2,the songwriter,25.30535143,The radio played that the song about would surely celebrate the songwriter eventually.
+subject_pg_full,39,minusF_plusG1_plusG2,eventually,22.10063668,The radio played that the song about would surely celebrate eventually.
+subject_pg_full,39,plusF_minusG1_minusG2,the songwriter,24.60009718,The radio played who the song about the revolution would surely celebrate the songwriter eventually.
+subject_pg_full,39,plusF_minusG1_plusG2,eventually,19.45798148,The radio played who the song about the revolution would surely celebrate eventually.
+subject_pg_full,39,plusF_plusG1_minusG2,the songwriter,24.55673409,The radio played who the song about would surely celebrate the songwriter eventually.
+subject_pg_full,39,plusF_plusG1_plusG2,eventually,19.22834915,The radio played who the song about would surely celebrate eventually.
 subject_pg_full,4,minusF_minusG1_minusG2,the lawyer,18.07632109,The witness recalled that the discussion about the defendant seemed to concern the lawyer deeply.
 subject_pg_full,4,minusF_minusG1_plusG2,deeply,21.74692536,The witness recalled that the discussion about the defendant seemed to concern deeply.
 subject_pg_full,4,minusF_plusG1_minusG2,the lawyer,19.32482505,The witness recalled that the discussion about seemed to concern the lawyer deeply.
@@ -39,6 +271,14 @@ subject_pg_full,4,plusF_minusG1_minusG2,the lawyer,21.28948571,The witness recal
 subject_pg_full,4,plusF_minusG1_plusG2,deeply,22.79079746,The witness recalled who the discussion about the defendant seemed to concern deeply.
 subject_pg_full,4,plusF_plusG1_minusG2,the lawyer,20.67976529,The witness recalled who the discussion about seemed to concern the lawyer deeply.
 subject_pg_full,4,plusF_plusG1_plusG2,deeply,22.78399515,The witness recalled who the discussion about seemed to concern deeply.
+subject_pg_full,40,minusF_minusG1_minusG2,the defendant,10.12344159,The court heard that the testimony against the accomplice was likely to convict the defendant this week.
+subject_pg_full,40,minusF_minusG1_plusG2,this week,24.72073822,The court heard that the testimony against the accomplice was likely to convict this week.
+subject_pg_full,40,minusF_plusG1_minusG2,the defendant,12.34383582,The court heard that the testimony against was likely to convict the defendant this week.
+subject_pg_full,40,minusF_plusG1_plusG2,this week,21.99424224,The court heard that the testimony against was likely to convict this week.
+subject_pg_full,40,plusF_minusG1_minusG2,the defendant,13.99421980,The court heard who the testimony against the accomplice was likely to convict the defendant this week.
+subject_pg_full,40,plusF_minusG1_plusG2,this week,16.50278948,The court heard who the testimony against the accomplice was likely to convict this week.
+subject_pg_full,40,plusF_plusG1_minusG2,the defendant,14.39314230,The court heard who the testimony against was likely to convict the defendant this week.
+subject_pg_full,40,plusF_plusG1_plusG2,this week,16.49946983,The court heard who the testimony against was likely to convict this week.
 subject_pg_full,5,minusF_minusG1_minusG2,Leo,26.37962400,It is clear that the picture of the artist might delight Leo soon.
 subject_pg_full,5,minusF_minusG1_plusG2,soon,21.97915165,It is clear that the picture of the artist might delight soon.
 subject_pg_full,5,minusF_plusG1_minusG2,Leo,22.77912173,It is clear that the picture of might delight Leo soon.

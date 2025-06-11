@@ -1,0 +1,37 @@
+Statistical Summary for Full PG Paradigm (novel_pg_full_paradigm_aggregated_surprisals.csv)
+Model: gpt2
+============================================================
+
+Part 1: Fine-Grained Minimal Pair Hypotheses (P1-P4)
+--------------------------------------------------
+--- One-Sample T-test for 'P1: S(Ungrammatical) - S(Grammatical)' (H0: mean=0, HA: mean > 0) ---
+  N: 40, Mean: 4.4189, SD: 9.0230
+  95% CI: [1.5332, 7.3046]
+  t(39) = 3.0974, p = 0.0018
+--- One-Sample T-test for 'P2: S(PG) - S(Simple Extraction)' (H0: mean=0, HA: mean > 0) ---
+  N: 40, Mean: 0.3637, SD: 1.2829
+  95% CI: [-0.0465, 0.7740]
+  t(39) = 1.7933, p = 0.0403
+--- One-Sample T-test for 'P3: S(Ungrammatical) - S(Grammatical)' (H0: mean=0, HA: mean > 0) ---
+  N: 40, Mean: 2.6538, SD: 2.4982
+  95% CI: [1.8548, 3.4528]
+  t(39) = 6.7184, p = < .0001
+--- One-Sample T-test for 'P4: S(Ungrammatical) - S(Grammatical)' (H0: mean=0, HA: mean > 0) ---
+  N: 40, Mean: 2.4259, SD: 8.2100
+  95% CI: [-0.1998, 5.0516]
+  t(39) = 1.8688, p = 0.0346
+
+Part 2: Lan et al. (2024) Style Metrics
+--------------------------------------------------
+--- One-Sample T-test for 'Lan Metric: Delta_Plus_Filler' (H0: mean=0, HA: mean > 0) ---
+  N: 40, Mean: 2.4259, SD: 8.2100
+  95% CI: [-0.1998, 5.0516]
+  t(39) = 1.8688, p = 0.0346
+--- One-Sample T-test for 'Lan Metric: Delta_Minus_Filler' (H0: mean=0, HA: mean != 0) ---
+  N: 40, Mean: -2.7464, SD: 8.2926
+  95% CI: [-5.3986, -0.0943]
+  t(39) = -2.0946, p = 0.0427
+--- One-Sample T-test for 'Lan Metric: Difference-in-Differences' (H0: mean=0, HA: mean > 0) ---
+  N: 40, Mean: 5.1724, SD: 4.1138
+  95% CI: [3.8567, 6.4880]
+  t(39) = 7.9519, p = < .0001
